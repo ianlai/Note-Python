@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 from collections import OrderedDict
+from time import time
 
 print("================= List ================= ")
 mylist=[]
@@ -63,6 +64,41 @@ min_value = min(mydict.values())
 min_key_list = [k for k,v in mydict.items() if v == min_value]
 print("Keys of min value: " + str(min_key_list))
 
+
+##### Performance of search (linear vs. dictionary)
+print(">> Performance comparison ")
+idict={}
+ilist=[]
+
+starttime0 = time()
+# for loop to init
+#i=0
+#for number in range(1000,10000001):  #1000-100000
+#   ilist.append(number)
+#   idict[number] = i   
+#   i += 1 
+
+# list comprehension and dict comprehension to init
+ilist = [i      for i in range(1000,10000001)]
+idict = {i:i+10 for i in range(1000,10000001)}
+endtime0 = time()
+
+target = 99999
+
+starttime1 = time()
+for i,item in enumerate(ilist):
+    if item == target:
+        print("List got it: " + str(i))
+endtime1 = time()
+
+starttime2 = time()
+value = idict.get(target)
+print("Dict got it: " + str(value))
+endtime2 = time()
+
+print("Initialize costs: " + str(endtime0-starttime0))
+print("List costs      : " + str(endtime1-starttime1))
+print("Dict costs      : " + str(endtime2-starttime2))
 
 print("================= Ordered Dictionary ================= ")
 od = OrderedDict()
