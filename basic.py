@@ -36,11 +36,13 @@ print(mint, mhex, mhex[2:])  #remove the "0x"
 
 #================= List ================= 
 
+print()
 print("\n----- 5. List")
 #(1) List can contains different types
 #(2) Add, delete, insert element 
 #(3) Access element 
 
+print()
 print(">> CLRU")
 
 mlist = [5,6,6,6,7,8,9,"a","b","c"]
@@ -60,6 +62,7 @@ print("[1:3]     :" + str(mlist[1:3]))       # list slicing returns a list
 mlist.insert(3,"kkk")   #add at index 3
 mlist.pop()             #remove the last
 
+print()
 print(">> Check list contains the item or not")
 print(mlist)                                       # whole list
 if 9 in mlist:
@@ -67,6 +70,7 @@ if 9 in mlist:
 if 3 not in mlist:
     print("3 not in mlist")
 
+print()
 print(">> List comprehension")
 list1 = [i for i in mlist if isinstance(i,int)]    
 print("Int only:\n" + str(list1))  #filtered only int (True is equally to 1 so it is included)
@@ -80,6 +84,4 @@ print("Delete all 5 and 6: \n" + str(list1))
 list1 = [i+3 for i in list1]
 print("All elements +3 :\n" + str(list1))
 
-#================= Flow Control ================= 
-#================= Class ================= 
 
