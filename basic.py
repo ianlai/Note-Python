@@ -24,7 +24,15 @@ print("First char: " + mstr[0])         # first component
 print("Last char:  " + mstr[len(mstr)-1])    # last component (length)
 print("Last char:  " + mstr[-1])             # last component (negative index)
 
-print("\n----- 4. String slicing")
+print("\n----- 4. Check substring")
+if "de" in mstr:
+    print ("de is in " + mstr)
+if "eee" in mstr:
+    print ("eee is in " + mstr)
+else:
+    print ("eee is NOT in " + mstr)
+
+print("\n----- 5. String slicing")
 print("Slicing:    " + mstr[1:3])            # index=1 (included) to index=3-1 (excluded)
 print("Slicing:    " + mstr[:4])             # index=0 to index=3
 print("Slicing:    " + mstr[4:])             # index=4 to last
@@ -36,8 +44,7 @@ print(mint, mhex, mhex[2:])  #remove the "0x"
 
 #================= List ================= 
 
-print()
-print("\n----- 5. List")
+print("\n----- 6. List")
 #(1) List can contains different types
 #(2) Add, delete, insert element 
 #(3) Access element 
@@ -62,6 +69,10 @@ print("[1:3]     :" + str(mlist[1:3]))       # list slicing returns a list
 mlist.insert(3,"kkk")   #add at index 3
 mlist.pop()             #remove the last
 
+newlist = ['n','e','w']
+mlist.extend(newlist)   #append a list to another list
+print(mlist)
+
 print()
 print(">> Check list contains the item or not")
 print(mlist)                                       # whole list
@@ -72,7 +83,7 @@ if 3 not in mlist:
 
 print()
 print(">> List comprehension")
-list1 = [i for i in mlist if isinstance(i,int)]    
+list1 = [i for i in mlist if isinstance(i,int)]
 print("Int only:\n" + str(list1))  #filtered only int (True is equally to 1 so it is included)
 
 list1.remove(6)  #delete the first 6 only
