@@ -3,17 +3,17 @@
 print("================= List Comprehension =================")
 
 print(">> single list comprehension")
-mlist = [i for i in range(1,11)]
+mlist = [i for i in range(10)]
 print(mlist)
 
 
 print(">> double list comprehension")
-mlist1 = [i for i in range(1,11) for j in range(1,4)]
+mlist1 = [str(i)+"-"+str(j) for i in range(1,7) for j in range(2,4)]
 print(mlist1)
 
 
 print(">> double parallel list comprehension")
-mlist2 = [str(i)+"-"+str(j) for i,j in zip(range(1,11), range(1,6))]
+mlist2 = [str(i)+"-"+str(j) for i,j in zip(range(1,7), range(2,4))]
 print(mlist2)
 
 
