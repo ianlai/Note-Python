@@ -6,7 +6,26 @@
 #         self.right = None
 
 class Solution:
+
+    ### Traverse 
     def isValidBST(self, root: TreeNode) -> bool:
+        arr = []
+        self.traverse(root, arr)
+        for i in range(1, len(arr)):
+            if arr[i-1] >= arr[i]:
+                return False
+        return True
+    
+    def traverse(self, node, arr):
+        if not node:
+            return 
+        self.traverse(node.left, arr)
+        arr.append(node.val)
+        self.traverse(node.right, arr)
+        return
+    
+    ### Divide and Conquer 
+    def isValidBST_DNC(self, root: TreeNode) -> bool:
         #minvalue = -sys.maxsize - 1
         #maxvalue = sys.maxsize
         minvalue = -float('inf')
