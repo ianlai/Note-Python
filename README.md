@@ -1,3 +1,4 @@
+```
 algo
 ├── _005_LongestPalindromicSubstring.py
 ├── _125_ValidPalindrome.py
@@ -73,3 +74,4 @@ _700_SearchInABinarySearchTree.py
 _912_SortAnArray.py
 =====================================
 Num of Python Practice: 28
+```
