@@ -12,12 +12,14 @@ algo
 ├── binary-search
 │   └── _069_Sqrt.py
 ├── dfs
+│   ├── _017_LetterCombinationsOfAPhoneNumber.py
 │   ├── _022_GenerateParentheses.py
 │   ├── _039_CombinationSum.py
 │   ├── _046_Permutations.py
 │   ├── _047_Permutations2.py
 │   ├── _077_Combinations.py
-│   └── _078_Subsets.py
+│   ├── _078_Subsets.py
+│   └── _089_GrayCode.py
 ├── linkedlist
 │   └── _206_ReverseLinkedList.py
 ├── recursion
@@ -45,9 +47,10 @@ algo
     ├── _127_WordLadder.py
     └── wordladder.py
 
-11 directories, 33 files
+11 directories, 35 files
 =====================================
 _005_LongestPalindromicSubstring.py
+_017_LetterCombinationsOfAPhoneNumber.py
 _022_GenerateParentheses.py
 _039_CombinationSum.py
 _046_Permutations.py
@@ -56,6 +59,7 @@ _069_Sqrt.py
 _070_ClimbingStairs.py
 _077_Combinations.py
 _078_Subsets.py
+_089_GrayCode.py
 _098_ValidateBinarySearchTree.py
 _100_SameTree.py
 _101_SymmetricTree.py
@@ -79,5 +83,5 @@ _561_ArrayPartition1.py
 _700_SearchInABinarySearchTree.py
 _912_SortAnArray.py
 =====================================
-Num of Python Practice: 31
+Num of Python Practice: 33
 ```
