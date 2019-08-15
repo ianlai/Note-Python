@@ -1,87 +1,90 @@
 ```
 algo
-├── _005_LongestPalindromicSubstring.py
-├── _125_ValidPalindrome.py
-├── _409_LongestPalindrome.py
+├── _0005_LongestPalindromicSubstring.py
+├── _0125_ValidPalindrome.py
+├── _0409_LongestPalindrome.py
 ├── array
-│   └── _561_ArrayPartition1.py
+│   └── _0561_ArrayPartition1.py
 ├── bfs
-│   ├── _102_BinaryTreeLevelOrderTraversal.py
-│   ├── _107_BinaryTreeLevelOrderTraversal2.py
-│   └── _133_CloneGraph.py
+│   ├── _0102_BinaryTreeLevelOrderTraversal.py
+│   ├── _0107_BinaryTreeLevelOrderTraversal2.py
+│   └── _0133_CloneGraph.py
 ├── binary-search
-│   └── _069_Sqrt.py
+│   └── _0069_Sqrt.py
 ├── dfs
-│   ├── _017_LetterCombinationsOfAPhoneNumber.py
-│   ├── _022_GenerateParentheses.py
-│   ├── _039_CombinationSum.py
-│   ├── _046_Permutations.py
-│   ├── _047_Permutations2.py
-│   ├── _077_Combinations.py
-│   ├── _078_Subsets.py
-│   └── _089_GrayCode.py
+│   ├── _0017_LetterCombinationsOfAPhoneNumber.py
+│   ├── _0022_GenerateParentheses.py
+│   ├── _0039_CombinationSum.py
+│   ├── _0046_Permutations.py
+│   ├── _0047_Permutations2.py
+│   ├── _0051_N-Queens.py
+│   ├── _0077_Combinations.py
+│   ├── _0078_Subsets.py
+│   ├── _0089_GrayCode.py
+│   └── _1079_LetterTilePossibilities.py
 ├── linkedlist
-│   └── _206_ReverseLinkedList.py
+│   └── _0206_ReverseLinkedList.py
 ├── recursion
-│   ├── _070_ClimbingStairs.py
-│   ├── _118_PascalsTriangle.py
-│   ├── _119_PascalsTriangle2.py
-│   ├── _344_ReverseString.py
-│   ├── _509_FibonacciNumber.py
-│   └── _700_SearchInABinarySearchTree.py
+│   ├── _0070_ClimbingStairs.py
+│   ├── _0118_PascalsTriangle.py
+│   ├── _0119_PascalsTriangle2.py
+│   ├── _0344_ReverseString.py
+│   ├── _0509_FibonacciNumber.py
+│   └── _0700_SearchInABinarySearchTree.py
 ├── sorting
-│   └── _912_SortAnArray.py
+│   └── _0912_SortAnArray.py
 ├── stack-queue
-│   ├── _225_ImplementStackUsingQueues.py
-│   └── _232_ImplementQueueUsingStacks.py
+│   ├── _0225_ImplementStackUsingQueues.py
+│   └── _0232_ImplementQueueUsingStacks.py
 ├── tree
-│   ├── _098_ValidateBinarySearchTree.py
-│   ├── _100_SameTree.py
-│   ├── _101_SymmetricTree.py
-│   ├── _104_MaximumDepthOfBinaryTree.py
-│   ├── _111_MinimumDepthOfBinaryTree.py
-│   └── _226_InvertBinaryTree.py
+│   ├── _0098_ValidateBinarySearchTree.py
+│   ├── _0100_SameTree.py
+│   ├── _0101_SymmetricTree.py
+│   ├── _0104_MaximumDepthOfBinaryTree.py
+│   ├── _0111_MinimumDepthOfBinaryTree.py
+│   └── _0226_InvertBinaryTree.py
 ├── warmup
 │   └── fibonacci.py
 └── wip
-    ├── _127_WordLadder.py
+    ├── _0127_WordLadder.py
     └── wordladder.py
 
-11 directories, 35 files
+11 directories, 37 files
 =====================================
-_005_LongestPalindromicSubstring.py
-_017_LetterCombinationsOfAPhoneNumber.py
-_022_GenerateParentheses.py
-_039_CombinationSum.py
-_046_Permutations.py
-_047_Permutations2.py
-_069_Sqrt.py
-_070_ClimbingStairs.py
-_077_Combinations.py
-_078_Subsets.py
-_089_GrayCode.py
-_098_ValidateBinarySearchTree.py
-_100_SameTree.py
-_101_SymmetricTree.py
-_102_BinaryTreeLevelOrderTraversal.py
-_104_MaximumDepthOfBinaryTree.py
-_107_BinaryTreeLevelOrderTraversal2.py
-_111_MinimumDepthOfBinaryTree.py
-_118_PascalsTriangle.py
-_119_PascalsTriangle2.py
-_125_ValidPalindrome.py
-_127_WordLadder.py
-_133_CloneGraph.py
-_206_ReverseLinkedList.py
-_225_ImplementStackUsingQueues.py
-_226_InvertBinaryTree.py
-_232_ImplementQueueUsingStacks.py
-_344_ReverseString.py
-_409_LongestPalindrome.py
-_509_FibonacciNumber.py
-_561_ArrayPartition1.py
-_700_SearchInABinarySearchTree.py
-_912_SortAnArray.py
+_0005_LongestPalindromicSubstring.py
+_0017_LetterCombinationsOfAPhoneNumber.py
+_0022_GenerateParentheses.py
+_0039_CombinationSum.py
+_0046_Permutations.py
+_0047_Permutations2.py
+_0069_Sqrt.py
+_0070_ClimbingStairs.py
+_0077_Combinations.py
+_0078_Subsets.py
+_0089_GrayCode.py
+_0098_ValidateBinarySearchTree.py
+_0100_SameTree.py
+_0101_SymmetricTree.py
+_0102_BinaryTreeLevelOrderTraversal.py
+_0104_MaximumDepthOfBinaryTree.py
+_0107_BinaryTreeLevelOrderTraversal2.py
+_0111_MinimumDepthOfBinaryTree.py
+_0118_PascalsTriangle.py
+_0119_PascalsTriangle2.py
+_0125_ValidPalindrome.py
+_0127_WordLadder.py
+_0133_CloneGraph.py
+_0206_ReverseLinkedList.py
+_0225_ImplementStackUsingQueues.py
+_0226_InvertBinaryTree.py
+_0232_ImplementQueueUsingStacks.py
+_0344_ReverseString.py
+_0409_LongestPalindrome.py
+_0509_FibonacciNumber.py
+_0561_ArrayPartition1.py
+_0700_SearchInABinarySearchTree.py
+_0912_SortAnArray.py
+_1079_LetterTilePossibilities.py
 =====================================
-Num of Python Practice: 33
+Num of Python Practice: 34
 ```
