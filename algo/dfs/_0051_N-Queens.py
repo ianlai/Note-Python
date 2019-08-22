@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         if n == 0:
@@ -29,14 +30,16 @@ class Solution:
             else:
                 # print("valid: x ", cur, i)
                 continue
-                
+    
+    # col: the variable to test 
+    # cur: current answer list 
     def valid(self, cur, col):
         n = len(cur)
         #print(cur, col)
         for i in range(len(cur)):
             #print(col+(n), cur[i]+i)
             #print(abs(col-(n)), abs(cur[i]-i))
-            if col == cur[i]:       #same col 
+            if col == cur[i]:         #same col 
                 return False
             if col + n == cur[i] + i: #same left diagonal
                 return False
@@ -52,7 +55,18 @@ class Solution:
             for e in numsArr[i]:
                 s = ["."] * n
                 s[e] = "Q"
-                string = "".join(s)
-                cur.append(string)
-            strArr.append(cur)
-            
+                string = "".join(s)  #list -> string (one row)
+                cur.append(string)   #one answer
+            strArr.append(cur)       #whole answer list
+
+def printStringList(l):
+    string = ''
+    for e in l:
+        string += '|' + e + '|' + '\n'
+    print(string)
+
+s = Solution()
+ans = s.solveNQueens(4)
+for i in range(len(ans)):
+    print("(" + str(i+1) + ")")
+    printStringList(ans[i])

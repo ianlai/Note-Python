@@ -29,22 +29,27 @@ class Solution:
             #print("newArr:", newArr)
             for cur in newArr:
                 cur.append(nums[i])
-            ansArr.extend(newArr)
+
+            #ansArr.extend(newArr)  #combine 2 lists (ok)
+            ansArr += newArr        #combine 2 lists (ok)
             #print("ansArr:", ansArr)
         return ansArr
 
-nums = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
-s = Solution()
-#print("DFS   :", s.subsetsDFS(nums))
-#print("Double:", s.subsetsDouble(nums))
 
+s = Solution()
+nums1 = [1,2,3]
+print("DFS   :", s.subsetsDFS(nums1))
+print("Double:", s.subsetsDouble(nums1))
+
+
+nums2 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 # Time measurment 
 t1_s = time.process_time_ns()
-s.subsetsDFS(nums)
+s.subsetsDFS(nums2)
 t1_e = time.process_time_ns()
 
 t2_s = time.process_time_ns()
-s.subsetsDouble(nums)
+s.subsetsDouble(nums2)
 t2_e = time.process_time_ns()
 
 print("Time elapsed - DFS    (ms)", (t1_e - t1_s)/1000000) # CPU seconds elapsed (floating point)

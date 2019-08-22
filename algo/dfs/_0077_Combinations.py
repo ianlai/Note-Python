@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     
     ### OK
@@ -13,6 +14,13 @@ class Solution:
             ans.append(cur)
             return 
         for i in range(nidx, n + 1):
+            
+            # Wrong
+            # cur.append(i)
+            # self.bfs(n, k, ans, cur , i + 1)
+            # cur = cur[:len(cur)-1] 
+
+            # Correct
             self.bfs(n, k, ans, cur + [i], i + 1)
         return 
     
@@ -31,3 +39,6 @@ class Solution:
 #         for i in range(nidx, n + 1):
 #             self.bfs(n, k, ans, cur + [i], i + 1, kidx + 1)
 #         return 
+
+s = Solution()
+print(s.combine(6,2))
