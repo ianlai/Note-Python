@@ -13,9 +13,12 @@ algo
 │   ├── _0033_SearchInRotatedSortedArray.py
 │   ├── _0069_Sqrt.py
 │   ├── _0074_SearchA2DMatrix.py
+│   ├── _0153_FindMinimumInRotatedSortedArray.py
 │   ├── _0162_FindPeakElement.py
+│   ├── _0222_CountCompleteTreeNodes.py
 │   ├── _0240_SearchA2DMatrix2.py
 │   ├── _0278_FirstBadVersion.py
+│   ├── _0658_FindKClosestElements.py
 │   └── _0704_BinarySearch.py
 ├── dfs
 │   ├── _0017_LetterCombinationsOfAPhoneNumber.py
@@ -56,7 +59,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-11 directories, 44 files
+11 directories, 47 files
 =====================================
 _0005_LongestPalindromicSubstring.py
 _0017_LetterCombinationsOfAPhoneNumber.py
@@ -84,8 +87,10 @@ _0119_PascalsTriangle2.py
 _0125_ValidPalindrome.py
 _0127_WordLadder.py
 _0133_CloneGraph.py
+_0153_FindMinimumInRotatedSortedArray.py
 _0162_FindPeakElement.py
 _0206_ReverseLinkedList.py
+_0222_CountCompleteTreeNodes.py
 _0225_ImplementStackUsingQueues.py
 _0226_InvertBinaryTree.py
 _0232_ImplementQueueUsingStacks.py
@@ -95,10 +100,11 @@ _0344_ReverseString.py
 _0409_LongestPalindrome.py
 _0509_FibonacciNumber.py
 _0561_ArrayPartition1.py
+_0658_FindKClosestElements.py
 _0700_SearchInABinarySearchTree.py
 _0704_BinarySearch.py
 _0912_SortAnArray.py
 _1079_LetterTilePossibilities.py
 =====================================
-Num of Python Practice: 41
+Num of Python Practice: 44
 ```
