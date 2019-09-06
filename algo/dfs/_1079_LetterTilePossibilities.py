@@ -1,3 +1,9 @@
+'''
+Input: "AAB"
+Output: 8
+Explanation: The possible sequences are "A", "B", "AA", "AB", "BA", "AAB", "ABA", "BAA".
+'''
+
 class Solution:
     def numTilePossibilities(self, tiles: str) -> int:
         if tiles is None: 
@@ -43,4 +49,6 @@ class Solution:
                     
         return levelSum 
         
-        
+s = Solution()
+ans1 = s.numTilePossibilities("AAB")
+print(ans1)

@@ -23,7 +23,7 @@ for d in dirList:
 
 filtered = []
 for f in fileList:
-    found = re.search("_{1}\d+_{1}\w+\.py", f)
+    found = re.search("_{1}\d+_{1}.+\.py", f)
     if found:
         filtered.append(found.string)
 
