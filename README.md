@@ -14,11 +14,14 @@ algo
 │   ├── _0033_SearchInRotatedSortedArray.py
 │   ├── _0069_Sqrt.py
 │   ├── _0074_SearchA2DMatrix.py
+│   ├── _0081_SearchInRotatedSortedArray2.py
 │   ├── _0153_FindMinimumInRotatedSortedArray.py
 │   ├── _0162_FindPeakElement.py
 │   ├── _0222_CountCompleteTreeNodes.py
 │   ├── _0240_SearchA2DMatrix2.py
 │   ├── _0278_FirstBadVersion.py
+│   ├── _0300_LongestIncreasingSubsequence.py
+│   ├── _0354_RussianDollEnvelopes.py
 │   ├── _0658_FindKClosestElements.py
 │   └── _0704_BinarySearch.py
 ├── dfs
@@ -34,7 +37,6 @@ algo
 │   ├── _0089_GrayCode.py
 │   └── _1079_LetterTilePossibilities.py
 ├── dp
-│   └── _0300_LongestIncreasingSubsequence.py
 ├── linkedlist
 │   ├── _0024_SwapNodesInPairs.py
 │   └── _0206_ReverseLinkedList.py
@@ -67,7 +69,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-13 directories, 53 files
+13 directories, 55 files
 =====================================
 _0005_LongestPalindromicSubstring.py
 _0017_LetterCombinationsOfAPhoneNumber.py
@@ -85,6 +87,7 @@ _0070_ClimbingStairs.py
 _0074_SearchA2DMatrix.py
 _0077_Combinations.py
 _0078_Subsets.py
+_0081_SearchInRotatedSortedArray2.py
 _0089_GrayCode.py
 _0098_ValidateBinarySearchTree.py
 _0100_SameTree.py
@@ -110,6 +113,7 @@ _0240_SearchA2DMatrix2.py
 _0278_FirstBadVersion.py
 _0300_LongestIncreasingSubsequence.py
 _0344_ReverseString.py
+_0354_RussianDollEnvelopes.py
 _0392_IsSubsequence.py
 _0409_LongestPalindrome.py
 _0509_FibonacciNumber.py
@@ -121,5 +125,5 @@ _0912_SortAnArray.py
 _1079_LetterTilePossibilities.py
 _230_KthSmallestElementInBST.py
 =====================================
-Num of Python Practice: 51
+Num of Python Practice: 53
 ```
