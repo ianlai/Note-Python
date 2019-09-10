@@ -12,18 +12,18 @@ class Solution:
             #print("-----", x, "-----")
             
             #Edge cases
-            if x <= tails[0]:
-                tails[0] = x
-                #print("e1:", i)
-                #print(tails)
-                continue
-            #elif x > tails[i-1]:
-            elif x > tails[-1]:
-                #tails[i] = x 
-                tails.append(x)
-                #print("e2:", i)
-                #print(tails)
-                continue
+            # if x <= tails[0]:
+            #     tails[0] = x
+            #     #print("e1:", i)
+            #     #print(tails)
+            #     continue
+            # #elif x > tails[i-1]:
+            # elif x > tails[-1]:
+            #     #tails[i] = x 
+            #     tails.append(x)
+            #     #print("e2:", i)
+            #     #print(tails)
+            #     continue
                 
             #Binary Search
             while start + 1 < end:
