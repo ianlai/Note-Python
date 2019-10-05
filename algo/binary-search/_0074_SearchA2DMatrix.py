@@ -1,4 +1,11 @@
 class Solution:
+    
+    #[
+    #  [1 ,3 ,5 ,7 ],   row1
+    #  [10,11,16,20]    row2 
+    #] 
+    
+    #Transfer 2D matrix to 1D array 
     def searchMatrix(self, m: List[List[int]], target: int) -> bool:
         if m is None or len(m)==0 or len(m[0])==0: 
             return False
@@ -19,9 +26,7 @@ class Solution:
         return False
                 
     def get(self, m, index):
-        rowlen = len(m[0])
-        row = index % rowlen 
-        col = int(index / rowlen)
-        return m[col][row]
-        
-            
+        rowlen = len(m[0])    
+        row = index // rowlen
+        col = index % rowlen 
+        return m[row][col]
