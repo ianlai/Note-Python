@@ -1,14 +1,16 @@
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 class Solution:
-
-    ### Traverse 
     def isValidBST(self, root: TreeNode) -> bool:
+        return self.isValidBST_traverse(root)
+        
+    ### Traverse 
+    def isValidBST_traverse(self, root: TreeNode) -> bool:
         arr = []
         self.traverse(root, arr)
         for i in range(1, len(arr)):
@@ -25,7 +27,7 @@ class Solution:
         return
     
     ### Divide and Conquer 
-    def isValidBST_DNC(self, root: TreeNode) -> bool:
+    def isValidBST_dnc(self, root: TreeNode) -> bool:
         #minvalue = -sys.maxsize - 1
         #maxvalue = sys.maxsize
         minvalue = -float('inf')
