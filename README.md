@@ -12,6 +12,7 @@ algo
 │   └── _0133_CloneGraph.py
 ├── binary-search
 │   ├── _0033_SearchInRotatedSortedArray.py
+│   ├── _0034_FindFirstAndLastPositionOfElementInSortedArray.py
 │   ├── _0069_Sqrt.py
 │   ├── _0074_SearchA2DMatrix.py
 │   ├── _0081_SearchInRotatedSortedArray2.py
@@ -59,9 +60,11 @@ algo
 │   ├── _0101_SymmetricTree.py
 │   ├── _0104_MaximumDepthOfBinaryTree.py
 │   ├── _0111_MinimumDepthOfBinaryTree.py
+│   ├── _0112_PathSum.py
 │   ├── _0226_InvertBinaryTree.py
 │   └── _230_KthSmallestElementInBST.py
 ├── two-pointer
+│   ├── _0209_MinimumSizeSubarraySum.py
 │   └── _0392_IsSubsequence.py
 ├── warmup
 │   └── fibonacci.py
@@ -69,13 +72,14 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-13 directories, 55 files
+13 directories, 58 files
 =====================================
 _0005_LongestPalindromicSubstring.py
 _0017_LetterCombinationsOfAPhoneNumber.py
 _0022_GenerateParentheses.py
 _0024_SwapNodesInPairs.py
 _0033_SearchInRotatedSortedArray.py
+_0034_FindFirstAndLastPositionOfElementInSortedArray.py
 _0037_SudokuSolver.py
 _0039_CombinationSum.py
 _0046_Permutations.py
@@ -96,6 +100,7 @@ _0102_BinaryTreeLevelOrderTraversal.py
 _0104_MaximumDepthOfBinaryTree.py
 _0107_BinaryTreeLevelOrderTraversal2.py
 _0111_MinimumDepthOfBinaryTree.py
+_0112_PathSum.py
 _0118_PascalsTriangle.py
 _0119_PascalsTriangle2.py
 _0125_ValidPalindrome.py
@@ -105,6 +110,7 @@ _0153_FindMinimumInRotatedSortedArray.py
 _0162_FindPeakElement.py
 _0189_RotateArray.py
 _0206_ReverseLinkedList.py
+_0209_MinimumSizeSubarraySum.py
 _0222_CountCompleteTreeNodes.py
 _0225_ImplementStackUsingQueues.py
 _0226_InvertBinaryTree.py
@@ -125,5 +131,5 @@ _0912_SortAnArray.py
 _1079_LetterTilePossibilities.py
 _230_KthSmallestElementInBST.py
 =====================================
-Num of Python Practice: 53
+Num of Python Practice: 56
 ```
