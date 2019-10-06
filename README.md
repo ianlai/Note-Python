@@ -39,6 +39,7 @@ algo
 │   └── _1079_LetterTilePossibilities.py
 ├── dp
 ├── linkedlist
+│   ├── _0021_MergeTwoSortedLists.py
 │   ├── _0024_SwapNodesInPairs.py
 │   └── _0206_ReverseLinkedList.py
 ├── recursion
@@ -62,7 +63,7 @@ algo
 │   ├── _0111_MinimumDepthOfBinaryTree.py
 │   ├── _0112_PathSum.py
 │   ├── _0226_InvertBinaryTree.py
-│   └── _230_KthSmallestElementInBST.py
+│   └── _0230_KthSmallestElementInBST.py
 ├── two-pointer
 │   ├── _0209_MinimumSizeSubarraySum.py
 │   └── _0392_IsSubsequence.py
@@ -72,10 +73,11 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-13 directories, 58 files
+13 directories, 59 files
 =====================================
 _0005_LongestPalindromicSubstring.py
 _0017_LetterCombinationsOfAPhoneNumber.py
+_0021_MergeTwoSortedLists.py
 _0022_GenerateParentheses.py
 _0024_SwapNodesInPairs.py
 _0033_SearchInRotatedSortedArray.py
@@ -114,6 +116,7 @@ _0209_MinimumSizeSubarraySum.py
 _0222_CountCompleteTreeNodes.py
 _0225_ImplementStackUsingQueues.py
 _0226_InvertBinaryTree.py
+_0230_KthSmallestElementInBST.py
 _0232_ImplementQueueUsingStacks.py
 _0240_SearchA2DMatrix2.py
 _0278_FirstBadVersion.py
@@ -129,7 +132,7 @@ _0700_SearchInABinarySearchTree.py
 _0704_BinarySearch.py
 _0912_SortAnArray.py
 _1079_LetterTilePossibilities.py
-_230_KthSmallestElementInBST.py
 =====================================
-Num of Python Practice: 56
+Num of Python Practice:  57
 ```
+![Alt text](statistics.png)
