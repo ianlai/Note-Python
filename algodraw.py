@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from matplotlib.dates import drange, SUNDAY
@@ -8,7 +10,9 @@ import numpy as np
 ###################### 
 ### Initialize
 ######################
-FILE_STATISTICS = "statistics.log"
+FILE_PREFIX     = "statistics"
+FILE_STATISTICS = FILE_PREFIX + ".log"
+FILE_IMAGE      = FILE_PREFIX + ".png"
 DATE_FORMATTER = "%Y-%m-%d"
 dates = []
 values = []
@@ -19,7 +23,7 @@ latest_date = ""
 ######################
 def write(today_date, today_value):
     f = open(FILE_STATISTICS, "a+")
-    f.write("\n" + str(today_date) + "   " + str(today_value))
+    f.write(str(today_date) + "   " + str(today_value) + "\n")
     f.close()
 
 ###################### 
@@ -39,7 +43,8 @@ def draw(dates, values):
 
     plt.plot_date(dates, values, '-', marker='.')
     plt.gcf().autofmt_xdate()  
-    plt.show()
+    #plt.show()
+    plt.savefig(FILE_IMAGE)
 
 ###################### 
 ### Read from file  
@@ -50,7 +55,7 @@ def read(dates, values):
     while line != '':  # The EOF char is an empty string
         split_line = line.split()
         date_str, val_str = split_line[0], split_line[1]
-        # print(date_str, " -- ", val_str)
+        #print(date_str, " -- ", val_str)
         dates.append(datetime.datetime.strptime(date_str, DATE_FORMATTER)) 
         values.append(int(val_str))
         line = f.readline()
