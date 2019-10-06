@@ -3,34 +3,38 @@ from os import listdir
 from os import walk
 import re
 
-path = 'algo'
-
+path        = 'algo'
+fileList    = []
+dirList     = []
+filtered    = []
 def appendFiles(path, dirList, fileList):
     for (dirpath, dirnames, filenames) in walk(path):
         fileList.extend(filenames)
         dirList.extend(dirnames)
         break
 
-fileList    = []
-dirList     = []
+def filteredFiles(path, dirList, fileList, filtered):
+    appendFiles(path, dirList, fileList)
+    # print("File List:", fileList)
+    # print("Dir List :", dirList)
+    
+    for d in dirList:
+        appendFiles(path+"/"+d, [], fileList)
 
-appendFiles(path, dirList, fileList)
-#print("File List:", fileList)
-#print("Dir List :", dirList)
+    for f in fileList:
+        found = re.search("_{1}\d+_{1}.+\.py", f)
+        if found:
+            filtered.append(found.string)
 
-for d in dirList:
-    appendFiles(path+"/"+d, [], fileList)
+def getPracticeNumber():
+    return len(filtered)
 
-filtered = []
-for f in fileList:
-    found = re.search("_{1}\d+_{1}.+\.py", f)
-    if found:
-        filtered.append(found.string)
-
+filteredFiles(path, dirList, fileList, filtered)
 filtered.sort()
 
 print("=====================================")
 for e in filtered:
     print(e)
 print("=====================================")
-print("Num of Python Practice: " + str(len(filtered)))
+print("Num of Python Practice: ", getPracticeNumber())
+
