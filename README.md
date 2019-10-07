@@ -4,6 +4,8 @@ algo
 ├── _0125_ValidPalindrome.py
 ├── _0409_LongestPalindrome.py
 ├── array
+│   ├── _0001_TwoSum.py
+│   ├── _0167_TwoSum2-InputArrayIsSorted.py
 │   ├── _0189_RotateArray.py
 │   └── _0561_ArrayPartition1.py
 ├── bfs
@@ -13,6 +15,7 @@ algo
 ├── binary-search
 │   ├── _0033_SearchInRotatedSortedArray.py
 │   ├── _0034_FindFirstAndLastPositionOfElementInSortedArray.py
+│   ├── _0035_SearchInsertPosition.py
 │   ├── _0069_Sqrt.py
 │   ├── _0074_SearchA2DMatrix.py
 │   ├── _0081_SearchInRotatedSortedArray2.py
@@ -73,8 +76,9 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-13 directories, 59 files
+13 directories, 62 files
 =====================================
+_0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
 _0017_LetterCombinationsOfAPhoneNumber.py
 _0021_MergeTwoSortedLists.py
@@ -82,6 +86,7 @@ _0022_GenerateParentheses.py
 _0024_SwapNodesInPairs.py
 _0033_SearchInRotatedSortedArray.py
 _0034_FindFirstAndLastPositionOfElementInSortedArray.py
+_0035_SearchInsertPosition.py
 _0037_SudokuSolver.py
 _0039_CombinationSum.py
 _0046_Permutations.py
@@ -110,6 +115,7 @@ _0127_WordLadder.py
 _0133_CloneGraph.py
 _0153_FindMinimumInRotatedSortedArray.py
 _0162_FindPeakElement.py
+_0167_TwoSum2-InputArrayIsSorted.py
 _0189_RotateArray.py
 _0206_ReverseLinkedList.py
 _0209_MinimumSizeSubarraySum.py
@@ -133,6 +139,6 @@ _0704_BinarySearch.py
 _0912_SortAnArray.py
 _1079_LetterTilePossibilities.py
 =====================================
-Num of Python Practice:  57
+Num of Python Practice:  60
 ```
 ![Alt text](statistics.png)
