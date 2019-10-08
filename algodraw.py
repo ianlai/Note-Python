@@ -35,13 +35,15 @@ def draw(dates, values):
         title="Accumulative Statistics")
 
     xfmt = mdates.DateFormatter("%m/%d")
-    xloc = mdates.WeekdayLocator(SUNDAY)
+    #xloc = mdates.WeekdayLocator(SUNDAY)
+    xloc = mdates.DayLocator()
     ax.xaxis.set_major_formatter(xfmt)
     ax.xaxis.set_major_locator(xloc)
     ax.grid(True)
-    ax.set_xlim(datetime.datetime(2019,9,1), datetime.datetime(2019,12,31)) 
+    ax.set_xlim(datetime.datetime(2019,10,1), datetime.datetime(2019,10,31)) 
+    ax.set_ylim(50,100) 
 
-    plt.plot_date(dates, values, '-', marker='.')
+    plt.plot_date(dates, values, '-', marker='o')
     plt.gcf().autofmt_xdate()  
     #plt.show()
     plt.savefig(FILE_IMAGE)

@@ -39,8 +39,12 @@ algo
 │   ├── _0077_Combinations.py
 │   ├── _0078_Subsets.py
 │   ├── _0089_GrayCode.py
+│   ├── _0784_LetterCasePermutation.py
 │   └── _1079_LetterTilePossibilities.py
 ├── dp
+├── heap
+│   ├── _0215_KthLargestElementInAnArray.py
+│   └── _1046_LastStoneWeight.py
 ├── linkedlist
 │   ├── _0021_MergeTwoSortedLists.py
 │   ├── _0024_SwapNodesInPairs.py
@@ -64,20 +68,22 @@ algo
 │   ├── _0100_SameTree.py
 │   ├── _0101_SymmetricTree.py
 │   ├── _0104_MaximumDepthOfBinaryTree.py
+│   ├── _0110_BalancedBinaryTree.py
 │   ├── _0111_MinimumDepthOfBinaryTree.py
 │   ├── _0112_PathSum.py
 │   ├── _0226_InvertBinaryTree.py
 │   └── _0230_KthSmallestElementInBST.py
 ├── two-pointer
 │   ├── _0209_MinimumSizeSubarraySum.py
-│   └── _0392_IsSubsequence.py
+│   ├── _0392_IsSubsequence.py
+│   └── _0977_SquaresOfASortedArray.py
 ├── warmup
 │   └── fibonacci.py
 └── wip
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-13 directories, 63 files
+14 directories, 68 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -108,6 +114,7 @@ _0101_SymmetricTree.py
 _0102_BinaryTreeLevelOrderTraversal.py
 _0104_MaximumDepthOfBinaryTree.py
 _0107_BinaryTreeLevelOrderTraversal2.py
+_0110_BalancedBinaryTree.py
 _0111_MinimumDepthOfBinaryTree.py
 _0112_PathSum.py
 _0118_PascalsTriangle.py
@@ -121,6 +128,7 @@ _0167_TwoSum2-InputArrayIsSorted.py
 _0189_RotateArray.py
 _0206_ReverseLinkedList.py
 _0209_MinimumSizeSubarraySum.py
+_0215_KthLargestElementInAnArray.py
 _0222_CountCompleteTreeNodes.py
 _0225_ImplementStackUsingQueues.py
 _0226_InvertBinaryTree.py
@@ -138,9 +146,12 @@ _0561_ArrayPartition1.py
 _0658_FindKClosestElements.py
 _0700_SearchInABinarySearchTree.py
 _0704_BinarySearch.py
+_0784_LetterCasePermutation.py
 _0912_SortAnArray.py
+_0977_SquaresOfASortedArray.py
+_1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 =====================================
-Num of Python Practice:  61
+Num of Python Practice:  66
 ```
 ![Alt text](statistics.png)
