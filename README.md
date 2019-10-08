@@ -72,7 +72,8 @@ algo
 │   ├── _0111_MinimumDepthOfBinaryTree.py
 │   ├── _0112_PathSum.py
 │   ├── _0226_InvertBinaryTree.py
-│   └── _0230_KthSmallestElementInBST.py
+│   ├── _0230_KthSmallestElementInBST.py
+│   └── _0617_MergeTwoBinaryTrees.py
 ├── two-pointer
 │   ├── _0209_MinimumSizeSubarraySum.py
 │   ├── _0392_IsSubsequence.py
@@ -83,7 +84,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-14 directories, 68 files
+14 directories, 69 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -143,6 +144,7 @@ _0392_IsSubsequence.py
 _0409_LongestPalindrome.py
 _0509_FibonacciNumber.py
 _0561_ArrayPartition1.py
+_0617_MergeTwoBinaryTrees.py
 _0658_FindKClosestElements.py
 _0700_SearchInABinarySearchTree.py
 _0704_BinarySearch.py
@@ -152,6 +154,6 @@ _0977_SquaresOfASortedArray.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 =====================================
-Num of Python Practice:  66
+Num of Python Practice:  67
 ```
 ![Alt text](statistics.png)
