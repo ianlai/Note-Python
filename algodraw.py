@@ -72,20 +72,20 @@ today_date = datetime.date.today()
 today_value = getPracticeNumber()
 print(">> Read today info: (date =", today_date, ", value =", today_value, ")")
 
-print(">> Read from files: ", FILE_STATISTICS)
+print(">> Read from files:", FILE_STATISTICS)
 read(dates, values)
 latest_date = dates[-1].strftime(DATE_FORMATTER)
 
 
 if str(today_date) != str(latest_date): 
-    print(">> Not updated yet: (latest = ", latest_date, ", today = " ,today_date, ")") 
+    print(">> Status : Not updated yet (latest = ", latest_date, ", today = " ,today_date, ")") 
     print(">> Write the following today's data into log.")
-    print(">> New log: " + str(today_date) + "   " + str(today_value))
+    print(">> New log: \"" + str(today_date) + "   " + str(today_value), "\"")
     write(today_date, today_value)
     dates.append(today_date) 
     values.append(today_value)
 else:
-    print(">> Already updated.")
+    print(">> Status: Already updated.")
 
-print(">> Drawing the graph...")
+print(">> Save the image:", FILE_IMAGE)
 draw(dates, values)

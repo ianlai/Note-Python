@@ -59,6 +59,7 @@ algo
 │   ├── _0225_ImplementStackUsingQueues.py
 │   └── _0232_ImplementQueueUsingStacks.py
 ├── tree
+│   ├── _0094_BinaryTreeInorderTraversal.py
 │   ├── _0098_ValidateBinarySearchTree.py
 │   ├── _0100_SameTree.py
 │   ├── _0101_SymmetricTree.py
@@ -76,7 +77,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-13 directories, 62 files
+13 directories, 63 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -100,6 +101,7 @@ _0077_Combinations.py
 _0078_Subsets.py
 _0081_SearchInRotatedSortedArray2.py
 _0089_GrayCode.py
+_0094_BinaryTreeInorderTraversal.py
 _0098_ValidateBinarySearchTree.py
 _0100_SameTree.py
 _0101_SymmetricTree.py
@@ -139,6 +141,6 @@ _0704_BinarySearch.py
 _0912_SortAnArray.py
 _1079_LetterTilePossibilities.py
 =====================================
-Num of Python Practice:  60
+Num of Python Practice:  61
 ```
 ![Alt text](statistics.png)
