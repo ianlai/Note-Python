@@ -45,7 +45,9 @@ def draw(dates, values):
 
     plt.plot_date(dates, values, '-', marker='o')
     plt.yticks(np.arange(50, 100, step=5))
-    plt.gcf().autofmt_xdate()  
+    plt.gcf().autofmt_xdate()
+    for i,j in zip(dates, values):
+        ax.annotate(str(j),xy=(i, j - 1.5))
     #plt.show()
     plt.savefig(FILE_IMAGE)
 
