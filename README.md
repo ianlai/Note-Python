@@ -71,9 +71,11 @@ algo
 │   ├── _0110_BalancedBinaryTree.py
 │   ├── _0111_MinimumDepthOfBinaryTree.py
 │   ├── _0112_PathSum.py
+│   ├── _0144_BinaryTreePreorderTraversal.py
 │   ├── _0226_InvertBinaryTree.py
 │   ├── _0230_KthSmallestElementInBST.py
-│   └── _0617_MergeTwoBinaryTrees.py
+│   ├── _0617_MergeTwoBinaryTrees.py
+│   └── _0701_InsertIntoABinarySearchTree.py
 ├── two-pointer
 │   ├── _0209_MinimumSizeSubarraySum.py
 │   ├── _0392_IsSubsequence.py
@@ -84,7 +86,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-14 directories, 69 files
+14 directories, 71 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -123,6 +125,7 @@ _0119_PascalsTriangle2.py
 _0125_ValidPalindrome.py
 _0127_WordLadder.py
 _0133_CloneGraph.py
+_0144_BinaryTreePreorderTraversal.py
 _0153_FindMinimumInRotatedSortedArray.py
 _0162_FindPeakElement.py
 _0167_TwoSum2-InputArrayIsSorted.py
@@ -147,6 +150,7 @@ _0561_ArrayPartition1.py
 _0617_MergeTwoBinaryTrees.py
 _0658_FindKClosestElements.py
 _0700_SearchInABinarySearchTree.py
+_0701_InsertIntoABinarySearchTree.py
 _0704_BinarySearch.py
 _0784_LetterCasePermutation.py
 _0912_SortAnArray.py
@@ -154,6 +158,6 @@ _0977_SquaresOfASortedArray.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 =====================================
-Num of Python Practice:  67
+Num of Python Practice:  69
 ```
 ![Alt text](statistics.png)
