@@ -44,6 +44,7 @@ def draw(dates, values):
     ax.set_ylim(50,100) 
 
     plt.plot_date(dates, values, '-', marker='o')
+    plt.yticks(np.arange(50, 100, step=5))
     plt.gcf().autofmt_xdate()  
     #plt.show()
     plt.savefig(FILE_IMAGE)
