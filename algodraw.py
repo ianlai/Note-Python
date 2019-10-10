@@ -3,7 +3,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from matplotlib.dates import drange, SUNDAY
-from algolist import getPracticeNumber
+from _algolist import getPracticeNumber
 import datetime
 import numpy as np
 
