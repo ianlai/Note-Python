@@ -35,17 +35,22 @@ def draw(dates, values):
         title="Accumulative Statistics")
 
     xfmt = mdates.DateFormatter("%m/%d")
-    #xloc = mdates.WeekdayLocator(SUNDAY)
-    xloc = mdates.DayLocator()
+    xloc1 = mdates.WeekdayLocator(SUNDAY)
+    xloc2 = mdates.DayLocator()
     ax.xaxis.set_major_formatter(xfmt)
-    ax.xaxis.set_major_locator(xloc)
-    ax.grid(True)
+    ax.xaxis.set_minor_formatter(xfmt)
+    ax.xaxis.set_major_locator(xloc1) #major: week
+    ax.xaxis.set_minor_locator(xloc2) #minor: day
+
+    ax.grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
+    ax.grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
+    ax.grid(which='major', color='#bbbbbb', axis ='y')
     ax.set_xlim(datetime.datetime(2019,10,1), datetime.datetime(2019,10,31)) 
     ax.set_ylim(50,100) 
 
     plt.plot_date(dates, values, '-', marker='o')
     plt.yticks(np.arange(50, 100, step=5))
-    plt.gcf().autofmt_xdate()
+    plt.gcf().autofmt_xdate(which='both')
     for i,j in zip(dates, values):
         ax.annotate(str(j),xy=(i, j - 1.5))
     #plt.show()

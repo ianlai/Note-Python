@@ -48,6 +48,7 @@ algo
 ├── linkedlist
 │   ├── _0021_MergeTwoSortedLists.py
 │   ├── _0024_SwapNodesInPairs.py
+│   ├── _0061_RotateList.py
 │   └── _0206_ReverseLinkedList.py
 ├── recursion
 │   ├── _0050_Pow(x,n).py
@@ -71,6 +72,7 @@ algo
 │   ├── _0110_BalancedBinaryTree.py
 │   ├── _0111_MinimumDepthOfBinaryTree.py
 │   ├── _0112_PathSum.py
+│   ├── _0113_PathSum2.py
 │   ├── _0144_BinaryTreePreorderTraversal.py
 │   ├── _0226_InvertBinaryTree.py
 │   ├── _0230_KthSmallestElementInBST.py
@@ -89,7 +91,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-14 directories, 74 files
+14 directories, 76 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -106,6 +108,7 @@ _0046_Permutations.py
 _0047_Permutations2.py
 _0050_Pow(x,n).py
 _0051_N-Queens.py
+_0061_RotateList.py
 _0069_Sqrt.py
 _0070_ClimbingStairs.py
 _0074_SearchA2DMatrix.py
@@ -123,6 +126,7 @@ _0107_BinaryTreeLevelOrderTraversal2.py
 _0110_BalancedBinaryTree.py
 _0111_MinimumDepthOfBinaryTree.py
 _0112_PathSum.py
+_0113_PathSum2.py
 _0118_PascalsTriangle.py
 _0119_PascalsTriangle2.py
 _0125_ValidPalindrome.py
@@ -164,6 +168,6 @@ _0977_SquaresOfASortedArray.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 =====================================
-Num of Python Practice:  72
+Num of Python Practice:  74
 ```
 ![Alt text](statistics.png)
