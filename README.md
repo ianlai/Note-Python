@@ -74,6 +74,7 @@ algo
 │   ├── _0144_BinaryTreePreorderTraversal.py
 │   ├── _0226_InvertBinaryTree.py
 │   ├── _0230_KthSmallestElementInBST.py
+│   ├── _0572_SubtreeOfAnotherTree.py
 │   ├── _0617_MergeTwoBinaryTrees.py
 │   ├── _0654_MaximumBinaryTree.py
 │   └── _0701_InsertIntoABinarySearchTree.py
@@ -87,7 +88,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-14 directories, 72 files
+14 directories, 73 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -148,6 +149,7 @@ _0392_IsSubsequence.py
 _0409_LongestPalindrome.py
 _0509_FibonacciNumber.py
 _0561_ArrayPartition1.py
+_0572_SubtreeOfAnotherTree.py
 _0617_MergeTwoBinaryTrees.py
 _0654_MaximumBinaryTree.py
 _0658_FindKClosestElements.py
@@ -160,6 +162,6 @@ _0977_SquaresOfASortedArray.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 =====================================
-Num of Python Practice:  70
+Num of Python Practice:  71
 ```
 ![Alt text](statistics.png)
