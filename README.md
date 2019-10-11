@@ -6,6 +6,7 @@ algo
 ├── array
 │   ├── _0001_TwoSum.py
 │   ├── _0167_TwoSum2-InputArrayIsSorted.py
+│   ├── _0169_MajorityElement.py
 │   ├── _0189_RotateArray.py
 │   └── _0561_ArrayPartition1.py
 ├── bfs
@@ -39,6 +40,7 @@ algo
 │   ├── _0077_Combinations.py
 │   ├── _0078_Subsets.py
 │   ├── _0089_GrayCode.py
+│   ├── _0200_NumberOfIslands.py
 │   ├── _0784_LetterCasePermutation.py
 │   └── _1079_LetterTilePossibilities.py
 ├── dp
@@ -91,7 +93,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-14 directories, 76 files
+14 directories, 78 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -136,7 +138,9 @@ _0144_BinaryTreePreorderTraversal.py
 _0153_FindMinimumInRotatedSortedArray.py
 _0162_FindPeakElement.py
 _0167_TwoSum2-InputArrayIsSorted.py
+_0169_MajorityElement.py
 _0189_RotateArray.py
+_0200_NumberOfIslands.py
 _0206_ReverseLinkedList.py
 _0209_MinimumSizeSubarraySum.py
 _0215_KthLargestElementInAnArray.py
@@ -168,6 +172,6 @@ _0977_SquaresOfASortedArray.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 =====================================
-Num of Python Practice:  74
+Num of Python Practice:  76
 ```
 ![Alt text](statistics.png)
