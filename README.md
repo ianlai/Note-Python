@@ -54,6 +54,7 @@ algo
 │   ├── _0021_MergeTwoSortedLists.py
 │   ├── _0024_SwapNodesInPairs.py
 │   ├── _0061_RotateList.py
+│   ├── _0203_RemoveLinkedListElements.py
 │   └── _0206_ReverseLinkedList.py
 ├── recursion
 │   ├── _0050_Pow(x,n).py
@@ -97,7 +98,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-15 directories, 81 files
+15 directories, 82 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -146,6 +147,7 @@ _0167_TwoSum2-InputArrayIsSorted.py
 _0169_MajorityElement.py
 _0189_RotateArray.py
 _0200_NumberOfIslands.py
+_0203_RemoveLinkedListElements.py
 _0206_ReverseLinkedList.py
 _0209_MinimumSizeSubarraySum.py
 _0215_KthLargestElementInAnArray.py
@@ -179,6 +181,6 @@ _0977_SquaresOfASortedArray.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 =====================================
-Num of Python Practice:  79
+Num of Python Practice:  80
 ```
 ![Alt text](statistics.png)
