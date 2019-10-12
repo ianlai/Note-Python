@@ -45,7 +45,10 @@ algo
 │   └── _1079_LetterTilePossibilities.py
 ├── dp
 ├── hashmap
+│   ├── _0049_GroupAnagrams.py
 │   ├── _0146_LRUCache.py
+│   ├── _0242_ValidAnagram.py
+│   ├── _0380_InsertDeleteGetRandomO(1).py
 │   └── _0705_DesignHashSet.py
 ├── heap
 │   ├── _0215_KthLargestElementInAnArray.py
@@ -98,7 +101,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-15 directories, 82 files
+15 directories, 85 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -113,6 +116,7 @@ _0037_SudokuSolver.py
 _0039_CombinationSum.py
 _0046_Permutations.py
 _0047_Permutations2.py
+_0049_GroupAnagrams.py
 _0050_Pow(x,n).py
 _0051_N-Queens.py
 _0061_RotateList.py
@@ -157,11 +161,13 @@ _0226_InvertBinaryTree.py
 _0230_KthSmallestElementInBST.py
 _0232_ImplementQueueUsingStacks.py
 _0240_SearchA2DMatrix2.py
+_0242_ValidAnagram.py
 _0257_BinaryTreePaths.py
 _0278_FirstBadVersion.py
 _0300_LongestIncreasingSubsequence.py
 _0344_ReverseString.py
 _0354_RussianDollEnvelopes.py
+_0380_InsertDeleteGetRandomO(1).py
 _0392_IsSubsequence.py
 _0409_LongestPalindrome.py
 _0429_N-aryTreeLevelOrderTraversal.py
@@ -181,6 +187,6 @@ _0977_SquaresOfASortedArray.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 =====================================
-Num of Python Practice:  80
+Num of Python Practice:  83
 ```
 ![Alt text](statistics.png)
