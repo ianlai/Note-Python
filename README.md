@@ -44,6 +44,9 @@ algo
 │   ├── _0784_LetterCasePermutation.py
 │   └── _1079_LetterTilePossibilities.py
 ├── dp
+├── hashmap
+│   ├── _0146_LRUCache.py
+│   └── _0705_DesignHashSet.py
 ├── heap
 │   ├── _0215_KthLargestElementInAnArray.py
 │   └── _1046_LastStoneWeight.py
@@ -78,6 +81,7 @@ algo
 │   ├── _0144_BinaryTreePreorderTraversal.py
 │   ├── _0226_InvertBinaryTree.py
 │   ├── _0230_KthSmallestElementInBST.py
+│   ├── _0257_BinaryTreePaths.py
 │   ├── _0429_N-aryTreeLevelOrderTraversal.py
 │   ├── _0572_SubtreeOfAnotherTree.py
 │   ├── _0617_MergeTwoBinaryTrees.py
@@ -93,7 +97,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-14 directories, 78 files
+15 directories, 81 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -135,6 +139,7 @@ _0125_ValidPalindrome.py
 _0127_WordLadder.py
 _0133_CloneGraph.py
 _0144_BinaryTreePreorderTraversal.py
+_0146_LRUCache.py
 _0153_FindMinimumInRotatedSortedArray.py
 _0162_FindPeakElement.py
 _0167_TwoSum2-InputArrayIsSorted.py
@@ -150,6 +155,7 @@ _0226_InvertBinaryTree.py
 _0230_KthSmallestElementInBST.py
 _0232_ImplementQueueUsingStacks.py
 _0240_SearchA2DMatrix2.py
+_0257_BinaryTreePaths.py
 _0278_FirstBadVersion.py
 _0300_LongestIncreasingSubsequence.py
 _0344_ReverseString.py
@@ -166,12 +172,13 @@ _0658_FindKClosestElements.py
 _0700_SearchInABinarySearchTree.py
 _0701_InsertIntoABinarySearchTree.py
 _0704_BinarySearch.py
+_0705_DesignHashSet.py
 _0784_LetterCasePermutation.py
 _0912_SortAnArray.py
 _0977_SquaresOfASortedArray.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 =====================================
-Num of Python Practice:  76
+Num of Python Practice:  79
 ```
 ![Alt text](statistics.png)
