@@ -53,6 +53,7 @@ algo
 │   └── _0705_DesignHashSet.py
 ├── heap
 │   ├── _0215_KthLargestElementInAnArray.py
+│   ├── _0264_UglyNumber2.py
 │   └── _1046_LastStoneWeight.py
 ├── linkedlist
 │   ├── _0021_MergeTwoSortedLists.py
@@ -60,6 +61,8 @@ algo
 │   ├── _0061_RotateList.py
 │   ├── _0203_RemoveLinkedListElements.py
 │   └── _0206_ReverseLinkedList.py
+├── math
+│   └── _0263_UglyNumber.py
 ├── recursion
 │   ├── _0050_Pow(x,n).py
 │   ├── _0070_ClimbingStairs.py
@@ -102,7 +105,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-15 directories, 86 files
+16 directories, 88 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -164,6 +167,8 @@ _0232_ImplementQueueUsingStacks.py
 _0240_SearchA2DMatrix2.py
 _0242_ValidAnagram.py
 _0257_BinaryTreePaths.py
+_0263_UglyNumber.py
+_0264_UglyNumber2.py
 _0278_FirstBadVersion.py
 _0300_LongestIncreasingSubsequence.py
 _0344_ReverseString.py
@@ -189,6 +194,6 @@ _0977_SquaresOfASortedArray.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 =====================================
-Num of Python Practice:  84
+Num of Python Practice:  86
 ```
 ![Alt text](statistics.png)
