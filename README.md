@@ -55,6 +55,7 @@ algo
 │   ├── _0215_KthLargestElementInAnArray.py
 │   ├── _0264_UglyNumber2.py
 │   ├── _0703_KthLargestElementInAStream.py
+│   ├── _0973_KClosestPointsToOrigin.py
 │   └── _1046_LastStoneWeight.py
 ├── linkedlist
 │   ├── _0021_MergeTwoSortedLists.py
@@ -107,7 +108,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-16 directories, 90 files
+16 directories, 91 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -194,10 +195,11 @@ _0704_BinarySearch.py
 _0705_DesignHashSet.py
 _0784_LetterCasePermutation.py
 _0912_SortAnArray.py
+_0973_KClosestPointsToOrigin.py
 _0977_SquaresOfASortedArray.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 =====================================
-Num of Python Practice:  88
+Num of Python Practice:  89
 ```
 ![Alt text](statistics.png)
