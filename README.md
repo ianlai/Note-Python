@@ -8,6 +8,9 @@ algo
 │   ├── _0167_TwoSum2-InputArrayIsSorted.py
 │   ├── _0169_MajorityElement.py
 │   ├── _0189_RotateArray.py
+│   ├── _0283_MoveZeroes.py
+│   ├── _0349_IntersectionOfTwoArrays.py
+│   ├── _0350_IntersectionOfTwoArrays2.py
 │   └── _0561_ArrayPartition1.py
 ├── bfs
 │   ├── _0102_BinaryTreeLevelOrderTraversal.py
@@ -27,8 +30,10 @@ algo
 │   ├── _0278_FirstBadVersion.py
 │   ├── _0300_LongestIncreasingSubsequence.py
 │   ├── _0354_RussianDollEnvelopes.py
+│   ├── _0367_ValidPerfectSquare.py
 │   ├── _0658_FindKClosestElements.py
-│   └── _0704_BinarySearch.py
+│   ├── _0704_BinarySearch.py
+│   └── _0852_PeakIndexInAMountainArray.py
 ├── dfs
 │   ├── _0017_LetterCombinationsOfAPhoneNumber.py
 │   ├── _0022_GenerateParentheses.py
@@ -98,7 +103,8 @@ algo
 │   ├── _0617_MergeTwoBinaryTrees.py
 │   ├── _0653_TwoSum4.py
 │   ├── _0654_MaximumBinaryTree.py
-│   └── _0701_InsertIntoABinarySearchTree.py
+│   ├── _0701_InsertIntoABinarySearchTree.py
+│   └── _1214_TwoSumBSTs.py
 ├── two-pointer
 │   ├── _0209_MinimumSizeSubarraySum.py
 │   ├── _0392_IsSubsequence.py
@@ -109,7 +115,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-16 directories, 92 files
+16 directories, 98 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -175,9 +181,13 @@ _0257_BinaryTreePaths.py
 _0263_UglyNumber.py
 _0264_UglyNumber2.py
 _0278_FirstBadVersion.py
+_0283_MoveZeroes.py
 _0300_LongestIncreasingSubsequence.py
 _0344_ReverseString.py
+_0349_IntersectionOfTwoArrays.py
+_0350_IntersectionOfTwoArrays2.py
 _0354_RussianDollEnvelopes.py
+_0367_ValidPerfectSquare.py
 _0380_InsertDeleteGetRandomO(1).py
 _0387_FirstUniqueCharacterInAString.py
 _0392_IsSubsequence.py
@@ -196,12 +206,14 @@ _0703_KthLargestElementInAStream.py
 _0704_BinarySearch.py
 _0705_DesignHashSet.py
 _0784_LetterCasePermutation.py
+_0852_PeakIndexInAMountainArray.py
 _0912_SortAnArray.py
 _0973_KClosestPointsToOrigin.py
 _0977_SquaresOfASortedArray.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
+_1214_TwoSumBSTs.py
 =====================================
-Num of Python Practice:  90
+Num of Python Practice:  96
 ```
 ![Alt text](statistics.png)
