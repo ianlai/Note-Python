@@ -88,14 +88,13 @@ latest_date = dates[-1].strftime(DATE_FORMATTER)
 
 
 if str(today_date) != str(latest_date): 
-    print(">> Status : Not updated yet (latest = ", latest_date, ", today = " ,today_date, ")") 
-    print(">> Write the following today's data into log.")
-    print(">> New log: \"" + str(today_date) + "   " + str(today_value), "\"")
+    print(">> Status : This is the first log today. (latest = ", latest_date, ", today = " ,today_date, ")") 
+    print(">> Wrote the log: \"" + str(today_date) + "   " + str(today_value), "\"")
     write(today_date, today_value)
     dates.append(today_date) 
     values.append(today_value)
 else:
-    print(">> Status: Already updated.")
+    print(">> Status: The record is already updated today.")
 
 print(">> Save the image:", FILE_IMAGE)
 draw(dates, values)

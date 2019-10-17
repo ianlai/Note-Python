@@ -49,6 +49,7 @@ algo
 │   ├── _0784_LetterCasePermutation.py
 │   └── _1079_LetterTilePossibilities.py
 ├── dp
+│   └── _0096_UniqueBinarySearchTrees.py
 ├── hashmap
 │   ├── _0049_GroupAnagrams.py
 │   ├── _0146_LRUCache.py
@@ -64,6 +65,7 @@ algo
 │   └── _1046_LastStoneWeight.py
 ├── linkedlist
 │   ├── _0021_MergeTwoSortedLists.py
+│   ├── _0023_MergeKSortedLists.py
 │   ├── _0024_SwapNodesInPairs.py
 │   ├── _0061_RotateList.py
 │   ├── _0203_RemoveLinkedListElements.py
@@ -106,6 +108,7 @@ algo
 │   ├── _0701_InsertIntoABinarySearchTree.py
 │   └── _1214_TwoSumBSTs.py
 ├── two-pointer
+│   ├── _0015_3Sum.py
 │   ├── _0209_MinimumSizeSubarraySum.py
 │   ├── _0392_IsSubsequence.py
 │   └── _0977_SquaresOfASortedArray.py
@@ -115,13 +118,15 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-16 directories, 98 files
+16 directories, 101 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
+_0015_3Sum.py
 _0017_LetterCombinationsOfAPhoneNumber.py
 _0021_MergeTwoSortedLists.py
 _0022_GenerateParentheses.py
+_0023_MergeKSortedLists.py
 _0024_SwapNodesInPairs.py
 _0033_SearchInRotatedSortedArray.py
 _0034_FindFirstAndLastPositionOfElementInSortedArray.py
@@ -142,6 +147,7 @@ _0078_Subsets.py
 _0081_SearchInRotatedSortedArray2.py
 _0089_GrayCode.py
 _0094_BinaryTreeInorderTraversal.py
+_0096_UniqueBinarySearchTrees.py
 _0098_ValidateBinarySearchTree.py
 _0100_SameTree.py
 _0101_SymmetricTree.py
@@ -214,6 +220,6 @@ _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 =====================================
-Num of Python Practice:  96
+Num of Python Practice:  99
 ```
 ![Alt text](statistics.png)
