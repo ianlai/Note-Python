@@ -46,6 +46,7 @@ algo
 │   ├── _0078_Subsets.py
 │   ├── _0089_GrayCode.py
 │   ├── _0200_NumberOfIslands.py
+│   ├── _0576_OutOfBoundaryPaths.py
 │   ├── _0784_LetterCasePermutation.py
 │   └── _1079_LetterTilePossibilities.py
 ├── dp
@@ -118,7 +119,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-16 directories, 101 files
+16 directories, 102 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -202,6 +203,7 @@ _0429_N-aryTreeLevelOrderTraversal.py
 _0509_FibonacciNumber.py
 _0561_ArrayPartition1.py
 _0572_SubtreeOfAnotherTree.py
+_0576_OutOfBoundaryPaths.py
 _0617_MergeTwoBinaryTrees.py
 _0653_TwoSum4.py
 _0654_MaximumBinaryTree.py
@@ -220,6 +222,6 @@ _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 =====================================
-Num of Python Practice:  99
+Num of Python Practice:  100
 ```
 ![Alt text](statistics.png)
