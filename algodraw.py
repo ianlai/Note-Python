@@ -49,10 +49,10 @@ def draw(dates, values):
     ax.set_ylim(50,100) 
 
     plt.plot_date(dates, values, '-', marker='o')
-    plt.yticks(np.arange(50, 100, step=5))
+    plt.yticks(np.arange(50, 155, step=5))
     plt.gcf().autofmt_xdate(which='both')
     for i,j in zip(dates, values):
-        ax.annotate(str(j),xy=(i, j - 1.5))
+        ax.annotate(str(j),xy=(i, j - 3))
     #plt.show()
     plt.savefig(FILE_IMAGE)
 
