@@ -39,6 +39,7 @@ algo
 │   ├── _0022_GenerateParentheses.py
 │   ├── _0037_SudokuSolver.py
 │   ├── _0039_CombinationSum.py
+│   ├── _0040_CombinationSum2.py
 │   ├── _0046_Permutations.py
 │   ├── _0047_Permutations2.py
 │   ├── _0051_N-Queens.py
@@ -119,7 +120,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-16 directories, 102 files
+16 directories, 103 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -134,6 +135,7 @@ _0034_FindFirstAndLastPositionOfElementInSortedArray.py
 _0035_SearchInsertPosition.py
 _0037_SudokuSolver.py
 _0039_CombinationSum.py
+_0040_CombinationSum2.py
 _0046_Permutations.py
 _0047_Permutations2.py
 _0049_GroupAnagrams.py
@@ -222,6 +224,6 @@ _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 =====================================
-Num of Python Practice:  100
+Num of Python Practice:  101
 ```
 ![Alt text](statistics.png)
