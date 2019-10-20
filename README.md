@@ -109,6 +109,7 @@ algo
 │   ├── _0653_TwoSum4.py
 │   ├── _0654_MaximumBinaryTree.py
 │   ├── _0701_InsertIntoABinarySearchTree.py
+│   ├── _0783_MinimumDistanceBetweenBSTNodes.py
 │   └── _1214_TwoSumBSTs.py
 ├── two-pointer
 │   ├── _0015_3Sum.py
@@ -121,7 +122,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-16 directories, 104 files
+16 directories, 105 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -217,6 +218,7 @@ _0701_InsertIntoABinarySearchTree.py
 _0703_KthLargestElementInAStream.py
 _0704_BinarySearch.py
 _0705_DesignHashSet.py
+_0783_MinimumDistanceBetweenBSTNodes.py
 _0784_LetterCasePermutation.py
 _0852_PeakIndexInAMountainArray.py
 _0912_SortAnArray.py
@@ -226,6 +228,6 @@ _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 =====================================
-Num of Python Practice:  102
+Num of Python Practice:  103
 ```
 ![Alt text](statistics.png)
