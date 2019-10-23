@@ -51,6 +51,7 @@ algo
 │   ├── _0494_TargetSum.py
 │   ├── _0576_OutOfBoundaryPaths.py
 │   ├── _0784_LetterCasePermutation.py
+│   ├── _0841_KeysAndRooms.py
 │   └── _1079_LetterTilePossibilities.py
 ├── dp
 │   └── _0096_UniqueBinarySearchTrees.py
@@ -123,7 +124,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-16 directories, 106 files
+16 directories, 107 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -222,6 +223,7 @@ _0704_BinarySearch.py
 _0705_DesignHashSet.py
 _0783_MinimumDistanceBetweenBSTNodes.py
 _0784_LetterCasePermutation.py
+_0841_KeysAndRooms.py
 _0852_PeakIndexInAMountainArray.py
 _0912_SortAnArray.py
 _0973_KClosestPointsToOrigin.py
@@ -230,6 +232,6 @@ _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 =====================================
-Num of Python Practice:  104
+Num of Python Practice:  105
 ```
 ![Alt text](statistics.png)
