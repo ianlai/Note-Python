@@ -50,6 +50,7 @@ algo
 │   ├── _0216_CombinationSum3.py
 │   ├── _0494_TargetSum.py
 │   ├── _0576_OutOfBoundaryPaths.py
+│   ├── _0690_EmployeeImportance.py
 │   ├── _0784_LetterCasePermutation.py
 │   ├── _0841_KeysAndRooms.py
 │   └── _1079_LetterTilePossibilities.py
@@ -124,7 +125,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-16 directories, 107 files
+16 directories, 108 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -216,6 +217,7 @@ _0617_MergeTwoBinaryTrees.py
 _0653_TwoSum4.py
 _0654_MaximumBinaryTree.py
 _0658_FindKClosestElements.py
+_0690_EmployeeImportance.py
 _0700_SearchInABinarySearchTree.py
 _0701_InsertIntoABinarySearchTree.py
 _0703_KthLargestElementInAStream.py
@@ -232,6 +234,6 @@ _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 =====================================
-Num of Python Practice:  105
+Num of Python Practice:  106
 ```
 ![Alt text](statistics.png)
