@@ -15,7 +15,8 @@ algo
 ├── bfs
 │   ├── _0102_BinaryTreeLevelOrderTraversal.py
 │   ├── _0107_BinaryTreeLevelOrderTraversal2.py
-│   └── _0133_CloneGraph.py
+│   ├── _0133_CloneGraph.py
+│   └── _0199_BinaryTreeRightSideView.py
 ├── binary-search
 │   ├── _0033_SearchInRotatedSortedArray.py
 │   ├── _0034_FindFirstAndLastPositionOfElementInSortedArray.py
@@ -125,7 +126,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-16 directories, 108 files
+16 directories, 109 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -179,6 +180,7 @@ _0162_FindPeakElement.py
 _0167_TwoSum2-InputArrayIsSorted.py
 _0169_MajorityElement.py
 _0189_RotateArray.py
+_0199_BinaryTreeRightSideView.py
 _0200_NumberOfIslands.py
 _0203_RemoveLinkedListElements.py
 _0206_ReverseLinkedList.py
@@ -234,6 +236,6 @@ _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 =====================================
-Num of Python Practice:  106
+Num of Python Practice:  107
 ```
 ![Alt text](statistics.png)
