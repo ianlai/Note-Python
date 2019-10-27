@@ -11,7 +11,8 @@ algo
 │   ├── _0283_MoveZeroes.py
 │   ├── _0349_IntersectionOfTwoArrays.py
 │   ├── _0350_IntersectionOfTwoArrays2.py
-│   └── _0561_ArrayPartition1.py
+│   ├── _0561_ArrayPartition1.py
+│   └── _0905_SortArrayByParity.py
 ├── bfs
 │   ├── _0102_BinaryTreeLevelOrderTraversal.py
 │   ├── _0107_BinaryTreeLevelOrderTraversal2.py
@@ -126,7 +127,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-16 directories, 109 files
+16 directories, 110 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -229,6 +230,7 @@ _0783_MinimumDistanceBetweenBSTNodes.py
 _0784_LetterCasePermutation.py
 _0841_KeysAndRooms.py
 _0852_PeakIndexInAMountainArray.py
+_0905_SortArrayByParity.py
 _0912_SortAnArray.py
 _0973_KClosestPointsToOrigin.py
 _0977_SquaresOfASortedArray.py
@@ -236,6 +238,6 @@ _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 =====================================
-Num of Python Practice:  107
+Num of Python Practice:  108
 ```
 ![Alt text](statistics.png)
