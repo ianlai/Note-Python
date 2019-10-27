@@ -11,8 +11,8 @@ class Solution:
             return []
         
         ans = []
-        deq1 = deque([root])
-        deq2 = deque()  #current layer
+        deq1 = deque([root]) #current layer
+        deq2 = deque()       #next layer
         
         while deq1 or deq2:
             #traverse deq1 and create deq2
