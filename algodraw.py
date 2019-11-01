@@ -12,7 +12,8 @@ import numpy as np
 ######################
 FILE_PREFIX     = "statistics"
 FILE_STATISTICS = FILE_PREFIX + ".log"
-FILE_IMAGE      = FILE_PREFIX + ".png"
+FILE_IMAGE1     = FILE_PREFIX + "_10" + ".png"
+FILE_IMAGE2     = FILE_PREFIX + "_11" + ".png"
 DATE_FORMATTER = "%Y-%m-%d"
 dates = []
 values = []
@@ -45,7 +46,6 @@ def draw(dates, values):
     ax.grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
     ax.grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
     ax.grid(which='major', color='#bbbbbb', axis ='y')
-    ax.set_xlim(datetime.datetime(2019,10,1), datetime.datetime(2019,10,31)) 
     ax.set_ylim(50,100) 
 
     plt.plot_date(dates, values, '-', marker='o')
@@ -54,7 +54,15 @@ def draw(dates, values):
     for i,j in zip(dates, values):
         ax.annotate(str(j),xy=(i, j - 3))
     #plt.show()
-    plt.savefig(FILE_IMAGE)
+
+    #2019.10
+    ax.set_xlim(datetime.datetime(2019,10,1), datetime.datetime(2019,10,31)) 
+    plt.savefig(FILE_IMAGE1)
+
+    #2019.11
+    ax.set_xlim(datetime.datetime(2019,11,1), datetime.datetime(2019,11,30)) 
+    plt.savefig(FILE_IMAGE2)
+
 
 ###################### 
 ### Read from file  
@@ -88,7 +96,7 @@ latest_date = dates[-1].strftime(DATE_FORMATTER)
 
 
 if str(today_date) != str(latest_date): 
-    print(">> Status : This is the first log today. (latest = ", latest_date, ", today = " ,today_date, ")") 
+    print(">> Status : NEW! This is the first log today. (latest = ", latest_date, ", today = " ,today_date, ")") 
     print(">> Wrote the log: \"" + str(today_date) + "   " + str(today_value), "\"")
     write(today_date, today_value)
     dates.append(today_date) 
@@ -96,5 +104,6 @@ if str(today_date) != str(latest_date):
 else:
     print(">> Status: The record is already updated today.")
 
-print(">> Save the image:", FILE_IMAGE)
+print(">> Save the image:", FILE_IMAGE1)
+print(">> Save the image:", FILE_IMAGE2)
 draw(dates, values)

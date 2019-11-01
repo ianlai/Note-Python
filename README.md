@@ -248,4 +248,5 @@ _1214_TwoSumBSTs.py
 =====================================
 Num of Python Practice:  112
 ```
-![Alt text](statistics.png)
+![Alt text](statistics_10.png)
+![Alt text](statistics_11.png)
