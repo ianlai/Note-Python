@@ -13,6 +13,7 @@ algo
 │   ├── _0350_IntersectionOfTwoArrays2.py
 │   ├── _0561_ArrayPartition1.py
 │   ├── _0867_TransposeMatrix.py
+│   ├── _0896_MonotonicArray.py
 │   └── _0905_SortArrayByParity.py
 ├── bfs
 │   ├── _0102_BinaryTreeLevelOrderTraversal.py
@@ -131,7 +132,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-16 directories, 114 files
+16 directories, 115 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -237,6 +238,7 @@ _0784_LetterCasePermutation.py
 _0841_KeysAndRooms.py
 _0852_PeakIndexInAMountainArray.py
 _0867_TransposeMatrix.py
+_0896_MonotonicArray.py
 _0905_SortArrayByParity.py
 _0912_SortAnArray.py
 _0973_KClosestPointsToOrigin.py
@@ -246,7 +248,7 @@ _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 =====================================
-Num of Python Practice:  112
+Num of Python Practice:  113
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)
