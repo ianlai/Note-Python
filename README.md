@@ -4,6 +4,7 @@ algo
 ├── _0125_ValidPalindrome.py
 ├── _0409_LongestPalindrome.py
 ├── array
+│   ├── 1243_ArrayTransformation.py
 │   ├── _0001_TwoSum.py
 │   ├── _0167_TwoSum2-InputArrayIsSorted.py
 │   ├── _0169_MajorityElement.py
@@ -96,6 +97,8 @@ algo
 ├── stack-queue
 │   ├── _0225_ImplementStackUsingQueues.py
 │   └── _0232_ImplementQueueUsingStacks.py
+├── string
+│   └── _0383_RansomNote.py
 ├── tree
 │   ├── _0094_BinaryTreeInorderTraversal.py
 │   ├── _0098_ValidateBinarySearchTree.py
@@ -132,7 +135,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-16 directories, 115 files
+17 directories, 117 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -213,6 +216,7 @@ _0350_IntersectionOfTwoArrays2.py
 _0354_RussianDollEnvelopes.py
 _0367_ValidPerfectSquare.py
 _0380_InsertDeleteGetRandomO(1).py
+_0383_RansomNote.py
 _0387_FirstUniqueCharacterInAString.py
 _0392_IsSubsequence.py
 _0409_LongestPalindrome.py
@@ -248,7 +252,7 @@ _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 =====================================
-Num of Python Practice:  113
+Num of Python Practice:  114
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)
