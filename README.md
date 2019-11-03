@@ -4,7 +4,6 @@ algo
 ├── _0125_ValidPalindrome.py
 ├── _0409_LongestPalindrome.py
 ├── array
-│   ├── 1243_ArrayTransformation.py
 │   ├── _0001_TwoSum.py
 │   ├── _0167_TwoSum2-InputArrayIsSorted.py
 │   ├── _0169_MajorityElement.py
@@ -15,7 +14,8 @@ algo
 │   ├── _0561_ArrayPartition1.py
 │   ├── _0867_TransposeMatrix.py
 │   ├── _0896_MonotonicArray.py
-│   └── _0905_SortArrayByParity.py
+│   ├── _0905_SortArrayByParity.py
+│   └── _1243_ArrayTransformation.py
 ├── bfs
 │   ├── _0102_BinaryTreeLevelOrderTraversal.py
 │   ├── _0107_BinaryTreeLevelOrderTraversal2.py
@@ -251,8 +251,9 @@ _1022_SumOfRootToLeafBinaryNumbers.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
+_1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  114
+Num of Python Practice:  115
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)
