@@ -11,6 +11,7 @@ algo
 │   ├── _0283_MoveZeroes.py
 │   ├── _0349_IntersectionOfTwoArrays.py
 │   ├── _0350_IntersectionOfTwoArrays2.py
+│   ├── _0485_MaxConsecutiveOnes.py
 │   ├── _0561_ArrayPartition1.py
 │   ├── _0867_TransposeMatrix.py
 │   ├── _0896_MonotonicArray.py
@@ -135,7 +136,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 117 files
+17 directories, 118 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -221,6 +222,7 @@ _0387_FirstUniqueCharacterInAString.py
 _0392_IsSubsequence.py
 _0409_LongestPalindrome.py
 _0429_N-aryTreeLevelOrderTraversal.py
+_0485_MaxConsecutiveOnes.py
 _0494_TargetSum.py
 _0509_FibonacciNumber.py
 _0561_ArrayPartition1.py
@@ -253,7 +255,7 @@ _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  115
+Num of Python Practice:  116
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)
