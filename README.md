@@ -56,6 +56,7 @@ algo
 │   ├── _0200_NumberOfIslands.py
 │   ├── _0216_CombinationSum3.py
 │   ├── _0494_TargetSum.py
+│   ├── _0526_BeautifulArrangement.py
 │   ├── _0576_OutOfBoundaryPaths.py
 │   ├── _0690_EmployeeImportance.py
 │   ├── _0784_LetterCasePermutation.py
@@ -136,7 +137,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 118 files
+17 directories, 119 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -225,6 +226,7 @@ _0429_N-aryTreeLevelOrderTraversal.py
 _0485_MaxConsecutiveOnes.py
 _0494_TargetSum.py
 _0509_FibonacciNumber.py
+_0526_BeautifulArrangement.py
 _0561_ArrayPartition1.py
 _0572_SubtreeOfAnotherTree.py
 _0576_OutOfBoundaryPaths.py
@@ -255,7 +257,7 @@ _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  116
+Num of Python Practice:  117
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)
