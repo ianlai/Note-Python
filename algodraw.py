@@ -32,9 +32,7 @@ def write(today_date, today_value):
 ######################
 def draw(dates, values):
     fig, ax = plt.subplots(figsize=(14, 8))
-    ax.set(xlabel="Date", ylabel="Number of Practices",
-        title="Accumulative Statistics")
-
+    
     xfmt = mdates.DateFormatter("%m/%d")
     xloc1 = mdates.WeekdayLocator(SUNDAY)
     xloc2 = mdates.DayLocator()
@@ -56,10 +54,14 @@ def draw(dates, values):
     #plt.show()
 
     #2019.10
+    ax.set(xlabel="Date", ylabel="Number of Practices",
+        title="Accumulative Statistics (2019.10)")
     ax.set_xlim(datetime.datetime(2019,10,1), datetime.datetime(2019,10,31)) 
     plt.savefig(FILE_IMAGE1)
 
     #2019.11
+    ax.set(xlabel="Date", ylabel="Number of Practices",
+        title="Accumulative Statistics (2019.11)")
     ax.set_xlim(datetime.datetime(2019,11,1), datetime.datetime(2019,11,30)) 
     plt.savefig(FILE_IMAGE2)
 
