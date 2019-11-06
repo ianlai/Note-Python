@@ -54,6 +54,7 @@ algo
 │   ├── _0078_Subsets.py
 │   ├── _0089_GrayCode.py
 │   ├── _0090_Subsets2.py
+│   ├── _0131_PalindromePartitioning.py
 │   ├── _0200_NumberOfIslands.py
 │   ├── _0216_CombinationSum3.py
 │   ├── _0494_TargetSum.py
@@ -138,7 +139,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 120 files
+17 directories, 121 files
 =====================================
 _0001_TwoSum.py
 _0005_LongestPalindromicSubstring.py
@@ -185,6 +186,7 @@ _0119_PascalsTriangle2.py
 _0125_ValidPalindrome.py
 _0127_WordLadder.py
 _0129_SumRootToLeafNumbers.py
+_0131_PalindromePartitioning.py
 _0133_CloneGraph.py
 _0144_BinaryTreePreorderTraversal.py
 _0146_LRUCache.py
@@ -259,7 +261,7 @@ _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  118
+Num of Python Practice:  119
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)
