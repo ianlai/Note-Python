@@ -102,6 +102,7 @@ algo
 │   ├── _0225_ImplementStackUsingQueues.py
 │   └── _0232_ImplementQueueUsingStacks.py
 ├── string
+│   ├── _0003_LongestSubstringWithoutRepeatingCharacters.py
 │   └── _0383_RansomNote.py
 ├── tree
 │   ├── _0094_BinaryTreeInorderTraversal.py
@@ -139,9 +140,10 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 121 files
+17 directories, 122 files
 =====================================
 _0001_TwoSum.py
+_0003_LongestSubstringWithoutRepeatingCharacters.py
 _0005_LongestPalindromicSubstring.py
 _0015_3Sum.py
 _0017_LetterCombinationsOfAPhoneNumber.py
@@ -261,7 +263,7 @@ _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  119
+Num of Python Practice:  120
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)
