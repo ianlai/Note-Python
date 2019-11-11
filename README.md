@@ -84,6 +84,7 @@ algo
 │   ├── _0023_MergeKSortedLists.py
 │   ├── _0024_SwapNodesInPairs.py
 │   ├── _0061_RotateList.py
+│   ├── _0141_LinkedListCycle.py
 │   ├── _0203_RemoveLinkedListElements.py
 │   └── _0206_ReverseLinkedList.py
 ├── math
@@ -140,7 +141,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 122 files
+17 directories, 123 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -190,6 +191,7 @@ _0127_WordLadder.py
 _0129_SumRootToLeafNumbers.py
 _0131_PalindromePartitioning.py
 _0133_CloneGraph.py
+_0141_LinkedListCycle.py
 _0144_BinaryTreePreorderTraversal.py
 _0146_LRUCache.py
 _0153_FindMinimumInRotatedSortedArray.py
@@ -263,7 +265,7 @@ _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  120
+Num of Python Practice:  121
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)
