@@ -66,7 +66,9 @@ algo
 │   ├── _0841_KeysAndRooms.py
 │   └── _1079_LetterTilePossibilities.py
 ├── dp
-│   └── _0096_UniqueBinarySearchTrees.py
+│   ├── _0053_MaximumSubarray.py
+│   ├── _0096_UniqueBinarySearchTrees.py
+│   └── _0746_MinCostClimbingStairs.py
 ├── hashmap
 │   ├── _0049_GroupAnagrams.py
 │   ├── _0146_LRUCache.py
@@ -142,7 +144,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 124 files
+17 directories, 126 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -165,6 +167,7 @@ _0047_Permutations2.py
 _0049_GroupAnagrams.py
 _0050_Pow(x,n).py
 _0051_N-Queens.py
+_0053_MaximumSubarray.py
 _0061_RotateList.py
 _0069_Sqrt.py
 _0070_ClimbingStairs.py
@@ -251,6 +254,7 @@ _0701_InsertIntoABinarySearchTree.py
 _0703_KthLargestElementInAStream.py
 _0704_BinarySearch.py
 _0705_DesignHashSet.py
+_0746_MinCostClimbingStairs.py
 _0783_MinimumDistanceBetweenBSTNodes.py
 _0784_LetterCasePermutation.py
 _0841_KeysAndRooms.py
@@ -267,7 +271,7 @@ _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  122
+Num of Python Practice:  124
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)
