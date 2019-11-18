@@ -69,6 +69,7 @@ algo
 ├── dp
 │   ├── _0053_MaximumSubarray.py
 │   ├── _0096_UniqueBinarySearchTrees.py
+│   ├── _0198_HouseRobber.py
 │   └── _0746_MinCostClimbingStairs.py
 ├── hashmap
 │   ├── _0049_GroupAnagrams.py
@@ -145,7 +146,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 127 files
+17 directories, 128 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -205,6 +206,7 @@ _0162_FindPeakElement.py
 _0167_TwoSum2-InputArrayIsSorted.py
 _0169_MajorityElement.py
 _0189_RotateArray.py
+_0198_HouseRobber.py
 _0199_BinaryTreeRightSideView.py
 _0200_NumberOfIslands.py
 _0203_RemoveLinkedListElements.py
@@ -273,7 +275,7 @@ _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  125
+Num of Python Practice:  126
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)
