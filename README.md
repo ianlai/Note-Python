@@ -70,6 +70,7 @@ algo
 │   ├── _0053_MaximumSubarray.py
 │   ├── _0096_UniqueBinarySearchTrees.py
 │   ├── _0198_HouseRobber.py
+│   ├── _0213_HouseRobber2.py
 │   └── _0746_MinCostClimbingStairs.py
 ├── hashmap
 │   ├── _0049_GroupAnagrams.py
@@ -146,7 +147,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 128 files
+17 directories, 129 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -212,6 +213,7 @@ _0200_NumberOfIslands.py
 _0203_RemoveLinkedListElements.py
 _0206_ReverseLinkedList.py
 _0209_MinimumSizeSubarraySum.py
+_0213_HouseRobber2.py
 _0215_KthLargestElementInAnArray.py
 _0216_CombinationSum3.py
 _0222_CountCompleteTreeNodes.py
@@ -275,7 +277,7 @@ _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  126
+Num of Python Practice:  127
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)

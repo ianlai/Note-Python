@@ -48,7 +48,7 @@ class Solution:
     
     #===============================================
     
-    #Top-down (memoization) 
+    #Top-down (memoization, global memo) -> TLE
     def rob2(self, nums: List[int]) -> int:
         if nums is None or len(nums) == 0:
             return 0
@@ -82,10 +82,10 @@ class Solution:
         
         return helper2(nums, len(nums)-1)
 
-        #===============================================
+    #===============================================
     
-    #Buttom-Up 
-    def rob(self, nums: List[int]) -> int:
+    #Buttom-Up (extra array, space:O(n)) -> 98% 
+    def rob3(self, nums: List[int]) -> int:
         if nums is None or len(nums) == 0:
             return 0
         if len(nums) == 1:
@@ -97,3 +97,22 @@ class Solution:
             dp[i] = max(dp[i-2] + nums[i], dp[i-1])
         
         return dp[len(nums)-1]
+    
+        #===============================================
+    
+    #Buttom-Up (no array, space:O(1)) -> 99% 
+    def rob(self, nums: List[int]) -> int:
+        if nums is None or len(nums) == 0:
+            return 0
+        if len(nums) == 1:
+            return nums[0]
+
+        temp1 = nums[0]
+        temp2 = max(nums[0], nums[1])
+        temp3 = temp2
+        for i in range(2, len(nums)):
+            temp3 = max(temp1 + nums[i], temp2)
+            temp1 = temp2
+            temp2 = temp3
+        
+        return temp3
