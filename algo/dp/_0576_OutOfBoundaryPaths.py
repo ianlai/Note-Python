@@ -18,7 +18,11 @@ class Solution:
         if memo[i][j][N] != -1:
             return memo[i][j][N]
         if N != 0:
-            memo[i][j][N] = self.dfs(memo, m, n, N-1, i-1, j  ) + self.dfs(memo, m, n, N-1, i+1, j  ) + self.dfs(memo, m, n, N-1, i  , j-1) + self.dfs(memo, m, n, N-1, i  , j+1)  
+            memo[i][j][N] = \
+            self.dfs(memo, m, n, N-1, i-1, j  ) + \
+            self.dfs(memo, m, n, N-1, i+1, j  ) + \
+            self.dfs(memo, m, n, N-1, i  , j-1) + \
+            self.dfs(memo, m, n, N-1, i  , j+1)  
             return memo[i][j][N]
         return 0
     
@@ -27,7 +31,8 @@ class Solution:
             return True
         return False
     
-    # Pure DFS (too slow)
+    # ====================================================
+    # DFS: TLE 
 #     def findPaths(self, m: int, n: int, N: int, i: int, j: int) -> int:
 #         if m <= 0 or n <= 0 or N <= 0:
 #             return 0

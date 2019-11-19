@@ -61,7 +61,6 @@ algo
 │   ├── _0216_CombinationSum3.py
 │   ├── _0494_TargetSum.py
 │   ├── _0526_BeautifulArrangement.py
-│   ├── _0576_OutOfBoundaryPaths.py
 │   ├── _0690_EmployeeImportance.py
 │   ├── _0784_LetterCasePermutation.py
 │   ├── _0841_KeysAndRooms.py
@@ -71,6 +70,8 @@ algo
 │   ├── _0096_UniqueBinarySearchTrees.py
 │   ├── _0198_HouseRobber.py
 │   ├── _0213_HouseRobber2.py
+│   ├── _0322_CoinChange.py
+│   ├── _0576_OutOfBoundaryPaths.py
 │   └── _0746_MinCostClimbingStairs.py
 ├── hashmap
 │   ├── _0049_GroupAnagrams.py
@@ -147,7 +148,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 129 files
+17 directories, 130 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -229,6 +230,7 @@ _0264_UglyNumber2.py
 _0278_FirstBadVersion.py
 _0283_MoveZeroes.py
 _0300_LongestIncreasingSubsequence.py
+_0322_CoinChange.py
 _0344_ReverseString.py
 _0349_IntersectionOfTwoArrays.py
 _0350_IntersectionOfTwoArrays2.py
@@ -277,7 +279,7 @@ _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  127
+Num of Python Practice:  128
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)
