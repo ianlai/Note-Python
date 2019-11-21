@@ -72,7 +72,8 @@ algo
 │   ├── _0213_HouseRobber2.py
 │   ├── _0322_CoinChange.py
 │   ├── _0576_OutOfBoundaryPaths.py
-│   └── _0746_MinCostClimbingStairs.py
+│   ├── _0746_MinCostClimbingStairs.py
+│   └── _0877_StoneGame.py
 ├── hashmap
 │   ├── _0049_GroupAnagrams.py
 │   ├── _0146_LRUCache.py
@@ -148,7 +149,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 130 files
+17 directories, 131 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -268,6 +269,7 @@ _0784_LetterCasePermutation.py
 _0841_KeysAndRooms.py
 _0852_PeakIndexInAMountainArray.py
 _0867_TransposeMatrix.py
+_0877_StoneGame.py
 _0896_MonotonicArray.py
 _0905_SortArrayByParity.py
 _0912_SortAnArray.py
@@ -279,7 +281,7 @@ _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  128
+Num of Python Practice:  129
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)
