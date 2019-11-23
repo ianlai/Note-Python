@@ -16,6 +16,7 @@ algo
 │   ├── _0463_IslandPerimeter.py
 │   ├── _0485_MaxConsecutiveOnes.py
 │   ├── _0561_ArrayPartition1.py
+│   ├── _0674_LongestContinuousIncreasingSubsequence.py
 │   ├── _0867_TransposeMatrix.py
 │   ├── _0896_MonotonicArray.py
 │   ├── _0905_SortArrayByParity.py
@@ -149,7 +150,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 131 files
+17 directories, 132 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -257,6 +258,7 @@ _0653_TwoSum4.py
 _0654_MaximumBinaryTree.py
 _0658_FindKClosestElements.py
 _0669_TrimABinarySearchTree.py
+_0674_LongestContinuousIncreasingSubsequence.py
 _0690_EmployeeImportance.py
 _0700_SearchInABinarySearchTree.py
 _0701_InsertIntoABinarySearchTree.py
@@ -281,7 +283,7 @@ _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  129
+Num of Python Practice:  130
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)
