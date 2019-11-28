@@ -21,6 +21,7 @@ algo
 │   ├── _0867_TransposeMatrix.py
 │   ├── _0896_MonotonicArray.py
 │   ├── _0905_SortArrayByParity.py
+│   ├── _1002_FindCommonCharacters.py
 │   └── _1243_ArrayTransformation.py
 ├── bfs
 │   ├── _0102_BinaryTreeLevelOrderTraversal.py
@@ -151,7 +152,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 133 files
+17 directories, 134 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -279,13 +280,14 @@ _0905_SortArrayByParity.py
 _0912_SortAnArray.py
 _0973_KClosestPointsToOrigin.py
 _0977_SquaresOfASortedArray.py
+_1002_FindCommonCharacters.py
 _1022_SumOfRootToLeafBinaryNumbers.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  131
+Num of Python Practice:  132
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)
