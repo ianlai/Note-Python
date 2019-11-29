@@ -115,6 +115,7 @@ algo
 │   └── _0232_ImplementQueueUsingStacks.py
 ├── string
 │   ├── _0003_LongestSubstringWithoutRepeatingCharacters.py
+│   ├── _0038_CountAndSay.py
 │   └── _0383_RansomNote.py
 ├── tree
 │   ├── _0094_BinaryTreeInorderTraversal.py
@@ -152,7 +153,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 134 files
+17 directories, 135 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -168,6 +169,7 @@ _0033_SearchInRotatedSortedArray.py
 _0034_FindFirstAndLastPositionOfElementInSortedArray.py
 _0035_SearchInsertPosition.py
 _0037_SudokuSolver.py
+_0038_CountAndSay.py
 _0039_CombinationSum.py
 _0040_CombinationSum2.py
 _0046_Permutations.py
@@ -287,7 +289,7 @@ _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  132
+Num of Python Practice:  133
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)
