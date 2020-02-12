@@ -293,5 +293,6 @@ _1243_ArrayTransformation.py
 =====================================
 Num of Python Practice:  134
 ```
-![Alt text](statistics_10.png)
-![Alt text](statistics_11.png)
+![Alt text](statistics_201910.png)
+![Alt text](statistics_201911.png)
+![Alt text](statistics_202002.png)
