@@ -7,5 +7,6 @@ os.system('tree algo')
 os.system('./_algolist.py')
 os.system('echo "\`\`\`"')
 
-print("![Alt text](statistics_10.png)")
-print("![Alt text](statistics_11.png)")
+print("![Alt text](statistics_201910.png)")
+print("![Alt text](statistics_201911.png)")
+print("![Alt text](statistics_202002.png)")

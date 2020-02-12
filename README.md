@@ -5,6 +5,7 @@ algo
 ├── _0409_LongestPalindrome.py
 ├── array
 │   ├── _0001_TwoSum.py
+│   ├── _0018_4Sum.py
 │   ├── _0027_RemoveElement.py
 │   ├── _0167_TwoSum2-InputArrayIsSorted.py
 │   ├── _0169_MajorityElement.py
@@ -153,13 +154,14 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 135 files
+17 directories, 136 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
 _0005_LongestPalindromicSubstring.py
 _0015_3Sum.py
 _0017_LetterCombinationsOfAPhoneNumber.py
+_0018_4Sum.py
 _0021_MergeTwoSortedLists.py
 _0022_GenerateParentheses.py
 _0023_MergeKSortedLists.py
@@ -289,7 +291,7 @@ _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  133
+Num of Python Practice:  134
 ```
 ![Alt text](statistics_10.png)
 ![Alt text](statistics_11.png)

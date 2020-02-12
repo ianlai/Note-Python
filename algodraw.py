@@ -12,8 +12,10 @@ import numpy as np
 ######################
 FILE_PREFIX     = "statistics"
 FILE_STATISTICS = FILE_PREFIX + ".log"
-FILE_IMAGE1     = FILE_PREFIX + "_10" + ".png"
-FILE_IMAGE2     = FILE_PREFIX + "_11" + ".png"
+FILE_IMAGE201910 = FILE_PREFIX + "_201910" + ".png"
+FILE_IMAGE201911 = FILE_PREFIX + "_201911" + ".png"
+FILE_IMAGE202002 = FILE_PREFIX + "_202002" + ".png"
+
 DATE_FORMATTER = "%Y-%m-%d"
 dates = []
 values = []
@@ -57,14 +59,19 @@ def draw(dates, values):
     ax.set(xlabel="Date", ylabel="Number of Practices",
         title="Accumulative Statistics (2019.10)")
     ax.set_xlim(datetime.datetime(2019,10,1), datetime.datetime(2019,10,31)) 
-    plt.savefig(FILE_IMAGE1)
+    plt.savefig(FILE_IMAGE201910)
 
     #2019.11
     ax.set(xlabel="Date", ylabel="Number of Practices",
         title="Accumulative Statistics (2019.11)")
     ax.set_xlim(datetime.datetime(2019,11,1), datetime.datetime(2019,11,30)) 
-    plt.savefig(FILE_IMAGE2)
+    plt.savefig(FILE_IMAGE201911)
 
+    #2020.02
+    ax.set(xlabel="Date", ylabel="Number of Practices",
+        title="Accumulative Statistics (2020.02)")
+    ax.set_xlim(datetime.datetime(2020,2,1), datetime.datetime(2020,2,29)) 
+    plt.savefig(FILE_IMAGE202002)
 
 ###################### 
 ### Read from file  
@@ -106,6 +113,7 @@ if str(today_date) != str(latest_date):
 else:
     print(">> Status: The record is already updated today.")
 
-print(">> Save the image:", FILE_IMAGE1)
-print(">> Save the image:", FILE_IMAGE2)
+print(">> Save the image:", FILE_IMAGE201910)
+print(">> Save the image:", FILE_IMAGE201911)
+print(">> Save the image:", FILE_IMAGE202002)
 draw(dates, values)
