@@ -26,9 +26,12 @@ algo
 │   └── _1243_ArrayTransformation.py
 ├── bfs
 │   ├── _0102_BinaryTreeLevelOrderTraversal.py
+│   ├── _0103_BinaryTreeZigzagLevelOrderTraversal.py
 │   ├── _0107_BinaryTreeLevelOrderTraversal2.py
 │   ├── _0133_CloneGraph.py
-│   └── _0199_BinaryTreeRightSideView.py
+│   ├── _0199_BinaryTreeRightSideView.py
+│   ├── _0207_CourseSchedule.py
+│   └── _0210_CourseSchedule2.py
 ├── binary-search
 │   ├── _0033_SearchInRotatedSortedArray.py
 │   ├── _0034_FindFirstAndLastPositionOfElementInSortedArray.py
@@ -154,7 +157,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 136 files
+17 directories, 139 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -195,6 +198,7 @@ _0098_ValidateBinarySearchTree.py
 _0100_SameTree.py
 _0101_SymmetricTree.py
 _0102_BinaryTreeLevelOrderTraversal.py
+_0103_BinaryTreeZigzagLevelOrderTraversal.py
 _0104_MaximumDepthOfBinaryTree.py
 _0107_BinaryTreeLevelOrderTraversal2.py
 _0110_BalancedBinaryTree.py
@@ -221,7 +225,9 @@ _0199_BinaryTreeRightSideView.py
 _0200_NumberOfIslands.py
 _0203_RemoveLinkedListElements.py
 _0206_ReverseLinkedList.py
+_0207_CourseSchedule.py
 _0209_MinimumSizeSubarraySum.py
+_0210_CourseSchedule2.py
 _0213_HouseRobber2.py
 _0215_KthLargestElementInAnArray.py
 _0216_CombinationSum3.py
@@ -291,7 +297,7 @@ _1079_LetterTilePossibilities.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  134
+Num of Python Practice:  137
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
