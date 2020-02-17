@@ -148,16 +148,18 @@ algo
 │   └── _1214_TwoSumBSTs.py
 ├── two-pointer
 │   ├── _0015_3Sum.py
+│   ├── _0170_TwoSum3_DataStructureDesign.py
 │   ├── _0209_MinimumSizeSubarraySum.py
 │   ├── _0392_IsSubsequence.py
-│   └── _0977_SquaresOfASortedArray.py
+│   ├── _0977_SquaresOfASortedArray.py
+│   └── _1099_TwoSumLessThanK.py
 ├── warmup
 │   └── fibonacci.py
 └── wip
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 139 files
+17 directories, 141 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -219,6 +221,7 @@ _0153_FindMinimumInRotatedSortedArray.py
 _0162_FindPeakElement.py
 _0167_TwoSum2-InputArrayIsSorted.py
 _0169_MajorityElement.py
+_0170_TwoSum3_DataStructureDesign.py
 _0189_RotateArray.py
 _0198_HouseRobber.py
 _0199_BinaryTreeRightSideView.py
@@ -294,10 +297,11 @@ _1002_FindCommonCharacters.py
 _1022_SumOfRootToLeafBinaryNumbers.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
+_1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  137
+Num of Python Practice:  139
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
