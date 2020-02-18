@@ -148,6 +148,7 @@ algo
 │   └── _1214_TwoSumBSTs.py
 ├── two-pointer
 │   ├── _0015_3Sum.py
+│   ├── _0016_3SumClosest.py
 │   ├── _0170_TwoSum3_DataStructureDesign.py
 │   ├── _0209_MinimumSizeSubarraySum.py
 │   ├── _0392_IsSubsequence.py
@@ -159,12 +160,13 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 141 files
+17 directories, 142 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
 _0005_LongestPalindromicSubstring.py
 _0015_3Sum.py
+_0016_3SumClosest.py
 _0017_LetterCombinationsOfAPhoneNumber.py
 _0018_4Sum.py
 _0021_MergeTwoSortedLists.py
@@ -301,7 +303,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  139
+Num of Python Practice:  140
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
