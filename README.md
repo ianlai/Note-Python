@@ -113,6 +113,7 @@ algo
 │   ├── _0509_FibonacciNumber.py
 │   └── _0700_SearchInABinarySearchTree.py
 ├── sorting
+│   ├── _0075_SortColors.py
 │   └── _0912_SortAnArray.py
 ├── stack-queue
 │   ├── _0225_ImplementStackUsingQueues.py
@@ -160,7 +161,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 142 files
+17 directories, 143 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -191,6 +192,7 @@ _0061_RotateList.py
 _0069_Sqrt.py
 _0070_ClimbingStairs.py
 _0074_SearchA2DMatrix.py
+_0075_SortColors.py
 _0077_Combinations.py
 _0078_Subsets.py
 _0081_SearchInRotatedSortedArray2.py
@@ -303,7 +305,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  140
+Num of Python Practice:  141
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
