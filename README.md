@@ -95,11 +95,13 @@ algo
 │   ├── _0973_KClosestPointsToOrigin.py
 │   └── _1046_LastStoneWeight.py
 ├── linkedlist
+│   ├── _0019_RemoveNthNodeFromEndOfList.py
 │   ├── _0021_MergeTwoSortedLists.py
 │   ├── _0023_MergeKSortedLists.py
 │   ├── _0024_SwapNodesInPairs.py
 │   ├── _0061_RotateList.py
 │   ├── _0141_LinkedListCycle.py
+│   ├── _0142_LinkedListCycle2.py
 │   ├── _0203_RemoveLinkedListElements.py
 │   └── _0206_ReverseLinkedList.py
 ├── math
@@ -150,6 +152,7 @@ algo
 ├── two-pointer
 │   ├── _0015_3Sum.py
 │   ├── _0016_3SumClosest.py
+│   ├── _0026_RemoveDuplicatesFromSortedArray.py
 │   ├── _0170_TwoSum3_DataStructureDesign.py
 │   ├── _0209_MinimumSizeSubarraySum.py
 │   ├── _0392_IsSubsequence.py
@@ -161,7 +164,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 143 files
+17 directories, 146 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -170,10 +173,12 @@ _0015_3Sum.py
 _0016_3SumClosest.py
 _0017_LetterCombinationsOfAPhoneNumber.py
 _0018_4Sum.py
+_0019_RemoveNthNodeFromEndOfList.py
 _0021_MergeTwoSortedLists.py
 _0022_GenerateParentheses.py
 _0023_MergeKSortedLists.py
 _0024_SwapNodesInPairs.py
+_0026_RemoveDuplicatesFromSortedArray.py
 _0027_RemoveElement.py
 _0033_SearchInRotatedSortedArray.py
 _0034_FindFirstAndLastPositionOfElementInSortedArray.py
@@ -219,6 +224,7 @@ _0129_SumRootToLeafNumbers.py
 _0131_PalindromePartitioning.py
 _0133_CloneGraph.py
 _0141_LinkedListCycle.py
+_0142_LinkedListCycle2.py
 _0144_BinaryTreePreorderTraversal.py
 _0146_LRUCache.py
 _0153_FindMinimumInRotatedSortedArray.py
@@ -305,7 +311,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  141
+Num of Python Practice:  144
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
