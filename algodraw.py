@@ -15,6 +15,7 @@ FILE_STATISTICS = FILE_PREFIX + ".log"
 FILE_IMAGE201910 = FILE_PREFIX + "_201910" + ".png"
 FILE_IMAGE201911 = FILE_PREFIX + "_201911" + ".png"
 FILE_IMAGE202002 = FILE_PREFIX + "_202002" + ".png"
+FILE_IMAGE202003 = FILE_PREFIX + "_202003" + ".png"
 
 DATE_FORMATTER = "%Y-%m-%d"
 dates = []
@@ -73,6 +74,12 @@ def draw(dates, values):
     ax.set_xlim(datetime.datetime(2020,2,1), datetime.datetime(2020,2,29)) 
     plt.savefig(FILE_IMAGE202002)
 
+    #2020.03
+    ax.set(xlabel="Date", ylabel="Number of Practices",
+        title="Accumulative Statistics (2020.03)")
+    ax.set_xlim(datetime.datetime(2020,3,1), datetime.datetime(2020,3,31)) 
+    plt.savefig(FILE_IMAGE202003)
+
 ###################### 
 ### Read from file  
 ######################
@@ -116,4 +123,5 @@ else:
 print(">> Save the image:", FILE_IMAGE201910)
 print(">> Save the image:", FILE_IMAGE201911)
 print(">> Save the image:", FILE_IMAGE202002)
+print(">> Save the image:", FILE_IMAGE202003)
 draw(dates, values)
