@@ -50,7 +50,7 @@ def draw(dates, values):
     ax.set_ylim(50,100) 
 
     plt.plot_date(dates, values, '-', marker='o')
-    plt.yticks(np.arange(50, 155, step=5))
+    plt.yticks(np.arange(50, 205, step=5))
     plt.gcf().autofmt_xdate(which='both')
     for i,j in zip(dates, values):
         ax.annotate(str(j),xy=(i, j - 3))
@@ -60,6 +60,7 @@ def draw(dates, values):
     ax.set(xlabel="Date", ylabel="Number of Practices",
         title="Accumulative Statistics (2019.10)")
     ax.set_xlim(datetime.datetime(2019,10,1), datetime.datetime(2019,10,31)) 
+    ax.set_ylim(50,150) 
     plt.savefig(FILE_IMAGE201910)
 
     #2019.11
@@ -72,6 +73,7 @@ def draw(dates, values):
     ax.set(xlabel="Date", ylabel="Number of Practices",
         title="Accumulative Statistics (2020.02)")
     ax.set_xlim(datetime.datetime(2020,2,1), datetime.datetime(2020,2,29)) 
+    ax.set_ylim(100,200) 
     plt.savefig(FILE_IMAGE202002)
 
     #2020.03
