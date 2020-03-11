@@ -19,7 +19,7 @@ class BSTIterator:
             self.stack.append(self.cur)  #add cur when calling 
             self.cur = self.cur.left 
         next_node = self.stack.pop()
-        self.cur = next_node.right       #let self.cur to 
+        self.cur = next_node.right       #let self.cur to be the next's right (might be None)
         return next_node.val
 
     def hasNext(self) -> bool:
