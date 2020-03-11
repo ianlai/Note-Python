@@ -138,6 +138,7 @@ algo
 │   ├── _0113_PathSum2.py
 │   ├── _0129_SumRootToLeafNumbers.py
 │   ├── _0144_BinaryTreePreorderTraversal.py
+│   ├── _0173_BinarySearchTreeIterator.py
 │   ├── _0226_InvertBinaryTree.py
 │   ├── _0230_KthSmallestElementInBST.py
 │   ├── _0236_LowestCommonAncestorOfABinaryTree.py
@@ -167,7 +168,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 149 files
+17 directories, 150 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -237,6 +238,7 @@ _0162_FindPeakElement.py
 _0167_TwoSum2-InputArrayIsSorted.py
 _0169_MajorityElement.py
 _0170_TwoSum3_DataStructureDesign.py
+_0173_BinarySearchTreeIterator.py
 _0189_RotateArray.py
 _0198_HouseRobber.py
 _0199_BinaryTreeRightSideView.py
@@ -317,9 +319,8 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  147
+Num of Python Practice:  148
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
 ![Alt text](statistics_202002.png)
-![Alt text](statistics_202003.png)
