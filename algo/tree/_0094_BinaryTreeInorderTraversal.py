@@ -7,8 +7,29 @@
 
 class Solution:
     
-    #Jiuzhang (hard to understand)
+    #Leetcode (best)
     def inorderTraversal(self, root: TreeNode) -> List[int]:
+        if root is None:
+            return []
+        res = []    #array
+        stack = []  #stack 
+        
+        cur = root
+        while stack or cur:  #stack is empty in the first step
+            #add left until reach the end
+            while cur:
+                stack.append(cur)
+                cur = cur.left
+            #get one to use
+            cur = stack.pop()
+            res.append(cur.val)
+            
+            #go right 
+            cur = cur.right
+        return res 
+    
+    #Jiuzhang (hard to understand)
+    def inorderTraversal1(self, root: TreeNode) -> List[int]:
         if root is None:
             return []
         res = []    #array
