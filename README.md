@@ -66,6 +66,7 @@ algo
 │   ├── _0131_PalindromePartitioning.py
 │   ├── _0200_NumberOfIslands.py
 │   ├── _0216_CombinationSum3.py
+│   ├── _0401_BinaryWatch.py
 │   ├── _0494_TargetSum.py
 │   ├── _0526_BeautifulArrangement.py
 │   ├── _0690_EmployeeImportance.py
@@ -144,6 +145,7 @@ algo
 │   ├── _0230_KthSmallestElementInBST.py
 │   ├── _0236_LowestCommonAncestorOfABinaryTree.py
 │   ├── _0257_BinaryTreePaths.py
+│   ├── _0297_SerializeAndDeserializeBinaryTree.py
 │   ├── _0429_N-aryTreeLevelOrderTraversal.py
 │   ├── _0538_ConvertBSTtoGreaterTree.py
 │   ├── _0572_SubtreeOfAnotherTree.py
@@ -171,7 +173,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 153 files
+17 directories, 155 files
 =====================================
 _0001_TwoSum.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -268,6 +270,7 @@ _0263_UglyNumber.py
 _0264_UglyNumber2.py
 _0278_FirstBadVersion.py
 _0283_MoveZeroes.py
+_0297_SerializeAndDeserializeBinaryTree.py
 _0300_LongestIncreasingSubsequence.py
 _0322_CoinChange.py
 _0344_ReverseString.py
@@ -279,6 +282,7 @@ _0380_InsertDeleteGetRandomO(1).py
 _0383_RansomNote.py
 _0387_FirstUniqueCharacterInAString.py
 _0392_IsSubsequence.py
+_0401_BinaryWatch.py
 _0409_LongestPalindrome.py
 _0429_N-aryTreeLevelOrderTraversal.py
 _0448_FindAllNumbersDisappearedInAnArray.py
@@ -325,7 +329,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  151
+Num of Python Practice:  153
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
