@@ -96,6 +96,7 @@ algo
 │   ├── _0973_KClosestPointsToOrigin.py
 │   └── _1046_LastStoneWeight.py
 ├── linkedlist
+│   ├── _0002_AddTwoNumbers.py
 │   ├── _0019_RemoveNthNodeFromEndOfList.py
 │   ├── _0021_MergeTwoSortedLists.py
 │   ├── _0023_MergeKSortedLists.py
@@ -173,9 +174,10 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 155 files
+17 directories, 156 files
 =====================================
 _0001_TwoSum.py
+_0002_AddTwoNumbers.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
 _0005_LongestPalindromicSubstring.py
 _0015_3Sum.py
@@ -329,7 +331,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  153
+Num of Python Practice:  154
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
