@@ -134,6 +134,7 @@ algo
 │   ├── _0100_SameTree.py
 │   ├── _0101_SymmetricTree.py
 │   ├── _0104_MaximumDepthOfBinaryTree.py
+│   ├── _0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.py
 │   ├── _0108_ConvertSortedArrayToBinarySearchTree.py
 │   ├── _0110_BalancedBinaryTree.py
 │   ├── _0111_MinimumDepthOfBinaryTree.py
@@ -175,7 +176,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 157 files
+17 directories, 158 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -224,6 +225,7 @@ _0101_SymmetricTree.py
 _0102_BinaryTreeLevelOrderTraversal.py
 _0103_BinaryTreeZigzagLevelOrderTraversal.py
 _0104_MaximumDepthOfBinaryTree.py
+_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.py
 _0107_BinaryTreeLevelOrderTraversal2.py
 _0108_ConvertSortedArrayToBinarySearchTree.py
 _0110_BalancedBinaryTree.py
@@ -333,7 +335,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  155
+Num of Python Practice:  156
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
