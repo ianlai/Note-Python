@@ -121,6 +121,7 @@ algo
 │   ├── _0075_SortColors.py
 │   └── _0912_SortAnArray.py
 ├── stack-queue
+│   ├── _0020_ValidParentheses.py
 │   ├── _0225_ImplementStackUsingQueues.py
 │   └── _0232_ImplementQueueUsingStacks.py
 ├── string
@@ -174,7 +175,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 156 files
+17 directories, 157 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -185,6 +186,7 @@ _0016_3SumClosest.py
 _0017_LetterCombinationsOfAPhoneNumber.py
 _0018_4Sum.py
 _0019_RemoveNthNodeFromEndOfList.py
+_0020_ValidParentheses.py
 _0021_MergeTwoSortedLists.py
 _0022_GenerateParentheses.py
 _0023_MergeKSortedLists.py
@@ -331,7 +333,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  154
+Num of Python Practice:  155
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
