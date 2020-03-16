@@ -7,6 +7,7 @@ algo
 │   ├── _0001_TwoSum.py
 │   ├── _0018_4Sum.py
 │   ├── _0027_RemoveElement.py
+│   ├── _0088_MergeSortedArray.py
 │   ├── _0167_TwoSum2-InputArrayIsSorted.py
 │   ├── _0169_MajorityElement.py
 │   ├── _0189_RotateArray.py
@@ -176,7 +177,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 158 files
+17 directories, 159 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -215,6 +216,7 @@ _0075_SortColors.py
 _0077_Combinations.py
 _0078_Subsets.py
 _0081_SearchInRotatedSortedArray2.py
+_0088_MergeSortedArray.py
 _0089_GrayCode.py
 _0090_Subsets2.py
 _0094_BinaryTreeInorderTraversal.py
@@ -335,7 +337,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  156
+Num of Python Practice:  157
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
