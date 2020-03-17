@@ -112,6 +112,7 @@ algo
 │   └── _0263_UglyNumber.py
 ├── recursion
 │   ├── _0050_Pow(x,n).py
+│   ├── _0060_PermutationSequence.py
 │   ├── _0070_ClimbingStairs.py
 │   ├── _0118_PascalsTriangle.py
 │   ├── _0119_PascalsTriangle2.py
@@ -177,7 +178,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 159 files
+17 directories, 160 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -208,6 +209,7 @@ _0049_GroupAnagrams.py
 _0050_Pow(x,n).py
 _0051_N-Queens.py
 _0053_MaximumSubarray.py
+_0060_PermutationSequence.py
 _0061_RotateList.py
 _0069_Sqrt.py
 _0070_ClimbingStairs.py
@@ -337,7 +339,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  157
+Num of Python Practice:  158
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
