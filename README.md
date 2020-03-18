@@ -87,10 +87,12 @@ algo
 ├── hashmap
 │   ├── _0049_GroupAnagrams.py
 │   ├── _0146_LRUCache.py
+│   ├── _0219_ContainsDuplicate2.py
 │   ├── _0242_ValidAnagram.py
 │   ├── _0380_InsertDeleteGetRandomO(1).py
 │   ├── _0387_FirstUniqueCharacterInAString.py
-│   └── _0705_DesignHashSet.py
+│   ├── _0705_DesignHashSet.py
+│   └── _0771_JewelsAndStones.py
 ├── heap
 │   ├── _0215_KthLargestElementInAnArray.py
 │   ├── _0264_UglyNumber2.py
@@ -179,7 +181,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 161 files
+17 directories, 163 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -269,6 +271,7 @@ _0210_CourseSchedule2.py
 _0213_HouseRobber2.py
 _0215_KthLargestElementInAnArray.py
 _0216_CombinationSum3.py
+_0219_ContainsDuplicate2.py
 _0222_CountCompleteTreeNodes.py
 _0225_ImplementStackUsingQueues.py
 _0226_InvertBinaryTree.py
@@ -321,6 +324,7 @@ _0703_KthLargestElementInAStream.py
 _0704_BinarySearch.py
 _0705_DesignHashSet.py
 _0746_MinCostClimbingStairs.py
+_0771_JewelsAndStones.py
 _0783_MinimumDistanceBetweenBSTNodes.py
 _0784_LetterCasePermutation.py
 _0841_KeysAndRooms.py
@@ -341,7 +345,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  159
+Num of Python Practice:  161
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
