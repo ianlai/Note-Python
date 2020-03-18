@@ -349,5 +349,7 @@ Num of Python Practice:  161
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
+![Alt text](statistics_201912.png)
+![Alt text](statistics_202001.png)
 ![Alt text](statistics_202002.png)
 ![Alt text](statistics_202003.png)

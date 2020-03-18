@@ -9,5 +9,7 @@ os.system('echo "\`\`\`"')
 
 print("![Alt text](statistics_201910.png)")
 print("![Alt text](statistics_201911.png)")
+print("![Alt text](statistics_201912.png)")
+print("![Alt text](statistics_202001.png)")
 print("![Alt text](statistics_202002.png)")
 print("![Alt text](statistics_202003.png)")

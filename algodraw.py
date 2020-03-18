@@ -14,6 +14,8 @@ FILE_PREFIX     = "statistics"
 FILE_STATISTICS = FILE_PREFIX + ".log"
 FILE_IMAGE201910 = FILE_PREFIX + "_201910" + ".png"
 FILE_IMAGE201911 = FILE_PREFIX + "_201911" + ".png"
+FILE_IMAGE201912 = FILE_PREFIX + "_201912" + ".png"
+FILE_IMAGE202001 = FILE_PREFIX + "_202001" + ".png"
 FILE_IMAGE202002 = FILE_PREFIX + "_202002" + ".png"
 FILE_IMAGE202003 = FILE_PREFIX + "_202003" + ".png"
 
@@ -69,11 +71,23 @@ def draw(dates, values):
     ax.set_xlim(datetime.datetime(2019,11,1), datetime.datetime(2019,11,30)) 
     plt.savefig(FILE_IMAGE201911)
 
+    #2019.12
+    ax.set(xlabel="Date", ylabel="Number of Practices",
+        title="Accumulative Statistics (2019.12)")
+    ax.set_xlim(datetime.datetime(2019,12,1), datetime.datetime(2019,12,31)) 
+    plt.savefig(FILE_IMAGE201912)
+
+    #2020.01
+    ax.set(xlabel="Date", ylabel="Number of Practices",
+        title="Accumulative Statistics (2020.01)")
+    ax.set_xlim(datetime.datetime(2020,1,1), datetime.datetime(2020,1,31)) 
+    ax.set_ylim(100,200) 
+    plt.savefig(FILE_IMAGE202001)
+
     #2020.02
     ax.set(xlabel="Date", ylabel="Number of Practices",
         title="Accumulative Statistics (2020.02)")
     ax.set_xlim(datetime.datetime(2020,2,1), datetime.datetime(2020,2,29)) 
-    ax.set_ylim(100,200) 
     plt.savefig(FILE_IMAGE202002)
 
     #2020.03
@@ -124,6 +138,8 @@ else:
 
 print(">> Save the image:", FILE_IMAGE201910)
 print(">> Save the image:", FILE_IMAGE201911)
+print(">> Save the image:", FILE_IMAGE201912)
+print(">> Save the image:", FILE_IMAGE202001)
 print(">> Save the image:", FILE_IMAGE202002)
 print(">> Save the image:", FILE_IMAGE202003)
 draw(dates, values)
