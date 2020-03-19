@@ -89,8 +89,10 @@ algo
 │   ├── _0146_LRUCache.py
 │   ├── _0219_ContainsDuplicate2.py
 │   ├── _0242_ValidAnagram.py
+│   ├── _0347_TopKFrequentElements.py
 │   ├── _0380_InsertDeleteGetRandomO(1).py
 │   ├── _0387_FirstUniqueCharacterInAString.py
+│   ├── _0535_EncodeAndDecodeTinyURL.py
 │   ├── _0705_DesignHashSet.py
 │   └── _0771_JewelsAndStones.py
 ├── heap
@@ -181,7 +183,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 163 files
+17 directories, 165 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -289,6 +291,7 @@ _0297_SerializeAndDeserializeBinaryTree.py
 _0300_LongestIncreasingSubsequence.py
 _0322_CoinChange.py
 _0344_ReverseString.py
+_0347_TopKFrequentElements.py
 _0349_IntersectionOfTwoArrays.py
 _0350_IntersectionOfTwoArrays2.py
 _0354_RussianDollEnvelopes.py
@@ -306,6 +309,7 @@ _0485_MaxConsecutiveOnes.py
 _0494_TargetSum.py
 _0509_FibonacciNumber.py
 _0526_BeautifulArrangement.py
+_0535_EncodeAndDecodeTinyURL.py
 _0538_ConvertBSTtoGreaterTree.py
 _0561_ArrayPartition1.py
 _0566_ReshapeTheMatrix.py
@@ -345,7 +349,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  161
+Num of Python Practice:  163
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
