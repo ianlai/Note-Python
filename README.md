@@ -9,6 +9,7 @@ algo
 │   ├── _0027_RemoveElement.py
 │   ├── _0031_NextPermutation.py
 │   ├── _0088_MergeSortedArray.py
+│   ├── _0121_BestTimeToBuyAndSellStock.py
 │   ├── _0167_TwoSum2-InputArrayIsSorted.py
 │   ├── _0169_MajorityElement.py
 │   ├── _0189_RotateArray.py
@@ -183,7 +184,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 165 files
+17 directories, 166 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -245,6 +246,7 @@ _0113_PathSum2.py
 _0114_FlattenBinaryTreeToLinkedList.py
 _0118_PascalsTriangle.py
 _0119_PascalsTriangle2.py
+_0121_BestTimeToBuyAndSellStock.py
 _0125_ValidPalindrome.py
 _0127_WordLadder.py
 _0129_SumRootToLeafNumbers.py
@@ -349,7 +351,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  163
+Num of Python Practice:  164
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
