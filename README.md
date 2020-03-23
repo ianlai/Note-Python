@@ -10,6 +10,7 @@ algo
 │   ├── _0031_NextPermutation.py
 │   ├── _0088_MergeSortedArray.py
 │   ├── _0121_BestTimeToBuyAndSellStock.py
+│   ├── _0122_BestTimeToBuyAndSellStock2.py
 │   ├── _0167_TwoSum2-InputArrayIsSorted.py
 │   ├── _0169_MajorityElement.py
 │   ├── _0189_RotateArray.py
@@ -94,6 +95,7 @@ algo
 │   ├── _0380_InsertDeleteGetRandomO(1).py
 │   ├── _0387_FirstUniqueCharacterInAString.py
 │   ├── _0535_EncodeAndDecodeTinyURL.py
+│   ├── _0692_TopKFrequentWords.py
 │   ├── _0705_DesignHashSet.py
 │   └── _0771_JewelsAndStones.py
 ├── heap
@@ -184,7 +186,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 166 files
+17 directories, 168 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -247,6 +249,7 @@ _0114_FlattenBinaryTreeToLinkedList.py
 _0118_PascalsTriangle.py
 _0119_PascalsTriangle2.py
 _0121_BestTimeToBuyAndSellStock.py
+_0122_BestTimeToBuyAndSellStock2.py
 _0125_ValidPalindrome.py
 _0127_WordLadder.py
 _0129_SumRootToLeafNumbers.py
@@ -324,6 +327,7 @@ _0658_FindKClosestElements.py
 _0669_TrimABinarySearchTree.py
 _0674_LongestContinuousIncreasingSubsequence.py
 _0690_EmployeeImportance.py
+_0692_TopKFrequentWords.py
 _0700_SearchInABinarySearchTree.py
 _0701_InsertIntoABinarySearchTree.py
 _0703_KthLargestElementInAStream.py
@@ -351,7 +355,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  164
+Num of Python Practice:  166
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)

@@ -1,5 +1,30 @@
 import heapq
+import collections
+
 class Solution:
+    
+    # Use Counter and sorted() (sort all, should be slower)
+    def topKFrequent_sorted(self, nums: List[int], k: int) -> List[int]:
+        cnt = collections.Counter(nums)              #count
+        sortedCnt = sorted(cnt.items(), key=lambda kv: kv[1], reverse=True) #sort by value (map)
+        sortedCntCount = [kv[0] for kv in sortedCnt]      #sorted list by occurance 
+        ans = sortedCntCount[:k]                          #top-k 
+        return ans
+    
+    # Use Counter and heapq.nlargest
+    def topKFrequent_nlargest(self, nums: List[int], k: int) -> List[int]:
+        cnt = collections.Counter(nums)              #count
+        ans = heapq.nlargest(k, cnt, cnt.get)        #top-k
+        return ans
+    
+    # Use Counter and most_common function 
+    def topKFrequent_most_common(self, nums: List[int], k: int) -> List[int]:
+        cnt = collections.Counter(nums)              #count   
+        ans = [ kv[0] for kv in cnt.most_common(k) ] #top-k
+        return ans
+        
+        
+    # Use primitive structures  
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         if len(nums) == 0 or k == 0:
             return None
