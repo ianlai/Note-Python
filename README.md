@@ -101,6 +101,7 @@ algo
 ├── heap
 │   ├── _0215_KthLargestElementInAnArray.py
 │   ├── _0264_UglyNumber2.py
+│   ├── _0378_KthSmallestElementInASortedMatrix.py
 │   ├── _0703_KthLargestElementInAStream.py
 │   ├── _0973_KClosestPointsToOrigin.py
 │   └── _1046_LastStoneWeight.py
@@ -186,7 +187,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 168 files
+17 directories, 169 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -301,6 +302,7 @@ _0349_IntersectionOfTwoArrays.py
 _0350_IntersectionOfTwoArrays2.py
 _0354_RussianDollEnvelopes.py
 _0367_ValidPerfectSquare.py
+_0378_KthSmallestElementInASortedMatrix.py
 _0380_InsertDeleteGetRandomO(1).py
 _0383_RansomNote.py
 _0387_FirstUniqueCharacterInAString.py
@@ -355,7 +357,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  166
+Num of Python Practice:  167
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
