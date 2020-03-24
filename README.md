@@ -86,6 +86,7 @@ algo
 │   ├── _0576_OutOfBoundaryPaths.py
 │   ├── _0746_MinCostClimbingStairs.py
 │   └── _0877_StoneGame.py
+├── golang
 ├── hashmap
 │   ├── _0049_GroupAnagrams.py
 │   ├── _0146_LRUCache.py
@@ -101,6 +102,7 @@ algo
 ├── heap
 │   ├── _0215_KthLargestElementInAnArray.py
 │   ├── _0264_UglyNumber2.py
+│   ├── _0313_SuperUglyNumber.py
 │   ├── _0378_KthSmallestElementInASortedMatrix.py
 │   ├── _0703_KthLargestElementInAStream.py
 │   ├── _0973_KClosestPointsToOrigin.py
@@ -187,7 +189,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-17 directories, 169 files
+18 directories, 170 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -295,6 +297,7 @@ _0278_FirstBadVersion.py
 _0283_MoveZeroes.py
 _0297_SerializeAndDeserializeBinaryTree.py
 _0300_LongestIncreasingSubsequence.py
+_0313_SuperUglyNumber.py
 _0322_CoinChange.py
 _0344_ReverseString.py
 _0347_TopKFrequentElements.py
@@ -357,7 +360,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  167
+Num of Python Practice:  168
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
