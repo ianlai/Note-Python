@@ -119,6 +119,7 @@ algo
 │   ├── _0160_IntersectionOfTwoLinkedLists.py
 │   ├── _0203_RemoveLinkedListElements.py
 │   ├── _0206_ReverseLinkedList.py
+│   ├── _0234_PalindromeLinkedList.py
 │   └── _0237_DeleteNodeInALinkedList.py
 ├── math
 │   └── _0263_UglyNumber.py
@@ -190,7 +191,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 171 files
+18 directories, 172 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -288,6 +289,7 @@ _0225_ImplementStackUsingQueues.py
 _0226_InvertBinaryTree.py
 _0230_KthSmallestElementInBST.py
 _0232_ImplementQueueUsingStacks.py
+_0234_PalindromeLinkedList.py
 _0236_LowestCommonAncestorOfABinaryTree.py
 _0237_DeleteNodeInALinkedList.py
 _0240_SearchA2DMatrix2.py
@@ -362,7 +364,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  169
+Num of Python Practice:  170
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
