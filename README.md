@@ -80,6 +80,7 @@ algo
 ├── dp
 │   ├── _0053_MaximumSubarray.py
 │   ├── _0096_UniqueBinarySearchTrees.py
+│   ├── _0120_Triangle.py
 │   ├── _0198_HouseRobber.py
 │   ├── _0213_HouseRobber2.py
 │   ├── _0322_CoinChange.py
@@ -142,7 +143,8 @@ algo
 ├── string
 │   ├── _0003_LongestSubstringWithoutRepeatingCharacters.py
 │   ├── _0038_CountAndSay.py
-│   └── _0383_RansomNote.py
+│   ├── _0383_RansomNote.py
+│   └── _0415_AddStrings.py
 ├── tree
 │   ├── _0094_BinaryTreeInorderTraversal.py
 │   ├── _0098_ValidateBinarySearchTree.py
@@ -191,7 +193,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 172 files
+18 directories, 174 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -253,6 +255,7 @@ _0113_PathSum2.py
 _0114_FlattenBinaryTreeToLinkedList.py
 _0118_PascalsTriangle.py
 _0119_PascalsTriangle2.py
+_0120_Triangle.py
 _0121_BestTimeToBuyAndSellStock.py
 _0122_BestTimeToBuyAndSellStock2.py
 _0125_ValidPalindrome.py
@@ -316,6 +319,7 @@ _0387_FirstUniqueCharacterInAString.py
 _0392_IsSubsequence.py
 _0401_BinaryWatch.py
 _0409_LongestPalindrome.py
+_0415_AddStrings.py
 _0429_N-aryTreeLevelOrderTraversal.py
 _0448_FindAllNumbersDisappearedInAnArray.py
 _0463_IslandPerimeter.py
@@ -364,7 +368,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  170
+Num of Python Practice:  172
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
