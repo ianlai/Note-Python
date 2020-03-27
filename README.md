@@ -8,6 +8,7 @@ algo
 │   ├── _0018_4Sum.py
 │   ├── _0027_RemoveElement.py
 │   ├── _0031_NextPermutation.py
+│   ├── _0056_MergeIntervals.py
 │   ├── _0088_MergeSortedArray.py
 │   ├── _0121_BestTimeToBuyAndSellStock.py
 │   ├── _0122_BestTimeToBuyAndSellStock2.py
@@ -79,6 +80,7 @@ algo
 │   └── _1079_LetterTilePossibilities.py
 ├── dp
 │   ├── _0053_MaximumSubarray.py
+│   ├── _0064_MinimumPathSum.py
 │   ├── _0096_UniqueBinarySearchTrees.py
 │   ├── _0120_Triangle.py
 │   ├── _0198_HouseRobber.py
@@ -97,6 +99,7 @@ algo
 │   ├── _0380_InsertDeleteGetRandomO(1).py
 │   ├── _0387_FirstUniqueCharacterInAString.py
 │   ├── _0535_EncodeAndDecodeTinyURL.py
+│   ├── _0560_SubarraySumEqualsK.py
 │   ├── _0692_TopKFrequentWords.py
 │   ├── _0705_DesignHashSet.py
 │   └── _0771_JewelsAndStones.py
@@ -193,7 +196,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 174 files
+18 directories, 177 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -225,8 +228,10 @@ _0049_GroupAnagrams.py
 _0050_Pow(x,n).py
 _0051_N-Queens.py
 _0053_MaximumSubarray.py
+_0056_MergeIntervals.py
 _0060_PermutationSequence.py
 _0061_RotateList.py
+_0064_MinimumPathSum.py
 _0069_Sqrt.py
 _0070_ClimbingStairs.py
 _0074_SearchA2DMatrix.py
@@ -329,6 +334,7 @@ _0509_FibonacciNumber.py
 _0526_BeautifulArrangement.py
 _0535_EncodeAndDecodeTinyURL.py
 _0538_ConvertBSTtoGreaterTree.py
+_0560_SubarraySumEqualsK.py
 _0561_ArrayPartition1.py
 _0566_ReshapeTheMatrix.py
 _0572_SubtreeOfAnotherTree.py
@@ -368,7 +374,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  172
+Num of Python Practice:  175
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
