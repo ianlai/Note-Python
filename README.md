@@ -141,6 +141,7 @@ algo
 │   └── _0912_SortAnArray.py
 ├── stack-queue
 │   ├── _0020_ValidParentheses.py
+│   ├── _0155_MinStack.py
 │   ├── _0225_ImplementStackUsingQueues.py
 │   └── _0232_ImplementQueueUsingStacks.py
 ├── string
@@ -188,6 +189,7 @@ algo
 │   ├── _0170_TwoSum3_DataStructureDesign.py
 │   ├── _0209_MinimumSizeSubarraySum.py
 │   ├── _0392_IsSubsequence.py
+│   ├── _0487_MaxConsecutiveOnes2.py
 │   ├── _0977_SquaresOfASortedArray.py
 │   └── _1099_TwoSumLessThanK.py
 ├── warmup
@@ -196,7 +198,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 177 files
+18 directories, 179 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -273,6 +275,7 @@ _0142_LinkedListCycle2.py
 _0144_BinaryTreePreorderTraversal.py
 _0146_LRUCache.py
 _0153_FindMinimumInRotatedSortedArray.py
+_0155_MinStack.py
 _0160_IntersectionOfTwoLinkedLists.py
 _0162_FindPeakElement.py
 _0167_TwoSum2-InputArrayIsSorted.py
@@ -329,6 +332,7 @@ _0429_N-aryTreeLevelOrderTraversal.py
 _0448_FindAllNumbersDisappearedInAnArray.py
 _0463_IslandPerimeter.py
 _0485_MaxConsecutiveOnes.py
+_0487_MaxConsecutiveOnes2.py
 _0494_TargetSum.py
 _0509_FibonacciNumber.py
 _0526_BeautifulArrangement.py
@@ -374,7 +378,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  175
+Num of Python Practice:  177
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
