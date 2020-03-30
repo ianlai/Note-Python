@@ -8,6 +8,7 @@ algo
 │   ├── _0018_4Sum.py
 │   ├── _0027_RemoveElement.py
 │   ├── _0031_NextPermutation.py
+│   ├── _0054_SpiralMatrix.py
 │   ├── _0056_MergeIntervals.py
 │   ├── _0088_MergeSortedArray.py
 │   ├── _0121_BestTimeToBuyAndSellStock.py
@@ -198,7 +199,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 179 files
+18 directories, 180 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -230,6 +231,7 @@ _0049_GroupAnagrams.py
 _0050_Pow(x,n).py
 _0051_N-Queens.py
 _0053_MaximumSubarray.py
+_0054_SpiralMatrix.py
 _0056_MergeIntervals.py
 _0060_PermutationSequence.py
 _0061_RotateList.py
@@ -378,7 +380,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  177
+Num of Python Practice:  178
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
