@@ -67,6 +67,7 @@ algo
 │   ├── _0051_N-Queens.py
 │   ├── _0077_Combinations.py
 │   ├── _0078_Subsets.py
+│   ├── _0079_WordSearch.py
 │   ├── _0089_GrayCode.py
 │   ├── _0090_Subsets2.py
 │   ├── _0131_PalindromePartitioning.py
@@ -199,7 +200,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 180 files
+18 directories, 181 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -242,6 +243,7 @@ _0074_SearchA2DMatrix.py
 _0075_SortColors.py
 _0077_Combinations.py
 _0078_Subsets.py
+_0079_WordSearch.py
 _0081_SearchInRotatedSortedArray2.py
 _0088_MergeSortedArray.py
 _0089_GrayCode.py
@@ -380,7 +382,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  178
+Num of Python Practice:  179
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
