@@ -16,6 +16,7 @@ algo
 │   ├── _0167_TwoSum2-InputArrayIsSorted.py
 │   ├── _0169_MajorityElement.py
 │   ├── _0189_RotateArray.py
+│   ├── _0252_MeetingRooms.py
 │   ├── _0283_MoveZeroes.py
 │   ├── _0349_IntersectionOfTwoArrays.py
 │   ├── _0350_IntersectionOfTwoArrays2.py
@@ -128,6 +129,7 @@ algo
 │   ├── _0234_PalindromeLinkedList.py
 │   └── _0237_DeleteNodeInALinkedList.py
 ├── math
+│   ├── _0202_HappyNumber.py
 │   └── _0263_UglyNumber.py
 ├── recursion
 │   ├── _0050_Pow(x,n).py
@@ -200,7 +202,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 181 files
+18 directories, 183 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -290,6 +292,7 @@ _0189_RotateArray.py
 _0198_HouseRobber.py
 _0199_BinaryTreeRightSideView.py
 _0200_NumberOfIslands.py
+_0202_HappyNumber.py
 _0203_RemoveLinkedListElements.py
 _0206_ReverseLinkedList.py
 _0207_CourseSchedule.py
@@ -309,6 +312,7 @@ _0236_LowestCommonAncestorOfABinaryTree.py
 _0237_DeleteNodeInALinkedList.py
 _0240_SearchA2DMatrix2.py
 _0242_ValidAnagram.py
+_0252_MeetingRooms.py
 _0257_BinaryTreePaths.py
 _0263_UglyNumber.py
 _0264_UglyNumber2.py
@@ -382,7 +386,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  179
+Num of Python Practice:  181
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
