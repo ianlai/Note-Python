@@ -4,8 +4,10 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from matplotlib.dates import drange, SUNDAY
 from _algolist import getPracticeNumber
+from lcode import getQuizCount
 import datetime
 import numpy as np
+
 
 ###################### 
 ### Initialize
@@ -27,10 +29,29 @@ latest_date = ""
 ###################### 
 ### Write to file  
 ######################
-def write(today_date, today_value):
+def write(line):
     f = open(FILE_STATISTICS, "a+")
-    f.write(str(today_date) + "   " + str(today_value) + "\n")
+    f.write(line)  
     f.close()
+
+def writePrepare(today_date, today_value):
+    lcode_count = getQuizCount()
+    score = 1 * lcode_count['ac_easy'] \
+          + 3 * lcode_count['ac_medium'] \
+          + 5 * lcode_count['ac_hard']
+    line = [] 
+    line.append(str(today_date))
+    line.append(str(today_value))
+    line.append(str(lcode_count['num_solved']))
+    line.append(' | ')
+    line.append(str(lcode_count['ac_easy']))
+    line.append(str(lcode_count['ac_medium']))
+    line.append(str(lcode_count['ac_hard']))
+    line.append(' | ')
+    line.append(str(score))
+    line.append('\n')
+    linePrint = '   '.join(line)
+    return linePrint
 
 ###################### 
 ### Draw the graph   
@@ -127,10 +148,13 @@ read(dates, values)
 latest_date = dates[-1].strftime(DATE_FORMATTER)
 
 
-if str(today_date) != str(latest_date): 
+if str(today_date) != str(latest_date) or True: 
     print(">> Status : NEW! This is the first log today. (latest = ", latest_date, ", today = " ,today_date, ")") 
     print(">> Wrote the log: \"" + str(today_date) + "   " + str(today_value), "\"")
-    write(today_date, today_value)
+    
+    writeLine = writePrepare(today_date, today_value)     
+    write(writeLine)
+
     dates.append(today_date) 
     values.append(today_value)
 else:
@@ -143,3 +167,4 @@ print(">> Save the image:", FILE_IMAGE202001)
 print(">> Save the image:", FILE_IMAGE202002)
 print(">> Save the image:", FILE_IMAGE202003)
 draw(dates, values)
+
