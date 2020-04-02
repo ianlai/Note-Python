@@ -17,6 +17,7 @@ algo
 │   ├── _0169_MajorityElement.py
 │   ├── _0189_RotateArray.py
 │   ├── _0252_MeetingRooms.py
+│   ├── _0253_MeetingRooms2.py
 │   ├── _0283_MoveZeroes.py
 │   ├── _0349_IntersectionOfTwoArrays.py
 │   ├── _0350_IntersectionOfTwoArrays2.py
@@ -202,7 +203,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 183 files
+18 directories, 184 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -313,6 +314,7 @@ _0237_DeleteNodeInALinkedList.py
 _0240_SearchA2DMatrix2.py
 _0242_ValidAnagram.py
 _0252_MeetingRooms.py
+_0253_MeetingRooms2.py
 _0257_BinaryTreePaths.py
 _0263_UglyNumber.py
 _0264_UglyNumber2.py
@@ -386,7 +388,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  181
+Num of Python Practice:  182
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
