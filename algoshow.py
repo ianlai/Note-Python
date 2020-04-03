@@ -13,3 +13,5 @@ print("![Alt text](statistics_201912.png)")
 print("![Alt text](statistics_202001.png)")
 print("![Alt text](statistics_202002.png)")
 print("![Alt text](statistics_202003.png)")
+
+print("![Alt text](score_202004.png)")

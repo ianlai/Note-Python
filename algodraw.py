@@ -13,7 +13,9 @@ import numpy as np
 ### Initialize
 ######################
 FILE_PREFIX     = "statistics"
+FILE_PREFIX_SCORE     = "score"
 FILE_STATISTICS = FILE_PREFIX + ".log"
+
 FILE_IMAGE201910 = FILE_PREFIX + "_201910" + ".png"
 FILE_IMAGE201911 = FILE_PREFIX + "_201911" + ".png"
 FILE_IMAGE201912 = FILE_PREFIX + "_201912" + ".png"
@@ -21,9 +23,13 @@ FILE_IMAGE202001 = FILE_PREFIX + "_202001" + ".png"
 FILE_IMAGE202002 = FILE_PREFIX + "_202002" + ".png"
 FILE_IMAGE202003 = FILE_PREFIX + "_202003" + ".png"
 
+FILE_IMAGE_SCORE202004 = FILE_PREFIX_SCORE + "_202004" + ".png"
+
 DATE_FORMATTER = "%Y-%m-%d"
 dates = []
 values = []
+scores = []
+
 latest_date = ""
 
 ###################### 
@@ -72,12 +78,11 @@ def draw(dates, values):
     ax.grid(which='major', color='#bbbbbb', axis ='y')
     ax.set_ylim(50,100) 
 
-    plt.plot_date(dates, values, '-', marker='o')
-    plt.yticks(np.arange(50, 205, step=5))
+    plt.plot_date(dates, values,'-', marker='o')
+    plt.yticks(np.arange(50, 500, step=10))
     plt.gcf().autofmt_xdate(which='both')
     for i,j in zip(dates, values):
         ax.annotate(str(j),xy=(i, j - 3))
-    #plt.show()
 
     #2019.10
     ax.set(xlabel="Date", ylabel="Number of Practices",
@@ -117,6 +122,34 @@ def draw(dates, values):
     ax.set_xlim(datetime.datetime(2020,3,1), datetime.datetime(2020,3,31)) 
     plt.savefig(FILE_IMAGE202003)
 
+    #----------------------
+
+    #2020.04
+    plt.close()
+    fig, axs = plt.subplots(2, 1, sharex=True, figsize=(14, 8))
+    axs[0].set(xlabel="Date", ylabel="Number of Practices",
+        title="Accumulative Statistics (2020.04)")
+    axs[0].set_xlim(datetime.datetime(2020,4,1), datetime.datetime(2020,4,30)) 
+    axs[0].set_ylim(100,300) 
+    axs[0].grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
+    axs[0].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
+    axs[0].grid(which='major', color='#bbbbbb', axis ='y')
+    axs[0].plot_date(dates, values,'-', marker='o')
+   
+    axs[1].set(xlabel="Date", ylabel="Score",
+        title="Score (2020.04)")
+    #ax2.set_xlim(datetime.datetime(2020,4,1), datetime.datetime(2020,4,30)) 
+    axs[1].set_ylim(100,1000)
+    axs[1].grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
+    axs[1].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
+    axs[1].grid(which='major', color='#bbbbbb', axis ='y')
+    dates = dates[-len(scores):]
+    axs[1].plot_date(dates, scores,'-', marker='*', markersize=10, color='#009900')
+    #axs[1].annotate("Test", xy=(0.2, 0.2))
+
+    plt.savefig(FILE_IMAGE_SCORE202004)
+    # plt.show()
+
 ###################### 
 ### Read from file  
 ######################
@@ -125,10 +158,22 @@ def read(dates, values):
     line = f.readline()
     while line != '':  # The EOF char is an empty string
         split_line = line.split()
-        date_str, val_str = split_line[0], split_line[1]
-        #print(date_str, " -- ", val_str)
-        dates.append(datetime.datetime.strptime(date_str, DATE_FORMATTER)) 
-        values.append(int(val_str))
+        if len(split_line) > 3 :  # New format 
+            date_str = split_line[0] 
+            file_count = split_line[1] 
+            l_count_total = split_line[2] 
+            l_count_easy = split_line[4] 
+            l_count_medium = split_line[5] 
+            l_count_hard = split_line[6] 
+            l_score = split_line[8] 
+            dates.append(datetime.datetime.strptime(date_str, DATE_FORMATTER)) 
+            values.append(int(val_str))
+            scores.append(int(l_score))
+        else:
+            date_str, val_str = split_line[0], split_line[1] 
+            dates.append(datetime.datetime.strptime(date_str, DATE_FORMATTER)) 
+            values.append(int(val_str))
+        
         line = f.readline()
     f.close()
 
@@ -148,7 +193,7 @@ read(dates, values)
 latest_date = dates[-1].strftime(DATE_FORMATTER)
 
 
-if str(today_date) != str(latest_date) or True: 
+if str(today_date) != str(latest_date): 
     print(">> Status : NEW! This is the first log today. (latest = ", latest_date, ", today = " ,today_date, ")") 
     print(">> Wrote the log: \"" + str(today_date) + "   " + str(today_value), "\"")
     
@@ -166,5 +211,6 @@ print(">> Save the image:", FILE_IMAGE201912)
 print(">> Save the image:", FILE_IMAGE202001)
 print(">> Save the image:", FILE_IMAGE202002)
 print(">> Save the image:", FILE_IMAGE202003)
+print(">> Save the image:", FILE_IMAGE_SCORE202004)
 draw(dates, values)
 

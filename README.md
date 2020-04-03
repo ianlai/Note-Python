@@ -396,3 +396,4 @@ Num of Python Practice:  182
 ![Alt text](statistics_202001.png)
 ![Alt text](statistics_202002.png)
 ![Alt text](statistics_202003.png)
+![Alt text](score_202004.png)
