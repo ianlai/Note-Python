@@ -126,9 +126,13 @@ def draw(dates, values):
 
     #2020.04
     plt.close()
+    dates = dates[-len(scores):]
+    values = values[-len(scores):]
+    annotate_y_offset = 10
+
     fig, axs = plt.subplots(2, 1, sharex=True, figsize=(14, 8))
     axs[0].set(xlabel="Date", ylabel="Number of Practices",
-        title="Accumulative Statistics (2020.04)")
+        title="Number of Quiz (2020.04)")
     axs[0].set_xlim(datetime.datetime(2020,4,1), datetime.datetime(2020,4,30)) 
     axs[0].set_ylim(100,300) #number of quiz
     axs[0].grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
@@ -137,15 +141,19 @@ def draw(dates, values):
     axs[0].plot_date(dates, values,'-', marker='o')
    
     axs[1].set(xlabel="Date", ylabel="Score",
-        title="Score (2020.04)")
+        title="Score of Quiz (2020.04)")
     #ax2.set_xlim(datetime.datetime(2020,4,1), datetime.datetime(2020,4,30)) 
     axs[1].set_ylim(300,600) #score of quiz
     axs[1].grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
     axs[1].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
     axs[1].grid(which='major', color='#bbbbbb', axis ='y')
-    dates = dates[-len(scores):]
-    axs[1].plot_date(dates, scores,'-', marker='*', markersize=10, color='#009900')
-    #axs[1].annotate("Test", xy=(0.2, 0.2))
+    axs[1].plot_date(dates, scores,'-', marker='*', markersize=10, color='#cc3300')
+
+    for i,j in zip(dates, values):
+        axs[0].annotate(str(j), xy=(i, j - annotate_y_offset))
+
+    for i,j in zip(dates, scores):
+        axs[1].annotate(str(j), xy=(i, j - annotate_y_offset * 2))
 
     plt.savefig(FILE_IMAGE_SCORE202004)
     #plt.show()
