@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3
 import requests
 from bs4 import BeautifulSoup
 import browsercookie
@@ -24,6 +25,15 @@ def getQuizCount():
     with requests.Session() as s:
         s.cookies.update(requests.utils.cookiejar_from_dict(getCookie(WEBSITE_URL, COOKIE_PATH)))
         r = s.get(API_URL)
+        my_result = json.loads(r.text)
+    my_statistic_data = {key: my_result[key] for key in ['ac_easy', 'ac_medium', 'ac_hard', 'num_solved']}
+
+    return my_statistic_data
+
+def showQuizCount():
+    with requests.Session() as s:
+        s.cookies.update(requests.utils.cookiejar_from_dict(getCookie(WEBSITE_URL, COOKIE_PATH)))
+        r = s.get(API_URL)
         #print("### header:", "\n", r.headers)
         my_result = json.loads(r.text)
     #print('User Name:' , my_result['user_name'])
@@ -39,9 +49,13 @@ def getQuizCount():
             count_medium += 1
         if q['difficulty']['level'] == 3:
             count_hard += 1
-    # print('Solved / Total (Easy)  :' , my_result['ac_easy']   , '/', count_easy)
-    # print('Solved / Total (Medium):' , my_result['ac_medium'] , '/', count_medium)
-    # print('Solved / Total (Hard)  :' , my_result['ac_hard']   , '/', count_hard)
-    # print('Solved / Total (All)   :' , my_result['num_solved'], '/', my_result['num_total'])
+    print('Solved / Total (Easy)  :' , my_result['ac_easy']   , '/', count_easy)
+    print('Solved / Total (Medium):' , my_result['ac_medium'] , '/', count_medium)
+    print('Solved / Total (Hard)  :' , my_result['ac_hard']   , '/', count_hard)
+    print('Solved / Total (All)   :' , my_result['num_solved'], '/', my_result['num_total'])
+    print('Total Score            :' , 5 * my_result['ac_hard'] + 3 * my_result['ac_medium'] + 1 * my_result['ac_easy'] )
     #print(q['stat']['question_id'], q['stat']['question__title'])
-    return my_statistic_data
+    print("=====================================")
+    
+
+showQuizCount()
