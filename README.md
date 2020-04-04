@@ -124,6 +124,7 @@ algo
 │   ├── _0061_RotateList.py
 │   ├── _0141_LinkedListCycle.py
 │   ├── _0142_LinkedListCycle2.py
+│   ├── _0147_InsertionSortList.py
 │   ├── _0160_IntersectionOfTwoLinkedLists.py
 │   ├── _0203_RemoveLinkedListElements.py
 │   ├── _0206_ReverseLinkedList.py
@@ -203,7 +204,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 184 files
+18 directories, 185 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -281,6 +282,7 @@ _0141_LinkedListCycle.py
 _0142_LinkedListCycle2.py
 _0144_BinaryTreePreorderTraversal.py
 _0146_LRUCache.py
+_0147_InsertionSortList.py
 _0153_FindMinimumInRotatedSortedArray.py
 _0155_MinStack.py
 _0160_IntersectionOfTwoLinkedLists.py
@@ -388,7 +390,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  182
+Num of Python Practice:  183
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
