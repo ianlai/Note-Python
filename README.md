@@ -154,7 +154,8 @@ algo
 │   ├── _0003_LongestSubstringWithoutRepeatingCharacters.py
 │   ├── _0038_CountAndSay.py
 │   ├── _0383_RansomNote.py
-│   └── _0415_AddStrings.py
+│   ├── _0415_AddStrings.py
+│   └── _0819_MostCommonWord.py
 ├── tree
 │   ├── _0094_BinaryTreeInorderTraversal.py
 │   ├── _0098_ValidateBinarySearchTree.py
@@ -204,7 +205,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 185 files
+18 directories, 186 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -372,6 +373,7 @@ _0746_MinCostClimbingStairs.py
 _0771_JewelsAndStones.py
 _0783_MinimumDistanceBetweenBSTNodes.py
 _0784_LetterCasePermutation.py
+_0819_MostCommonWord.py
 _0841_KeysAndRooms.py
 _0852_PeakIndexInAMountainArray.py
 _0867_TransposeMatrix.py
@@ -390,7 +392,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  183
+Num of Python Practice:  184
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
