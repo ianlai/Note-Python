@@ -130,7 +130,7 @@ def draw(dates, values):
     values = values[-len(scores):]
     annotate_y_offset = 10
 
-    fig, axs = plt.subplots(2, 1, sharex=True, figsize=(14, 8))
+    fig, axs = plt.subplots(2, 1, sharex=True, figsize=(14, 12))
     axs[0].set(xlabel="Date", ylabel="Number of Practices",
         title="Number of Quiz (2020.04)")
     axs[0].set_xlim(datetime.datetime(2020,4,1), datetime.datetime(2020,4,30)) 
@@ -153,7 +153,7 @@ def draw(dates, values):
         axs[0].annotate(str(j), xy=(i, j - annotate_y_offset))
 
     for i,j in zip(dates, scores):
-        axs[1].annotate(str(j), xy=(i, j - annotate_y_offset * 2))
+        axs[1].annotate(str(j), xy=(i, j - annotate_y_offset * 1.5))
 
     plt.savefig(FILE_IMAGE_SCORE202004)
     #plt.show()
