@@ -27,9 +27,9 @@ FILE_IMAGE_SCORE202004 = FILE_PREFIX_SCORE + "_202004" + ".png"
 
 DATE_FORMATTER = "%Y-%m-%d"
 dates = []
-values = []      #file number
-leetscores = []
-
+values = []      #file quiz number
+leetnumber = []  #leetcode quiz number
+leetscore = []  #leetcode score 
 
 latest_date = ""
 
@@ -127,9 +127,9 @@ def draw(dates, values):
 
     #2020.04
     plt.close()
-    dates = dates[-len(leetscores):]
-    values = values[-len(leetscores):]
-    annotate_y_offset = 10
+    dates = dates[-len(leetscore):]
+    values = values[-len(leetscore):]
+    annotate_y_offset = 12
 
     fig, axs = plt.subplots(2, 1, sharex=True, figsize=(14, 12))
     axs[0].set(xlabel="Date", ylabel="Number of Practices",
@@ -140,7 +140,8 @@ def draw(dates, values):
     axs[0].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
     axs[0].grid(which='major', color='#bbbbbb', axis ='y')
     axs[0].plot_date(dates, values,'-', marker='o')
-   
+    axs[0].plot_date(dates, leetnumber,'-', marker='o', color='#cc3300')
+
     axs[1].set(xlabel="Date", ylabel="Score",
         title="Score of Quiz (2020.04)")
     #ax2.set_xlim(datetime.datetime(2020,4,1), datetime.datetime(2020,4,30)) 
@@ -148,12 +149,18 @@ def draw(dates, values):
     axs[1].grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
     axs[1].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
     axs[1].grid(which='major', color='#bbbbbb', axis ='y')
-    axs[1].plot_date(dates, leetscores,'-', marker='*', markersize=10, color='#cc3300')
+    axs[1].plot_date(dates, leetscore,'-', marker='*', markersize=10, color='#cc3300')
 
+    # leetcode number
+    for i,j in zip(dates, leetnumber):
+        axs[0].annotate(str(j), xy=(i, j + annotate_y_offset - 5))
+
+    # file number
     for i,j in zip(dates, values):
         axs[0].annotate(str(j), xy=(i, j - annotate_y_offset))
-
-    for i,j in zip(dates, leetscores):
+    
+    # leetcode score
+    for i,j in zip(dates, leetscore):
         axs[1].annotate(str(j), xy=(i, j - annotate_y_offset * 1.5))
 
     plt.savefig(FILE_IMAGE_SCORE202004)
@@ -177,7 +184,8 @@ def read(dates, values):
             l_score = split_line[8] 
             dates.append(datetime.datetime.strptime(date_str, DATE_FORMATTER)) 
             values.append(int(file_count))
-            leetscores.append(int(l_score))
+            leetscore.append(int(l_score))
+            leetnumber.append(int(l_count_total))
         else:
             date_str, val_str = split_line[0], split_line[1] 
             dates.append(datetime.datetime.strptime(date_str, DATE_FORMATTER)) 
@@ -225,4 +233,4 @@ draw(dates, values)
 
 # print(dates)
 # print(values)
-# print(leetscores)
+# print(leetscore)
