@@ -27,8 +27,9 @@ FILE_IMAGE_SCORE202004 = FILE_PREFIX_SCORE + "_202004" + ".png"
 
 DATE_FORMATTER = "%Y-%m-%d"
 dates = []
-values = []
-scores = []
+values = []      #file number
+leetscores = []
+
 
 latest_date = ""
 
@@ -126,8 +127,8 @@ def draw(dates, values):
 
     #2020.04
     plt.close()
-    dates = dates[-len(scores):]
-    values = values[-len(scores):]
+    dates = dates[-len(leetscores):]
+    values = values[-len(leetscores):]
     annotate_y_offset = 10
 
     fig, axs = plt.subplots(2, 1, sharex=True, figsize=(14, 12))
@@ -147,12 +148,12 @@ def draw(dates, values):
     axs[1].grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
     axs[1].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
     axs[1].grid(which='major', color='#bbbbbb', axis ='y')
-    axs[1].plot_date(dates, scores,'-', marker='*', markersize=10, color='#cc3300')
+    axs[1].plot_date(dates, leetscores,'-', marker='*', markersize=10, color='#cc3300')
 
     for i,j in zip(dates, values):
         axs[0].annotate(str(j), xy=(i, j - annotate_y_offset))
 
-    for i,j in zip(dates, scores):
+    for i,j in zip(dates, leetscores):
         axs[1].annotate(str(j), xy=(i, j - annotate_y_offset * 1.5))
 
     plt.savefig(FILE_IMAGE_SCORE202004)
@@ -175,8 +176,8 @@ def read(dates, values):
             l_count_hard = split_line[6] 
             l_score = split_line[8] 
             dates.append(datetime.datetime.strptime(date_str, DATE_FORMATTER)) 
-            values.append(int(val_str))
-            scores.append(int(l_score))
+            values.append(int(file_count))
+            leetscores.append(int(l_score))
         else:
             date_str, val_str = split_line[0], split_line[1] 
             dates.append(datetime.datetime.strptime(date_str, DATE_FORMATTER)) 
@@ -208,7 +209,7 @@ if str(today_date) != str(latest_date):
     writeLine = writePrepare(today_date, today_value)     
     write(writeLine)
 
-    dates.append(today_date) 
+    dates.append(today_date)
     values.append(today_value)
 else:
     print(">> Status: The record is already updated today.")
@@ -222,3 +223,6 @@ print(">> Save the image:", FILE_IMAGE202003)
 print(">> Save the image:", FILE_IMAGE_SCORE202004)
 draw(dates, values)
 
+# print(dates)
+# print(values)
+# print(leetscores)
