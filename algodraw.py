@@ -66,6 +66,7 @@ def writePrepare(today_date, today_value):
 def draw(dates, values):
     fig, ax = plt.subplots(figsize=(14, 8))
     
+    # vertical dividers (week, day)
     xfmt = mdates.DateFormatter("%m/%d")
     xloc1 = mdates.WeekdayLocator(SUNDAY)
     xloc2 = mdates.DayLocator()
@@ -81,7 +82,11 @@ def draw(dates, values):
 
     plt.plot_date(dates, values,'-', marker='o')
     plt.yticks(np.arange(50, 500, step=10))
+
+    # tilt the date in x-axis
     plt.gcf().autofmt_xdate(which='both')
+
+    # add the annotation of the values 
     for i,j in zip(dates, values):
         ax.annotate(str(j),xy=(i, j - 3))
 
@@ -150,6 +155,16 @@ def draw(dates, values):
     axs[1].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
     axs[1].grid(which='major', color='#bbbbbb', axis ='y')
     axs[1].plot_date(dates, leetscore,'-', marker='*', markersize=10, color='#cc3300')
+
+    xfmt = mdates.DateFormatter("%m/%d")
+    xloc1 = mdates.WeekdayLocator(SUNDAY)
+    xloc2 = mdates.DayLocator()
+    axs[0].xaxis.set_major_formatter(xfmt)
+    axs[0].xaxis.set_major_locator(xloc1) #major: week
+    axs[0].xaxis.set_minor_formatter(xfmt)
+    axs[0].xaxis.set_minor_locator(xloc2) #minor: day
+
+    plt.gcf().autofmt_xdate(which='both')
 
     # leetcode number
     for i,j in zip(dates, leetnumber):
