@@ -155,6 +155,7 @@ algo
 ├── string
 │   ├── _0003_LongestSubstringWithoutRepeatingCharacters.py
 │   ├── _0038_CountAndSay.py
+│   ├── _0290_WordPattern.py
 │   ├── _0383_RansomNote.py
 │   ├── _0415_AddStrings.py
 │   └── _0819_MostCommonWord.py
@@ -207,7 +208,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 188 files
+18 directories, 189 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -327,6 +328,7 @@ _0263_UglyNumber.py
 _0264_UglyNumber2.py
 _0278_FirstBadVersion.py
 _0283_MoveZeroes.py
+_0290_WordPattern.py
 _0297_SerializeAndDeserializeBinaryTree.py
 _0300_LongestIncreasingSubsequence.py
 _0313_SuperUglyNumber.py
@@ -396,7 +398,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  186
+Num of Python Practice:  187
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
