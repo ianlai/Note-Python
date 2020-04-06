@@ -83,6 +83,8 @@ algo
 │   ├── _0841_KeysAndRooms.py
 │   └── _1079_LetterTilePossibilities.py
 ├── dp
+│   ├── _0010_RegularExpressionMatching.py
+│   ├── _0044_WildcardMatching.py
 │   ├── _0053_MaximumSubarray.py
 │   ├── _0064_MinimumPathSum.py
 │   ├── _0096_UniqueBinarySearchTrees.py
@@ -205,12 +207,13 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 186 files
+18 directories, 188 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
 _0005_LongestPalindromicSubstring.py
+_0010_RegularExpressionMatching.py
 _0015_3Sum.py
 _0016_3SumClosest.py
 _0017_LetterCombinationsOfAPhoneNumber.py
@@ -231,6 +234,7 @@ _0037_SudokuSolver.py
 _0038_CountAndSay.py
 _0039_CombinationSum.py
 _0040_CombinationSum2.py
+_0044_WildcardMatching.py
 _0046_Permutations.py
 _0047_Permutations2.py
 _0049_GroupAnagrams.py
@@ -392,7 +396,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  184
+Num of Python Practice:  186
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
