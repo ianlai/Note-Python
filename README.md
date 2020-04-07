@@ -75,6 +75,7 @@ algo
 │   ├── _0131_PalindromePartitioning.py
 │   ├── _0200_NumberOfIslands.py
 │   ├── _0216_CombinationSum3.py
+│   ├── _0291_WordPattern2.py
 │   ├── _0401_BinaryWatch.py
 │   ├── _0494_TargetSum.py
 │   ├── _0526_BeautifulArrangement.py
@@ -208,7 +209,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 189 files
+18 directories, 190 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -329,6 +330,7 @@ _0264_UglyNumber2.py
 _0278_FirstBadVersion.py
 _0283_MoveZeroes.py
 _0290_WordPattern.py
+_0291_WordPattern2.py
 _0297_SerializeAndDeserializeBinaryTree.py
 _0300_LongestIncreasingSubsequence.py
 _0313_SuperUglyNumber.py
@@ -398,7 +400,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  187
+Num of Python Practice:  188
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
