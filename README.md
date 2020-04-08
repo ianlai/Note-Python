@@ -30,6 +30,7 @@ algo
 │   ├── _0867_TransposeMatrix.py
 │   ├── _0896_MonotonicArray.py
 │   ├── _0905_SortArrayByParity.py
+│   ├── _0994_RottingOranges.py
 │   ├── _1002_FindCommonCharacters.py
 │   └── _1243_ArrayTransformation.py
 ├── bfs
@@ -90,6 +91,7 @@ algo
 │   ├── _0064_MinimumPathSum.py
 │   ├── _0096_UniqueBinarySearchTrees.py
 │   ├── _0120_Triangle.py
+│   ├── _0139_WordBreak.py
 │   ├── _0198_HouseRobber.py
 │   ├── _0213_HouseRobber2.py
 │   ├── _0322_CoinChange.py
@@ -209,7 +211,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 190 files
+18 directories, 192 files
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -285,6 +287,7 @@ _0127_WordLadder.py
 _0129_SumRootToLeafNumbers.py
 _0131_PalindromePartitioning.py
 _0133_CloneGraph.py
+_0139_WordBreak.py
 _0141_LinkedListCycle.py
 _0142_LinkedListCycle2.py
 _0144_BinaryTreePreorderTraversal.py
@@ -392,6 +395,7 @@ _0912_SortAnArray.py
 _0938_RangeSumOfBST.py
 _0973_KClosestPointsToOrigin.py
 _0977_SquaresOfASortedArray.py
+_0994_RottingOranges.py
 _1002_FindCommonCharacters.py
 _1022_SumOfRootToLeafBinaryNumbers.py
 _1046_LastStoneWeight.py
@@ -400,7 +404,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  188
+Num of Python Practice:  190
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)
