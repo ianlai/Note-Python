@@ -1,4 +1,4 @@
 #!/bin/zsh
 
-./algoshow.py >! README.md
+./generate_readme.py >! README.md
 ./algodraw.py

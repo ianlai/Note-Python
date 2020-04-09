@@ -411,6 +411,212 @@ _1243_ArrayTransformation.py
 =====================================
 Num of Python Practice:  191
 
+
+=====================================
+============= Leetcode ==============
+=====================================
+ 0001 Two Sum
+ 0002 Add Two Numbers
+ 0003 Longest Substring Without Repeating Characters
+ 0005 Longest Palindromic Substring
+ 0010 Regular Expression Matching
+ 0015 3Sum
+ 0016 3Sum Closest
+ 0017 Letter Combinations of a Phone Number
+ 0018 4Sum
+ 0019 Remove Nth Node From End of List
+ 0020 Valid Parentheses
+ 0021 Merge Two Sorted Lists
+ 0022 Generate Parentheses
+ 0023 Merge k Sorted Lists
+ 0024 Swap Nodes in Pairs
+ 0026 Remove Duplicates from Sorted Array
+ 0027 Remove Element
+ 0031 Next Permutation
+ 0033 Search in Rotated Sorted Array
+ 0034 Find First and Last Position of Element in Sorted Array
+ 0035 Search Insert Position
+ 0037 Sudoku Solver
+ 0038 Count and Say
+ 0039 Combination Sum
+ 0040 Combination Sum II
+ 0044 Wildcard Matching
+ 0046 Permutations
+ 0047 Permutations II
+ 0049 Group Anagrams
+ 0050 Pow(x, n)
+ 0051 N-Queens
+ 0053 Maximum Subarray
+ 0054 Spiral Matrix
+ 0056 Merge Intervals
+ 0060 Permutation Sequence
+ 0061 Rotate List
+ 0064 Minimum Path Sum
+ 0069 Sqrt(x)
+ 0070 Climbing Stairs
+ 0074 Search a 2D Matrix
+ 0075 Sort Colors
+ 0077 Combinations
+ 0078 Subsets
+ 0079 Word Search
+ 0081 Search in Rotated Sorted Array II
+ 0088 Merge Sorted Array
+ 0089 Gray Code
+ 0090 Subsets II
+ 0094 Binary Tree Inorder Traversal
+ 0096 Unique Binary Search Trees
+ 0098 Validate Binary Search Tree
+ 0100 Same Tree
+ 0101 Symmetric Tree
+ 0102 Binary Tree Level Order Traversal
+ 0103 Binary Tree Zigzag Level Order Traversal
+ 0104 Maximum Depth of Binary Tree
+ 0105 Construct Binary Tree from Preorder and Inorder Traversal
+ 0107 Binary Tree Level Order Traversal II
+ 0108 Convert Sorted Array to Binary Search Tree
+ 0110 Balanced Binary Tree
+ 0111 Minimum Depth of Binary Tree
+ 0112 Path Sum
+ 0113 Path Sum II
+ 0114 Flatten Binary Tree to Linked List
+ 0118 Pascal's Triangle
+ 0119 Pascal's Triangle II
+ 0120 Triangle
+ 0121 Best Time to Buy and Sell Stock
+ 0122 Best Time to Buy and Sell Stock II
+ 0125 Valid Palindrome
+ 0129 Sum Root to Leaf Numbers
+ 0131 Palindrome Partitioning
+ 0133 Clone Graph
+ 0136 Single Number
+ 0139 Word Break
+ 0141 Linked List Cycle
+ 0142 Linked List Cycle II
+ 0144 Binary Tree Preorder Traversal
+ 0146 LRU Cache
+ 0147 Insertion Sort List
+ 0153 Find Minimum in Rotated Sorted Array
+ 0155 Min Stack
+ 0160 Intersection of Two Linked Lists
+ 0162 Find Peak Element
+ 0167 Two Sum II - Input array is sorted
+ 0169 Majority Element
+ 0170 Two Sum III - Data structure design
+ 0173 Binary Search Tree Iterator
+ 0189 Rotate Array
+ 0198 House Robber
+ 0199 Binary Tree Right Side View
+ 0200 Number of Islands
+ 0202 Happy Number
+ 0203 Remove Linked List Elements
+ 0206 Reverse Linked List
+ 0207 Course Schedule
+ 0209 Minimum Size Subarray Sum
+ 0210 Course Schedule II
+ 0213 House Robber II
+ 0215 Kth Largest Element in an Array
+ 0216 Combination Sum III
+ 0217 Contains Duplicate
+ 0219 Contains Duplicate II
+ 0222 Count Complete Tree Nodes
+ 0225 Implement Stack using Queues
+ 0226 Invert Binary Tree
+ 0230 Kth Smallest Element in a BST
+ 0232 Implement Queue using Stacks
+ 0234 Palindrome Linked List
+ 0236 Lowest Common Ancestor of a Binary Tree
+ 0237 Delete Node in a Linked List
+ 0240 Search a 2D Matrix II
+ 0242 Valid Anagram
+ 0252 Meeting Rooms
+ 0253 Meeting Rooms II
+ 0257 Binary Tree Paths
+ 0263 Ugly Number
+ 0264 Ugly Number II
+ 0278 First Bad Version
+ 0283 Move Zeroes
+ 0290 Word Pattern
+ 0291 Word Pattern II
+ 0297 Serialize and Deserialize Binary Tree
+ 0300 Longest Increasing Subsequence
+ 0313 Super Ugly Number
+ 0322 Coin Change
+ 0344 Reverse String
+ 0347 Top K Frequent Elements
+ 0349 Intersection of Two Arrays
+ 0350 Intersection of Two Arrays II
+ 0354 Russian Doll Envelopes
+ 0367 Valid Perfect Square
+ 0378 Kth Smallest Element in a Sorted Matrix
+ 0380 Insert Delete GetRandom O(1)
+ 0383 Ransom Note
+ 0387 First Unique Character in a String
+ 0392 Is Subsequence
+ 0401 Binary Watch
+ 0409 Longest Palindrome
+ 0415 Add Strings
+ 0429 N-ary Tree Level Order Traversal
+ 0448 Find All Numbers Disappeared in an Array
+ 0463 Island Perimeter
+ 0485 Max Consecutive Ones
+ 0487 Max Consecutive Ones II
+ 0494 Target Sum
+ 0509 Fibonacci Number
+ 0526 Beautiful Arrangement
+ 0535 Encode and Decode TinyURL
+ 0538 Convert BST to Greater Tree
+ 0560 Subarray Sum Equals K
+ 0561 Array Partition I
+ 0566 Reshape the Matrix
+ 0572 Subtree of Another Tree
+ 0576 Out of Boundary Paths
+ 0595 Big Countries
+ 0617 Merge Two Binary Trees
+ 0620 Not Boring Movies
+ 0627 Swap Salary
+ 0653 Two Sum IV - Input is a BST
+ 0654 Maximum Binary Tree
+ 0658 Find K Closest Elements
+ 0669 Trim a Binary Search Tree
+ 0674 Longest Continuous Increasing Subsequence
+ 0690 Employee Importance
+ 0692 Top K Frequent Words
+ 0700 Search in a Binary Search Tree
+ 0701 Insert into a Binary Search Tree
+ 0703 Kth Largest Element in a Stream
+ 0704 Binary Search
+ 0705 Design HashSet
+ 0746 Min Cost Climbing Stairs
+ 0771 Jewels and Stones
+ 0783 Minimum Distance Between BST Nodes
+ 0784 Letter Case Permutation
+ 0819 Most Common Word
+ 0841 Keys and Rooms
+ 0852 Peak Index in a Mountain Array
+ 0867 Transpose Matrix
+ 0877 Stone Game
+ 0896 Monotonic Array
+ 0905 Sort Array By Parity
+ 0912 Sort an Array
+ 0938 Range Sum of BST
+ 0973 K Closest Points to Origin
+ 0977 Squares of a Sorted Array
+ 0994 Rotting Oranges
+ 1002 Find Common Characters
+ 1022 Sum of Root To Leaf Binary Numbers
+ 1046 Last Stone Weight
+ 1079 Letter Tile Possibilities
+ 1099 Two Sum Less Than K
+ 1214 Two Sum BSTs
+ 1243 Array Transformation
+=====================================
+Solved / Total (Easy)  : 97 / 395
+Solved / Total (Medium): 89 / 717
+Solved / Total (Hard)  : 8 / 294
+Solved / Total (All)   : 194 / 1406
+Total Score            : 404
+=====================================
+
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)

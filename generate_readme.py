@@ -5,6 +5,7 @@ import os
 os.system('echo "\`\`\`"')
 os.system('tree algo')
 os.system('./algolist.py')
+os.system('./lcode.py')
 os.system('echo "\`\`\`"')
 
 print("![Alt text](statistics_201910.png)")
