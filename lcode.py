@@ -62,14 +62,19 @@ def showQuizListFromLeetcode():
         if e['status'] == "ac":
             print("", str(e['stat']['frontend_question_id']).zfill(4), e['stat']['question__title'])
     
+    score = 5 * my_result['ac_hard'] + 3 * my_result['ac_medium'] + 1 * my_result['ac_easy']
     print("=====================================")
-    print('Solved / Total (Easy)  :' , my_result['ac_easy']   , '/', count_easy)
-    print('Solved / Total (Medium):' , my_result['ac_medium'] , '/', count_medium)
-    print('Solved / Total (Hard)  :' , my_result['ac_hard']   , '/', count_hard)
-    print('Solved / Total (All)   :' , my_result['num_solved'], '/', my_result['num_total'])
-    print('Total Score            :' , 5 * my_result['ac_hard'] + 3 * my_result['ac_medium'] + 1 * my_result['ac_easy'] )
+    print('Solved / Total (Easy)  :' , stringFormatter(my_result['ac_easy']   , 4), '/', stringFormatter(count_easy, 4))
+    print('Solved / Total (Medium):' , stringFormatter(my_result['ac_medium'] , 4), '/', stringFormatter(count_medium, 4))
+    print('Solved / Total (Hard)  :' , stringFormatter(my_result['ac_hard']   , 4), '/', stringFormatter(count_hard,4))
+    print('Solved / Total (All)   :' , stringFormatter(my_result['num_solved'], 4), '/', stringFormatter(my_result['num_total'],4))
+    print('Total Score            :' , stringFormatter(score, 4))
     print("=====================================")
     print()
+
+def stringFormatter(s, num):
+    s = str(s)
+    return f'{s:>{num}}'
 
 # run as a script (not module)
 if __name__ == '__main__':

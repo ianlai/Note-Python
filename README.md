@@ -610,11 +610,11 @@ Num of Python Practice:  191
  1214 Two Sum BSTs
  1243 Array Transformation
 =====================================
-Solved / Total (Easy)  : 97 / 395
-Solved / Total (Medium): 89 / 717
-Solved / Total (Hard)  : 8 / 294
-Solved / Total (All)   : 194 / 1406
-Total Score            : 404
+Solved / Total (Easy)  :   97 /  395
+Solved / Total (Medium):   89 /  717
+Solved / Total (Hard)  :    8 /  294
+Solved / Total (All)   :  194 / 1406
+Total Score            :  404
 =====================================
 
 ```
