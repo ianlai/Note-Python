@@ -2,7 +2,6 @@
 algo
 ├── _0005_LongestPalindromicSubstring.py
 ├── _0125_ValidPalindrome.py
-├── _0409_LongestPalindrome.py
 ├── array
 │   ├── _0001_TwoSum.py
 │   ├── _0018_4Sum.py
@@ -39,6 +38,7 @@ algo
 │   ├── _0107_BinaryTreeLevelOrderTraversal2.py
 │   ├── _0133_CloneGraph.py
 │   ├── _0199_BinaryTreeRightSideView.py
+│   ├── _0200_NumberOfIslands.py
 │   ├── _0207_CourseSchedule.py
 │   └── _0210_CourseSchedule2.py
 ├── binary-search
@@ -59,6 +59,8 @@ algo
 │   ├── _0658_FindKClosestElements.py
 │   ├── _0704_BinarySearch.py
 │   └── _0852_PeakIndexInAMountainArray.py
+├── bits
+│   └── _0268_MissingNumber.py
 ├── dfs
 │   ├── _0017_LetterCombinationsOfAPhoneNumber.py
 │   ├── _0022_GenerateParentheses.py
@@ -74,7 +76,6 @@ algo
 │   ├── _0089_GrayCode.py
 │   ├── _0090_Subsets2.py
 │   ├── _0131_PalindromePartitioning.py
-│   ├── _0200_NumberOfIslands.py
 │   ├── _0216_CombinationSum3.py
 │   ├── _0291_WordPattern2.py
 │   ├── _0401_BinaryWatch.py
@@ -108,6 +109,7 @@ algo
 │   ├── _0347_TopKFrequentElements.py
 │   ├── _0380_InsertDeleteGetRandomO(1).py
 │   ├── _0387_FirstUniqueCharacterInAString.py
+│   ├── _0409_LongestPalindrome.py
 │   ├── _0535_EncodeAndDecodeTinyURL.py
 │   ├── _0560_SubarraySumEqualsK.py
 │   ├── _0692_TopKFrequentWords.py
@@ -186,6 +188,7 @@ algo
 │   ├── _0297_SerializeAndDeserializeBinaryTree.py
 │   ├── _0429_N-aryTreeLevelOrderTraversal.py
 │   ├── _0538_ConvertBSTtoGreaterTree.py
+│   ├── _0543_DiameterOfBinaryTree.py
 │   ├── _0572_SubtreeOfAnotherTree.py
 │   ├── _0617_MergeTwoBinaryTrees.py
 │   ├── _0653_TwoSum4.py
@@ -212,7 +215,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 193 files
+19 directories, 195 files
 
 =====================================
 ============= Local Repo ============
@@ -335,6 +338,7 @@ _0253_MeetingRooms2.py
 _0257_BinaryTreePaths.py
 _0263_UglyNumber.py
 _0264_UglyNumber2.py
+_0268_MissingNumber.py
 _0278_FirstBadVersion.py
 _0283_MoveZeroes.py
 _0290_WordPattern.py
@@ -367,6 +371,7 @@ _0509_FibonacciNumber.py
 _0526_BeautifulArrangement.py
 _0535_EncodeAndDecodeTinyURL.py
 _0538_ConvertBSTtoGreaterTree.py
+_0543_DiameterOfBinaryTree.py
 _0560_SubarraySumEqualsK.py
 _0561_ArrayPartition1.py
 _0566_ReshapeTheMatrix.py
@@ -409,7 +414,7 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  191
+Num of Python Practice:  193
 
 
 =====================================
@@ -533,6 +538,7 @@ Num of Python Practice:  191
  0257 Binary Tree Paths
  0263 Ugly Number
  0264 Ugly Number II
+ 0268 Missing Number
  0278 First Bad Version
  0283 Move Zeroes
  0290 Word Pattern
@@ -565,6 +571,7 @@ Num of Python Practice:  191
  0526 Beautiful Arrangement
  0535 Encode and Decode TinyURL
  0538 Convert BST to Greater Tree
+ 0543 Diameter of Binary Tree
  0560 Subarray Sum Equals K
  0561 Array Partition I
  0566 Reshape the Matrix
@@ -610,11 +617,11 @@ Num of Python Practice:  191
  1214 Two Sum BSTs
  1243 Array Transformation
 =====================================
-Solved / Total (Easy)  :   97 /  395
+Solved / Total (Easy)  :   99 /  395
 Solved / Total (Medium):   89 /  717
 Solved / Total (Hard)  :    8 /  294
-Solved / Total (All)   :  194 / 1406
-Total Score            :  404
+Solved / Total (All)   :  196 / 1406
+Total Score            :  406
 =====================================
 
 ```
