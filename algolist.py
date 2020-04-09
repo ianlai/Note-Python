@@ -29,14 +29,22 @@ def filteredFiles(path, dirList, fileList, filtered):
 def getPracticeNumber():
     return len(filtered)
 
-filteredFiles(path, dirList, fileList, filtered)
-filtered.sort()
+def showQuizListFromDir():
+    filteredFiles(path, dirList, fileList, filtered)
+    filtered.sort()
 
-print("=====================================")
-for e in filtered:
-    print(e)
-print("=====================================")
-print("Num of Python Practice: ", getPracticeNumber())
+    print()
+    print("=====================================")
+    print("============= Local Repo ============")
+    print("=====================================")
+    for e in filtered:
+        print(e)
+    print("=====================================")
+    print("Num of Python Practice: ", getPracticeNumber())
+    print()
 
+# run as a script (not module)
+if __name__ == '__main__':
+    showQuizListFromDir()
 
 

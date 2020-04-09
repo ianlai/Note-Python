@@ -102,6 +102,7 @@ algo
 ├── hashmap
 │   ├── _0049_GroupAnagrams.py
 │   ├── _0146_LRUCache.py
+│   ├── _0217_ContainsDuplicate.py
 │   ├── _0219_ContainsDuplicate2.py
 │   ├── _0242_ValidAnagram.py
 │   ├── _0347_TopKFrequentElements.py
@@ -211,7 +212,10 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-18 directories, 192 files
+18 directories, 193 files
+
+=====================================
+============= Local Repo ============
 =====================================
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
@@ -314,6 +318,7 @@ _0210_CourseSchedule2.py
 _0213_HouseRobber2.py
 _0215_KthLargestElementInAnArray.py
 _0216_CombinationSum3.py
+_0217_ContainsDuplicate.py
 _0219_ContainsDuplicate2.py
 _0222_CountCompleteTreeNodes.py
 _0225_ImplementStackUsingQueues.py
@@ -404,7 +409,8 @@ _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 =====================================
-Num of Python Practice:  190
+Num of Python Practice:  191
+
 ```
 ![Alt text](statistics_201910.png)
 ![Alt text](statistics_201911.png)

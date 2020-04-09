@@ -3,8 +3,12 @@
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from matplotlib.dates import drange, SUNDAY
-from _algolist import getPracticeNumber
+
+from algolist import getPracticeNumber
+from algolist import showQuizListFromDir
 from lcode import getQuizCount
+from lcode import showQuizListFromLeetcode
+
 import datetime
 import numpy as np
 
@@ -64,7 +68,7 @@ def writePrepare(today_date, today_value):
 ### Draw the graph   
 ######################
 def draw(dates, values):
-    fig, ax = plt.subplots(figsize=(14, 8))
+    fig, ax = plt.subplots(figsize=(14, 10))
     
     # vertical dividers (week, day)
     xfmt = mdates.DateFormatter("%m/%d")
@@ -211,6 +215,13 @@ def read(dates, values):
 
 # print("Today  date: ", today_date, "")
 # print("Latest date: ", latest_date, "")
+
+###################### 
+### Print info 
+######################
+
+showQuizListFromDir()       #from local repo
+showQuizListFromLeetcode()  #from leetcode
 
 ###################### 
 ### Read today info 
