@@ -1,6 +1,53 @@
 from collections import deque
 class Solution:
+    
+    # ================================    
+    # Version 2 (Jiuzhang, modulized)
+    
     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
+        if arr is None or len(arr) == 0:
+            return arr
+        
+        right = self.findUpperSmallest(arr, x)
+        left = right - 1
+        #print(left, right)
+        ans = []
+        
+        # Input k elements
+        for _ in range(k):
+            if self.isLeftCloser(arr, x, left, right):
+                ans.append(arr[left])
+                left -= 1
+            else:
+                ans.append(arr[right])
+                right += 1
+        ans.sort()
+        return ans
+    
+    def findUpperSmallest(self, arr, x):
+        start, end = 0, len(arr) - 1
+        while start + 1 < end: 
+            mid = (start + end) // 2
+            if arr[mid] >= x:
+                end = mid
+            else:
+                start = mid 
+        if arr[start] >= x:
+            return start
+        if arr[end] >= x:
+            return end
+        return end + 1  #upper smallest 
+    
+    def isLeftCloser(self, arr, x, left, right):
+        if left < 0 :
+            return False
+        if right >= len(arr):
+            return True
+        return x - arr[left] <= arr[right] - x
+        
+    # ================================    
+    # Version 1 (messy)
+    def findClosestElements1(self, arr: List[int], k: int, x: int) -> List[int]:
         if arr is None or len(arr) == 0:
             return arr
         
