@@ -4,6 +4,7 @@ algo
 ├── _0125_ValidPalindrome.py
 ├── array
 │   ├── _0001_TwoSum.py
+│   ├── _0004_MedianOfTwoSortedArrays.py
 │   ├── _0018_4Sum.py
 │   ├── _0027_RemoveElement.py
 │   ├── _0031_NextPermutation.py
@@ -58,7 +59,8 @@ algo
 │   ├── _0367_ValidPerfectSquare.py
 │   ├── _0658_FindKClosestElements.py
 │   ├── _0704_BinarySearch.py
-│   └── _0852_PeakIndexInAMountainArray.py
+│   ├── _0852_PeakIndexInAMountainArray.py
+│   └── _1300_SumOfMutatedArrayClosestToTarget.py
 ├── bits
 │   └── _0268_MissingNumber.py
 ├── dfs
@@ -208,14 +210,15 @@ algo
 │   ├── _0392_IsSubsequence.py
 │   ├── _0487_MaxConsecutiveOnes2.py
 │   ├── _0977_SquaresOfASortedArray.py
-│   └── _1099_TwoSumLessThanK.py
+│   ├── _1099_TwoSumLessThanK.py
+│   └── _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 ├── warmup
 │   └── fibonacci.py
 └── wip
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 195 files
+19 directories, 198 files
 
 =====================================
 ============= Local Repo ============
@@ -223,6 +226,7 @@ algo
 _0001_TwoSum.py
 _0002_AddTwoNumbers.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
+_0004_MedianOfTwoSortedArrays.py
 _0005_LongestPalindromicSubstring.py
 _0010_RegularExpressionMatching.py
 _0015_3Sum.py
@@ -413,8 +417,10 @@ _1079_LetterTilePossibilities.py
 _1099_TwoSumLessThanK.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
+_1300_SumOfMutatedArrayClosestToTarget.py
+_1358_NumberOfSubstringsContainingAllThreeCharacters.py
 =====================================
-Num of Python Practice:  193
+Num of Python Practice:  196
 
 
 =====================================
@@ -423,6 +429,7 @@ Num of Python Practice:  193
  0001 Two Sum
  0002 Add Two Numbers
  0003 Longest Substring Without Repeating Characters
+ 0004 Median of Two Sorted Arrays
  0005 Longest Palindromic Substring
  0010 Regular Expression Matching
  0015 3Sum
@@ -616,12 +623,14 @@ Num of Python Practice:  193
  1099 Two Sum Less Than K
  1214 Two Sum BSTs
  1243 Array Transformation
+ 1300 Sum of Mutated Array Closest to Target
+ 1358 Number of Substrings Containing All Three Characters
 =====================================
-Solved / Total (Easy)  :   99 /  395
-Solved / Total (Medium):   89 /  717
-Solved / Total (Hard)  :    8 /  294
-Solved / Total (All)   :  196 / 1406
-Total Score            :  406
+Solved / Total (Easy)  :   98 /  395
+Solved / Total (Medium):   92 /  718
+Solved / Total (Hard)  :    9 /  294
+Solved / Total (All)   :  199 / 1407
+Total Score            :  419
 =====================================
 
 ```
