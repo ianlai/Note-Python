@@ -12,7 +12,6 @@ from lcode import showQuizListFromLeetcode
 import datetime
 import numpy as np
 
-
 ###################### 
 ### Initialize
 ######################
@@ -42,22 +41,18 @@ latest_date = ""
 ######################
 def write(line):
     f = open(FILE_STATISTICS, "a+")
-    f.write(line)  
+    f.write(line)
     f.close()
 
-def writePrepare(today_date, today_value):
-    lcode_count = getQuizCount()
-    score = 1 * lcode_count['ac_easy'] \
-          + 3 * lcode_count['ac_medium'] \
-          + 5 * lcode_count['ac_hard']
+def writePrepare(today_date, today_value, today_lcode, score):
     line = [] 
     line.append(str(today_date))
     line.append(str(today_value))
-    line.append(str(lcode_count['num_solved']))
+    line.append(str(today_lcode['num_solved']))
     line.append(' | ')
-    line.append(str(lcode_count['ac_easy']))
-    line.append(str(lcode_count['ac_medium']))
-    line.append(str(lcode_count['ac_hard']))
+    line.append(str(today_lcode['ac_easy']))
+    line.append(str(today_lcode['ac_medium']))
+    line.append(str(today_lcode['ac_hard']))
     line.append(' | ')
     line.append(str(score))
     line.append('\n')
@@ -68,7 +63,7 @@ def writePrepare(today_date, today_value):
 ### Draw the graph   
 ######################
 def draw(dates, values):
-    fig, ax = plt.subplots(figsize=(14, 10))
+    fig, ax = plt.subplots(figsize=(14, 7))
     
     # vertical dividers (week, day)
     xfmt = mdates.DateFormatter("%m/%d")
@@ -136,11 +131,13 @@ def draw(dates, values):
 
     #2020.04
     plt.close()
+    
     dates = dates[-len(leetscore):]
     values = values[-len(leetscore):]
+
     annotate_y_offset = 12
 
-    fig, axs = plt.subplots(2, 1, sharex=True, figsize=(14, 12))
+    fig, axs = plt.subplots(2, 1, sharex=True, figsize=(14, 14))
     axs[0].set(xlabel="Date", ylabel="Number of Practices",
         title="Number of Quiz (2020.04)")
     axs[0].set_xlim(datetime.datetime(2020,4,1), datetime.datetime(2020,4,30)) 
@@ -188,7 +185,7 @@ def draw(dates, values):
 ###################### 
 ### Read from file  
 ######################
-def read(dates, values):
+def read():
     f = open(FILE_STATISTICS, "r")
     line = f.readline()
     while line != '':  # The EOF char is an empty string
@@ -205,16 +202,14 @@ def read(dates, values):
             values.append(int(file_count))
             leetscore.append(int(l_score))
             leetnumber.append(int(l_count_total))
-        else:
+        elif len(split_line) == 2:
             date_str, val_str = split_line[0], split_line[1] 
             dates.append(datetime.datetime.strptime(date_str, DATE_FORMATTER)) 
             values.append(int(val_str))
-        
+        else:
+            break
         line = f.readline()
     f.close()
-
-# print("Today  date: ", today_date, "")
-# print("Latest date: ", latest_date, "")
 
 ###################### 
 ### Print info 
@@ -226,27 +221,33 @@ showQuizListFromLeetcode()  #from leetcode
 ###################### 
 ### Read today info 
 ######################
-print(">> App algodraw.py starts")
-today_date = datetime.date.today()
-today_value = getPracticeNumber()
-print(">> Read today info: (date =", today_date, ", value =", today_value, ")")
-
 print(">> Read from files:", FILE_STATISTICS)
-read(dates, values)
+read()
 latest_date = dates[-1].strftime(DATE_FORMATTER)
+today_date = datetime.date.today()
 
-
+# New data
 if str(today_date) != str(latest_date): 
-    print(">> Status : NEW! This is the first log today. (latest = ", latest_date, ", today = " ,today_date, ")") 
-    print(">> Wrote the log: \"" + str(today_date) + "   " + str(today_value), "\"")
+    print(">> Status : NEW! (latest = ", latest_date, ", today = " ,today_date, ")") 
     
-    writeLine = writePrepare(today_date, today_value)     
-    write(writeLine)
-
+    #Get data 
+    today_lcode = getQuizCount()      # Get leetcode data
+    today_value = getPracticeNumber() # Get local data
+    
+    #Update data in memory (4 lists)
     dates.append(today_date)
     values.append(today_value)
+    leetnumber.append(today_lcode['num_solved'])
+    score = 1 * today_lcode['ac_easy'] \
+        + 3 * today_lcode['ac_medium'] \
+        + 5 * today_lcode['ac_hard']
+    leetscore.append(score)
+
+    #Update data in file
+    writeLine = writePrepare(today_date, today_value, today_lcode, score)     
+    write(writeLine)
 else:
-    print(">> Status: The record is already updated today.")
+    print(">> Status: Existed date.")
 
 print(">> Save the image:", FILE_IMAGE201910)
 print(">> Save the image:", FILE_IMAGE201911)
@@ -256,7 +257,3 @@ print(">> Save the image:", FILE_IMAGE202002)
 print(">> Save the image:", FILE_IMAGE202003)
 print(">> Save the image:", FILE_IMAGE_SCORE202004)
 draw(dates, values)
-
-# print(dates)
-# print(values)
-# print(leetscore)

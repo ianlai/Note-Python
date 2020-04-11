@@ -86,7 +86,8 @@ algo
 │   ├── _0690_EmployeeImportance.py
 │   ├── _0784_LetterCasePermutation.py
 │   ├── _0841_KeysAndRooms.py
-│   └── _1079_LetterTilePossibilities.py
+│   ├── _1079_LetterTilePossibilities.py
+│   └── _1391_CheckIfThereIsAValidPathInAGrid.py
 ├── dp
 │   ├── _0010_RegularExpressionMatching.py
 │   ├── _0044_WildcardMatching.py
@@ -218,7 +219,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 198 files
+19 directories, 199 files
 
 =====================================
 ============= Local Repo ============
@@ -419,8 +420,9 @@ _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
+_1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  196
+Num of Python Practice:  197
 
 
 =====================================
@@ -625,12 +627,13 @@ Num of Python Practice:  196
  1243 Array Transformation
  1300 Sum of Mutated Array Closest to Target
  1358 Number of Substrings Containing All Three Characters
+ 1391 Check if There is a Valid Path in a Grid
 =====================================
 Solved / Total (Easy)  :   98 /  395
-Solved / Total (Medium):   92 /  718
+Solved / Total (Medium):   93 /  718
 Solved / Total (Hard)  :    9 /  294
-Solved / Total (All)   :  199 / 1407
-Total Score            :  419
+Solved / Total (All)   :  200 / 1407
+Total Score            :  422
 =====================================
 
 ```
