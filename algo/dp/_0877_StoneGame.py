@@ -92,6 +92,36 @@ class Solution_Simplified_Recursion_Inner:
         return helper(0, N-1) > 0
 
 #==============================================================================
+class Solution_Simplified_Memoization_Outer:
+    # Top-down memoization DP (17%)
+    # Note: Even number of piles 
+    #      -> i+j is odd means Alex's turn 
+    #      -> i+j is even means Lee's turn 
+    def stoneGame(self, piles: List[int]) -> bool:
+        if len(piles) == 0:
+            return True
+        i, j = 0, len(piles) - 1
+        res = self.helper(piles, i, j, {})
+        return res > 0
+
+    def helper(self, piles, i, j, memo):
+        if i > j:
+            return 0  #means this is not a choice
+        if (i, j) in memo: 
+            return memo[(i, j)]
+        
+        if (i + j) % 2 == 1: # Alex
+            chooseLeft  = self.helper(piles, i+1, j, memo)
+            chooseRight = self.helper(piles, i, j-1, memo)
+            res = max(chooseLeft + piles[i], chooseRight + piles[j]) 
+            memo[(i,j)] = res 
+            return res
+        else: # Lee
+            chooseLeft  = self.helper(piles, i+1, j, memo)
+            chooseRight = self.helper(piles, i, j-1, memo)
+            res = min(chooseLeft - piles[i], chooseRight - piles[j]) 
+            memo[(i,j)] = res 
+            return res
 
 #Simplied Memoization + Inner Function (parameters: 2 parameters)
 class Solution_Simplified_Memoization_Inner:
@@ -102,7 +132,6 @@ class Solution_Simplified_Memoization_Inner:
     
         memo = {}
         def helper(i, j):
-
             if i > j: 
                 return 0
             if (i,j) in memo:
@@ -114,26 +143,6 @@ class Solution_Simplified_Memoization_Inner:
                 memo[i,j] = min(-piles[i] + helper(i+1, j), -piles[j] + helper(i, j-1))   
             return memo[i,j]
         return helper(0, N-1) > 0
-#==============================================================================
-
-#Simplied Memoization (lru) + Inner Function  (parameters: 2 parameters)
-from functools import lru_cache
-class Solution_Simplified_Memoization_LRU_Inner:
-    def stoneGame(self, piles: List[int]) -> bool:
-        if piles is None or len(piles) == 0:
-            return False
-        N = len(piles)
-
-        @lru_cache(None)
-        def helper(i, j):
-            if i > j: 
-                return 0
-            if (i + j) % 2 == 1:  # me 
-                return max(piles[i] + helper(i+1, j), piles[j] + helper(i, j-1))             
-            else:
-                return min(-piles[i] + helper(i+1, j), -piles[j] + helper(i, j-1))   
-        return helper(0, N-1) > 0
-
 #==============================================================================
 
 #Simplied Memoization (lru) + Inner Function  (parameters: 2 parameters)
@@ -202,8 +211,9 @@ sols[1] = Solution_Complex_Memoization()
 #sols[2] = Solution_Simplified_Recursion() 
 #sols[3] = Solution_Simplified_Recursion_Inner() 
 sols[4] = Solution_Simplified_Memoization_Inner() 
-sols[5] = Solution_Simplified_Memoization_LRU_Inner() 
-sols[6] = Solution_Math() 
+sols[5] = Solution_Simplified_Memoization_Outer()
+sols[6] = Solution_Simplified_Memoization_LRU_Inner() 
+sols[7] = Solution_Math() 
 
 print("Num of piles:", len(q2))
 for i in range(len(sols)):
@@ -216,12 +226,19 @@ for i in range(len(sols)):
     elapsed = round(t2 - t1, 3)
     print("[", i+1, "]", elapsed, sol.__class__.__name__, ": ", ans)
 
-# Num of piles: 150
-# [ 2 ] 33.717 Solution_Complex_Memoization :  True
-# [ 5 ] 0.016 Solution_Simplified_Memoization_Inner :  True
-# [ 6 ] 0.016 Solution_Simplified_Memoization_LRU_Inner :  True
-# [ 7 ] 0.0 Solution_Math :  True
+# Num of piles: 180
+# [ 2 ] 60.906 Solution_Complex_Memoization :  True
+# [ 5 ] 0.022 Solution_Simplified_Memoization_Inner :  True
+# [ 6 ] 0.019 Solution_Simplified_Memoization_Outer :  True
+# [ 7 ] 0.022 Solution_Simplified_Memoization_LRU_Inner :  True
+# [ 8 ] 0.0 Solution_Math :  True
 
 # Conclusion:
-# Math > Simplifed Memoization LRU Inner > Simplifed Memoization Inner > Complex Memoization  
-# >>>>> Simplified Recursion Inner > Simplified Recursion > Complex Recursion
+# Math  
+# > Simplifed Memoization LRU Inner (2 parameters)
+# = Simplifed Memoization Inner (2 parameters)
+# = Simplifed Memoization Inner (2 parameters)
+# > Complex Memoization (5 parameters)
+# >>>>> Simplified Recursion Inner 
+# > Simplified Recursion 
+# > Complex Recursion
