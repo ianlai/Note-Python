@@ -10,6 +10,7 @@ algo
 │   ├── _0031_NextPermutation.py
 │   ├── _0054_SpiralMatrix.py
 │   ├── _0056_MergeIntervals.py
+│   ├── _0073_SetMatrixZeroes.py
 │   ├── _0088_MergeSortedArray.py
 │   ├── _0121_BestTimeToBuyAndSellStock.py
 │   ├── _0122_BestTimeToBuyAndSellStock2.py
@@ -27,6 +28,7 @@ algo
 │   ├── _0561_ArrayPartition1.py
 │   ├── _0566_ReshapeTheMatrix.py
 │   ├── _0674_LongestContinuousIncreasingSubsequence.py
+│   ├── _0844_BackspaceStringCompare.py
 │   ├── _0867_TransposeMatrix.py
 │   ├── _0896_MonotonicArray.py
 │   ├── _0905_SortArrayByParity.py
@@ -140,7 +142,8 @@ algo
 │   ├── _0203_RemoveLinkedListElements.py
 │   ├── _0206_ReverseLinkedList.py
 │   ├── _0234_PalindromeLinkedList.py
-│   └── _0237_DeleteNodeInALinkedList.py
+│   ├── _0237_DeleteNodeInALinkedList.py
+│   └── _0876_MiddleOfTheLinkedList.py
 ├── math
 │   ├── _0202_HappyNumber.py
 │   └── _0263_UglyNumber.py
@@ -219,7 +222,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 199 files
+19 directories, 202 files
 
 =====================================
 ============= Local Repo ============
@@ -264,6 +267,7 @@ _0061_RotateList.py
 _0064_MinimumPathSum.py
 _0069_Sqrt.py
 _0070_ClimbingStairs.py
+_0073_SetMatrixZeroes.py
 _0074_SearchA2DMatrix.py
 _0075_SortColors.py
 _0077_Combinations.py
@@ -401,8 +405,10 @@ _0783_MinimumDistanceBetweenBSTNodes.py
 _0784_LetterCasePermutation.py
 _0819_MostCommonWord.py
 _0841_KeysAndRooms.py
+_0844_BackspaceStringCompare.py
 _0852_PeakIndexInAMountainArray.py
 _0867_TransposeMatrix.py
+_0876_MiddleOfTheLinkedList.py
 _0877_StoneGame.py
 _0896_MonotonicArray.py
 _0905_SortArrayByParity.py
@@ -422,7 +428,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  197
+Num of Python Practice:  200
 
 
 =====================================
