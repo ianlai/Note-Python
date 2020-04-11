@@ -468,6 +468,7 @@ Num of Python Practice:  197
  0064 Minimum Path Sum
  0069 Sqrt(x)
  0070 Climbing Stairs
+ 0073 Set Matrix Zeroes
  0074 Search a 2D Matrix
  0075 Sort Colors
  0077 Combinations
@@ -608,8 +609,10 @@ Num of Python Practice:  197
  0784 Letter Case Permutation
  0819 Most Common Word
  0841 Keys and Rooms
+ 0844 Backspace String Compare
  0852 Peak Index in a Mountain Array
  0867 Transpose Matrix
+ 0876 Middle of the Linked List
  0877 Stone Game
  0896 Monotonic Array
  0905 Sort Array By Parity
@@ -629,11 +632,11 @@ Num of Python Practice:  197
  1358 Number of Substrings Containing All Three Characters
  1391 Check if There is a Valid Path in a Grid
 =====================================
-Solved / Total (Easy)  :   98 /  395
-Solved / Total (Medium):   93 /  718
+Solved / Total (Easy)  :  100 /  395
+Solved / Total (Medium):   94 /  718
 Solved / Total (Hard)  :    9 /  294
-Solved / Total (All)   :  200 / 1407
-Total Score            :  422
+Solved / Total (All)   :  203 / 1407
+Total Score            :  427
 =====================================
 
 ```
