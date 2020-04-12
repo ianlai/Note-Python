@@ -46,17 +46,17 @@ def write(line):
 
 def writePrepare(today_date, today_value, today_lcode, score):
     line = [] 
-    line.append(str(today_date))
-    line.append(str(today_value))
-    line.append(str(today_lcode['num_solved']))
-    line.append(' | ')
-    line.append(str(today_lcode['ac_easy']))
-    line.append(str(today_lcode['ac_medium']))
-    line.append(str(today_lcode['ac_hard']))
-    line.append(' | ')
-    line.append(str(score))
+    line.append(sf(str(today_date)))
+    line.append(sf(str(today_value)))
+    line.append(sf(str(today_lcode['num_solved'])))
+    line.append(sf(' | '))
+    line.append(sf(str(today_lcode['ac_easy']),5))
+    line.append(sf(str(today_lcode['ac_medium']),5))
+    line.append(sf(str(today_lcode['ac_hard']),4))
+    line.append(sf(' | '))
+    line.append(sf(str(score)))
     line.append('\n')
-    linePrint = '   '.join(line)
+    linePrint = ''.join(line)
     return linePrint
 
 ###################### 
@@ -211,6 +211,10 @@ def read():
         line = f.readline()
     f.close()
 
+def sf(s, num=6):
+    s = str(s)
+    return f'{s:>{num}}'
+
 ###################### 
 ### Print info 
 ######################
@@ -244,7 +248,8 @@ if str(today_date) != str(latest_date):
     leetscore.append(score)
 
     #Update data in file
-    writeLine = writePrepare(today_date, today_value, today_lcode, score)     
+    writeLine = writePrepare(today_date, today_value, today_lcode, score)    
+    #print(writeLine)
     write(writeLine)
 else:
     print(">> Status: Existed date.")

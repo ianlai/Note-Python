@@ -471,6 +471,8 @@ Num of Python Practice:  200
  0056 Merge Intervals
  0060 Permutation Sequence
  0061 Rotate List
+ 0062 Unique Paths
+ 0063 Unique Paths II
  0064 Minimum Path Sum
  0069 Sqrt(x)
  0070 Climbing Stairs
@@ -638,11 +640,11 @@ Num of Python Practice:  200
  1358 Number of Substrings Containing All Three Characters
  1391 Check if There is a Valid Path in a Grid
 =====================================
-Solved / Total (Easy)  :  100 /  395
-Solved / Total (Medium):   94 /  718
-Solved / Total (Hard)  :    9 /  294
-Solved / Total (All)   :  203 / 1407
-Total Score            :  427
+Solved / Total (Easy)  :  100 /  396
+Solved / Total (Medium):   96 /  720
+Solved / Total (Hard)  :    9 /  295
+Solved / Total (All)   :  205 / 1411
+Total Score            :  433
 =====================================
 
 ```
