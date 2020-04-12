@@ -104,6 +104,7 @@ algo
 │   ├── _0198_HouseRobber.py
 │   ├── _0213_HouseRobber2.py
 │   ├── _0322_CoinChange.py
+│   ├── _0338_CountingBits.py
 │   ├── _0576_OutOfBoundaryPaths.py
 │   ├── _0746_MinCostClimbingStairs.py
 │   └── _0877_StoneGame.py
@@ -225,7 +226,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 205 files
+19 directories, 206 files
 
 =====================================
 ============= Local Repo ============
@@ -361,6 +362,7 @@ _0297_SerializeAndDeserializeBinaryTree.py
 _0300_LongestIncreasingSubsequence.py
 _0313_SuperUglyNumber.py
 _0322_CoinChange.py
+_0338_CountingBits.py
 _0344_ReverseString.py
 _0347_TopKFrequentElements.py
 _0349_IntersectionOfTwoArrays.py
@@ -434,7 +436,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  203
+Num of Python Practice:  204
 
 
 =====================================
@@ -571,6 +573,7 @@ Num of Python Practice:  203
  0300 Longest Increasing Subsequence
  0313 Super Ugly Number
  0322 Coin Change
+ 0338 Counting Bits
  0344 Reverse String
  0347 Top K Frequent Elements
  0349 Intersection of Two Arrays
@@ -648,10 +651,10 @@ Num of Python Practice:  203
  1391 Check if There is a Valid Path in a Grid
 =====================================
 Solved / Total (Easy)  :  100 /  396
-Solved / Total (Medium):   97 /  720
+Solved / Total (Medium):   98 /  720
 Solved / Total (Hard)  :    9 /  295
-Solved / Total (All)   :  206 / 1411
-Total Score            :  436
+Solved / Total (All)   :  207 / 1411
+Total Score            :  439
 =====================================
 
 ```
