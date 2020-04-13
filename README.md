@@ -103,6 +103,7 @@ algo
 │   ├── _0139_WordBreak.py
 │   ├── _0198_HouseRobber.py
 │   ├── _0213_HouseRobber2.py
+│   ├── _0221_MaximalSquare.py
 │   ├── _0322_CoinChange.py
 │   ├── _0338_CountingBits.py
 │   ├── _0576_OutOfBoundaryPaths.py
@@ -226,7 +227,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 206 files
+19 directories, 207 files
 
 =====================================
 ============= Local Repo ============
@@ -338,6 +339,7 @@ _0215_KthLargestElementInAnArray.py
 _0216_CombinationSum3.py
 _0217_ContainsDuplicate.py
 _0219_ContainsDuplicate2.py
+_0221_MaximalSquare.py
 _0222_CountCompleteTreeNodes.py
 _0225_ImplementStackUsingQueues.py
 _0226_InvertBinaryTree.py
@@ -436,7 +438,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  204
+Num of Python Practice:  205
 
 
 =====================================
@@ -549,6 +551,7 @@ Num of Python Practice:  204
  0216 Combination Sum III
  0217 Contains Duplicate
  0219 Contains Duplicate II
+ 0221 Maximal Square
  0222 Count Complete Tree Nodes
  0225 Implement Stack using Queues
  0226 Invert Binary Tree
@@ -561,6 +564,7 @@ Num of Python Practice:  204
  0242 Valid Anagram
  0252 Meeting Rooms
  0253 Meeting Rooms II
+ 0256 Paint House
  0257 Binary Tree Paths
  0263 Ugly Number
  0264 Ugly Number II
@@ -650,11 +654,11 @@ Num of Python Practice:  204
  1358 Number of Substrings Containing All Three Characters
  1391 Check if There is a Valid Path in a Grid
 =====================================
-Solved / Total (Easy)  :  100 /  396
-Solved / Total (Medium):   98 /  720
+Solved / Total (Easy)  :  101 /  396
+Solved / Total (Medium):   99 /  720
 Solved / Total (Hard)  :    9 /  295
-Solved / Total (All)   :  207 / 1411
-Total Score            :  439
+Solved / Total (All)   :  209 / 1411
+Total Score            :  443
 =====================================
 
 ```
