@@ -104,6 +104,7 @@ algo
 │   ├── _0198_HouseRobber.py
 │   ├── _0213_HouseRobber2.py
 │   ├── _0221_MaximalSquare.py
+│   ├── _0256_PaintHouse.py
 │   ├── _0322_CoinChange.py
 │   ├── _0338_CountingBits.py
 │   ├── _0576_OutOfBoundaryPaths.py
@@ -227,7 +228,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 207 files
+19 directories, 208 files
 
 =====================================
 ============= Local Repo ============
@@ -352,6 +353,7 @@ _0240_SearchA2DMatrix2.py
 _0242_ValidAnagram.py
 _0252_MeetingRooms.py
 _0253_MeetingRooms2.py
+_0256_PaintHouse.py
 _0257_BinaryTreePaths.py
 _0263_UglyNumber.py
 _0264_UglyNumber2.py
@@ -438,7 +440,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  205
+Num of Python Practice:  206
 
 
 =====================================
