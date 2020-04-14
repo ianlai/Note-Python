@@ -121,6 +121,7 @@ algo
 │   ├── _0380_InsertDeleteGetRandomO(1).py
 │   ├── _0387_FirstUniqueCharacterInAString.py
 │   ├── _0409_LongestPalindrome.py
+│   ├── _0525_ContiguousArray.py
 │   ├── _0535_EncodeAndDecodeTinyURL.py
 │   ├── _0560_SubarraySumEqualsK.py
 │   ├── _0692_TopKFrequentWords.py
@@ -228,7 +229,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 208 files
+19 directories, 209 files
 
 =====================================
 ============= Local Repo ============
@@ -389,6 +390,7 @@ _0487_MaxConsecutiveOnes2.py
 _0494_TargetSum.py
 _0509_FibonacciNumber.py
 _0523_ContinuousSubarraySum.py
+_0525_ContiguousArray.py
 _0526_BeautifulArrangement.py
 _0535_EncodeAndDecodeTinyURL.py
 _0538_ConvertBSTtoGreaterTree.py
@@ -440,7 +442,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  206
+Num of Python Practice:  207
 
 
 =====================================
@@ -603,6 +605,7 @@ Num of Python Practice:  206
  0494 Target Sum
  0509 Fibonacci Number
  0523 Continuous Subarray Sum
+ 0525 Contiguous Array
  0526 Beautiful Arrangement
  0535 Encode and Decode TinyURL
  0538 Convert BST to Greater Tree
@@ -658,10 +661,10 @@ Num of Python Practice:  206
  1391 Check if There is a Valid Path in a Grid
 =====================================
 Solved / Total (Easy)  :  101 /  396
-Solved / Total (Medium):  100 /  720
+Solved / Total (Medium):  101 /  720
 Solved / Total (Hard)  :    9 /  295
-Solved / Total (All)   :  210 / 1411
-Total Score            :  446
+Solved / Total (All)   :  211 / 1411
+Total Score            :  449
 =====================================
 
 ```
