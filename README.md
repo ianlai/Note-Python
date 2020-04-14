@@ -452,6 +452,7 @@ Num of Python Practice:  206
  0004 Median of Two Sorted Arrays
  0005 Longest Palindromic Substring
  0010 Regular Expression Matching
+ 0011 Container With Most Water
  0015 3Sum
  0016 3Sum Closest
  0017 Letter Combinations of a Phone Number
@@ -657,10 +658,10 @@ Num of Python Practice:  206
  1391 Check if There is a Valid Path in a Grid
 =====================================
 Solved / Total (Easy)  :  101 /  396
-Solved / Total (Medium):   99 /  720
+Solved / Total (Medium):  100 /  720
 Solved / Total (Hard)  :    9 /  295
-Solved / Total (All)   :  209 / 1411
-Total Score            :  443
+Solved / Total (All)   :  210 / 1411
+Total Score            :  446
 =====================================
 
 ```
