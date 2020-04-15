@@ -8,12 +8,14 @@ algo
 │   ├── _0018_4Sum.py
 │   ├── _0027_RemoveElement.py
 │   ├── _0031_NextPermutation.py
+│   ├── _0036_ValidSudoku.py
 │   ├── _0054_SpiralMatrix.py
 │   ├── _0056_MergeIntervals.py
 │   ├── _0073_SetMatrixZeroes.py
 │   ├── _0088_MergeSortedArray.py
 │   ├── _0121_BestTimeToBuyAndSellStock.py
 │   ├── _0122_BestTimeToBuyAndSellStock2.py
+│   ├── _0134_GasStation.py
 │   ├── _0167_TwoSum2-InputArrayIsSorted.py
 │   ├── _0169_MajorityElement.py
 │   ├── _0189_RotateArray.py
@@ -230,7 +232,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 210 files
+19 directories, 212 files
 
 =====================================
 ============= Local Repo ============
@@ -258,6 +260,7 @@ _0031_NextPermutation.py
 _0033_SearchInRotatedSortedArray.py
 _0034_FindFirstAndLastPositionOfElementInSortedArray.py
 _0035_SearchInsertPosition.py
+_0036_ValidSudoku.py
 _0037_SudokuSolver.py
 _0038_CountAndSay.py
 _0039_CombinationSum.py
@@ -314,6 +317,7 @@ _0127_WordLadder.py
 _0129_SumRootToLeafNumbers.py
 _0131_PalindromePartitioning.py
 _0133_CloneGraph.py
+_0134_GasStation.py
 _0139_WordBreak.py
 _0141_LinkedListCycle.py
 _0142_LinkedListCycle2.py
@@ -444,7 +448,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  208
+Num of Python Practice:  210
 
 
 =====================================
@@ -473,6 +477,7 @@ Num of Python Practice:  208
  0033 Search in Rotated Sorted Array
  0034 Find First and Last Position of Element in Sorted Array
  0035 Search Insert Position
+ 0036 Valid Sudoku
  0037 Sudoku Solver
  0038 Count and Say
  0039 Combination Sum
@@ -528,6 +533,7 @@ Num of Python Practice:  208
  0129 Sum Root to Leaf Numbers
  0131 Palindrome Partitioning
  0133 Clone Graph
+ 0134 Gas Station
  0136 Single Number
  0139 Word Break
  0141 Linked List Cycle
@@ -663,10 +669,10 @@ Num of Python Practice:  208
  1391 Check if There is a Valid Path in a Grid
 =====================================
 Solved / Total (Easy)  :  101 /  396
-Solved / Total (Medium):  101 /  720
+Solved / Total (Medium):  103 /  720
 Solved / Total (Hard)  :    9 /  295
-Solved / Total (All)   :  211 / 1411
-Total Score            :  449
+Solved / Total (All)   :  213 / 1411
+Total Score            :  455
 =====================================
 
 ```
