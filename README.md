@@ -24,6 +24,7 @@ algo
 │   ├── _0283_MoveZeroes.py
 │   ├── _0349_IntersectionOfTwoArrays.py
 │   ├── _0350_IntersectionOfTwoArrays2.py
+│   ├── _0442_FindAllDuplicatesInAnArray.py
 │   ├── _0448_FindAllNumbersDisappearedInAnArray.py
 │   ├── _0463_IslandPerimeter.py
 │   ├── _0485_MaxConsecutiveOnes.py
@@ -232,7 +233,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 212 files
+19 directories, 213 files
 
 =====================================
 ============= Local Repo ============
@@ -389,6 +390,7 @@ _0401_BinaryWatch.py
 _0409_LongestPalindrome.py
 _0415_AddStrings.py
 _0429_N-aryTreeLevelOrderTraversal.py
+_0442_FindAllDuplicatesInAnArray.py
 _0448_FindAllNumbersDisappearedInAnArray.py
 _0463_IslandPerimeter.py
 _0485_MaxConsecutiveOnes.py
@@ -448,7 +450,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  210
+Num of Python Practice:  211
 
 
 =====================================
@@ -606,6 +608,7 @@ Num of Python Practice:  210
  0409 Longest Palindrome
  0415 Add Strings
  0429 N-ary Tree Level Order Traversal
+ 0442 Find All Duplicates in an Array
  0448 Find All Numbers Disappeared in an Array
  0463 Island Perimeter
  0485 Max Consecutive Ones
@@ -669,10 +672,10 @@ Num of Python Practice:  210
  1391 Check if There is a Valid Path in a Grid
 =====================================
 Solved / Total (Easy)  :  101 /  396
-Solved / Total (Medium):  103 /  720
+Solved / Total (Medium):  104 /  720
 Solved / Total (Hard)  :    9 /  295
-Solved / Total (All)   :  213 / 1411
-Total Score            :  455
+Solved / Total (All)   :  214 / 1411
+Total Score            :  458
 =====================================
 
 ```
