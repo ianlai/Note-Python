@@ -47,7 +47,8 @@ algo
 │   ├── _0199_BinaryTreeRightSideView.py
 │   ├── _0200_NumberOfIslands.py
 │   ├── _0207_CourseSchedule.py
-│   └── _0210_CourseSchedule2.py
+│   ├── _0210_CourseSchedule2.py
+│   └── _1197_MinimumKnightMoves.py
 ├── binary-search
 │   ├── _0033_SearchInRotatedSortedArray.py
 │   ├── _0034_FindFirstAndLastPositionOfElementInSortedArray.py
@@ -233,7 +234,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 213 files
+19 directories, 214 files
 
 =====================================
 ============= Local Repo ============
@@ -444,13 +445,14 @@ _1022_SumOfRootToLeafBinaryNumbers.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
 _1099_TwoSumLessThanK.py
+_1197_MinimumKnightMoves.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  211
+Num of Python Practice:  212
 
 
 =====================================
@@ -665,6 +667,7 @@ Num of Python Practice:  211
  1046 Last Stone Weight
  1079 Letter Tile Possibilities
  1099 Two Sum Less Than K
+ 1197 Minimum Knight Moves
  1214 Two Sum BSTs
  1243 Array Transformation
  1300 Sum of Mutated Array Closest to Target
@@ -672,10 +675,10 @@ Num of Python Practice:  211
  1391 Check if There is a Valid Path in a Grid
 =====================================
 Solved / Total (Easy)  :  101 /  396
-Solved / Total (Medium):  104 /  720
-Solved / Total (Hard)  :    9 /  295
-Solved / Total (All)   :  214 / 1411
-Total Score            :  458
+Solved / Total (Medium):  105 /  720
+Solved / Total (Hard)  :    9 /  296
+Solved / Total (All)   :  215 / 1412
+Total Score            :  461
 =====================================
 
 ```
