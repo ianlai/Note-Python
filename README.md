@@ -128,6 +128,7 @@ algo
 │   ├── _0525_ContiguousArray.py
 │   ├── _0535_EncodeAndDecodeTinyURL.py
 │   ├── _0560_SubarraySumEqualsK.py
+│   ├── _0657_RobotReturnToOrigin.py
 │   ├── _0692_TopKFrequentWords.py
 │   ├── _0705_DesignHashSet.py
 │   └── _0771_JewelsAndStones.py
@@ -234,7 +235,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 214 files
+19 directories, 215 files
 
 =====================================
 ============= Local Repo ============
@@ -412,6 +413,7 @@ _0576_OutOfBoundaryPaths.py
 _0617_MergeTwoBinaryTrees.py
 _0653_TwoSum4.py
 _0654_MaximumBinaryTree.py
+_0657_RobotReturnToOrigin.py
 _0658_FindKClosestElements.py
 _0669_TrimABinarySearchTree.py
 _0674_LongestContinuousIncreasingSubsequence.py
@@ -452,7 +454,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  212
+Num of Python Practice:  213
 
 
 =====================================
@@ -634,6 +636,7 @@ Num of Python Practice:  212
  0627 Swap Salary
  0653 Two Sum IV - Input is a BST
  0654 Maximum Binary Tree
+ 0657 Robot Return to Origin
  0658 Find K Closest Elements
  0669 Trim a Binary Search Tree
  0674 Longest Continuous Increasing Subsequence
@@ -674,11 +677,11 @@ Num of Python Practice:  212
  1358 Number of Substrings Containing All Three Characters
  1391 Check if There is a Valid Path in a Grid
 =====================================
-Solved / Total (Easy)  :  101 /  396
+Solved / Total (Easy)  :  102 /  396
 Solved / Total (Medium):  105 /  720
 Solved / Total (Hard)  :    9 /  296
-Solved / Total (All)   :  215 / 1412
-Total Score            :  461
+Solved / Total (All)   :  216 / 1412
+Total Score            :  462
 =====================================
 
 ```
