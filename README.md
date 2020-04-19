@@ -112,6 +112,7 @@ algo
 │   ├── _0322_CoinChange.py
 │   ├── _0338_CountingBits.py
 │   ├── _0576_OutOfBoundaryPaths.py
+│   ├── _0688_KnightProbabilityInChessboard.py
 │   ├── _0746_MinCostClimbingStairs.py
 │   └── _0877_StoneGame.py
 ├── golang
@@ -175,7 +176,8 @@ algo
 │   ├── _0020_ValidParentheses.py
 │   ├── _0155_MinStack.py
 │   ├── _0225_ImplementStackUsingQueues.py
-│   └── _0232_ImplementQueueUsingStacks.py
+│   ├── _0232_ImplementQueueUsingStacks.py
+│   └── _0716_MaxStack.py
 ├── string
 │   ├── _0003_LongestSubstringWithoutRepeatingCharacters.py
 │   ├── _0038_CountAndSay.py
@@ -235,7 +237,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 215 files
+19 directories, 217 files
 
 =====================================
 ============= Local Repo ============
@@ -417,6 +419,7 @@ _0657_RobotReturnToOrigin.py
 _0658_FindKClosestElements.py
 _0669_TrimABinarySearchTree.py
 _0674_LongestContinuousIncreasingSubsequence.py
+_0688_KnightProbabilityInChessboard.py
 _0690_EmployeeImportance.py
 _0692_TopKFrequentWords.py
 _0700_SearchInABinarySearchTree.py
@@ -424,6 +427,7 @@ _0701_InsertIntoABinarySearchTree.py
 _0703_KthLargestElementInAStream.py
 _0704_BinarySearch.py
 _0705_DesignHashSet.py
+_0716_MaxStack.py
 _0746_MinCostClimbingStairs.py
 _0771_JewelsAndStones.py
 _0783_MinimumDistanceBetweenBSTNodes.py
@@ -454,7 +458,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  213
+Num of Python Practice:  215
 
 
 =====================================
@@ -640,6 +644,7 @@ Num of Python Practice:  213
  0658 Find K Closest Elements
  0669 Trim a Binary Search Tree
  0674 Longest Continuous Increasing Subsequence
+ 0688 Knight Probability in Chessboard
  0690 Employee Importance
  0692 Top K Frequent Words
  0700 Search in a Binary Search Tree
@@ -647,6 +652,7 @@ Num of Python Practice:  213
  0703 Kth Largest Element in a Stream
  0704 Binary Search
  0705 Design HashSet
+ 0716 Max Stack
  0746 Min Cost Climbing Stairs
  0771 Jewels and Stones
  0783 Minimum Distance Between BST Nodes
@@ -677,11 +683,11 @@ Num of Python Practice:  213
  1358 Number of Substrings Containing All Three Characters
  1391 Check if There is a Valid Path in a Grid
 =====================================
-Solved / Total (Easy)  :  102 /  396
-Solved / Total (Medium):  105 /  720
-Solved / Total (Hard)  :    9 /  296
-Solved / Total (All)   :  216 / 1412
-Total Score            :  462
+Solved / Total (Easy)  :  103 /  398
+Solved / Total (Medium):  106 /  724
+Solved / Total (Hard)  :    9 /  298
+Solved / Total (All)   :  218 / 1420
+Total Score            :  466
 =====================================
 
 ```
