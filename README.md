@@ -202,6 +202,7 @@ algo
 │   ├── _0129_SumRootToLeafNumbers.py
 │   ├── _0144_BinaryTreePreorderTraversal.py
 │   ├── _0173_BinarySearchTreeIterator.py
+│   ├── _0208_ImplementTrie(PrefixTree).py
 │   ├── _0226_InvertBinaryTree.py
 │   ├── _0230_KthSmallestElementInBST.py
 │   ├── _0236_LowestCommonAncestorOfABinaryTree.py
@@ -238,7 +239,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 218 files
+19 directories, 219 files
 
 =====================================
 ============= Local Repo ============
@@ -346,6 +347,7 @@ _0202_HappyNumber.py
 _0203_RemoveLinkedListElements.py
 _0206_ReverseLinkedList.py
 _0207_CourseSchedule.py
+_0208_ImplementTrie(PrefixTree).py
 _0209_MinimumSizeSubarraySum.py
 _0210_CourseSchedule2.py
 _0213_HouseRobber2.py
@@ -460,7 +462,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  216
+Num of Python Practice:  217
 
 
 =====================================
@@ -569,6 +571,7 @@ Num of Python Practice:  216
  0203 Remove Linked List Elements
  0206 Reverse Linked List
  0207 Course Schedule
+ 0208 Implement Trie (Prefix Tree)
  0209 Minimum Size Subarray Sum
  0210 Course Schedule II
  0213 House Robber II
@@ -687,10 +690,10 @@ Num of Python Practice:  216
  1391 Check if There is a Valid Path in a Grid
 =====================================
 Solved / Total (Easy)  :  103 /  398
-Solved / Total (Medium):  107 /  724
+Solved / Total (Medium):  108 /  724
 Solved / Total (Hard)  :    9 /  298
-Solved / Total (All)   :  219 / 1420
-Total Score            :  469
+Solved / Total (All)   :  220 / 1420
+Total Score            :  472
 =====================================
 
 ```
