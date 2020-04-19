@@ -114,7 +114,8 @@ algo
 │   ├── _0576_OutOfBoundaryPaths.py
 │   ├── _0688_KnightProbabilityInChessboard.py
 │   ├── _0746_MinCostClimbingStairs.py
-│   └── _0877_StoneGame.py
+│   ├── _0877_StoneGame.py
+│   └── _0935_KnightDialer.py
 ├── golang
 ├── hashmap
 │   ├── _0049_GroupAnagrams.py
@@ -237,7 +238,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 217 files
+19 directories, 218 files
 
 =====================================
 ============= Local Repo ============
@@ -442,6 +443,7 @@ _0877_StoneGame.py
 _0896_MonotonicArray.py
 _0905_SortArrayByParity.py
 _0912_SortAnArray.py
+_0935_KnightDialer.py
 _0938_RangeSumOfBST.py
 _0973_KClosestPointsToOrigin.py
 _0977_SquaresOfASortedArray.py
@@ -458,7 +460,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  215
+Num of Python Practice:  216
 
 
 =====================================
@@ -667,6 +669,7 @@ Num of Python Practice:  215
  0896 Monotonic Array
  0905 Sort Array By Parity
  0912 Sort an Array
+ 0935 Knight Dialer
  0938 Range Sum of BST
  0973 K Closest Points to Origin
  0977 Squares of a Sorted Array
@@ -684,10 +687,10 @@ Num of Python Practice:  215
  1391 Check if There is a Valid Path in a Grid
 =====================================
 Solved / Total (Easy)  :  103 /  398
-Solved / Total (Medium):  106 /  724
+Solved / Total (Medium):  107 /  724
 Solved / Total (Hard)  :    9 /  298
-Solved / Total (All)   :  218 / 1420
-Total Score            :  466
+Solved / Total (All)   :  219 / 1420
+Total Score            :  469
 =====================================
 
 ```
