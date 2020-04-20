@@ -124,6 +124,7 @@ algo
 │   ├── _0219_ContainsDuplicate2.py
 │   ├── _0242_ValidAnagram.py
 │   ├── _0347_TopKFrequentElements.py
+│   ├── _0359_LoggerRateLimiter.py
 │   ├── _0380_InsertDeleteGetRandomO(1).py
 │   ├── _0387_FirstUniqueCharacterInAString.py
 │   ├── _0409_LongestPalindrome.py
@@ -133,7 +134,9 @@ algo
 │   ├── _0657_RobotReturnToOrigin.py
 │   ├── _0692_TopKFrequentWords.py
 │   ├── _0705_DesignHashSet.py
-│   └── _0771_JewelsAndStones.py
+│   ├── _0706_DesignHashMap.py
+│   ├── _0771_JewelsAndStones.py
+│   └── _1086_HighFive.py
 ├── heap
 │   ├── _0215_KthLargestElementInAnArray.py
 │   ├── _0264_UglyNumber2.py
@@ -239,7 +242,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 219 files
+19 directories, 222 files
 
 =====================================
 ============= Local Repo ============
@@ -387,6 +390,7 @@ _0347_TopKFrequentElements.py
 _0349_IntersectionOfTwoArrays.py
 _0350_IntersectionOfTwoArrays2.py
 _0354_RussianDollEnvelopes.py
+_0359_LoggerRateLimiter.py
 _0367_ValidPerfectSquare.py
 _0378_KthSmallestElementInASortedMatrix.py
 _0380_InsertDeleteGetRandomO(1).py
@@ -430,6 +434,7 @@ _0701_InsertIntoABinarySearchTree.py
 _0703_KthLargestElementInAStream.py
 _0704_BinarySearch.py
 _0705_DesignHashSet.py
+_0706_DesignHashMap.py
 _0716_MaxStack.py
 _0746_MinCostClimbingStairs.py
 _0771_JewelsAndStones.py
@@ -454,6 +459,7 @@ _1002_FindCommonCharacters.py
 _1022_SumOfRootToLeafBinaryNumbers.py
 _1046_LastStoneWeight.py
 _1079_LetterTilePossibilities.py
+_1086_HighFive.py
 _1099_TwoSumLessThanK.py
 _1197_MinimumKnightMoves.py
 _1214_TwoSumBSTs.py
@@ -462,7 +468,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  217
+Num of Python Practice:  220
 
 
 =====================================
@@ -611,6 +617,7 @@ Num of Python Practice:  217
  0349 Intersection of Two Arrays
  0350 Intersection of Two Arrays II
  0354 Russian Doll Envelopes
+ 0359 Logger Rate Limiter
  0367 Valid Perfect Square
  0378 Kth Smallest Element in a Sorted Matrix
  0380 Insert Delete GetRandom O(1)
@@ -657,6 +664,7 @@ Num of Python Practice:  217
  0703 Kth Largest Element in a Stream
  0704 Binary Search
  0705 Design HashSet
+ 0706 Design HashMap
  0716 Max Stack
  0746 Min Cost Climbing Stairs
  0771 Jewels and Stones
@@ -681,6 +689,7 @@ Num of Python Practice:  217
  1022 Sum of Root To Leaf Binary Numbers
  1046 Last Stone Weight
  1079 Letter Tile Possibilities
+ 1086 High Five
  1099 Two Sum Less Than K
  1197 Minimum Knight Moves
  1214 Two Sum BSTs
@@ -689,11 +698,11 @@ Num of Python Practice:  217
  1358 Number of Substrings Containing All Three Characters
  1391 Check if There is a Valid Path in a Grid
 =====================================
-Solved / Total (Easy)  :  103 /  398
+Solved / Total (Easy)  :  106 /  398
 Solved / Total (Medium):  108 /  724
 Solved / Total (Hard)  :    9 /  298
-Solved / Total (All)   :  220 / 1420
-Total Score            :  472
+Solved / Total (All)   :  223 / 1420
+Total Score            :  475
 =====================================
 
 ```
