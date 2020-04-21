@@ -31,6 +31,7 @@ algo
 │   ├── _0523_ContinuousSubarraySum.py
 │   ├── _0561_ArrayPartition1.py
 │   ├── _0566_ReshapeTheMatrix.py
+│   ├── _0581_ShortestUnsortedContinuousSubarray.py
 │   ├── _0674_LongestContinuousIncreasingSubsequence.py
 │   ├── _0844_BackspaceStringCompare.py
 │   ├── _0867_TransposeMatrix.py
@@ -70,6 +71,8 @@ algo
 │   └── _1300_SumOfMutatedArrayClosestToTarget.py
 ├── bits
 │   └── _0268_MissingNumber.py
+├── data-structure
+│   └── _0846_HandOfStraights.py
 ├── dfs
 │   ├── _0017_LetterCombinationsOfAPhoneNumber.py
 │   ├── _0022_GenerateParentheses.py
@@ -136,7 +139,8 @@ algo
 │   ├── _0705_DesignHashSet.py
 │   ├── _0706_DesignHashMap.py
 │   ├── _0771_JewelsAndStones.py
-│   └── _1086_HighFive.py
+│   ├── _1086_HighFive.py
+│   └── _1207_UniqueNumberOfOccurrences.py
 ├── heap
 │   ├── _0215_KthLargestElementInAnArray.py
 │   ├── _0264_UglyNumber2.py
@@ -242,7 +246,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-19 directories, 222 files
+20 directories, 225 files
 
 =====================================
 ============= Local Repo ============
@@ -419,6 +423,7 @@ _0561_ArrayPartition1.py
 _0566_ReshapeTheMatrix.py
 _0572_SubtreeOfAnotherTree.py
 _0576_OutOfBoundaryPaths.py
+_0581_ShortestUnsortedContinuousSubarray.py
 _0617_MergeTwoBinaryTrees.py
 _0653_TwoSum4.py
 _0654_MaximumBinaryTree.py
@@ -443,6 +448,7 @@ _0784_LetterCasePermutation.py
 _0819_MostCommonWord.py
 _0841_KeysAndRooms.py
 _0844_BackspaceStringCompare.py
+_0846_HandOfStraights.py
 _0852_PeakIndexInAMountainArray.py
 _0867_TransposeMatrix.py
 _0876_MiddleOfTheLinkedList.py
@@ -462,13 +468,14 @@ _1079_LetterTilePossibilities.py
 _1086_HighFive.py
 _1099_TwoSumLessThanK.py
 _1197_MinimumKnightMoves.py
+_1207_UniqueNumberOfOccurrences.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  220
+Num of Python Practice:  223
 
 
 =====================================
@@ -646,6 +653,7 @@ Num of Python Practice:  220
  0566 Reshape the Matrix
  0572 Subtree of Another Tree
  0576 Out of Boundary Paths
+ 0581 Shortest Unsorted Continuous Subarray
  0595 Big Countries
  0617 Merge Two Binary Trees
  0620 Not Boring Movies
@@ -673,6 +681,7 @@ Num of Python Practice:  220
  0819 Most Common Word
  0841 Keys and Rooms
  0844 Backspace String Compare
+ 0846 Hand of Straights
  0852 Peak Index in a Mountain Array
  0867 Transpose Matrix
  0876 Middle of the Linked List
@@ -692,17 +701,18 @@ Num of Python Practice:  220
  1086 High Five
  1099 Two Sum Less Than K
  1197 Minimum Knight Moves
+ 1207 Unique Number of Occurrences
  1214 Two Sum BSTs
  1243 Array Transformation
  1300 Sum of Mutated Array Closest to Target
  1358 Number of Substrings Containing All Three Characters
  1391 Check if There is a Valid Path in a Grid
 =====================================
-Solved / Total (Easy)  :  106 /  398
-Solved / Total (Medium):  108 /  724
+Solved / Total (Easy)  :  108 /  398
+Solved / Total (Medium):  109 /  724
 Solved / Total (Hard)  :    9 /  298
-Solved / Total (All)   :  223 / 1420
-Total Score            :  475
+Solved / Total (All)   :  226 / 1420
+Total Score            :  480
 =====================================
 
 ```
