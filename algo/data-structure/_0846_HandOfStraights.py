@@ -4,10 +4,12 @@
 # 2: 1  1
 # 3: 1  1
 # 4:    1
-# 6:       1
-# 7:       1
-# 8:       1
+# 6:      1
+# 7:      1
+# 8:      1
 
+
+# Define a data structure to handle the next item [5%]
 class Cards:
     def __init__(self, hand):
         self.mp  = {}
@@ -38,7 +40,7 @@ class Cards:
                 self.cur = i
                 return
                 
-class Solution:
+class Solution1:
     def isNStraightHand(self, hand: List[int], W: int) -> bool:
         if W <= 1:
             return True
@@ -62,3 +64,48 @@ class Solution:
                 prev = cur 
             cards.reset()
         return True
+
+#=============================================
+
+# Sort map then transform to list of list [15%]
+class Solution:
+    def isNStraightHand(self, hand: List[int], W: int) -> bool:    
+        # special case 
+        if W <= 1:
+            return True
+        if len(hand) % W != 0:
+            return False
+        
+        mp = {}
+        ans = []
+        
+        # count the elements
+        for e in hand:
+            mp[e] = mp.get(e, 0) + 1
+        
+        # sort the map and transform to list of list
+        cards = [list(x) for x in sorted(mp.items())]
+        print(cards)
+        
+        while cards:
+            cur = cards[0][0]
+            # loop the start value to start value + W (not W elements)
+            for val in range(cur, cur + W):
+                idx = self.contains(cards, val) 
+                if idx != -1:
+                    cards[idx][1] -= 1
+                    if cards[idx][1] == 0:
+                        cards.pop(idx)
+                else:
+                    return False
+        return True
+    
+    # since cards is a list, we need to traverse to check whether it contains val 
+    # this part should be improved  
+    def contains(self, cards, val):
+        for i in range(len(cards)):
+            if cards[i][0] == val:
+                return i
+        return -1
+    
+        
