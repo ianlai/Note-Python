@@ -108,6 +108,7 @@ algo
 │   ├── _0096_UniqueBinarySearchTrees.py
 │   ├── _0120_Triangle.py
 │   ├── _0139_WordBreak.py
+│   ├── _0152_MaximumProductSubarray.py
 │   ├── _0198_HouseRobber.py
 │   ├── _0213_HouseRobber2.py
 │   ├── _0221_MaximalSquare.py
@@ -246,7 +247,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-20 directories, 225 files
+20 directories, 226 files
 
 =====================================
 ============= Local Repo ============
@@ -338,6 +339,7 @@ _0142_LinkedListCycle2.py
 _0144_BinaryTreePreorderTraversal.py
 _0146_LRUCache.py
 _0147_InsertionSortList.py
+_0152_MaximumProductSubarray.py
 _0153_FindMinimumInRotatedSortedArray.py
 _0155_MinStack.py
 _0160_IntersectionOfTwoLinkedLists.py
@@ -475,7 +477,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  223
+Num of Python Practice:  224
 
 
 =====================================
@@ -568,6 +570,7 @@ Num of Python Practice:  223
  0144 Binary Tree Preorder Traversal
  0146 LRU Cache
  0147 Insertion Sort List
+ 0152 Maximum Product Subarray
  0153 Find Minimum in Rotated Sorted Array
  0155 Min Stack
  0160 Intersection of Two Linked Lists
@@ -709,10 +712,10 @@ Num of Python Practice:  223
  1391 Check if There is a Valid Path in a Grid
 =====================================
 Solved / Total (Easy)  :  108 /  398
-Solved / Total (Medium):  109 /  724
+Solved / Total (Medium):  110 /  724
 Solved / Total (Hard)  :    9 /  298
-Solved / Total (All)   :  226 / 1420
-Total Score            :  480
+Solved / Total (All)   :  227 / 1420
+Total Score            :  483
 =====================================
 
 ```
