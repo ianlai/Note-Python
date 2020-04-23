@@ -68,6 +68,7 @@ algo
 │   ├── _0658_FindKClosestElements.py
 │   ├── _0704_BinarySearch.py
 │   ├── _0852_PeakIndexInAMountainArray.py
+│   ├── _0981_TimeBasedKey-ValueStore.py
 │   └── _1300_SumOfMutatedArrayClosestToTarget.py
 ├── bits
 │   └── _0268_MissingNumber.py
@@ -102,6 +103,7 @@ algo
 │   ├── _0010_RegularExpressionMatching.py
 │   ├── _0044_WildcardMatching.py
 │   ├── _0053_MaximumSubarray.py
+│   ├── _0055_JumpGame.py
 │   ├── _0062_UniquePaths.py
 │   ├── _0063_UniquePaths2.py
 │   ├── _0064_MinimumPathSum.py
@@ -247,7 +249,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-20 directories, 226 files
+20 directories, 228 files
 
 =====================================
 ============= Local Repo ============
@@ -288,6 +290,7 @@ _0050_Pow(x,n).py
 _0051_N-Queens.py
 _0053_MaximumSubarray.py
 _0054_SpiralMatrix.py
+_0055_JumpGame.py
 _0056_MergeIntervals.py
 _0060_PermutationSequence.py
 _0061_RotateList.py
@@ -462,6 +465,7 @@ _0935_KnightDialer.py
 _0938_RangeSumOfBST.py
 _0973_KClosestPointsToOrigin.py
 _0977_SquaresOfASortedArray.py
+_0981_TimeBasedKey-ValueStore.py
 _0994_RottingOranges.py
 _1002_FindCommonCharacters.py
 _1022_SumOfRootToLeafBinaryNumbers.py
@@ -477,7 +481,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  224
+Num of Python Practice:  226
 
 
 =====================================
@@ -519,6 +523,7 @@ Num of Python Practice:  224
  0051 N-Queens
  0053 Maximum Subarray
  0054 Spiral Matrix
+ 0055 Jump Game
  0056 Merge Intervals
  0060 Permutation Sequence
  0061 Rotate List
@@ -696,6 +701,7 @@ Num of Python Practice:  224
  0938 Range Sum of BST
  0973 K Closest Points to Origin
  0977 Squares of a Sorted Array
+ 0981 Time Based Key-Value Store
  0994 Rotting Oranges
  1002 Find Common Characters
  1022 Sum of Root To Leaf Binary Numbers
@@ -712,10 +718,10 @@ Num of Python Practice:  224
  1391 Check if There is a Valid Path in a Grid
 =====================================
 Solved / Total (Easy)  :  108 /  398
-Solved / Total (Medium):  110 /  724
+Solved / Total (Medium):  112 /  724
 Solved / Total (Hard)  :    9 /  298
-Solved / Total (All)   :  227 / 1420
-Total Score            :  483
+Solved / Total (All)   :  229 / 1420
+Total Score            :  489
 =====================================
 
 ```
