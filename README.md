@@ -146,6 +146,7 @@ algo
 │   └── _1207_UniqueNumberOfOccurrences.py
 ├── heap
 │   ├── _0215_KthLargestElementInAnArray.py
+│   ├── _0239_SlidingWindowMaximum.py
 │   ├── _0264_UglyNumber2.py
 │   ├── _0313_SuperUglyNumber.py
 │   ├── _0378_KthSmallestElementInASortedMatrix.py
@@ -249,7 +250,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-20 directories, 228 files
+20 directories, 229 files
 
 =====================================
 ============= Local Repo ============
@@ -376,6 +377,7 @@ _0232_ImplementQueueUsingStacks.py
 _0234_PalindromeLinkedList.py
 _0236_LowestCommonAncestorOfABinaryTree.py
 _0237_DeleteNodeInALinkedList.py
+_0239_SlidingWindowMaximum.py
 _0240_SearchA2DMatrix2.py
 _0242_ValidAnagram.py
 _0252_MeetingRooms.py
@@ -481,7 +483,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  226
+Num of Python Practice:  227
 
 
 =====================================
@@ -609,6 +611,7 @@ Num of Python Practice:  226
  0234 Palindrome Linked List
  0236 Lowest Common Ancestor of a Binary Tree
  0237 Delete Node in a Linked List
+ 0239 Sliding Window Maximum
  0240 Search a 2D Matrix II
  0242 Valid Anagram
  0252 Meeting Rooms
@@ -718,10 +721,10 @@ Num of Python Practice:  226
  1391 Check if There is a Valid Path in a Grid
 =====================================
 Solved / Total (Easy)  :  108 /  398
-Solved / Total (Medium):  112 /  724
-Solved / Total (Hard)  :    9 /  298
-Solved / Total (All)   :  229 / 1420
-Total Score            :  489
+Solved / Total (Medium):  112 /  725
+Solved / Total (Hard)  :   10 /  298
+Solved / Total (All)   :  230 / 1421
+Total Score            :  494
 =====================================
 
 ```
