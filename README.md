@@ -44,6 +44,7 @@ algo
 │   ├── _0102_BinaryTreeLevelOrderTraversal.py
 │   ├── _0103_BinaryTreeZigzagLevelOrderTraversal.py
 │   ├── _0107_BinaryTreeLevelOrderTraversal2.py
+│   ├── _0127_WordLadder.py
 │   ├── _0133_CloneGraph.py
 │   ├── _0199_BinaryTreeRightSideView.py
 │   ├── _0200_NumberOfIslands.py
@@ -250,7 +251,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-20 directories, 229 files
+20 directories, 230 files
 
 =====================================
 ============= Local Repo ============
@@ -332,6 +333,7 @@ _0120_Triangle.py
 _0121_BestTimeToBuyAndSellStock.py
 _0122_BestTimeToBuyAndSellStock2.py
 _0125_ValidPalindrome.py
+_0127_WordLadder.py
 _0127_WordLadder.py
 _0129_SumRootToLeafNumbers.py
 _0131_PalindromePartitioning.py
@@ -483,7 +485,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  227
+Num of Python Practice:  228
 
 
 =====================================
@@ -566,6 +568,7 @@ Num of Python Practice:  227
  0121 Best Time to Buy and Sell Stock
  0122 Best Time to Buy and Sell Stock II
  0125 Valid Palindrome
+ 0127 Word Ladder
  0129 Sum Root to Leaf Numbers
  0131 Palindrome Partitioning
  0133 Clone Graph
@@ -720,11 +723,11 @@ Num of Python Practice:  227
  1358 Number of Substrings Containing All Three Characters
  1391 Check if There is a Valid Path in a Grid
 =====================================
-Solved / Total (Easy)  :  108 /  398
-Solved / Total (Medium):  112 /  725
-Solved / Total (Hard)  :   10 /  298
-Solved / Total (All)   :  230 / 1421
-Total Score            :  494
+Solved / Total (Easy)  :  108 /  399
+Solved / Total (Medium):  113 /  727
+Solved / Total (Hard)  :   10 /  299
+Solved / Total (All)   :  231 / 1425
+Total Score            :  497
 =====================================
 
 ```
