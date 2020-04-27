@@ -93,6 +93,7 @@ algo
 │   ├── _0216_CombinationSum3.py
 │   ├── _0291_WordPattern2.py
 │   ├── _0401_BinaryWatch.py
+│   ├── _0491_IncreasingSubsequences.py
 │   ├── _0494_TargetSum.py
 │   ├── _0526_BeautifulArrangement.py
 │   ├── _0690_EmployeeImportance.py
@@ -182,6 +183,8 @@ algo
 │   ├── _0344_ReverseString.py
 │   ├── _0509_FibonacciNumber.py
 │   └── _0700_SearchInABinarySearchTree.py
+├── sliding-window
+│   └── _0076_MinimumWindowSubstring.py
 ├── sorting
 │   ├── _0075_SortColors.py
 │   └── _0912_SortAnArray.py
@@ -251,7 +254,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-20 directories, 230 files
+21 directories, 232 files
 
 =====================================
 ============= Local Repo ============
@@ -304,6 +307,7 @@ _0070_ClimbingStairs.py
 _0073_SetMatrixZeroes.py
 _0074_SearchA2DMatrix.py
 _0075_SortColors.py
+_0076_MinimumWindowSubstring.py
 _0077_Combinations.py
 _0078_Subsets.py
 _0079_WordSearch.py
@@ -419,6 +423,7 @@ _0448_FindAllNumbersDisappearedInAnArray.py
 _0463_IslandPerimeter.py
 _0485_MaxConsecutiveOnes.py
 _0487_MaxConsecutiveOnes2.py
+_0491_IncreasingSubsequences.py
 _0494_TargetSum.py
 _0509_FibonacciNumber.py
 _0523_ContinuousSubarraySum.py
@@ -485,7 +490,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  228
+Num of Python Practice:  230
 
 
 =====================================
@@ -539,6 +544,7 @@ Num of Python Practice:  228
  0073 Set Matrix Zeroes
  0074 Search a 2D Matrix
  0075 Sort Colors
+ 0076 Minimum Window Substring
  0077 Combinations
  0078 Subsets
  0079 Word Search
@@ -654,6 +660,7 @@ Num of Python Practice:  228
  0463 Island Perimeter
  0485 Max Consecutive Ones
  0487 Max Consecutive Ones II
+ 0491 Increasing Subsequences
  0494 Target Sum
  0509 Fibonacci Number
  0523 Continuous Subarray Sum
@@ -724,10 +731,10 @@ Num of Python Practice:  228
  1391 Check if There is a Valid Path in a Grid
 =====================================
 Solved / Total (Easy)  :  108 /  399
-Solved / Total (Medium):  113 /  727
-Solved / Total (Hard)  :   10 /  299
-Solved / Total (All)   :  231 / 1425
-Total Score            :  497
+Solved / Total (Medium):  114 /  727
+Solved / Total (Hard)  :   11 /  299
+Solved / Total (All)   :  233 / 1425
+Total Score            :  505
 =====================================
 
 ```
