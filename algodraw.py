@@ -151,7 +151,7 @@ def draw(dates, values):
     axs[1].set(xlabel="Date", ylabel="Score",
         title="Score of Quiz (2020.04)")
     #ax2.set_xlim(datetime.datetime(2020,4,1), datetime.datetime(2020,4,30)) 
-    axs[1].set_ylim(300,500) #score of quiz
+    axs[1].set_ylim(350,550) #score of quiz
     axs[1].grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
     axs[1].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
     axs[1].grid(which='major', color='#bbbbbb', axis ='y')

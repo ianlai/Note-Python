@@ -50,6 +50,7 @@ algo
 │   ├── _0200_NumberOfIslands.py
 │   ├── _0207_CourseSchedule.py
 │   ├── _0210_CourseSchedule2.py
+│   ├── _0695_MaxAreaOfIsland.py
 │   └── _1197_MinimumKnightMoves.py
 ├── binary-search
 │   ├── _0033_SearchInRotatedSortedArray.py
@@ -254,7 +255,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-21 directories, 232 files
+21 directories, 233 files
 
 =====================================
 ============= Local Repo ============
@@ -448,6 +449,7 @@ _0674_LongestContinuousIncreasingSubsequence.py
 _0688_KnightProbabilityInChessboard.py
 _0690_EmployeeImportance.py
 _0692_TopKFrequentWords.py
+_0695_MaxAreaOfIsland.py
 _0700_SearchInABinarySearchTree.py
 _0701_InsertIntoABinarySearchTree.py
 _0703_KthLargestElementInAStream.py
@@ -490,7 +492,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  230
+Num of Python Practice:  231
 
 
 =====================================
@@ -688,6 +690,7 @@ Num of Python Practice:  230
  0688 Knight Probability in Chessboard
  0690 Employee Importance
  0692 Top K Frequent Words
+ 0695 Max Area of Island
  0700 Search in a Binary Search Tree
  0701 Insert into a Binary Search Tree
  0703 Kth Largest Element in a Stream
@@ -731,10 +734,10 @@ Num of Python Practice:  230
  1391 Check if There is a Valid Path in a Grid
 =====================================
 Solved / Total (Easy)  :  108 /  399
-Solved / Total (Medium):  114 /  727
+Solved / Total (Medium):  115 /  727
 Solved / Total (Hard)  :   11 /  299
-Solved / Total (All)   :  233 / 1425
-Total Score            :  505
+Solved / Total (All)   :  234 / 1425
+Total Score            :  508
 =====================================
 
 ```
