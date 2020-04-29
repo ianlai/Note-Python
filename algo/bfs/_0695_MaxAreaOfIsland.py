@@ -1,7 +1,30 @@
 class Solution:
     
+    #DFS [28%]
+    def maxAreaOfIsland(self, grid):
+        seen = set()
+        def area(r, c):
+            if not (0 <= r < len(grid) and 0 <= c < len(grid[0])
+                    and (r, c) not in seen and grid[r][c]):
+                return 0
+            seen.add((r, c))
+            
+            curArea = 1 + \
+                    area(r+1, c) + \
+                    area(r-1, c) + \
+                    area(r, c-1) + \
+                    area(r, c+1)
+            return curArea
+
+        maxArea = 0
+        for r in range(len(grid)):
+            for c in range(len(grid[0])):
+                maxArea = max(area(r, c), maxArea)
+                print(r, c, seen)
+        return maxArea
+    
     #BFS [24%]
-    def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
+    def maxAreaOfIsland1(self, grid: List[List[int]]) -> int:
         if len(grid) == 0 or len(grid[0]) == 0:
             return 0
         if len(grid) == 1 and len(grid[0]) == 1:
@@ -46,15 +69,15 @@ class Solution:
         return ans[0]
                 
     # DFS, wrong!!
-#     def maxAreaOfIsland1(self, grid: List[List[int]]) -> int:
+#     def maxAreaOfIsland2(self, grid: List[List[int]]) -> int:
 #         if len(grid) == 0 or len(grid[0]) == 0:
 #             return 0
         
 #         visited = set()
 #         ans = [0, 0]  #max area, cur area
         
-#         for i in range(len(grid)):
-#             print(grid[i])
+#         # for i in range(len(grid)):
+#         #     print(grid[i])
         
 #         for i in range(len(grid)):
 #             for j in range(len(grid[0])):
