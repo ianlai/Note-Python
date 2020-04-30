@@ -1,7 +1,46 @@
 class Solution:
     
-    #BFS: Better use BFS since we should avoid using recursion which we will use for DFS (16%)
+    # BFS, set point to 0 once traversed  [24%]
     def numIslands(self, grid: List[List[str]]) -> int:
+        if len(grid) == 0:
+            return 0
+        count = 0 
+        m, n = len(grid), len(grid[0])
+        ### visited = set() #record the visited points of the island (value is 1)
+        
+        # Traverse 
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == "1":
+                    count += 1
+                    self.bfs(grid, (i,j))
+        return count 
+    
+    def bfs(self, grid, start):
+        q = collections.deque([start])
+        while q:
+            point = q.popleft()
+            for di, dj in [(1,0), (0,1), (-1,0), (0,-1)]:
+                newi = point[0] + di
+                newj = point[1] + dj 
+                if not self.isValid(grid, newi, newj):
+                    continue
+                q.append((newi, newj))
+                grid[newi][newj] = 0 
+                
+    def isValid(self, grid, i, j):
+        m, n = len(grid), len(grid[0])
+        if i < 0 or i >= m:
+            return False
+        if j < 0 or j >= n:
+            return False
+        return grid[i][j] == "1"
+    
+    #========================================================     
+    
+    # BFS, add point to set once traversed [24%]
+    # (Better use BFS since we should avoid using recursion which we will use for DFS)
+    def numIslands1(self, grid: List[List[str]]) -> int:
         if len(grid) == 0:
             return 0
         count = 0 
@@ -13,10 +52,10 @@ class Solution:
             for j in range(n):
                 if grid[i][j] == "1" and (i,j) not in visited:
                     count += 1
-                    self.bfs(grid, (i,j), visited)
+                    self.bfs1(grid, (i,j), visited)
         return count 
     
-    def bfs(self, grid, start, visited):
+    def bfs1(self, grid, start, visited):
         q = collections.deque([start])
         visited.add(start)
         #print("start:", start)
@@ -26,12 +65,12 @@ class Solution:
             for di, dj in [(1,0), (0,1), (-1,0), (0,-1)]:
                 newi = point[0] + di
                 newj = point[1] + dj 
-                if not self.isValid(grid, newi, newj) or (newi, newj) in visited:
+                if not self.isValid1(grid, newi, newj) or (newi, newj) in visited:
                     continue
                 q.append((newi, newj))
                 visited.add((newi, newj))
                 
-    def isValid(self, grid, i, j):
+    def isValid1(self, grid, i, j):
         m, n = len(grid), len(grid[0])
         if i < 0 or i >= m:
             return False
@@ -39,11 +78,10 @@ class Solution:
             return False
         return grid[i][j] == "1"
     
-    #======================================        
+    #========================================================      
         
-        
-    #DFS (71%)
-    def numIslands1(self, grid: List[List[str]]) -> int:
+    #DFS, set point to 0 once traversed [71%]
+    def numIslands2(self, grid: List[List[str]]) -> int:
         if len(grid) == 0 :
             return 0
         count = 0
