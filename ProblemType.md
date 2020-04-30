@@ -1,9 +1,10 @@
 # 各種題目型態
 
 ## Island: 
-- 0200  Number of Islands 
+- 0200  Number of Islands          //BFS, DFS
 - 0221  Maximal Square
-- 0695  Max Area of Island
+- 0695  Max Area of Island         //BFS, DFS
+- 0694  Number of Distinct Islands //BFS, DFS
 
 ## Interval:
 - 0252  Meeting Rooms
