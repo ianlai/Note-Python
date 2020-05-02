@@ -198,6 +198,7 @@ algo
 │   └── _0716_MaxStack.py
 ├── string
 │   ├── _0003_LongestSubstringWithoutRepeatingCharacters.py
+│   ├── _0014_LongestCommonPrefix.py
 │   ├── _0038_CountAndSay.py
 │   ├── _0290_WordPattern.py
 │   ├── _0383_RansomNote.py
@@ -256,7 +257,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-21 directories, 234 files
+21 directories, 235 files
 
 =====================================
 ============= Local Repo ============
@@ -268,6 +269,7 @@ _0004_MedianOfTwoSortedArrays.py
 _0005_LongestPalindromicSubstring.py
 _0010_RegularExpressionMatching.py
 _0011_ContainerWithMostWater.py
+_0014_LongestCommonPrefix.py
 _0015_3Sum.py
 _0016_3SumClosest.py
 _0017_LetterCombinationsOfAPhoneNumber.py
@@ -494,7 +496,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  232
+Num of Python Practice:  233
 
 
 =====================================
@@ -507,6 +509,7 @@ Num of Python Practice:  232
  0005 Longest Palindromic Substring
  0010 Regular Expression Matching
  0011 Container With Most Water
+ 0014 Longest Common Prefix
  0015 3Sum
  0016 3Sum Closest
  0017 Letter Combinations of a Phone Number
@@ -736,11 +739,11 @@ Num of Python Practice:  232
  1358 Number of Substrings Containing All Three Characters
  1391 Check if There is a Valid Path in a Grid
 =====================================
-Solved / Total (Easy)  :  108 /  399
-Solved / Total (Medium):  116 /  727
+Solved / Total (Easy)  :  109 /  401
+Solved / Total (Medium):  116 /  730
 Solved / Total (Hard)  :   11 /  299
-Solved / Total (All)   :  235 / 1425
-Total Score            :  511
+Solved / Total (All)   :  236 / 1430
+Total Score            :  512
 =====================================
 
 ```
