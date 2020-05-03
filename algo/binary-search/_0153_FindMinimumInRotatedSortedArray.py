@@ -1,5 +1,27 @@
 class Solution:
+
+    #with template
+    #left :  A[i] <= A[-1] (last) 
     def findMin(self, nums: List[int]) -> int:
+        if not nums:
+            return -1
+        
+        start, end = 0, len(nums) - 1
+        target = nums[-1]
+            
+        while start + 1 < end: 
+            mid = (start + end) //2
+            if nums[mid] <= target:  #if mid is at right part 
+                end = mid   #squeeze left  
+            else:
+                start = mid
+                
+        return min(nums[start], nums[end])
+    
+    #============================================
+    
+    #without template 
+    def findMin1(self, nums: List[int]) -> int:
         if nums is None or len(nums) == 0:
             return -1
         start, end = 0, len(nums) - 1

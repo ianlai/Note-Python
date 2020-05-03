@@ -56,8 +56,24 @@
 ## Two Pointer
 - 0011  Container With Most Water
 
-## Binary Search
+## Binary Search 
+
+### Type 1 (basic)
+- 0704  Binary Search  //最基本，包含找任意值，找最初，找最後 [Type1]
+
+### Type 2 (XXOO)
+- 0153  Find Minimum in Rotated Sorted Array //旋轉找極值 [Type2]
+- 0852  Peak Index in a Mountain Array //找左半最後或找右半最左 [Type2]
+- 
+### Type 3 (half-half)
+- 0033  Search in Rotated Sorted Array //旋轉找值 [Type3]
+- 0081  Search in Rotated Sorted Array II //旋轉找值，可能有重複
+- 0162  Find Peak Element //沒有排序的數列 [Type3]
 - 0240  Search a 2D Matrix II
+- 
+### Type 4 (bs-in-answer)
+- 1300  Sum of Mutated Array Closest to Target //[Type4]
+
 
 ## BFS必做
 - 0127  Word Ladder
