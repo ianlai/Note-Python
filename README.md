@@ -123,6 +123,7 @@ algo
 │   ├── _0338_CountingBits.py
 │   ├── _0576_OutOfBoundaryPaths.py
 │   ├── _0688_KnightProbabilityInChessboard.py
+│   ├── _0718_MaximumLengthOfRepeatedSubarray.py
 │   ├── _0746_MinCostClimbingStairs.py
 │   ├── _0877_StoneGame.py
 │   └── _0935_KnightDialer.py
@@ -257,7 +258,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-21 directories, 235 files
+21 directories, 236 files
 
 =====================================
 ============= Local Repo ============
@@ -461,6 +462,7 @@ _0704_BinarySearch.py
 _0705_DesignHashSet.py
 _0706_DesignHashMap.py
 _0716_MaxStack.py
+_0718_MaximumLengthOfRepeatedSubarray.py
 _0746_MinCostClimbingStairs.py
 _0771_JewelsAndStones.py
 _0783_MinimumDistanceBetweenBSTNodes.py
@@ -496,7 +498,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  233
+Num of Python Practice:  234
 
 
 =====================================
@@ -704,6 +706,7 @@ Num of Python Practice:  233
  0705 Design HashSet
  0706 Design HashMap
  0716 Max Stack
+ 0718 Maximum Length of Repeated Subarray
  0746 Min Cost Climbing Stairs
  0771 Jewels and Stones
  0783 Minimum Distance Between BST Nodes
@@ -738,12 +741,13 @@ Num of Python Practice:  233
  1300 Sum of Mutated Array Closest to Target
  1358 Number of Substrings Containing All Three Characters
  1391 Check if There is a Valid Path in a Grid
+ 1426 Counting Elements
 =====================================
-Solved / Total (Easy)  :  109 /  401
-Solved / Total (Medium):  116 /  730
-Solved / Total (Hard)  :   11 /  299
-Solved / Total (All)   :  236 / 1430
-Total Score            :  512
+Solved / Total (Easy)  :  110 /  404
+Solved / Total (Medium):  117 /  734
+Solved / Total (Hard)  :   11 /  301
+Solved / Total (All)   :  238 / 1439
+Total Score            :  516
 =====================================
 
 ```
