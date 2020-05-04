@@ -27,6 +27,7 @@ FILE_IMAGE202002 = FILE_PREFIX + "_202002" + ".png"
 FILE_IMAGE202003 = FILE_PREFIX + "_202003" + ".png"
 
 FILE_IMAGE_SCORE202004 = FILE_PREFIX_SCORE + "_202004" + ".png"
+FILE_IMAGE_SCORE202005 = FILE_PREFIX_SCORE + "_202005" + ".png"
 
 DATE_FORMATTER = "%Y-%m-%d"
 dates = []
@@ -180,6 +181,14 @@ def draw(dates, values):
         axs[1].annotate(str(j), xy=(i, j - annotate_y_offset * 1.5))
 
     plt.savefig(FILE_IMAGE_SCORE202004)
+
+
+    axs[0].set(xlabel="Date", ylabel="Number of Practices",
+        title="Number of Quiz (2020.05)")
+    axs[1].set(xlabel="Date", ylabel="Score",
+        title="Score of Quiz (2020.05)")
+    axs[0].set_xlim(datetime.datetime(2020,5,1), datetime.datetime(2020,5,31)) 
+    plt.savefig(FILE_IMAGE_SCORE202005)
     #plt.show()
 
 ###################### 

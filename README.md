@@ -34,6 +34,7 @@ algo
 │   ├── _0581_ShortestUnsortedContinuousSubarray.py
 │   ├── _0674_LongestContinuousIncreasingSubsequence.py
 │   ├── _0844_BackspaceStringCompare.py
+│   ├── _0845_LongestMountainInArray.py
 │   ├── _0867_TransposeMatrix.py
 │   ├── _0896_MonotonicArray.py
 │   ├── _0905_SortArrayByParity.py
@@ -50,6 +51,7 @@ algo
 │   ├── _0200_NumberOfIslands.py
 │   ├── _0207_CourseSchedule.py
 │   ├── _0210_CourseSchedule2.py
+│   ├── _0490_TheMaze.py
 │   ├── _0694_NumberOfDistinctIslands.py
 │   ├── _0695_MaxAreaOfIsland.py
 │   └── _1197_MinimumKnightMoves.py
@@ -226,6 +228,7 @@ algo
 │   ├── _0230_KthSmallestElementInBST.py
 │   ├── _0236_LowestCommonAncestorOfABinaryTree.py
 │   ├── _0257_BinaryTreePaths.py
+│   ├── _0270_ClosestBinarySearchTreeValue.py
 │   ├── _0297_SerializeAndDeserializeBinaryTree.py
 │   ├── _0429_N-aryTreeLevelOrderTraversal.py
 │   ├── _0538_ConvertBSTtoGreaterTree.py
@@ -258,7 +261,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-21 directories, 236 files
+21 directories, 239 files
 
 =====================================
 ============= Local Repo ============
@@ -398,6 +401,7 @@ _0257_BinaryTreePaths.py
 _0263_UglyNumber.py
 _0264_UglyNumber2.py
 _0268_MissingNumber.py
+_0270_ClosestBinarySearchTreeValue.py
 _0278_FirstBadVersion.py
 _0283_MoveZeroes.py
 _0290_WordPattern.py
@@ -428,6 +432,7 @@ _0448_FindAllNumbersDisappearedInAnArray.py
 _0463_IslandPerimeter.py
 _0485_MaxConsecutiveOnes.py
 _0487_MaxConsecutiveOnes2.py
+_0490_TheMaze.py
 _0491_IncreasingSubsequences.py
 _0494_TargetSum.py
 _0509_FibonacciNumber.py
@@ -470,6 +475,7 @@ _0784_LetterCasePermutation.py
 _0819_MostCommonWord.py
 _0841_KeysAndRooms.py
 _0844_BackspaceStringCompare.py
+_0845_LongestMountainInArray.py
 _0846_HandOfStraights.py
 _0852_PeakIndexInAMountainArray.py
 _0867_TransposeMatrix.py
@@ -498,7 +504,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  234
+Num of Python Practice:  237
 
 
 =====================================
@@ -639,6 +645,7 @@ Num of Python Practice:  234
  0263 Ugly Number
  0264 Ugly Number II
  0268 Missing Number
+ 0270 Closest Binary Search Tree Value
  0278 First Bad Version
  0283 Move Zeroes
  0290 Word Pattern
@@ -669,6 +676,7 @@ Num of Python Practice:  234
  0463 Island Perimeter
  0485 Max Consecutive Ones
  0487 Max Consecutive Ones II
+ 0490 The Maze
  0491 Increasing Subsequences
  0494 Target Sum
  0509 Fibonacci Number
@@ -714,6 +722,7 @@ Num of Python Practice:  234
  0819 Most Common Word
  0841 Keys and Rooms
  0844 Backspace String Compare
+ 0845 Longest Mountain in Array
  0846 Hand of Straights
  0852 Peak Index in a Mountain Array
  0867 Transpose Matrix
@@ -743,11 +752,11 @@ Num of Python Practice:  234
  1391 Check if There is a Valid Path in a Grid
  1426 Counting Elements
 =====================================
-Solved / Total (Easy)  :  110 /  404
-Solved / Total (Medium):  117 /  734
+Solved / Total (Easy)  :  111 /  404
+Solved / Total (Medium):  119 /  734
 Solved / Total (Hard)  :   11 /  301
-Solved / Total (All)   :  238 / 1439
-Total Score            :  516
+Solved / Total (All)   :  241 / 1439
+Total Score            :  523
 =====================================
 
 ```
@@ -758,3 +767,4 @@ Total Score            :  516
 ![Alt text](statistics_202002.png)
 ![Alt text](statistics_202003.png)
 ![Alt text](score_202004.png)
+![Alt text](score_202005.png)
