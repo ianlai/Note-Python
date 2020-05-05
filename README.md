@@ -178,6 +178,7 @@ algo
 │   ├── _0237_DeleteNodeInALinkedList.py
 │   └── _0876_MiddleOfTheLinkedList.py
 ├── math
+│   ├── _0009_PalindromeNumber.py
 │   ├── _0202_HappyNumber.py
 │   ├── _0263_UglyNumber.py
 │   └── _0914_XOfAKindInADeckOfCards.py
@@ -263,7 +264,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-21 directories, 241 files
+21 directories, 242 files
 
 =====================================
 ============= Local Repo ============
@@ -273,6 +274,7 @@ _0002_AddTwoNumbers.py
 _0003_LongestSubstringWithoutRepeatingCharacters.py
 _0004_MedianOfTwoSortedArrays.py
 _0005_LongestPalindromicSubstring.py
+_0009_PalindromeNumber.py
 _0010_RegularExpressionMatching.py
 _0011_ContainerWithMostWater.py
 _0014_LongestCommonPrefix.py
@@ -508,7 +510,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  239
+Num of Python Practice:  240
 
 
 =====================================
