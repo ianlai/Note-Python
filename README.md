@@ -54,6 +54,7 @@ algo
 │   ├── _0490_TheMaze.py
 │   ├── _0694_NumberOfDistinctIslands.py
 │   ├── _0695_MaxAreaOfIsland.py
+│   ├── _0909_SnakesAndLadders.py
 │   └── _1197_MinimumKnightMoves.py
 ├── binary-search
 │   ├── _0033_SearchInRotatedSortedArray.py
@@ -178,7 +179,8 @@ algo
 │   └── _0876_MiddleOfTheLinkedList.py
 ├── math
 │   ├── _0202_HappyNumber.py
-│   └── _0263_UglyNumber.py
+│   ├── _0263_UglyNumber.py
+│   └── _0914_XOfAKindInADeckOfCards.py
 ├── recursion
 │   ├── _0050_Pow(x,n).py
 │   ├── _0060_PermutationSequence.py
@@ -261,7 +263,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-21 directories, 239 files
+21 directories, 241 files
 
 =====================================
 ============= Local Repo ============
@@ -483,7 +485,9 @@ _0876_MiddleOfTheLinkedList.py
 _0877_StoneGame.py
 _0896_MonotonicArray.py
 _0905_SortArrayByParity.py
+_0909_SnakesAndLadders.py
 _0912_SortAnArray.py
+_0914_XOfAKindInADeckOfCards.py
 _0935_KnightDialer.py
 _0938_RangeSumOfBST.py
 _0973_KClosestPointsToOrigin.py
@@ -504,7 +508,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  237
+Num of Python Practice:  239
 
 
 =====================================
@@ -515,6 +519,7 @@ Num of Python Practice:  237
  0003 Longest Substring Without Repeating Characters
  0004 Median of Two Sorted Arrays
  0005 Longest Palindromic Substring
+ 0009 Palindrome Number
  0010 Regular Expression Matching
  0011 Container With Most Water
  0014 Longest Common Prefix
@@ -730,7 +735,9 @@ Num of Python Practice:  237
  0877 Stone Game
  0896 Monotonic Array
  0905 Sort Array By Parity
+ 0909 Snakes and Ladders
  0912 Sort an Array
+ 0914 X of a Kind in a Deck of Cards
  0935 Knight Dialer
  0938 Range Sum of BST
  0973 K Closest Points to Origin
@@ -752,11 +759,11 @@ Num of Python Practice:  237
  1391 Check if There is a Valid Path in a Grid
  1426 Counting Elements
 =====================================
-Solved / Total (Easy)  :  111 /  404
-Solved / Total (Medium):  119 /  734
+Solved / Total (Easy)  :  113 /  404
+Solved / Total (Medium):  120 /  734
 Solved / Total (Hard)  :   11 /  301
-Solved / Total (All)   :  241 / 1439
-Total Score            :  523
+Solved / Total (All)   :  244 / 1439
+Total Score            :  528
 =====================================
 
 ```
