@@ -124,6 +124,7 @@ algo
 │   ├── _0256_PaintHouse.py
 │   ├── _0322_CoinChange.py
 │   ├── _0338_CountingBits.py
+│   ├── _0416_PartitionEqualSubsetSum.py
 │   ├── _0576_OutOfBoundaryPaths.py
 │   ├── _0688_KnightProbabilityInChessboard.py
 │   ├── _0718_MaximumLengthOfRepeatedSubarray.py
@@ -264,7 +265,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-21 directories, 242 files
+21 directories, 243 files
 
 =====================================
 ============= Local Repo ============
@@ -430,6 +431,7 @@ _0392_IsSubsequence.py
 _0401_BinaryWatch.py
 _0409_LongestPalindrome.py
 _0415_AddStrings.py
+_0416_PartitionEqualSubsetSum.py
 _0429_N-aryTreeLevelOrderTraversal.py
 _0442_FindAllDuplicatesInAnArray.py
 _0448_FindAllNumbersDisappearedInAnArray.py
@@ -510,7 +512,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  240
+Num of Python Practice:  241
 
 
 =====================================
@@ -677,6 +679,7 @@ Num of Python Practice:  240
  0401 Binary Watch
  0409 Longest Palindrome
  0415 Add Strings
+ 0416 Partition Equal Subset Sum
  0429 N-ary Tree Level Order Traversal
  0442 Find All Duplicates in an Array
  0448 Find All Numbers Disappeared in an Array
@@ -762,10 +765,10 @@ Num of Python Practice:  240
  1426 Counting Elements
 =====================================
 Solved / Total (Easy)  :  113 /  404
-Solved / Total (Medium):  120 /  734
+Solved / Total (Medium):  121 /  735
 Solved / Total (Hard)  :   11 /  301
-Solved / Total (All)   :  244 / 1439
-Total Score            :  528
+Solved / Total (All)   :  245 / 1440
+Total Score            :  531
 =====================================
 
 ```
