@@ -22,6 +22,7 @@ algo
 │   ├── _0252_MeetingRooms.py
 │   ├── _0253_MeetingRooms2.py
 │   ├── _0283_MoveZeroes.py
+│   ├── _0348_DesignTic-Tac-Toe.py
 │   ├── _0349_IntersectionOfTwoArrays.py
 │   ├── _0350_IntersectionOfTwoArrays2.py
 │   ├── _0442_FindAllDuplicatesInAnArray.py
@@ -210,6 +211,7 @@ algo
 │   ├── _0290_WordPattern.py
 │   ├── _0383_RansomNote.py
 │   ├── _0415_AddStrings.py
+│   ├── _0680_ValidPalindrome2.py
 │   └── _0819_MostCommonWord.py
 ├── tree
 │   ├── _0094_BinaryTreeInorderTraversal.py
@@ -265,7 +267,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-21 directories, 243 files
+21 directories, 245 files
 
 =====================================
 ============= Local Repo ============
@@ -418,6 +420,7 @@ _0322_CoinChange.py
 _0338_CountingBits.py
 _0344_ReverseString.py
 _0347_TopKFrequentElements.py
+_0348_DesignTic-Tac-Toe.py
 _0349_IntersectionOfTwoArrays.py
 _0350_IntersectionOfTwoArrays2.py
 _0354_RussianDollEnvelopes.py
@@ -461,6 +464,7 @@ _0657_RobotReturnToOrigin.py
 _0658_FindKClosestElements.py
 _0669_TrimABinarySearchTree.py
 _0674_LongestContinuousIncreasingSubsequence.py
+_0680_ValidPalindrome2.py
 _0688_KnightProbabilityInChessboard.py
 _0690_EmployeeImportance.py
 _0692_TopKFrequentWords.py
@@ -512,7 +516,7 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 =====================================
-Num of Python Practice:  241
+Num of Python Practice:  243
 
 
 =====================================
@@ -666,6 +670,7 @@ Num of Python Practice:  241
  0338 Counting Bits
  0344 Reverse String
  0347 Top K Frequent Elements
+ 0348 Design Tic-Tac-Toe
  0349 Intersection of Two Arrays
  0350 Intersection of Two Arrays II
  0354 Russian Doll Envelopes
@@ -712,6 +717,7 @@ Num of Python Practice:  241
  0658 Find K Closest Elements
  0669 Trim a Binary Search Tree
  0674 Longest Continuous Increasing Subsequence
+ 0680 Valid Palindrome II
  0688 Knight Probability in Chessboard
  0690 Employee Importance
  0692 Top K Frequent Words
@@ -764,11 +770,11 @@ Num of Python Practice:  241
  1391 Check if There is a Valid Path in a Grid
  1426 Counting Elements
 =====================================
-Solved / Total (Easy)  :  113 /  404
-Solved / Total (Medium):  121 /  735
+Solved / Total (Easy)  :  114 /  404
+Solved / Total (Medium):  122 /  735
 Solved / Total (Hard)  :   11 /  301
-Solved / Total (All)   :  245 / 1440
-Total Score            :  531
+Solved / Total (All)   :  247 / 1440
+Total Score            :  535
 =====================================
 
 ```

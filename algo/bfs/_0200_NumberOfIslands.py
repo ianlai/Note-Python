@@ -1,7 +1,103 @@
+from collections import defaultdict
 class Solution:
     
+    # Union Find [12%]
+    def numIslands(self, grid):
+        if len(grid) == 0 or len(grid[0]) == 0:
+            return 0
+        m, n = len(grid), len(grid[0])
+        
+        for i in range(m):
+            print(i, grid[i])
+            
+        parent = defaultdict()
+        self.count = 0
+        
+        # Create number of nodes with num of "1" 
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == "1":
+                    parent[i * n + j] = -1
+                    print("node:", i*n+j, "->", parent[i * n + j])
+                    self.count += 1
+                    
+        # Traverse them to union the adjacent nodes 
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == "1":
+                    for (di,dj) in [(-1,0),(1,0),(0,-1),(0,1)]:
+                        newi, newj = i + di, j + dj
+                        if 0 <= newi < m and 0 <= newj < n and grid[newi][newj] == "1":
+                            self.union(parent, i * n + j, newi * n + newj)
+        return self.count 
+
+    def find(self, parent, i):
+        if parent[i] != -1:
+            return self.find(parent, parent[i])
+        else:
+            return -1
+
+    def union(self, parent, a, b):
+        rootA = self.find(parent,a)
+        rootB = self.find(parent,b)
+        
+        if rootA != rootB:            
+            ### Naive union 
+            parent[rootA] = rootB
+            self.count -= 1
+            
+    
+    #========================================================  
+
+    # Union Find [O(n2 * average tree depth) 12%]
+    def numIslands2(self, grid):
+        if len(grid) == 0 or len(grid[0]) == 0:
+            return 0
+        m, n = len(grid), len(grid[0])
+        
+        for i in range(m):
+            print(i, grid[i])
+            
+        parent = defaultdict()
+        self.count = 0
+        
+        # Create number of nodes with num of "1" 
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == "1":
+                    parent[i * n + j] = -1
+                    print("node:", i*n+j, "->", parent[i * n + j])
+                    self.count += 1
+                    
+        # Traverse them to union the adjacent nodes 
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == "1":
+                    for (di,dj) in [(-1,0),(1,0),(0,-1),(0,1)]:
+                        newi, newj = i + di, j + dj
+                        if 0 <= newi < m and 0 <= newj < n and grid[newi][newj] == "1":
+                            self.union(parent, i * n + j, newi * n + newj)
+        return self.count 
+
+    def find(self, parent, i):
+        if parent[i] != -1:
+            return self.find(parent, parent[i])
+        else:
+            return i
+
+    def union(self, parent, a, b):
+        rootA = self.find(parent,a)
+        rootB = self.find(parent,b)
+        
+        if rootA != rootB:            
+            ### Naive union 
+            parent[rootA] = rootB
+            self.count -= 1
+            
+    #========================================================  
+    
     # BFS, set point to 0 once traversed  [24%]
-    def numIslands(self, grid: List[List[str]]) -> int:
+    def numIslands3(self, grid: List[List[str]]) -> int:
         if len(grid) == 0:
             return 0
         count = 0 
