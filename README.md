@@ -152,6 +152,7 @@ algo
 │   ├── _0705_DesignHashSet.py
 │   ├── _0706_DesignHashMap.py
 │   ├── _0771_JewelsAndStones.py
+│   ├── _0957_PrisonCellsAfterNDays.py
 │   ├── _1086_HighFive.py
 │   └── _1207_UniqueNumberOfOccurrences.py
 ├── heap
@@ -261,13 +262,16 @@ algo
 │   ├── _0977_SquaresOfASortedArray.py
 │   ├── _1099_TwoSumLessThanK.py
 │   └── _1358_NumberOfSubstringsContainingAllThreeCharacters.py
+├── union-find
+│   ├── _0547_FriendCircles.py
+│   └── _305_NumberOfIslands2.py
 ├── warmup
 │   └── fibonacci.py
 └── wip
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-21 directories, 245 files
+22 directories, 248 files
 
 =====================================
 ============= Local Repo ============
@@ -451,6 +455,7 @@ _0526_BeautifulArrangement.py
 _0535_EncodeAndDecodeTinyURL.py
 _0538_ConvertBSTtoGreaterTree.py
 _0543_DiameterOfBinaryTree.py
+_0547_FriendCircles.py
 _0560_SubarraySumEqualsK.py
 _0561_ArrayPartition1.py
 _0566_ReshapeTheMatrix.py
@@ -498,6 +503,7 @@ _0912_SortAnArray.py
 _0914_XOfAKindInADeckOfCards.py
 _0935_KnightDialer.py
 _0938_RangeSumOfBST.py
+_0957_PrisonCellsAfterNDays.py
 _0973_KClosestPointsToOrigin.py
 _0977_SquaresOfASortedArray.py
 _0981_TimeBasedKey-ValueStore.py
@@ -515,8 +521,9 @@ _1243_ArrayTransformation.py
 _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
+_305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  243
+Num of Python Practice:  246
 
 
 =====================================
@@ -665,6 +672,7 @@ Num of Python Practice:  243
  0291 Word Pattern II
  0297 Serialize and Deserialize Binary Tree
  0300 Longest Increasing Subsequence
+ 0305 Number of Islands II
  0313 Super Ugly Number
  0322 Coin Change
  0338 Counting Bits
@@ -701,6 +709,7 @@ Num of Python Practice:  243
  0535 Encode and Decode TinyURL
  0538 Convert BST to Greater Tree
  0543 Diameter of Binary Tree
+ 0547 Friend Circles
  0560 Subarray Sum Equals K
  0561 Array Partition I
  0566 Reshape the Matrix
@@ -751,6 +760,7 @@ Num of Python Practice:  243
  0914 X of a Kind in a Deck of Cards
  0935 Knight Dialer
  0938 Range Sum of BST
+ 0957 Prison Cells After N Days
  0973 K Closest Points to Origin
  0977 Squares of a Sorted Array
  0981 Time Based Key-Value Store
@@ -771,10 +781,10 @@ Num of Python Practice:  243
  1426 Counting Elements
 =====================================
 Solved / Total (Easy)  :  114 /  404
-Solved / Total (Medium):  122 /  735
-Solved / Total (Hard)  :   11 /  301
-Solved / Total (All)   :  247 / 1440
-Total Score            :  535
+Solved / Total (Medium):  124 /  735
+Solved / Total (Hard)  :   12 /  301
+Solved / Total (All)   :  250 / 1440
+Total Score            :  546
 =====================================
 
 ```
