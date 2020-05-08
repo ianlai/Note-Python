@@ -1,7 +1,7 @@
 from collections import defaultdict
 class Solution:
     
-    # Union Find [12%]
+    # Union Find with optimization (speed doesn't change) [12%]
     def numIslands(self, grid):
         if len(grid) == 0 or len(grid[0]) == 0:
             return 0
@@ -18,7 +18,6 @@ class Solution:
             for j in range(n):
                 if grid[i][j] == "1":
                     parent[i * n + j] = -1
-                    print("node:", i*n+j, "->", parent[i * n + j])
                     self.count += 1
                     
         # Traverse them to union the adjacent nodes 
@@ -28,25 +27,31 @@ class Solution:
                     for (di,dj) in [(-1,0),(1,0),(0,-1),(0,1)]:
                         newi, newj = i + di, j + dj
                         if 0 <= newi < m and 0 <= newj < n and grid[newi][newj] == "1":
-                            self.union(parent, i * n + j, newi * n + newj)
+                            self.union0(parent, i * n + j, newi * n + newj)
         return self.count 
 
-    def find(self, parent, i):
-        if parent[i] != -1:
-            return self.find(parent, parent[i])
+    def find0(self, parent, i):
+        if parent[i] >= 0:
+            return self.find0(parent, parent[i])
+            parent[i] = root  ### Optimize-2
         else:
-            return -1
+            return i
 
-    def union(self, parent, a, b):
-        rootA = self.find(parent,a)
-        rootB = self.find(parent,b)
+    def union0(self, parent, a, b):
+        rootA = self.find0(parent,a)
+        rootB = self.find0(parent,b)
         
-        if rootA != rootB:            
-            ### Naive union 
-            parent[rootA] = rootB
+        if rootA != rootB:    
+            newSize = abs(parent[rootA]) + abs(parent[rootB])
+            ### Optimize-1
+            if abs(parent[rootA]) >= abs(parent[rootB]): #tree A is greater than tree B
+                parent[rootB] = rootA
+                parent[rootA] = -newSize
+            else:
+                parent[rootA] = rootB
+                parent[rootB] = -newSize
             self.count -= 1
             
-    
     #========================================================  
 
     # Union Find [O(n2 * average tree depth) 12%]
