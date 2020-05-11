@@ -19,6 +19,7 @@ algo
 │   ├── _0167_TwoSum2-InputArrayIsSorted.py
 │   ├── _0169_MajorityElement.py
 │   ├── _0189_RotateArray.py
+│   ├── _0238_ProductOfArrayExceptSelf.py
 │   ├── _0252_MeetingRooms.py
 │   ├── _0253_MeetingRooms2.py
 │   ├── _0283_MoveZeroes.py
@@ -132,7 +133,6 @@ algo
 │   ├── _0746_MinCostClimbingStairs.py
 │   ├── _0877_StoneGame.py
 │   └── _0935_KnightDialer.py
-├── golang
 ├── hashmap
 │   ├── _0049_GroupAnagrams.py
 │   ├── _0146_LRUCache.py
@@ -213,7 +213,8 @@ algo
 │   ├── _0383_RansomNote.py
 │   ├── _0415_AddStrings.py
 │   ├── _0680_ValidPalindrome2.py
-│   └── _0819_MostCommonWord.py
+│   ├── _0819_MostCommonWord.py
+│   └── _1427_PerformStringShifts.py
 ├── tree
 │   ├── _0094_BinaryTreeInorderTraversal.py
 │   ├── _0098_ValidateBinarySearchTree.py
@@ -271,7 +272,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-22 directories, 248 files
+21 directories, 250 files
 
 =====================================
 ============= Local Repo ============
@@ -402,6 +403,7 @@ _0232_ImplementQueueUsingStacks.py
 _0234_PalindromeLinkedList.py
 _0236_LowestCommonAncestorOfABinaryTree.py
 _0237_DeleteNodeInALinkedList.py
+_0238_ProductOfArrayExceptSelf.py
 _0239_SlidingWindowMaximum.py
 _0240_SearchA2DMatrix2.py
 _0242_ValidAnagram.py
@@ -521,9 +523,10 @@ _1243_ArrayTransformation.py
 _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
+_1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  246
+Num of Python Practice:  248
 
 
 =====================================
@@ -655,6 +658,7 @@ Num of Python Practice:  246
  0234 Palindrome Linked List
  0236 Lowest Common Ancestor of a Binary Tree
  0237 Delete Node in a Linked List
+ 0238 Product of Array Except Self
  0239 Sliding Window Maximum
  0240 Search a 2D Matrix II
  0242 Valid Anagram
@@ -779,12 +783,13 @@ Num of Python Practice:  246
  1358 Number of Substrings Containing All Three Characters
  1391 Check if There is a Valid Path in a Grid
  1426 Counting Elements
+ 1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  114 /  404
-Solved / Total (Medium):  124 /  735
-Solved / Total (Hard)  :   12 /  301
-Solved / Total (All)   :  250 / 1440
-Total Score            :  546
+Solved / Total (Easy)  :  115 /  405
+Solved / Total (Medium):  125 /  737
+Solved / Total (Hard)  :   12 /  302
+Solved / Total (All)   :  252 / 1444
+Total Score            :  550
 =====================================
 
 ```
