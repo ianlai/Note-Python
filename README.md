@@ -185,6 +185,8 @@ algo
 │   ├── _0202_HappyNumber.py
 │   ├── _0263_UglyNumber.py
 │   └── _0914_XOfAKindInADeckOfCards.py
+├── matrix
+│   └── _0048_RotateImage.py
 ├── recursion
 │   ├── _0050_Pow(x,n).py
 │   ├── _0060_PermutationSequence.py
@@ -272,7 +274,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-21 directories, 250 files
+22 directories, 251 files
 
 =====================================
 ============= Local Repo ============
@@ -310,6 +312,7 @@ _0040_CombinationSum2.py
 _0044_WildcardMatching.py
 _0046_Permutations.py
 _0047_Permutations2.py
+_0048_RotateImage.py
 _0049_GroupAnagrams.py
 _0050_Pow(x,n).py
 _0051_N-Queens.py
@@ -526,7 +529,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  248
+Num of Python Practice:  249
 
 
 =====================================
@@ -565,6 +568,7 @@ Num of Python Practice:  248
  0044 Wildcard Matching
  0046 Permutations
  0047 Permutations II
+ 0048 Rotate Image
  0049 Group Anagrams
  0050 Pow(x, n)
  0051 N-Queens
@@ -786,10 +790,10 @@ Num of Python Practice:  248
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  115 /  405
-Solved / Total (Medium):  125 /  737
+Solved / Total (Medium):  126 /  737
 Solved / Total (Hard)  :   12 /  302
-Solved / Total (All)   :  252 / 1444
-Total Score            :  550
+Solved / Total (All)   :  253 / 1444
+Total Score            :  553
 =====================================
 
 ```
