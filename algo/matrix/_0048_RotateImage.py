@@ -1,7 +1,34 @@
 class Solution:
-    
-    # Traverse matrix circle by circle from inward [O(n2), 80%]
+    # Transpose than reverse [time: O(n2), 93% ; space: O(1)]
     def rotate(self, matrix: List[List[int]]) -> None:
+        def printMatrix(matrix):
+            for i in range(len(matrix)):
+                print(i, matrix[i])
+            print()
+            
+        n = len(matrix)
+        
+        #printMatrix(matrix)
+        
+        #Transpose
+        for i in range(n):
+            for j in range(i, n):
+                matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+        
+        #printMatrix(matrix)
+        
+        #Revese the columns
+        for i in range(n):
+            for j in range(n//2):
+                matrix[i][j], matrix[i][n-1-j] = matrix[i][n-1-j], matrix[i][j]
+        
+        #printMatrix(matrix)
+        
+        
+    # ================================================= 
+    
+    # Traverse matrix circle by circle from inward [time: O(n2), 80% ; space: O(n2) for the coordinate array]
+    def rotate1(self, matrix: List[List[int]]) -> None:
         """
         Do not return anything, modify matrix in-place instead.
         """
