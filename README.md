@@ -128,6 +128,7 @@ algo
 │   ├── _0338_CountingBits.py
 │   ├── _0416_PartitionEqualSubsetSum.py
 │   ├── _0576_OutOfBoundaryPaths.py
+│   ├── _0647_PalindromicSubstrings.py
 │   ├── _0688_KnightProbabilityInChessboard.py
 │   ├── _0718_MaximumLengthOfRepeatedSubarray.py
 │   ├── _0746_MinCostClimbingStairs.py
@@ -274,7 +275,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-22 directories, 251 files
+22 directories, 252 files
 
 =====================================
 ============= Local Repo ============
@@ -468,6 +469,7 @@ _0572_SubtreeOfAnotherTree.py
 _0576_OutOfBoundaryPaths.py
 _0581_ShortestUnsortedContinuousSubarray.py
 _0617_MergeTwoBinaryTrees.py
+_0647_PalindromicSubstrings.py
 _0653_TwoSum4.py
 _0654_MaximumBinaryTree.py
 _0657_RobotReturnToOrigin.py
@@ -529,7 +531,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  249
+Num of Python Practice:  250
 
 
 =====================================
@@ -728,6 +730,7 @@ Num of Python Practice:  249
  0617 Merge Two Binary Trees
  0620 Not Boring Movies
  0627 Swap Salary
+ 0647 Palindromic Substrings
  0653 Two Sum IV - Input is a BST
  0654 Maximum Binary Tree
  0657 Robot Return to Origin
@@ -790,10 +793,10 @@ Num of Python Practice:  249
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  115 /  405
-Solved / Total (Medium):  126 /  737
+Solved / Total (Medium):  127 /  737
 Solved / Total (Hard)  :   12 /  302
-Solved / Total (All)   :  253 / 1444
-Total Score            :  553
+Solved / Total (All)   :  254 / 1444
+Total Score            :  556
 =====================================
 
 ```

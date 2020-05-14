@@ -14,6 +14,7 @@
 - 0005  Longest Palindromic Substring
 - 0131  Palindrome Partitioning
 - 0409  Longest Palindrome （組成）
+- 0647  Palindromic Substrings //DP (good)
 
 ## Increasing:
 - 0300  Longest Increasing Subsequence //DP, BS 
@@ -95,6 +96,7 @@
 - 0118  Pascal's Triangle
 - 0120  Triangle   //change to buttom-up DP
 - 0152  Maximum Product Subarray
+- 0647  Palindromic Substrings //DP (good)
 - 0718  Maximum Length of Repeated Subarray
 
 ## DP必做 (Memoization)
