@@ -98,6 +98,7 @@
 - 0152  Maximum Product Subarray
 - 0647  Palindromic Substrings //DP (good)
 - 0718  Maximum Length of Repeated Subarray
+- 1048  Longest String Chain //Bottom-up not yet
 
 ## DP必做 (Memoization)
 - 0322  Coin Change

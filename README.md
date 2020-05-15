@@ -133,7 +133,8 @@ algo
 │   ├── _0718_MaximumLengthOfRepeatedSubarray.py
 │   ├── _0746_MinCostClimbingStairs.py
 │   ├── _0877_StoneGame.py
-│   └── _0935_KnightDialer.py
+│   ├── _0935_KnightDialer.py
+│   └── _1048_LongestStringChain.py
 ├── hashmap
 │   ├── _0049_GroupAnagrams.py
 │   ├── _0146_LRUCache.py
@@ -275,7 +276,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-22 directories, 252 files
+22 directories, 253 files
 
 =====================================
 ============= Local Repo ============
@@ -518,6 +519,7 @@ _0994_RottingOranges.py
 _1002_FindCommonCharacters.py
 _1022_SumOfRootToLeafBinaryNumbers.py
 _1046_LastStoneWeight.py
+_1048_LongestStringChain.py
 _1079_LetterTilePossibilities.py
 _1086_HighFive.py
 _1099_TwoSumLessThanK.py
@@ -531,7 +533,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  250
+Num of Python Practice:  251
 
 
 =====================================
@@ -779,6 +781,7 @@ Num of Python Practice:  250
  1002 Find Common Characters
  1022 Sum of Root To Leaf Binary Numbers
  1046 Last Stone Weight
+ 1048 Longest String Chain
  1079 Letter Tile Possibilities
  1086 High Five
  1099 Two Sum Less Than K
@@ -793,10 +796,10 @@ Num of Python Practice:  250
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  115 /  405
-Solved / Total (Medium):  127 /  737
+Solved / Total (Medium):  128 /  737
 Solved / Total (Hard)  :   12 /  302
-Solved / Total (All)   :  254 / 1444
-Total Score            :  556
+Solved / Total (All)   :  255 / 1444
+Total Score            :  559
 =====================================
 
 ```
