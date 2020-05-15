@@ -33,7 +33,12 @@ DATE_FORMATTER = "%Y-%m-%d"
 dates = []
 values = []      #file quiz number
 leetnumber = []  #leetcode quiz number
+easyNumber = []
+mediumNumber =[]
+hardNumber = []
 leetscore = []  #leetcode score 
+leetscore = []  #leetcode score 
+
 
 latest_date = ""
 
@@ -65,7 +70,7 @@ def writePrepare(today_date, today_value, today_lcode, score):
 ######################
 def draw(dates, values):
     fig, ax = plt.subplots(figsize=(14, 7))
-    
+
     # vertical dividers (week, day)
     xfmt = mdates.DateFormatter("%m/%d")
     xloc1 = mdates.WeekdayLocator(SUNDAY)
@@ -139,20 +144,26 @@ def draw(dates, values):
     annotate_y_offset = 12
 
     fig, axs = plt.subplots(2, 1, sharex=True, figsize=(14, 14))
-    axs[0].set(xlabel="Date", ylabel="Number of Practices",
-        title="Number of Quiz (2020.04)")
+    axs[0].set(xlabel="Date", ylabel="Number of Problems",
+        title="Number of Problems (2020.04)")
+    axs[0].set_title("Number of Problems (2020.04)", fontweight = 'bold')
+
     axs[0].set_xlim(datetime.datetime(2020,4,1), datetime.datetime(2020,4,30)) 
-    axs[0].set_ylim(150,300) #number of quiz
+    axs[0].set_ylim(0,300) #number of quiz
     axs[0].grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
     axs[0].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
     axs[0].grid(which='major', color='#bbbbbb', axis ='y')
-    axs[0].plot_date(dates, values,'-', marker='o')
-    axs[0].plot_date(dates, leetnumber,'-', marker='o', color='#cc3300')
+
+    y_stack = np.row_stack([easyNumber, mediumNumber, hardNumber])
+    axs[0].stackplot(dates, y_stack, colors=['#5cb85c', '#f0ad4e', '#d9534f'])
+    #axs[0].plot_date(dates, values,'-', marker='o')
+    axs[0].plot_date(dates, leetnumber,'-', marker='o', color='black')
 
     axs[1].set(xlabel="Date", ylabel="Score",
-        title="Score of Quiz (2020.04)")
+        title="Score (2020.04)")
     #ax2.set_xlim(datetime.datetime(2020,4,1), datetime.datetime(2020,4,30)) 
-    axs[1].set_ylim(350,550) #score of quiz
+    axs[1].set_title("Score (2020.04)", fontweight = 'bold')
+    axs[1].set_ylim(350,600) #score of quiz
     axs[1].grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
     axs[1].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
     axs[1].grid(which='major', color='#bbbbbb', axis ='y')
@@ -169,12 +180,14 @@ def draw(dates, values):
     plt.gcf().autofmt_xdate(which='both')
 
     # leetcode number
-    for i,j in zip(dates, leetnumber):
-        axs[0].annotate(str(j), xy=(i, j + annotate_y_offset - 5))
+    # for i,j in zip(dates, leetnumber):
+    #     axs[0].annotate(str(j), xy=(i, j + annotate_y_offset - 5))
+    for i in range(len(leetnumber)):
+        axs[0].annotate(leetnumber[i]  , xy=(dates[i], leetnumber[i] + annotate_y_offset - 5), fontweight = 'bold')
+        axs[0].annotate(hardNumber[i]  , xy=(dates[i], leetnumber[i] - annotate_y_offset - 0), fontsize = 9)
+        axs[0].annotate(mediumNumber[i], xy=(dates[i], easyNumber[i] + mediumNumber[i] - annotate_y_offset - 3), fontsize = 9)
+        axs[0].annotate(easyNumber[i]  , xy=(dates[i], easyNumber[i] - annotate_y_offset - 3),fontsize = 9)
 
-    # file number
-    for i,j in zip(dates, values):
-        axs[0].annotate(str(j), xy=(i, j - annotate_y_offset))
     
     # leetcode score
     for i,j in zip(dates, leetscore):
@@ -183,10 +196,13 @@ def draw(dates, values):
     plt.savefig(FILE_IMAGE_SCORE202004)
 
 
-    axs[0].set(xlabel="Date", ylabel="Number of Practices",
+    axs[0].set(xlabel="Date", ylabel="Number of Problems",
         title="Number of Quiz (2020.05)")
+    axs[0].set_title("Number of Problems (2020.05)", fontweight = 'bold')
+
     axs[1].set(xlabel="Date", ylabel="Score",
         title="Score of Quiz (2020.05)")
+    axs[1].set_title("Score (2020.05)", fontweight = 'bold')
     axs[0].set_xlim(datetime.datetime(2020,5,1), datetime.datetime(2020,5,31)) 
     plt.savefig(FILE_IMAGE_SCORE202005)
     #plt.show()
@@ -211,6 +227,9 @@ def read():
             values.append(int(file_count))
             leetscore.append(int(l_score))
             leetnumber.append(int(l_count_total))
+            easyNumber.append(int(l_count_easy))
+            mediumNumber.append(int(l_count_medium))
+            hardNumber.append(int(l_count_hard))
         elif len(split_line) == 2:
             date_str, val_str = split_line[0], split_line[1] 
             dates.append(datetime.datetime.strptime(date_str, DATE_FORMATTER)) 
