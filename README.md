@@ -208,7 +208,8 @@ algo
 │   ├── _0155_MinStack.py
 │   ├── _0225_ImplementStackUsingQueues.py
 │   ├── _0232_ImplementQueueUsingStacks.py
-│   └── _0716_MaxStack.py
+│   ├── _0716_MaxStack.py
+│   └── _0946_ValidateStackSequences.py
 ├── string
 │   ├── _0003_LongestSubstringWithoutRepeatingCharacters.py
 │   ├── _0014_LongestCommonPrefix.py
@@ -276,7 +277,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-22 directories, 253 files
+22 directories, 254 files
 
 =====================================
 ============= Local Repo ============
@@ -511,6 +512,7 @@ _0912_SortAnArray.py
 _0914_XOfAKindInADeckOfCards.py
 _0935_KnightDialer.py
 _0938_RangeSumOfBST.py
+_0946_ValidateStackSequences.py
 _0957_PrisonCellsAfterNDays.py
 _0973_KClosestPointsToOrigin.py
 _0977_SquaresOfASortedArray.py
@@ -533,7 +535,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  251
+Num of Python Practice:  252
 
 
 =====================================
@@ -773,6 +775,7 @@ Num of Python Practice:  251
  0914 X of a Kind in a Deck of Cards
  0935 Knight Dialer
  0938 Range Sum of BST
+ 0946 Validate Stack Sequences
  0957 Prison Cells After N Days
  0973 K Closest Points to Origin
  0977 Squares of a Sorted Array
@@ -796,10 +799,10 @@ Num of Python Practice:  251
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  115 /  405
-Solved / Total (Medium):  128 /  737
+Solved / Total (Medium):  129 /  738
 Solved / Total (Hard)  :   12 /  302
-Solved / Total (All)   :  255 / 1444
-Total Score            :  559
+Solved / Total (All)   :  256 / 1445
+Total Score            :  562
 =====================================
 
 ```
