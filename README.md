@@ -217,6 +217,7 @@ algo
 │   ├── _0290_WordPattern.py
 │   ├── _0383_RansomNote.py
 │   ├── _0415_AddStrings.py
+│   ├── _0459_RepeatedSubstringPattern.py
 │   ├── _0680_ValidPalindrome2.py
 │   ├── _0819_MostCommonWord.py
 │   └── _1427_PerformStringShifts.py
@@ -277,7 +278,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-22 directories, 254 files
+22 directories, 255 files
 
 =====================================
 ============= Local Repo ============
@@ -450,6 +451,7 @@ _0416_PartitionEqualSubsetSum.py
 _0429_N-aryTreeLevelOrderTraversal.py
 _0442_FindAllDuplicatesInAnArray.py
 _0448_FindAllNumbersDisappearedInAnArray.py
+_0459_RepeatedSubstringPattern.py
 _0463_IslandPerimeter.py
 _0485_MaxConsecutiveOnes.py
 _0487_MaxConsecutiveOnes2.py
@@ -535,7 +537,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  252
+Num of Python Practice:  253
 
 
 =====================================
@@ -710,6 +712,7 @@ Num of Python Practice:  252
  0429 N-ary Tree Level Order Traversal
  0442 Find All Duplicates in an Array
  0448 Find All Numbers Disappeared in an Array
+ 0459 Repeated Substring Pattern
  0463 Island Perimeter
  0485 Max Consecutive Ones
  0487 Max Consecutive Ones II
@@ -798,11 +801,11 @@ Num of Python Practice:  252
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  115 /  405
-Solved / Total (Medium):  129 /  738
-Solved / Total (Hard)  :   12 /  302
-Solved / Total (All)   :  256 / 1445
-Total Score            :  562
+Solved / Total (Easy)  :  116 /  407
+Solved / Total (Medium):  129 /  742
+Solved / Total (Hard)  :   12 /  304
+Solved / Total (All)   :  257 / 1453
+Total Score            :  563
 =====================================
 
 ```
