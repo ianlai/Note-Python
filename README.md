@@ -124,6 +124,7 @@ algo
 │   ├── _0213_HouseRobber2.py
 │   ├── _0221_MaximalSquare.py
 │   ├── _0256_PaintHouse.py
+│   ├── _0279_PerfectSquares.py
 │   ├── _0322_CoinChange.py
 │   ├── _0338_CountingBits.py
 │   ├── _0416_PartitionEqualSubsetSum.py
@@ -278,7 +279,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-22 directories, 255 files
+22 directories, 256 files
 
 =====================================
 ============= Local Repo ============
@@ -423,6 +424,7 @@ _0264_UglyNumber2.py
 _0268_MissingNumber.py
 _0270_ClosestBinarySearchTreeValue.py
 _0278_FirstBadVersion.py
+_0279_PerfectSquares.py
 _0283_MoveZeroes.py
 _0290_WordPattern.py
 _0291_WordPattern2.py
@@ -537,7 +539,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  253
+Num of Python Practice:  254
 
 
 =====================================
@@ -683,6 +685,7 @@ Num of Python Practice:  253
  0268 Missing Number
  0270 Closest Binary Search Tree Value
  0278 First Bad Version
+ 0279 Perfect Squares
  0283 Move Zeroes
  0290 Word Pattern
  0291 Word Pattern II
@@ -802,10 +805,10 @@ Num of Python Practice:  253
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  116 /  407
-Solved / Total (Medium):  129 /  742
+Solved / Total (Medium):  130 /  742
 Solved / Total (Hard)  :   12 /  304
-Solved / Total (All)   :  257 / 1453
-Total Score            :  563
+Solved / Total (All)   :  258 / 1453
+Total Score            :  566
 =====================================
 
 ```
