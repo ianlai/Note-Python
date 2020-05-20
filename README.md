@@ -215,8 +215,10 @@ algo
 │   ├── _0003_LongestSubstringWithoutRepeatingCharacters.py
 │   ├── _0014_LongestCommonPrefix.py
 │   ├── _0038_CountAndSay.py
+│   ├── _0171_ExcelSheetColumnNumber.py
 │   ├── _0290_WordPattern.py
 │   ├── _0383_RansomNote.py
+│   ├── _0412_FizzBuzz.py
 │   ├── _0415_AddStrings.py
 │   ├── _0459_RepeatedSubstringPattern.py
 │   ├── _0680_ValidPalindrome2.py
@@ -279,7 +281,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-22 directories, 256 files
+22 directories, 258 files
 
 =====================================
 ============= Local Repo ============
@@ -385,6 +387,7 @@ _0162_FindPeakElement.py
 _0167_TwoSum2-InputArrayIsSorted.py
 _0169_MajorityElement.py
 _0170_TwoSum3_DataStructureDesign.py
+_0171_ExcelSheetColumnNumber.py
 _0173_BinarySearchTreeIterator.py
 _0189_RotateArray.py
 _0198_HouseRobber.py
@@ -448,6 +451,7 @@ _0387_FirstUniqueCharacterInAString.py
 _0392_IsSubsequence.py
 _0401_BinaryWatch.py
 _0409_LongestPalindrome.py
+_0412_FizzBuzz.py
 _0415_AddStrings.py
 _0416_PartitionEqualSubsetSum.py
 _0429_N-aryTreeLevelOrderTraversal.py
@@ -539,7 +543,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  254
+Num of Python Practice:  256
 
 
 =====================================
@@ -646,6 +650,7 @@ Num of Python Practice:  254
  0167 Two Sum II - Input array is sorted
  0169 Majority Element
  0170 Two Sum III - Data structure design
+ 0171 Excel Sheet Column Number
  0173 Binary Search Tree Iterator
  0189 Rotate Array
  0198 House Robber
@@ -710,6 +715,7 @@ Num of Python Practice:  254
  0392 Is Subsequence
  0401 Binary Watch
  0409 Longest Palindrome
+ 0412 Fizz Buzz
  0415 Add Strings
  0416 Partition Equal Subset Sum
  0429 N-ary Tree Level Order Traversal
@@ -804,11 +810,11 @@ Num of Python Practice:  254
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  116 /  407
+Solved / Total (Easy)  :  118 /  407
 Solved / Total (Medium):  130 /  742
 Solved / Total (Hard)  :   12 /  304
-Solved / Total (All)   :  258 / 1453
-Total Score            :  566
+Solved / Total (All)   :  260 / 1453
+Total Score            :  568
 =====================================
 
 ```
