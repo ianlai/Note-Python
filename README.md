@@ -81,6 +81,7 @@ algo
 ├── bits
 │   └── _0268_MissingNumber.py
 ├── data-structure
+│   ├── _0362_DesignHitCounter.py
 │   └── _0846_HandOfStraights.py
 ├── dfs
 │   ├── _0017_LetterCombinationsOfAPhoneNumber.py
@@ -281,7 +282,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-22 directories, 258 files
+22 directories, 259 files
 
 =====================================
 ============= Local Repo ============
@@ -443,6 +444,7 @@ _0349_IntersectionOfTwoArrays.py
 _0350_IntersectionOfTwoArrays2.py
 _0354_RussianDollEnvelopes.py
 _0359_LoggerRateLimiter.py
+_0362_DesignHitCounter.py
 _0367_ValidPerfectSquare.py
 _0378_KthSmallestElementInASortedMatrix.py
 _0380_InsertDeleteGetRandomO(1).py
@@ -543,7 +545,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  256
+Num of Python Practice:  257
 
 
 =====================================
@@ -707,6 +709,7 @@ Num of Python Practice:  256
  0350 Intersection of Two Arrays II
  0354 Russian Doll Envelopes
  0359 Logger Rate Limiter
+ 0362 Design Hit Counter
  0367 Valid Perfect Square
  0378 Kth Smallest Element in a Sorted Matrix
  0380 Insert Delete GetRandom O(1)
@@ -811,10 +814,10 @@ Num of Python Practice:  256
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  118 /  407
-Solved / Total (Medium):  130 /  742
+Solved / Total (Medium):  131 /  743
 Solved / Total (Hard)  :   12 /  304
-Solved / Total (All)   :  260 / 1453
-Total Score            :  568
+Solved / Total (All)   :  261 / 1454
+Total Score            :  571
 =====================================
 
 ```
