@@ -218,6 +218,7 @@ algo
 │   ├── _0038_CountAndSay.py
 │   ├── _0171_ExcelSheetColumnNumber.py
 │   ├── _0290_WordPattern.py
+│   ├── _0299_BullsAndCows.py
 │   ├── _0383_RansomNote.py
 │   ├── _0412_FizzBuzz.py
 │   ├── _0415_AddStrings.py
@@ -282,7 +283,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-22 directories, 259 files
+22 directories, 260 files
 
 =====================================
 ============= Local Repo ============
@@ -433,6 +434,7 @@ _0283_MoveZeroes.py
 _0290_WordPattern.py
 _0291_WordPattern2.py
 _0297_SerializeAndDeserializeBinaryTree.py
+_0299_BullsAndCows.py
 _0300_LongestIncreasingSubsequence.py
 _0313_SuperUglyNumber.py
 _0322_CoinChange.py
@@ -545,7 +547,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  257
+Num of Python Practice:  258
 
 
 =====================================
@@ -697,6 +699,7 @@ Num of Python Practice:  257
  0290 Word Pattern
  0291 Word Pattern II
  0297 Serialize and Deserialize Binary Tree
+ 0299 Bulls and Cows
  0300 Longest Increasing Subsequence
  0305 Number of Islands II
  0313 Super Ugly Number
@@ -813,11 +816,11 @@ Num of Python Practice:  257
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  118 /  407
+Solved / Total (Easy)  :  119 /  407
 Solved / Total (Medium):  131 /  743
 Solved / Total (Hard)  :   12 /  304
-Solved / Total (All)   :  261 / 1454
-Total Score            :  571
+Solved / Total (All)   :  262 / 1454
+Total Score            :  572
 =====================================
 
 ```
