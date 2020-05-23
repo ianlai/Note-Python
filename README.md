@@ -81,6 +81,7 @@ algo
 ├── bits
 │   └── _0268_MissingNumber.py
 ├── data-structure
+│   ├── _0346_MovingAverageFromDataStream.py
 │   ├── _0362_DesignHitCounter.py
 │   └── _0846_HandOfStraights.py
 ├── dfs
@@ -283,7 +284,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-22 directories, 260 files
+22 directories, 261 files
 
 =====================================
 ============= Local Repo ============
@@ -440,6 +441,7 @@ _0313_SuperUglyNumber.py
 _0322_CoinChange.py
 _0338_CountingBits.py
 _0344_ReverseString.py
+_0346_MovingAverageFromDataStream.py
 _0347_TopKFrequentElements.py
 _0348_DesignTic-Tac-Toe.py
 _0349_IntersectionOfTwoArrays.py
@@ -547,7 +549,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  258
+Num of Python Practice:  259
 
 
 =====================================
@@ -706,6 +708,7 @@ Num of Python Practice:  258
  0322 Coin Change
  0338 Counting Bits
  0344 Reverse String
+ 0346 Moving Average from Data Stream
  0347 Top K Frequent Elements
  0348 Design Tic-Tac-Toe
  0349 Intersection of Two Arrays
@@ -816,11 +819,11 @@ Num of Python Practice:  258
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  119 /  407
+Solved / Total (Easy)  :  120 /  407
 Solved / Total (Medium):  131 /  743
 Solved / Total (Hard)  :   12 /  304
-Solved / Total (All)   :  262 / 1454
-Total Score            :  572
+Solved / Total (All)   :  263 / 1454
+Total Score            :  573
 =====================================
 
 ```
