@@ -138,6 +138,8 @@ algo
 │   ├── _0877_StoneGame.py
 │   ├── _0935_KnightDialer.py
 │   └── _1048_LongestStringChain.py
+├── easy
+│   └── _0724_FindPivotIndex.py
 ├── hashmap
 │   ├── _0049_GroupAnagrams.py
 │   ├── _0146_LRUCache.py
@@ -285,7 +287,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-22 directories, 262 files
+23 directories, 263 files
 
 =====================================
 ============= Local Repo ============
@@ -508,6 +510,7 @@ _0705_DesignHashSet.py
 _0706_DesignHashMap.py
 _0716_MaxStack.py
 _0718_MaximumLengthOfRepeatedSubarray.py
+_0724_FindPivotIndex.py
 _0746_MinCostClimbingStairs.py
 _0771_JewelsAndStones.py
 _0783_MinimumDistanceBetweenBSTNodes.py
@@ -551,7 +554,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  260
+Num of Python Practice:  261
 
 
 =====================================
@@ -779,6 +782,7 @@ Num of Python Practice:  260
  0706 Design HashMap
  0716 Max Stack
  0718 Maximum Length of Repeated Subarray
+ 0724 Find Pivot Index
  0746 Min Cost Climbing Stairs
  0771 Jewels and Stones
  0783 Minimum Distance Between BST Nodes
@@ -822,11 +826,11 @@ Num of Python Practice:  260
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  120 /  408
+Solved / Total (Easy)  :  121 /  408
 Solved / Total (Medium):  132 /  745
 Solved / Total (Hard)  :   12 /  305
-Solved / Total (All)   :  264 / 1458
-Total Score            :  576
+Solved / Total (All)   :  265 / 1458
+Total Score            :  577
 =====================================
 
 ```
