@@ -149,6 +149,7 @@ algo
 │   ├── _0380_InsertDeleteGetRandomO(1).py
 │   ├── _0387_FirstUniqueCharacterInAString.py
 │   ├── _0409_LongestPalindrome.py
+│   ├── _0438_FindAllAnagramsInAString.py
 │   ├── _0525_ContiguousArray.py
 │   ├── _0535_EncodeAndDecodeTinyURL.py
 │   ├── _0560_SubarraySumEqualsK.py
@@ -284,7 +285,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-22 directories, 261 files
+22 directories, 262 files
 
 =====================================
 ============= Local Repo ============
@@ -461,6 +462,7 @@ _0412_FizzBuzz.py
 _0415_AddStrings.py
 _0416_PartitionEqualSubsetSum.py
 _0429_N-aryTreeLevelOrderTraversal.py
+_0438_FindAllAnagramsInAString.py
 _0442_FindAllDuplicatesInAnArray.py
 _0448_FindAllNumbersDisappearedInAnArray.py
 _0459_RepeatedSubstringPattern.py
@@ -549,7 +551,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  259
+Num of Python Practice:  260
 
 
 =====================================
@@ -728,6 +730,7 @@ Num of Python Practice:  259
  0415 Add Strings
  0416 Partition Equal Subset Sum
  0429 N-ary Tree Level Order Traversal
+ 0438 Find All Anagrams in a String
  0442 Find All Duplicates in an Array
  0448 Find All Numbers Disappeared in an Array
  0459 Repeated Substring Pattern
@@ -819,11 +822,11 @@ Num of Python Practice:  259
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  120 /  407
-Solved / Total (Medium):  131 /  743
-Solved / Total (Hard)  :   12 /  304
-Solved / Total (All)   :  263 / 1454
-Total Score            :  573
+Solved / Total (Easy)  :  120 /  408
+Solved / Total (Medium):  132 /  745
+Solved / Total (Hard)  :   12 /  305
+Solved / Total (All)   :  264 / 1458
+Total Score            :  576
 =====================================
 
 ```
