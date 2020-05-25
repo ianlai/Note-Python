@@ -220,6 +220,7 @@ algo
 │   ├── _0003_LongestSubstringWithoutRepeatingCharacters.py
 │   ├── _0014_LongestCommonPrefix.py
 │   ├── _0038_CountAndSay.py
+│   ├── _0067_AddBinary.py
 │   ├── _0171_ExcelSheetColumnNumber.py
 │   ├── _0290_WordPattern.py
 │   ├── _0299_BullsAndCows.py
@@ -287,7 +288,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-23 directories, 263 files
+23 directories, 264 files
 
 =====================================
 ============= Local Repo ============
@@ -338,6 +339,7 @@ _0061_RotateList.py
 _0062_UniquePaths.py
 _0063_UniquePaths2.py
 _0064_MinimumPathSum.py
+_0067_AddBinary.py
 _0069_Sqrt.py
 _0070_ClimbingStairs.py
 _0073_SetMatrixZeroes.py
@@ -554,7 +556,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  261
+Num of Python Practice:  262
 
 
 =====================================
@@ -606,6 +608,7 @@ Num of Python Practice:  261
  0062 Unique Paths
  0063 Unique Paths II
  0064 Minimum Path Sum
+ 0067 Add Binary
  0069 Sqrt(x)
  0070 Climbing Stairs
  0073 Set Matrix Zeroes
@@ -826,11 +829,11 @@ Num of Python Practice:  261
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  121 /  408
+Solved / Total (Easy)  :  122 /  408
 Solved / Total (Medium):  132 /  745
 Solved / Total (Hard)  :   12 /  305
-Solved / Total (All)   :  265 / 1458
-Total Score            :  577
+Solved / Total (All)   :  266 / 1458
+Total Score            :  578
 =====================================
 
 ```
