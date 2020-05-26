@@ -202,6 +202,7 @@ algo
 │   ├── _0118_PascalsTriangle.py
 │   ├── _0119_PascalsTriangle2.py
 │   ├── _0344_ReverseString.py
+│   ├── _0394_DecodeString.py
 │   ├── _0509_FibonacciNumber.py
 │   └── _0700_SearchInABinarySearchTree.py
 ├── sliding-window
@@ -288,7 +289,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-23 directories, 264 files
+23 directories, 265 files
 
 =====================================
 ============= Local Repo ============
@@ -460,6 +461,7 @@ _0380_InsertDeleteGetRandomO(1).py
 _0383_RansomNote.py
 _0387_FirstUniqueCharacterInAString.py
 _0392_IsSubsequence.py
+_0394_DecodeString.py
 _0401_BinaryWatch.py
 _0409_LongestPalindrome.py
 _0412_FizzBuzz.py
@@ -556,7 +558,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  262
+Num of Python Practice:  263
 
 
 =====================================
@@ -730,6 +732,7 @@ Num of Python Practice:  262
  0383 Ransom Note
  0387 First Unique Character in a String
  0392 Is Subsequence
+ 0394 Decode String
  0401 Binary Watch
  0409 Longest Palindrome
  0412 Fizz Buzz
@@ -830,10 +833,10 @@ Num of Python Practice:  262
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  122 /  408
-Solved / Total (Medium):  132 /  745
+Solved / Total (Medium):  133 /  745
 Solved / Total (Hard)  :   12 /  305
-Solved / Total (All)   :  266 / 1458
-Total Score            :  578
+Solved / Total (All)   :  267 / 1458
+Total Score            :  581
 =====================================
 
 ```
