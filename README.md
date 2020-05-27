@@ -231,6 +231,7 @@ algo
 │   ├── _0459_RepeatedSubstringPattern.py
 │   ├── _0680_ValidPalindrome2.py
 │   ├── _0819_MostCommonWord.py
+│   ├── _0953_VerifyingAnAlienDictionary.py
 │   └── _1427_PerformStringShifts.py
 ├── tree
 │   ├── _0094_BinaryTreeInorderTraversal.py
@@ -289,7 +290,7 @@ algo
     ├── _0127_WordLadder.py
     └── wordladder.py
 
-23 directories, 265 files
+23 directories, 266 files
 
 =====================================
 ============= Local Repo ============
@@ -536,6 +537,7 @@ _0914_XOfAKindInADeckOfCards.py
 _0935_KnightDialer.py
 _0938_RangeSumOfBST.py
 _0946_ValidateStackSequences.py
+_0953_VerifyingAnAlienDictionary.py
 _0957_PrisonCellsAfterNDays.py
 _0973_KClosestPointsToOrigin.py
 _0977_SquaresOfASortedArray.py
@@ -558,7 +560,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  263
+Num of Python Practice:  264
 
 
 =====================================
@@ -810,6 +812,7 @@ Num of Python Practice:  263
  0935 Knight Dialer
  0938 Range Sum of BST
  0946 Validate Stack Sequences
+ 0953 Verifying an Alien Dictionary
  0957 Prison Cells After N Days
  0973 K Closest Points to Origin
  0977 Squares of a Sorted Array
@@ -832,11 +835,11 @@ Num of Python Practice:  263
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  122 /  408
+Solved / Total (Easy)  :  123 /  408
 Solved / Total (Medium):  133 /  745
 Solved / Total (Hard)  :   12 /  305
-Solved / Total (All)   :  267 / 1458
-Total Score            :  581
+Solved / Total (All)   :  268 / 1458
+Total Score            :  582
 =====================================
 
 ```
