@@ -836,10 +836,10 @@ Num of Python Practice:  264
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  123 /  408
-Solved / Total (Medium):  133 /  745
-Solved / Total (Hard)  :   12 /  305
+Solved / Total (Medium):  132 /  744
+Solved / Total (Hard)  :   13 /  306
 Solved / Total (All)   :  268 / 1458
-Total Score            :  582
+Total Score            :  584
 =====================================
 
 ```
