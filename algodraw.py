@@ -6,6 +6,7 @@ from matplotlib.dates import drange, SUNDAY
 
 from algolist import getPracticeNumber
 from algolist import showQuizListFromDir
+from reviewlist import getReviewNumber
 from lcode import getQuizCount
 from lcode import showQuizListFromLeetcode
 
@@ -31,12 +32,13 @@ FILE_IMAGE_SCORE202005 = FILE_PREFIX_SCORE + "_202005" + ".png"
 
 DATE_FORMATTER = "%Y-%m-%d"
 dates = []
-values = []      #file quiz number
+values = []        #done quiz number (local)
+reviewNumber = []  #reviewed quiz number (local)
+
 leetnumber = []  #leetcode quiz number
 easyNumber = []
 mediumNumber =[]
 hardNumber = []
-leetscore = []  #leetcode score 
 leetscore = []  #leetcode score 
 
 
@@ -50,7 +52,7 @@ def write(line):
     f.write(line)
     f.close()
 
-def writePrepare(today_date, today_value, today_lcode, score):
+def writePrepare(today_date, today_value, today_lcode, score, today_review):
     line = [] 
     line.append(sf(str(today_date)))
     line.append(sf(str(today_value)))
@@ -61,6 +63,8 @@ def writePrepare(today_date, today_value, today_lcode, score):
     line.append(sf(str(today_lcode['ac_hard']),4))
     line.append(sf(' | '))
     line.append(sf(str(score)))
+    line.append(sf(' | '))
+    line.append(sf(str(today_review),4))
     line.append('\n')
     linePrint = ''.join(line)
     return linePrint
@@ -133,7 +137,7 @@ def draw(dates, values):
     ax.set_xlim(datetime.datetime(2020,3,1), datetime.datetime(2020,3,31)) 
     plt.savefig(FILE_IMAGE202003)
 
-    #----------------------
+    #=========================================================================
 
     #2020.04
     plt.close()
@@ -144,6 +148,8 @@ def draw(dates, values):
     annotate_y_offset = 12
 
     fig, axs = plt.subplots(2, 1, sharex=True, figsize=(14, 14))
+
+    ### Draw number figure 
     axs[0].set(xlabel="Date", ylabel="Number of Problems",
         title="Number of Problems (2020.04)")
     axs[0].set_title("Number of Problems (2020.04)", fontweight = 'bold')
@@ -154,11 +160,14 @@ def draw(dates, values):
     axs[0].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
     axs[0].grid(which='major', color='#bbbbbb', axis ='y')
 
-    y_stack = np.row_stack([easyNumber, mediumNumber, hardNumber])
-    axs[0].stackplot(dates, y_stack, colors=['#5cb85c', '#f0ad4e', '#d9534f'])
-    #axs[0].plot_date(dates, values,'-', marker='o')
-    axs[0].plot_date(dates, leetnumber,'-', marker='o', color='black')
 
+    y_stack = np.row_stack([easyNumber, mediumNumber, hardNumber])
+    axs[0].stackplot(dates, y_stack, colors=['#5cb85c', '#f0ad4e', '#d9534f'])                 #e,m,h number
+    #axs[0].plot_date(dates, values,'-', marker='o')
+    axs[0].plot_date(dates, leetnumber,'-', marker='o', color='black')                         #leet number
+    axs[0].plot_date(dates[-len(reviewNumber):], reviewNumber,'-', marker='o', color='#555555')  #review number
+
+    ### Draw score figure 
     axs[1].set(xlabel="Date", ylabel="Score",
         title="Score (2020.04)")
     #ax2.set_xlim(datetime.datetime(2020,4,1), datetime.datetime(2020,4,30)) 
@@ -188,6 +197,10 @@ def draw(dates, values):
         axs[0].annotate(mediumNumber[i], xy=(dates[i], easyNumber[i] + mediumNumber[i] - annotate_y_offset - 3), fontsize = 9)
         axs[0].annotate(easyNumber[i]  , xy=(dates[i], easyNumber[i] - annotate_y_offset - 3),fontsize = 9)
 
+    for i in range(len(reviewNumber)):
+        axs[0].annotate(reviewNumber[i],
+        xy=(dates[-len(reviewNumber):][i], reviewNumber[i] + annotate_y_offset - 5),
+        fontweight = 'bold', color='#555555')
     
     # leetcode score
     for i,j in zip(dates, leetscore):
@@ -195,6 +208,7 @@ def draw(dates, values):
 
     plt.savefig(FILE_IMAGE_SCORE202004)
 
+    #=========================================================================
 
     axs[0].set(xlabel="Date", ylabel="Number of Problems",
         title="Number of Quiz (2020.05)")
@@ -205,7 +219,7 @@ def draw(dates, values):
     axs[1].set_title("Score (2020.05)", fontweight = 'bold')
     axs[0].set_xlim(datetime.datetime(2020,5,1), datetime.datetime(2020,5,31)) 
     plt.savefig(FILE_IMAGE_SCORE202005)
-    #plt.show()
+    plt.show()
 
 ###################### 
 ### Read from file  
@@ -215,7 +229,7 @@ def read():
     line = f.readline()
     while line != '':  # The EOF char is an empty string
         split_line = line.split()
-        if len(split_line) > 3 :  # New format 
+        if len(split_line) > 3 :  # Format-2 (add leetcode numbers)
             date_str = split_line[0] 
             file_count = split_line[1] 
             l_count_total = split_line[2] 
@@ -230,12 +244,18 @@ def read():
             easyNumber.append(int(l_count_easy))
             mediumNumber.append(int(l_count_medium))
             hardNumber.append(int(l_count_hard))
+
         elif len(split_line) == 2:
             date_str, val_str = split_line[0], split_line[1] 
             dates.append(datetime.datetime.strptime(date_str, DATE_FORMATTER)) 
             values.append(int(val_str))
         else:
             break
+
+        if len(split_line) == 11:  # Format-3 (add review numbers)
+                l_count_review = split_line[10]
+                reviewNumber.append(int(l_count_review))
+
         line = f.readline()
     f.close()
 
@@ -265,19 +285,24 @@ if str(today_date) != str(latest_date):
     #Get data 
     today_lcode = getQuizCount()      # Get leetcode data
     today_value = getPracticeNumber() # Get local data
+    today_review = getReviewNumber()  # Get local review number
+    print("Review:", today_review)
     
-    #Update data in memory (4 lists)
+    #Update data in memory
     dates.append(today_date)
     values.append(today_value)
     leetnumber.append(today_lcode['num_solved'])
+    easyNumber.append(today_lcode['ac_easy'])
+    mediumNumber.append(today_lcode['ac_medium'])
+    hardNumber.append(today_lcode['ac_hard'])
+    reviewNumber.append(today_review)
     score = 1 * today_lcode['ac_easy'] \
         + 3 * today_lcode['ac_medium'] \
         + 5 * today_lcode['ac_hard']
     leetscore.append(score)
 
     #Update data in file
-    writeLine = writePrepare(today_date, today_value, today_lcode, score)    
-    #print(writeLine)
+    writeLine = writePrepare(today_date, today_value, today_lcode, score, today_review)
     write(writeLine)
 else:
     print(">> Status: Existed date.")
@@ -290,4 +315,15 @@ print(">> Save the image:", FILE_IMAGE202002)
 print(">> Save the image:", FILE_IMAGE202003)
 print(">> Save the image:", FILE_IMAGE_SCORE202004)
 print(">> Save the image:", FILE_IMAGE_SCORE202005)
+
+#Debug
+# print("dates       :", len(dates))
+# print("values      :", len(values))
+# print("leetnumber  :", len(leetnumber))
+# print("easyNumber  :", len(easyNumber))
+# print("mediumNumber:", len(mediumNumber))
+# print("hardNumber  :", len(hardNumber))
+# print("leetscore   :", len(leetscore))
+# print("reviewNumber:", len(reviewNumber))
+
 draw(dates, values)

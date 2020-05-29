@@ -836,9 +836,9 @@ Num of Python Practice:  264
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  123 /  408
-Solved / Total (Medium):  132 /  744
+Solved / Total (Medium):  132 /  745
 Solved / Total (Hard)  :   13 /  306
-Solved / Total (All)   :  268 / 1458
+Solved / Total (All)   :  268 / 1459
 Total Score            :  584
 =====================================
 
