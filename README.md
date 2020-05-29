@@ -1,7 +1,5 @@
 ```
 algo
-├── _0005_LongestPalindromicSubstring.py
-├── _0125_ValidPalindrome.py
 ├── array
 │   ├── _0001_TwoSum.py
 │   ├── _0004_MedianOfTwoSortedArrays.py
@@ -219,9 +217,11 @@ algo
 │   └── _0946_ValidateStackSequences.py
 ├── string
 │   ├── _0003_LongestSubstringWithoutRepeatingCharacters.py
+│   ├── _0005_LongestPalindromicSubstring.py
 │   ├── _0014_LongestCommonPrefix.py
 │   ├── _0038_CountAndSay.py
 │   ├── _0067_AddBinary.py
+│   ├── _0125_ValidPalindrome.py
 │   ├── _0171_ExcelSheetColumnNumber.py
 │   ├── _0290_WordPattern.py
 │   ├── _0299_BullsAndCows.py
@@ -282,13 +282,13 @@ algo
 │   ├── _1099_TwoSumLessThanK.py
 │   └── _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 ├── union-find
-│   ├── _0547_FriendCircles.py
-│   └── _305_NumberOfIslands2.py
+│   ├── _0305_NumberOfIslands2.py
+│   └── _0547_FriendCircles.py
 ├── warmup
 │   └── fibonacci.py
 └── wip
-    ├── _0127_WordLadder.py
-    └── wordladder.py
+    ├── _0127_WordLadder_TLE.py
+    └── _0127_WordLadder_wrong.py
 
 23 directories, 266 files
 
@@ -378,7 +378,8 @@ _0121_BestTimeToBuyAndSellStock.py
 _0122_BestTimeToBuyAndSellStock2.py
 _0125_ValidPalindrome.py
 _0127_WordLadder.py
-_0127_WordLadder.py
+_0127_WordLadder_TLE.py
+_0127_WordLadder_wrong.py
 _0129_SumRootToLeafNumbers.py
 _0131_PalindromePartitioning.py
 _0133_CloneGraph.py
@@ -444,6 +445,7 @@ _0291_WordPattern2.py
 _0297_SerializeAndDeserializeBinaryTree.py
 _0299_BullsAndCows.py
 _0300_LongestIncreasingSubsequence.py
+_0305_NumberOfIslands2.py
 _0313_SuperUglyNumber.py
 _0322_CoinChange.py
 _0338_CountingBits.py
@@ -558,9 +560,8 @@ _1300_SumOfMutatedArrayClosestToTarget.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
-_305_NumberOfIslands2.py
 =====================================
-Num of Python Practice:  264
+Num of Python Practice:  265
 
 
 =====================================

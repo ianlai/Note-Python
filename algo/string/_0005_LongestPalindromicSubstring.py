@@ -1,4 +1,6 @@
 class Solution(object):
+    
+    # Two-layer loops [74%]
     def longestPalindrome(self, s):
         """
         :type s: str
