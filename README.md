@@ -138,6 +138,8 @@ algo
 │   └── _1048_LongestStringChain.py
 ├── easy
 │   └── _0724_FindPivotIndex.py
+├── greedy
+│   └── _0621_TaskScheduler.py
 ├── hashmap
 │   ├── _0049_GroupAnagrams.py
 │   ├── _0146_LRUCache.py
@@ -290,7 +292,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-23 directories, 266 files
+24 directories, 267 files
 
 =====================================
 ============= Local Repo ============
@@ -496,6 +498,7 @@ _0572_SubtreeOfAnotherTree.py
 _0576_OutOfBoundaryPaths.py
 _0581_ShortestUnsortedContinuousSubarray.py
 _0617_MergeTwoBinaryTrees.py
+_0621_TaskScheduler.py
 _0647_PalindromicSubstrings.py
 _0653_TwoSum4.py
 _0654_MaximumBinaryTree.py
@@ -561,7 +564,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  265
+Num of Python Practice:  266
 
 
 =====================================
@@ -769,6 +772,7 @@ Num of Python Practice:  265
  0595 Big Countries
  0617 Merge Two Binary Trees
  0620 Not Boring Movies
+ 0621 Task Scheduler
  0627 Swap Salary
  0647 Palindromic Substrings
  0653 Two Sum IV - Input is a BST
@@ -837,10 +841,10 @@ Num of Python Practice:  265
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  123 /  408
-Solved / Total (Medium):  132 /  745
-Solved / Total (Hard)  :   13 /  306
-Solved / Total (All)   :  268 / 1459
-Total Score            :  584
+Solved / Total (Medium):  134 /  746
+Solved / Total (Hard)  :   12 /  305
+Solved / Total (All)   :  269 / 1459
+Total Score            :  585
 =====================================
 
 ```

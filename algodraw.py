@@ -219,7 +219,7 @@ def draw(dates, values):
     axs[1].set_title("Score (2020.05)", fontweight = 'bold')
     axs[0].set_xlim(datetime.datetime(2020,5,1), datetime.datetime(2020,5,31)) 
     plt.savefig(FILE_IMAGE_SCORE202005)
-    plt.show()
+    # plt.show()
 
 ###################### 
 ### Read from file  
