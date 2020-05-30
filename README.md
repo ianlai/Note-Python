@@ -6,8 +6,6 @@ algo
 │   ├── _0018_4Sum.py
 │   ├── _0027_RemoveElement.py
 │   ├── _0031_NextPermutation.py
-│   ├── _0036_ValidSudoku.py
-│   ├── _0054_SpiralMatrix.py
 │   ├── _0056_MergeIntervals.py
 │   ├── _0073_SetMatrixZeroes.py
 │   ├── _0088_MergeSortedArray.py
@@ -194,7 +192,9 @@ algo
 │   ├── _0263_UglyNumber.py
 │   └── _0914_XOfAKindInADeckOfCards.py
 ├── matrix
-│   └── _0048_RotateImage.py
+│   ├── _0036_ValidSudoku.py
+│   ├── _0048_RotateImage.py
+│   └── _0054_SpiralMatrix.py
 ├── recursion
 │   ├── _0050_Pow(x,n).py
 │   ├── _0060_PermutationSequence.py

@@ -1,4 +1,6 @@
 class Solution:
+    
+    # 3 loops but cleaner [ 6% - 69% ]
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         m, n = len(board), len(board[0])
         def checkRow(board):
@@ -27,10 +29,10 @@ class Solution:
         
         def checkBlock(board):
             for outer in range(9):
-                x, y = outer % 3, outer // 3
+                x, y = outer // 3, outer % 3
                 s = set([])
                 for inner in range(9):
-                    u, v = inner % 3, inner // 3
+                    u, v = inner // 3, inner % 3
                     i = x * 3 + u
                     j = y * 3 + v
                     if board[i][j] == '.':
