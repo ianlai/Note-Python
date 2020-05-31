@@ -180,6 +180,7 @@ algo
 │   ├── _0141_LinkedListCycle.py
 │   ├── _0142_LinkedListCycle2.py
 │   ├── _0147_InsertionSortList.py
+│   ├── _0148_SortList.py
 │   ├── _0160_IntersectionOfTwoLinkedLists.py
 │   ├── _0203_RemoveLinkedListElements.py
 │   ├── _0206_ReverseLinkedList.py
@@ -292,7 +293,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-24 directories, 267 files
+24 directories, 268 files
 
 =====================================
 ============= Local Repo ============
@@ -392,6 +393,7 @@ _0142_LinkedListCycle2.py
 _0144_BinaryTreePreorderTraversal.py
 _0146_LRUCache.py
 _0147_InsertionSortList.py
+_0148_SortList.py
 _0152_MaximumProductSubarray.py
 _0153_FindMinimumInRotatedSortedArray.py
 _0155_MinStack.py
@@ -564,7 +566,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  266
+Num of Python Practice:  267
 
 
 =====================================
@@ -664,6 +666,7 @@ Num of Python Practice:  266
  0144 Binary Tree Preorder Traversal
  0146 LRU Cache
  0147 Insertion Sort List
+ 0148 Sort List
  0152 Maximum Product Subarray
  0153 Find Minimum in Rotated Sorted Array
  0155 Min Stack
@@ -840,11 +843,11 @@ Num of Python Practice:  266
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  123 /  408
-Solved / Total (Medium):  134 /  746
-Solved / Total (Hard)  :   12 /  305
-Solved / Total (All)   :  269 / 1459
-Total Score            :  585
+Solved / Total (Easy)  :  123 /  410
+Solved / Total (Medium):  135 /  750
+Solved / Total (Hard)  :   12 /  307
+Solved / Total (All)   :  270 / 1467
+Total Score            :  588
 =====================================
 
 ```
