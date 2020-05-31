@@ -286,7 +286,6 @@ if str(today_date) != str(latest_date):
     today_lcode = getQuizCount()      # Get leetcode data
     today_value = getPracticeNumber() # Get local data
     today_review = getReviewNumber()  # Get local review number
-    print("Review:", today_review)
     
     #Update data in memory
     dates.append(today_date)
