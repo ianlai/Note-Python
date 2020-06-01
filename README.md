@@ -862,3 +862,4 @@ Total Score            :  591
 ![Alt text](statistics_202003.png)
 ![Alt text](score_202004.png)
 ![Alt text](score_202005.png)
+![Alt text](score_202006.png)
