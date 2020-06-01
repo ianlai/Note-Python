@@ -217,6 +217,7 @@ algo
 │   ├── _0225_ImplementStackUsingQueues.py
 │   ├── _0232_ImplementQueueUsingStacks.py
 │   ├── _0716_MaxStack.py
+│   ├── _0739_DailyTemperatures.py
 │   └── _0946_ValidateStackSequences.py
 ├── string
 │   ├── _0003_LongestSubstringWithoutRepeatingCharacters.py
@@ -293,7 +294,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-24 directories, 268 files
+24 directories, 269 files
 
 =====================================
 ============= Local Repo ============
@@ -523,6 +524,7 @@ _0706_DesignHashMap.py
 _0716_MaxStack.py
 _0718_MaximumLengthOfRepeatedSubarray.py
 _0724_FindPivotIndex.py
+_0739_DailyTemperatures.py
 _0746_MinCostClimbingStairs.py
 _0771_JewelsAndStones.py
 _0783_MinimumDistanceBetweenBSTNodes.py
@@ -566,7 +568,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  267
+Num of Python Practice:  268
 
 
 =====================================
@@ -799,6 +801,7 @@ Num of Python Practice:  267
  0716 Max Stack
  0718 Maximum Length of Repeated Subarray
  0724 Find Pivot Index
+ 0739 Daily Temperatures
  0746 Min Cost Climbing Stairs
  0771 Jewels and Stones
  0783 Minimum Distance Between BST Nodes
@@ -844,10 +847,10 @@ Num of Python Practice:  267
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  123 /  410
-Solved / Total (Medium):  135 /  750
+Solved / Total (Medium):  136 /  750
 Solved / Total (Hard)  :   12 /  307
-Solved / Total (All)   :  270 / 1467
-Total Score            :  588
+Solved / Total (All)   :  271 / 1467
+Total Score            :  591
 =====================================
 
 ```
