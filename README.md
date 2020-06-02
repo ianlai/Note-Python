@@ -177,6 +177,8 @@ algo
 │   ├── _0023_MergeKSortedLists.py
 │   ├── _0024_SwapNodesInPairs.py
 │   ├── _0061_RotateList.py
+│   ├── _0082_RemoveDuplicatesFromSortedList2.py
+│   ├── _0083_RemoveDuplicatesFromSortedList.py
 │   ├── _0141_LinkedListCycle.py
 │   ├── _0142_LinkedListCycle2.py
 │   ├── _0147_InsertionSortList.py
@@ -294,7 +296,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-24 directories, 269 files
+24 directories, 271 files
 
 =====================================
 ============= Local Repo ============
@@ -356,6 +358,8 @@ _0077_Combinations.py
 _0078_Subsets.py
 _0079_WordSearch.py
 _0081_SearchInRotatedSortedArray2.py
+_0082_RemoveDuplicatesFromSortedList2.py
+_0083_RemoveDuplicatesFromSortedList.py
 _0088_MergeSortedArray.py
 _0089_GrayCode.py
 _0090_Subsets2.py
@@ -568,7 +572,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  268
+Num of Python Practice:  270
 
 
 =====================================
@@ -631,6 +635,8 @@ Num of Python Practice:  268
  0078 Subsets
  0079 Word Search
  0081 Search in Rotated Sorted Array II
+ 0082 Remove Duplicates from Sorted List II
+ 0083 Remove Duplicates from Sorted List
  0088 Merge Sorted Array
  0089 Gray Code
  0090 Subsets II
@@ -846,11 +852,11 @@ Num of Python Practice:  268
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  123 /  410
-Solved / Total (Medium):  136 /  750
+Solved / Total (Easy)  :  124 /  410
+Solved / Total (Medium):  137 /  750
 Solved / Total (Hard)  :   12 /  307
-Solved / Total (All)   :  271 / 1467
-Total Score            :  591
+Solved / Total (All)   :  273 / 1467
+Total Score            :  595
 =====================================
 
 ```
