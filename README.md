@@ -179,6 +179,7 @@ algo
 │   ├── _0061_RotateList.py
 │   ├── _0082_RemoveDuplicatesFromSortedList2.py
 │   ├── _0083_RemoveDuplicatesFromSortedList.py
+│   ├── _0092_ReverseLinkedList2.py
 │   ├── _0141_LinkedListCycle.py
 │   ├── _0142_LinkedListCycle2.py
 │   ├── _0147_InsertionSortList.py
@@ -188,7 +189,8 @@ algo
 │   ├── _0206_ReverseLinkedList.py
 │   ├── _0234_PalindromeLinkedList.py
 │   ├── _0237_DeleteNodeInALinkedList.py
-│   └── _0876_MiddleOfTheLinkedList.py
+│   ├── _0876_MiddleOfTheLinkedList.py
+│   └── _1019_NextGreaterNodeInLinkedList.py
 ├── math
 │   ├── _0009_PalindromeNumber.py
 │   ├── _0202_HappyNumber.py
@@ -296,7 +298,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-24 directories, 271 files
+24 directories, 273 files
 
 =====================================
 ============= Local Repo ============
@@ -363,6 +365,7 @@ _0083_RemoveDuplicatesFromSortedList.py
 _0088_MergeSortedArray.py
 _0089_GrayCode.py
 _0090_Subsets2.py
+_0092_ReverseLinkedList2.py
 _0094_BinaryTreeInorderTraversal.py
 _0096_UniqueBinarySearchTrees.py
 _0098_ValidateBinarySearchTree.py
@@ -557,6 +560,7 @@ _0977_SquaresOfASortedArray.py
 _0981_TimeBasedKey-ValueStore.py
 _0994_RottingOranges.py
 _1002_FindCommonCharacters.py
+_1019_NextGreaterNodeInLinkedList.py
 _1022_SumOfRootToLeafBinaryNumbers.py
 _1046_LastStoneWeight.py
 _1048_LongestStringChain.py
@@ -572,7 +576,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  270
+Num of Python Practice:  272
 
 
 =====================================
@@ -640,6 +644,7 @@ Num of Python Practice:  270
  0088 Merge Sorted Array
  0089 Gray Code
  0090 Subsets II
+ 0092 Reverse Linked List II
  0094 Binary Tree Inorder Traversal
  0096 Unique Binary Search Trees
  0098 Validate Binary Search Tree
@@ -836,6 +841,7 @@ Num of Python Practice:  270
  0981 Time Based Key-Value Store
  0994 Rotting Oranges
  1002 Find Common Characters
+ 1019 Next Greater Node In Linked List
  1022 Sum of Root To Leaf Binary Numbers
  1046 Last Stone Weight
  1048 Longest String Chain
@@ -853,10 +859,10 @@ Num of Python Practice:  270
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  124 /  410
-Solved / Total (Medium):  137 /  750
+Solved / Total (Medium):  139 /  750
 Solved / Total (Hard)  :   12 /  307
-Solved / Total (All)   :  273 / 1467
-Total Score            :  595
+Solved / Total (All)   :  275 / 1467
+Total Score            :  601
 =====================================
 
 ```
