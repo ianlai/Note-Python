@@ -179,6 +179,7 @@ algo
 │   ├── _0061_RotateList.py
 │   ├── _0082_RemoveDuplicatesFromSortedList2.py
 │   ├── _0083_RemoveDuplicatesFromSortedList.py
+│   ├── _0086_PartitionList.py
 │   ├── _0092_ReverseLinkedList2.py
 │   ├── _0141_LinkedListCycle.py
 │   ├── _0142_LinkedListCycle2.py
@@ -189,6 +190,7 @@ algo
 │   ├── _0206_ReverseLinkedList.py
 │   ├── _0234_PalindromeLinkedList.py
 │   ├── _0237_DeleteNodeInALinkedList.py
+│   ├── _0328_OddEvenLinkedList.py
 │   ├── _0876_MiddleOfTheLinkedList.py
 │   └── _1019_NextGreaterNodeInLinkedList.py
 ├── math
@@ -298,7 +300,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-24 directories, 273 files
+24 directories, 275 files
 
 =====================================
 ============= Local Repo ============
@@ -362,6 +364,7 @@ _0079_WordSearch.py
 _0081_SearchInRotatedSortedArray2.py
 _0082_RemoveDuplicatesFromSortedList2.py
 _0083_RemoveDuplicatesFromSortedList.py
+_0086_PartitionList.py
 _0088_MergeSortedArray.py
 _0089_GrayCode.py
 _0090_Subsets2.py
@@ -460,6 +463,7 @@ _0300_LongestIncreasingSubsequence.py
 _0305_NumberOfIslands2.py
 _0313_SuperUglyNumber.py
 _0322_CoinChange.py
+_0328_OddEvenLinkedList.py
 _0338_CountingBits.py
 _0344_ReverseString.py
 _0346_MovingAverageFromDataStream.py
@@ -576,7 +580,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  272
+Num of Python Practice:  274
 
 
 =====================================
@@ -641,6 +645,7 @@ Num of Python Practice:  272
  0081 Search in Rotated Sorted Array II
  0082 Remove Duplicates from Sorted List II
  0083 Remove Duplicates from Sorted List
+ 0086 Partition List
  0088 Merge Sorted Array
  0089 Gray Code
  0090 Subsets II
@@ -738,6 +743,7 @@ Num of Python Practice:  272
  0305 Number of Islands II
  0313 Super Ugly Number
  0322 Coin Change
+ 0328 Odd Even Linked List
  0338 Counting Bits
  0344 Reverse String
  0346 Moving Average from Data Stream
@@ -858,11 +864,11 @@ Num of Python Practice:  272
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  124 /  410
-Solved / Total (Medium):  139 /  750
+Solved / Total (Easy)  :  124 /  411
+Solved / Total (Medium):  141 /  751
 Solved / Total (Hard)  :   12 /  307
-Solved / Total (All)   :  275 / 1467
-Total Score            :  601
+Solved / Total (All)   :  277 / 1469
+Total Score            :  607
 =====================================
 
 ```
