@@ -183,6 +183,7 @@ algo
 │   ├── _0092_ReverseLinkedList2.py
 │   ├── _0141_LinkedListCycle.py
 │   ├── _0142_LinkedListCycle2.py
+│   ├── _0143_ReorderList.py
 │   ├── _0147_InsertionSortList.py
 │   ├── _0148_SortList.py
 │   ├── _0160_IntersectionOfTwoLinkedLists.py
@@ -300,7 +301,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-24 directories, 275 files
+24 directories, 276 files
 
 =====================================
 ============= Local Repo ============
@@ -401,6 +402,7 @@ _0134_GasStation.py
 _0139_WordBreak.py
 _0141_LinkedListCycle.py
 _0142_LinkedListCycle2.py
+_0143_ReorderList.py
 _0144_BinaryTreePreorderTraversal.py
 _0146_LRUCache.py
 _0147_InsertionSortList.py
@@ -580,7 +582,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  274
+Num of Python Practice:  275
 
 
 =====================================
@@ -681,6 +683,7 @@ Num of Python Practice:  274
  0139 Word Break
  0141 Linked List Cycle
  0142 Linked List Cycle II
+ 0143 Reorder List
  0144 Binary Tree Preorder Traversal
  0146 LRU Cache
  0147 Insertion Sort List
@@ -865,10 +868,10 @@ Num of Python Practice:  274
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  124 /  411
-Solved / Total (Medium):  141 /  751
+Solved / Total (Medium):  142 /  751
 Solved / Total (Hard)  :   12 /  307
-Solved / Total (All)   :  277 / 1469
-Total Score            :  607
+Solved / Total (All)   :  278 / 1469
+Total Score            :  610
 =====================================
 
 ```
