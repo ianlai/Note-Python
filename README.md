@@ -181,6 +181,7 @@ algo
 │   ├── _0083_RemoveDuplicatesFromSortedList.py
 │   ├── _0086_PartitionList.py
 │   ├── _0092_ReverseLinkedList2.py
+│   ├── _0138_CopyListWithRandomPointer.py
 │   ├── _0141_LinkedListCycle.py
 │   ├── _0142_LinkedListCycle2.py
 │   ├── _0143_ReorderList.py
@@ -301,7 +302,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-24 directories, 276 files
+24 directories, 277 files
 
 =====================================
 ============= Local Repo ============
@@ -399,6 +400,7 @@ _0129_SumRootToLeafNumbers.py
 _0131_PalindromePartitioning.py
 _0133_CloneGraph.py
 _0134_GasStation.py
+_0138_CopyListWithRandomPointer.py
 _0139_WordBreak.py
 _0141_LinkedListCycle.py
 _0142_LinkedListCycle2.py
@@ -582,7 +584,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  275
+Num of Python Practice:  276
 
 
 =====================================
@@ -680,6 +682,7 @@ Num of Python Practice:  275
  0133 Clone Graph
  0134 Gas Station
  0136 Single Number
+ 0138 Copy List with Random Pointer
  0139 Word Break
  0141 Linked List Cycle
  0142 Linked List Cycle II
@@ -868,10 +871,10 @@ Num of Python Practice:  275
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  124 /  411
-Solved / Total (Medium):  142 /  751
+Solved / Total (Medium):  143 /  751
 Solved / Total (Hard)  :   12 /  307
-Solved / Total (All)   :  278 / 1469
-Total Score            :  610
+Solved / Total (All)   :  279 / 1469
+Total Score            :  613
 =====================================
 
 ```
