@@ -269,6 +269,7 @@ algo
 │   ├── _0270_ClosestBinarySearchTreeValue.py
 │   ├── _0297_SerializeAndDeserializeBinaryTree.py
 │   ├── _0429_N-aryTreeLevelOrderTraversal.py
+│   ├── _0501_FindModeInBinarySearchTree.py
 │   ├── _0538_ConvertBSTtoGreaterTree.py
 │   ├── _0543_DiameterOfBinaryTree.py
 │   ├── _0572_SubtreeOfAnotherTree.py
@@ -302,7 +303,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-24 directories, 277 files
+24 directories, 278 files
 
 =====================================
 ============= Local Repo ============
@@ -501,6 +502,7 @@ _0487_MaxConsecutiveOnes2.py
 _0490_TheMaze.py
 _0491_IncreasingSubsequences.py
 _0494_TargetSum.py
+_0501_FindModeInBinarySearchTree.py
 _0509_FibonacciNumber.py
 _0523_ContinuousSubarraySum.py
 _0525_ContiguousArray.py
@@ -584,7 +586,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  276
+Num of Python Practice:  277
 
 
 =====================================
@@ -783,6 +785,7 @@ Num of Python Practice:  276
  0490 The Maze
  0491 Increasing Subsequences
  0494 Target Sum
+ 0501 Find Mode in Binary Search Tree
  0509 Fibonacci Number
  0523 Continuous Subarray Sum
  0525 Contiguous Array
@@ -870,11 +873,11 @@ Num of Python Practice:  276
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  124 /  411
-Solved / Total (Medium):  143 /  751
-Solved / Total (Hard)  :   12 /  307
-Solved / Total (All)   :  279 / 1469
-Total Score            :  613
+Solved / Total (Easy)  :  125 /  412
+Solved / Total (Medium):  143 /  753
+Solved / Total (Hard)  :   12 /  308
+Solved / Total (All)   :  280 / 1473
+Total Score            :  614
 =====================================
 
 ```
