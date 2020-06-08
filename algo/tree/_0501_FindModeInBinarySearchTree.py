@@ -6,12 +6,48 @@
 #         self.right = right
 class Solution:
     
-    # Traversal [space: O(n), time: O(n), 54%]
+    # Traversal1 with no list (use global var) [space: O(1) with stack, time: O(n), 76%]
+    prev = None 
+    count, maxCount = 0, 0
+    nodelist = []
+    
     def findMode(self, root: TreeNode) -> List[int]:
+        print("Traversal with no list [space:O(1) despite of stack]")
+        if not root:
+            return []
+        self.traverse(root)
+        return self.nodelist
+        
+    def traverse(self, node):
+        if not node:
+            return 
+    
+        self.traverse(node.left)
+        #--- When traverse to current node (start)
+        if self.prev == node.val:
+            self.count += 1 
+        else:
+            self.count = 1
+        
+        if self.count == self.maxCount:
+            self.nodelist.append(node.val)
+        elif self.count > self.maxCount:
+            self.nodelist = [node.val] #clear and add the current one
+            self.maxCount = self.count
+
+        self.prev = node.val
+        #--- When traverse to current node (end)
+        self.traverse(node.right)
+        
+    # =============================================
+    
+    # Traversal2 [space: O(n), time: O(n), 54%]
+    def findMode2(self, root: TreeNode) -> List[int]:
+        print("Traversal with list [space:O(n)]")
         if not root:
             return []
         nodelist = []
-        self.traverse(root, nodelist)
+        self.traverse2(root, nodelist)
         
         count = collections.Counter(nodelist)
         mostCount = 0
@@ -24,15 +60,12 @@ class Solution:
                 ans.append(k)
         return ans
     
-    def traverse(self, root, nodelist):
+    def traverse2(self, root, nodelist):
         if not root:
             return 
         
-        self.traverse(root.left, nodelist)
+        self.traverse2(root.left, nodelist)
         nodelist.append(root.val)
-        self.traverse(root.right, nodelist)
+        self.traverse2(root.right, nodelist)
         return 
-        
-        
-        
         
