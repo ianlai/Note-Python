@@ -273,6 +273,7 @@ algo
 │   ├── _0538_ConvertBSTtoGreaterTree.py
 │   ├── _0543_DiameterOfBinaryTree.py
 │   ├── _0572_SubtreeOfAnotherTree.py
+│   ├── _0589_N-aryTreePreorderTraversal.py
 │   ├── _0617_MergeTwoBinaryTrees.py
 │   ├── _0653_TwoSum4.py
 │   ├── _0654_MaximumBinaryTree.py
@@ -303,7 +304,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-24 directories, 278 files
+24 directories, 279 files
 
 =====================================
 ============= Local Repo ============
@@ -517,6 +518,7 @@ _0566_ReshapeTheMatrix.py
 _0572_SubtreeOfAnotherTree.py
 _0576_OutOfBoundaryPaths.py
 _0581_ShortestUnsortedContinuousSubarray.py
+_0589_N-aryTreePreorderTraversal.py
 _0617_MergeTwoBinaryTrees.py
 _0621_TaskScheduler.py
 _0647_PalindromicSubstrings.py
@@ -586,7 +588,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  277
+Num of Python Practice:  278
 
 
 =====================================
@@ -800,6 +802,7 @@ Num of Python Practice:  277
  0572 Subtree of Another Tree
  0576 Out of Boundary Paths
  0581 Shortest Unsorted Continuous Subarray
+ 0589 N-ary Tree Preorder Traversal
  0595 Big Countries
  0617 Merge Two Binary Trees
  0620 Not Boring Movies
@@ -873,11 +876,11 @@ Num of Python Practice:  277
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  125 /  412
+Solved / Total (Easy)  :  126 /  412
 Solved / Total (Medium):  143 /  753
 Solved / Total (Hard)  :   12 /  308
-Solved / Total (All)   :  280 / 1473
-Total Score            :  614
+Solved / Total (All)   :  281 / 1473
+Total Score            :  615
 =====================================
 
 ```
