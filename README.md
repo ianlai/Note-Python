@@ -270,8 +270,10 @@ algo
 │   ├── _0297_SerializeAndDeserializeBinaryTree.py
 │   ├── _0429_N-aryTreeLevelOrderTraversal.py
 │   ├── _0501_FindModeInBinarySearchTree.py
+│   ├── _0530_MinimumAbsoluteDifferenceInBST.py
 │   ├── _0538_ConvertBSTtoGreaterTree.py
 │   ├── _0543_DiameterOfBinaryTree.py
+│   ├── _0559_MaximumDepthOfN-aryTree.py
 │   ├── _0572_SubtreeOfAnotherTree.py
 │   ├── _0589_N-aryTreePreorderTraversal.py
 │   ├── _0617_MergeTwoBinaryTrees.py
@@ -304,7 +306,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-24 directories, 279 files
+24 directories, 281 files
 
 =====================================
 ============= Local Repo ============
@@ -508,10 +510,12 @@ _0509_FibonacciNumber.py
 _0523_ContinuousSubarraySum.py
 _0525_ContiguousArray.py
 _0526_BeautifulArrangement.py
+_0530_MinimumAbsoluteDifferenceInBST.py
 _0535_EncodeAndDecodeTinyURL.py
 _0538_ConvertBSTtoGreaterTree.py
 _0543_DiameterOfBinaryTree.py
 _0547_FriendCircles.py
+_0559_MaximumDepthOfN-aryTree.py
 _0560_SubarraySumEqualsK.py
 _0561_ArrayPartition1.py
 _0566_ReshapeTheMatrix.py
@@ -588,7 +592,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  278
+Num of Python Practice:  280
 
 
 =====================================
@@ -792,10 +796,12 @@ Num of Python Practice:  278
  0523 Continuous Subarray Sum
  0525 Contiguous Array
  0526 Beautiful Arrangement
+ 0530 Minimum Absolute Difference in BST
  0535 Encode and Decode TinyURL
  0538 Convert BST to Greater Tree
  0543 Diameter of Binary Tree
  0547 Friend Circles
+ 0559 Maximum Depth of N-ary Tree
  0560 Subarray Sum Equals K
  0561 Array Partition I
  0566 Reshape the Matrix
@@ -876,11 +882,11 @@ Num of Python Practice:  278
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  126 /  412
+Solved / Total (Easy)  :  128 /  412
 Solved / Total (Medium):  143 /  753
 Solved / Total (Hard)  :   12 /  308
-Solved / Total (All)   :  281 / 1473
-Total Score            :  615
+Solved / Total (All)   :  283 / 1473
+Total Score            :  617
 =====================================
 
 ```
