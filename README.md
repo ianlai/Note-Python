@@ -52,6 +52,7 @@ algo
 │   ├── _0490_TheMaze.py
 │   ├── _0694_NumberOfDistinctIslands.py
 │   ├── _0695_MaxAreaOfIsland.py
+│   ├── _0743_NetworkDelayTime.py
 │   ├── _0909_SnakesAndLadders.py
 │   └── _1197_MinimumKnightMoves.py
 ├── binary-search
@@ -306,7 +307,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-24 directories, 281 files
+24 directories, 282 files
 
 =====================================
 ============= Local Repo ============
@@ -548,6 +549,7 @@ _0716_MaxStack.py
 _0718_MaximumLengthOfRepeatedSubarray.py
 _0724_FindPivotIndex.py
 _0739_DailyTemperatures.py
+_0743_NetworkDelayTime.py
 _0746_MinCostClimbingStairs.py
 _0771_JewelsAndStones.py
 _0783_MinimumDistanceBetweenBSTNodes.py
@@ -592,7 +594,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  280
+Num of Python Practice:  281
 
 
 =====================================
@@ -837,6 +839,7 @@ Num of Python Practice:  280
  0718 Maximum Length of Repeated Subarray
  0724 Find Pivot Index
  0739 Daily Temperatures
+ 0743 Network Delay Time
  0746 Min Cost Climbing Stairs
  0771 Jewels and Stones
  0783 Minimum Distance Between BST Nodes
@@ -882,11 +885,11 @@ Num of Python Practice:  280
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  128 /  412
-Solved / Total (Medium):  143 /  753
+Solved / Total (Easy)  :  128 /  413
+Solved / Total (Medium):  144 /  753
 Solved / Total (Hard)  :   12 /  308
-Solved / Total (All)   :  283 / 1473
-Total Score            :  617
+Solved / Total (All)   :  284 / 1474
+Total Score            :  620
 =====================================
 
 ```
