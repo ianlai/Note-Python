@@ -259,6 +259,7 @@ algo
 │   ├── _0112_PathSum.py
 │   ├── _0113_PathSum2.py
 │   ├── _0114_FlattenBinaryTreeToLinkedList.py
+│   ├── _0116_PopulatingNextRightPointersInEachNode.py
 │   ├── _0129_SumRootToLeafNumbers.py
 │   ├── _0144_BinaryTreePreorderTraversal.py
 │   ├── _0173_BinarySearchTreeIterator.py
@@ -307,7 +308,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-24 directories, 282 files
+24 directories, 283 files
 
 =====================================
 ============= Local Repo ============
@@ -392,6 +393,7 @@ _0111_MinimumDepthOfBinaryTree.py
 _0112_PathSum.py
 _0113_PathSum2.py
 _0114_FlattenBinaryTreeToLinkedList.py
+_0116_PopulatingNextRightPointersInEachNode.py
 _0118_PascalsTriangle.py
 _0119_PascalsTriangle2.py
 _0120_Triangle.py
@@ -594,7 +596,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  281
+Num of Python Practice:  282
 
 
 =====================================
@@ -680,6 +682,7 @@ Num of Python Practice:  281
  0112 Path Sum
  0113 Path Sum II
  0114 Flatten Binary Tree to Linked List
+ 0116 Populating Next Right Pointers in Each Node
  0118 Pascal's Triangle
  0119 Pascal's Triangle II
  0120 Triangle
@@ -886,10 +889,10 @@ Num of Python Practice:  281
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  128 /  413
-Solved / Total (Medium):  144 /  753
+Solved / Total (Medium):  145 /  753
 Solved / Total (Hard)  :   12 /  308
-Solved / Total (All)   :  284 / 1474
-Total Score            :  620
+Solved / Total (All)   :  285 / 1474
+Total Score            :  623
 =====================================
 
 ```
