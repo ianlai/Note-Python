@@ -270,6 +270,7 @@ algo
 │   ├── _0257_BinaryTreePaths.py
 │   ├── _0270_ClosestBinarySearchTreeValue.py
 │   ├── _0297_SerializeAndDeserializeBinaryTree.py
+│   ├── _0298_BinaryTreeLongestConsecutiveSequence.py
 │   ├── _0429_N-aryTreeLevelOrderTraversal.py
 │   ├── _0501_FindModeInBinarySearchTree.py
 │   ├── _0530_MinimumAbsoluteDifferenceInBST.py
@@ -308,7 +309,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-24 directories, 283 files
+24 directories, 284 files
 
 =====================================
 ============= Local Repo ============
@@ -469,6 +470,7 @@ _0283_MoveZeroes.py
 _0290_WordPattern.py
 _0291_WordPattern2.py
 _0297_SerializeAndDeserializeBinaryTree.py
+_0298_BinaryTreeLongestConsecutiveSequence.py
 _0299_BullsAndCows.py
 _0300_LongestIncreasingSubsequence.py
 _0305_NumberOfIslands2.py
@@ -596,7 +598,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  282
+Num of Python Practice:  283
 
 
 =====================================
@@ -757,6 +759,7 @@ Num of Python Practice:  282
  0290 Word Pattern
  0291 Word Pattern II
  0297 Serialize and Deserialize Binary Tree
+ 0298 Binary Tree Longest Consecutive Sequence
  0299 Bulls and Cows
  0300 Longest Increasing Subsequence
  0305 Number of Islands II
@@ -889,10 +892,10 @@ Num of Python Practice:  282
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  128 /  413
-Solved / Total (Medium):  145 /  753
+Solved / Total (Medium):  146 /  753
 Solved / Total (Hard)  :   12 /  308
-Solved / Total (All)   :  285 / 1474
-Total Score            :  623
+Solved / Total (All)   :  286 / 1474
+Total Score            :  626
 =====================================
 
 ```
