@@ -52,7 +52,6 @@ algo
 │   ├── _0490_TheMaze.py
 │   ├── _0694_NumberOfDistinctIslands.py
 │   ├── _0695_MaxAreaOfIsland.py
-│   ├── _0743_NetworkDelayTime.py
 │   ├── _0909_SnakesAndLadders.py
 │   └── _1197_MinimumKnightMoves.py
 ├── binary-search
@@ -215,6 +214,8 @@ algo
 │   ├── _0394_DecodeString.py
 │   ├── _0509_FibonacciNumber.py
 │   └── _0700_SearchInABinarySearchTree.py
+├── shortest-path
+│   └── _0743_NetworkDelayTime.py
 ├── sliding-window
 │   └── _0076_MinimumWindowSubstring.py
 ├── sorting
@@ -309,7 +310,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-24 directories, 284 files
+25 directories, 284 files
 
 =====================================
 ============= Local Repo ============
@@ -891,10 +892,10 @@ Num of Python Practice:  283
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  128 /  413
-Solved / Total (Medium):  146 /  753
-Solved / Total (Hard)  :   12 /  308
-Solved / Total (All)   :  286 / 1474
+Solved / Total (Easy)  :  128 /  415
+Solved / Total (Medium):  146 /  757
+Solved / Total (Hard)  :   12 /  311
+Solved / Total (All)   :  286 / 1483
 Total Score            :  626
 =====================================
 
