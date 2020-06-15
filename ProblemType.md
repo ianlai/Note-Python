@@ -50,6 +50,10 @@
 - 0935  Knight Dialer
 - 1197  Minimum Knight Moves  
 
+## Shortest Path系列
+- 0743  Network Delay Time (shortest path)
+- 0787  Cheapest Flights Within K Stops (shortest path + 站數限制)
+
 <br>
 
 # 各種解法

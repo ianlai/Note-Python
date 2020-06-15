@@ -215,7 +215,8 @@ algo
 │   ├── _0509_FibonacciNumber.py
 │   └── _0700_SearchInABinarySearchTree.py
 ├── shortest-path
-│   └── _0743_NetworkDelayTime.py
+│   ├── _0743_NetworkDelayTime.py
+│   └── _0787_CheapestFlightsWithinKStops.py
 ├── sliding-window
 │   └── _0076_MinimumWindowSubstring.py
 ├── sorting
@@ -310,7 +311,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 284 files
+25 directories, 285 files
 
 =====================================
 ============= Local Repo ============
@@ -559,6 +560,7 @@ _0746_MinCostClimbingStairs.py
 _0771_JewelsAndStones.py
 _0783_MinimumDistanceBetweenBSTNodes.py
 _0784_LetterCasePermutation.py
+_0787_CheapestFlightsWithinKStops.py
 _0819_MostCommonWord.py
 _0841_KeysAndRooms.py
 _0844_BackspaceStringCompare.py
@@ -599,7 +601,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  283
+Num of Python Practice:  284
 
 
 =====================================
@@ -851,6 +853,7 @@ Num of Python Practice:  283
  0771 Jewels and Stones
  0783 Minimum Distance Between BST Nodes
  0784 Letter Case Permutation
+ 0787 Cheapest Flights Within K Stops
  0819 Most Common Word
  0841 Keys and Rooms
  0844 Backspace String Compare
@@ -893,10 +896,10 @@ Num of Python Practice:  283
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  128 /  415
-Solved / Total (Medium):  146 /  757
+Solved / Total (Medium):  147 /  757
 Solved / Total (Hard)  :   12 /  311
-Solved / Total (All)   :  286 / 1483
-Total Score            :  626
+Solved / Total (All)   :  287 / 1483
+Total Score            :  629
 =====================================
 
 ```
