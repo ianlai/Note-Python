@@ -273,6 +273,7 @@ algo
 │   ├── _0270_ClosestBinarySearchTreeValue.py
 │   ├── _0297_SerializeAndDeserializeBinaryTree.py
 │   ├── _0298_BinaryTreeLongestConsecutiveSequence.py
+│   ├── _0366_FindLeavesOfBinaryTree.py
 │   ├── _0429_N-aryTreeLevelOrderTraversal.py
 │   ├── _0501_FindModeInBinarySearchTree.py
 │   ├── _0530_MinimumAbsoluteDifferenceInBST.py
@@ -311,7 +312,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 285 files
+25 directories, 286 files
 
 =====================================
 ============= Local Repo ============
@@ -489,6 +490,7 @@ _0350_IntersectionOfTwoArrays2.py
 _0354_RussianDollEnvelopes.py
 _0359_LoggerRateLimiter.py
 _0362_DesignHitCounter.py
+_0366_FindLeavesOfBinaryTree.py
 _0367_ValidPerfectSquare.py
 _0378_KthSmallestElementInASortedMatrix.py
 _0380_InsertDeleteGetRandomO(1).py
@@ -601,7 +603,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  284
+Num of Python Practice:  285
 
 
 =====================================
@@ -779,6 +781,7 @@ Num of Python Practice:  284
  0354 Russian Doll Envelopes
  0359 Logger Rate Limiter
  0362 Design Hit Counter
+ 0366 Find Leaves of Binary Tree
  0367 Valid Perfect Square
  0378 Kth Smallest Element in a Sorted Matrix
  0380 Insert Delete GetRandom O(1)
@@ -896,10 +899,10 @@ Num of Python Practice:  284
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  128 /  415
-Solved / Total (Medium):  147 /  757
+Solved / Total (Medium):  148 /  757
 Solved / Total (Hard)  :   12 /  311
-Solved / Total (All)   :  287 / 1483
-Total Score            :  629
+Solved / Total (All)   :  288 / 1483
+Total Score            :  632
 =====================================
 
 ```
