@@ -273,6 +273,7 @@ algo
 │   ├── _0270_ClosestBinarySearchTreeValue.py
 │   ├── _0297_SerializeAndDeserializeBinaryTree.py
 │   ├── _0298_BinaryTreeLongestConsecutiveSequence.py
+│   ├── _0314_BinaryTreeVerticalOrderTraversal.py
 │   ├── _0366_FindLeavesOfBinaryTree.py
 │   ├── _0429_N-aryTreeLevelOrderTraversal.py
 │   ├── _0501_FindModeInBinarySearchTree.py
@@ -312,7 +313,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 286 files
+25 directories, 287 files
 
 =====================================
 ============= Local Repo ============
@@ -478,6 +479,7 @@ _0299_BullsAndCows.py
 _0300_LongestIncreasingSubsequence.py
 _0305_NumberOfIslands2.py
 _0313_SuperUglyNumber.py
+_0314_BinaryTreeVerticalOrderTraversal.py
 _0322_CoinChange.py
 _0328_OddEvenLinkedList.py
 _0338_CountingBits.py
@@ -603,7 +605,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  285
+Num of Python Practice:  286
 
 
 =====================================
@@ -769,6 +771,7 @@ Num of Python Practice:  285
  0300 Longest Increasing Subsequence
  0305 Number of Islands II
  0313 Super Ugly Number
+ 0314 Binary Tree Vertical Order Traversal
  0322 Coin Change
  0328 Odd Even Linked List
  0338 Counting Bits
@@ -899,10 +902,10 @@ Num of Python Practice:  285
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  128 /  415
-Solved / Total (Medium):  148 /  757
+Solved / Total (Medium):  149 /  757
 Solved / Total (Hard)  :   12 /  311
-Solved / Total (All)   :  288 / 1483
-Total Score            :  632
+Solved / Total (All)   :  289 / 1483
+Total Score            :  635
 =====================================
 
 ```
