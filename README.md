@@ -203,7 +203,8 @@ algo
 ├── matrix
 │   ├── _0036_ValidSudoku.py
 │   ├── _0048_RotateImage.py
-│   └── _0054_SpiralMatrix.py
+│   ├── _0054_SpiralMatrix.py
+│   └── _0498_DiagonalTraverse.py
 ├── recursion
 │   ├── _0050_Pow(x,n).py
 │   ├── _0060_PermutationSequence.py
@@ -313,7 +314,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 287 files
+25 directories, 288 files
 
 =====================================
 ============= Local Repo ============
@@ -516,6 +517,7 @@ _0487_MaxConsecutiveOnes2.py
 _0490_TheMaze.py
 _0491_IncreasingSubsequences.py
 _0494_TargetSum.py
+_0498_DiagonalTraverse.py
 _0501_FindModeInBinarySearchTree.py
 _0509_FibonacciNumber.py
 _0523_ContinuousSubarraySum.py
@@ -605,7 +607,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  286
+Num of Python Practice:  287
 
 
 =====================================
@@ -808,6 +810,7 @@ Num of Python Practice:  286
  0490 The Maze
  0491 Increasing Subsequences
  0494 Target Sum
+ 0498 Diagonal Traverse
  0501 Find Mode in Binary Search Tree
  0509 Fibonacci Number
  0523 Continuous Subarray Sum
@@ -901,11 +904,11 @@ Num of Python Practice:  286
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  128 /  415
-Solved / Total (Medium):  149 /  757
+Solved / Total (Easy)  :  128 /  416
+Solved / Total (Medium):  150 /  758
 Solved / Total (Hard)  :   12 /  311
-Solved / Total (All)   :  289 / 1483
-Total Score            :  635
+Solved / Total (All)   :  290 / 1485
+Total Score            :  638
 =====================================
 
 ```
