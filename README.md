@@ -150,6 +150,7 @@ algo
 │   ├── _0387_FirstUniqueCharacterInAString.py
 │   ├── _0409_LongestPalindrome.py
 │   ├── _0438_FindAllAnagramsInAString.py
+│   ├── _0451_SortCharactersByFrequency.py
 │   ├── _0525_ContiguousArray.py
 │   ├── _0535_EncodeAndDecodeTinyURL.py
 │   ├── _0560_SubarraySumEqualsK.py
@@ -314,7 +315,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 288 files
+25 directories, 289 files
 
 =====================================
 ============= Local Repo ============
@@ -510,6 +511,7 @@ _0429_N-aryTreeLevelOrderTraversal.py
 _0438_FindAllAnagramsInAString.py
 _0442_FindAllDuplicatesInAnArray.py
 _0448_FindAllNumbersDisappearedInAnArray.py
+_0451_SortCharactersByFrequency.py
 _0459_RepeatedSubstringPattern.py
 _0463_IslandPerimeter.py
 _0485_MaxConsecutiveOnes.py
@@ -607,7 +609,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  287
+Num of Python Practice:  288
 
 
 =====================================
@@ -803,6 +805,7 @@ Num of Python Practice:  287
  0438 Find All Anagrams in a String
  0442 Find All Duplicates in an Array
  0448 Find All Numbers Disappeared in an Array
+ 0451 Sort Characters By Frequency
  0459 Repeated Substring Pattern
  0463 Island Perimeter
  0485 Max Consecutive Ones
@@ -904,11 +907,11 @@ Num of Python Practice:  287
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  128 /  416
-Solved / Total (Medium):  150 /  758
-Solved / Total (Hard)  :   12 /  311
-Solved / Total (All)   :  290 / 1485
-Total Score            :  638
+Solved / Total (Easy)  :  128 /  417
+Solved / Total (Medium):  151 /  760
+Solved / Total (Hard)  :   12 /  312
+Solved / Total (All)   :  291 / 1489
+Total Score            :  641
 =====================================
 
 ```
