@@ -17,9 +17,11 @@
 - 0647  Palindromic Substrings //DP (good)
 
 ## Increasing:
-- 0300  Longest Increasing Subsequence //DP, BS 
+- 0300  Longest Increasing Subsequence //DP, BS （維護一個tail array)
 - 0491  Increasing Subsequences
 - 0674  Longest Continuous Increasing Subsequence (連續)
+- 1143  Longest Common Subsequence //還沒寫
+
 
 ## Sliding Window: 
 - 0076  Minimum Window Substring
