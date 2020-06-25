@@ -126,6 +126,7 @@ algo
 │   ├── _0322_CoinChange.py
 │   ├── _0338_CountingBits.py
 │   ├── _0416_PartitionEqualSubsetSum.py
+│   ├── _0518_CoinChange2.py
 │   ├── _0576_OutOfBoundaryPaths.py
 │   ├── _0647_PalindromicSubstrings.py
 │   ├── _0688_KnightProbabilityInChessboard.py
@@ -315,7 +316,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 289 files
+25 directories, 290 files
 
 =====================================
 ============= Local Repo ============
@@ -522,6 +523,7 @@ _0494_TargetSum.py
 _0498_DiagonalTraverse.py
 _0501_FindModeInBinarySearchTree.py
 _0509_FibonacciNumber.py
+_0518_CoinChange2.py
 _0523_ContinuousSubarraySum.py
 _0525_ContiguousArray.py
 _0526_BeautifulArrangement.py
@@ -609,7 +611,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  288
+Num of Python Practice:  289
 
 
 =====================================
@@ -816,6 +818,7 @@ Num of Python Practice:  288
  0498 Diagonal Traverse
  0501 Find Mode in Binary Search Tree
  0509 Fibonacci Number
+ 0518 Coin Change 2
  0523 Continuous Subarray Sum
  0525 Contiguous Array
  0526 Beautiful Arrangement
@@ -908,10 +911,10 @@ Num of Python Practice:  288
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  128 /  417
-Solved / Total (Medium):  151 /  760
+Solved / Total (Medium):  152 /  761
 Solved / Total (Hard)  :   12 /  312
-Solved / Total (All)   :  291 / 1489
-Total Score            :  641
+Solved / Total (All)   :  292 / 1490
+Total Score            :  644
 =====================================
 
 ```
