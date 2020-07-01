@@ -134,7 +134,8 @@ algo
 │   ├── _0746_MinCostClimbingStairs.py
 │   ├── _0877_StoneGame.py
 │   ├── _0935_KnightDialer.py
-│   └── _1048_LongestStringChain.py
+│   ├── _1048_LongestStringChain.py
+│   └── _1143_LongestCommonSubsequence.py\ 
 ├── easy
 │   └── _0724_FindPivotIndex.py
 ├── greedy
@@ -316,7 +317,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 290 files
+25 directories, 291 files
 
 =====================================
 ============= Local Repo ============
@@ -602,6 +603,7 @@ _1048_LongestStringChain.py
 _1079_LetterTilePossibilities.py
 _1086_HighFive.py
 _1099_TwoSumLessThanK.py
+_1143_LongestCommonSubsequence.py 
 _1197_MinimumKnightMoves.py
 _1207_UniqueNumberOfOccurrences.py
 _1214_TwoSumBSTs.py
@@ -611,7 +613,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  289
+Num of Python Practice:  290
 
 
 =====================================
@@ -900,6 +902,7 @@ Num of Python Practice:  289
  1079 Letter Tile Possibilities
  1086 High Five
  1099 Two Sum Less Than K
+ 1143 Longest Common Subsequence
  1197 Minimum Knight Moves
  1207 Unique Number of Occurrences
  1214 Two Sum BSTs
@@ -910,11 +913,11 @@ Num of Python Practice:  289
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  128 /  417
-Solved / Total (Medium):  152 /  761
-Solved / Total (Hard)  :   12 /  312
-Solved / Total (All)   :  292 / 1490
-Total Score            :  644
+Solved / Total (Easy)  :  128 /  420
+Solved / Total (Medium):  153 /  765
+Solved / Total (Hard)  :   12 /  314
+Solved / Total (All)   :  293 / 1499
+Total Score            :  647
 =====================================
 
 ```

@@ -105,6 +105,8 @@
 - 0647  Palindromic Substrings //DP (good)
 - 0718  Maximum Length of Repeated Subarray
 - 1048  Longest String Chain //Bottom-up not yet
+- 1143  Longest Common Subsequence (LCS) //Memoization, Tabulation 
+
 
 ## DP必做 (Memoization)
 - 0322  Coin Change
