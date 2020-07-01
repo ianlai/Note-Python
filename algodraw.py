@@ -30,6 +30,7 @@ FILE_IMAGE202003 = FILE_PREFIX + "_202003" + ".png"
 FILE_IMAGE_SCORE202004 = FILE_PREFIX_SCORE + "_202004" + ".png"
 FILE_IMAGE_SCORE202005 = FILE_PREFIX_SCORE + "_202005" + ".png"
 FILE_IMAGE_SCORE202006 = FILE_PREFIX_SCORE + "_202006" + ".png"
+FILE_IMAGE_SCORE202007 = FILE_PREFIX_SCORE + "_202007" + ".png"
 
 DATE_FORMATTER = "%Y-%m-%d"
 dates = []
@@ -232,6 +233,17 @@ def draw(dates, values):
     axs[0].set_xlim(datetime.datetime(2020,6,1), datetime.datetime(2020,6,30)) 
     plt.savefig(FILE_IMAGE_SCORE202006)
 
+    
+    axs[0].set(xlabel="Date", ylabel="Number of Problems",
+        title="Number of Quiz (2020.07)")
+    axs[0].set_title("Number of Problems (2020.07)", fontweight = 'bold')
+
+    axs[1].set(xlabel="Date", ylabel="Score",
+        title="Score of Quiz (2020.07)")
+    axs[1].set_title("Score (2020.07)", fontweight = 'bold')
+    axs[0].set_xlim(datetime.datetime(2020,7,1), datetime.datetime(2020,7,31)) 
+    plt.savefig(FILE_IMAGE_SCORE202007)
+
     # plt.show()
 
 ###################### 
@@ -328,6 +340,7 @@ print(">> Save the image:", FILE_IMAGE202003)
 print(">> Save the image:", FILE_IMAGE_SCORE202004)
 print(">> Save the image:", FILE_IMAGE_SCORE202005)
 print(">> Save the image:", FILE_IMAGE_SCORE202006)
+print(">> Save the image:", FILE_IMAGE_SCORE202007)
 
 #Debug
 # print("dates       :", len(dates))
