@@ -94,6 +94,7 @@ algo
 │   ├── _0079_WordSearch.py
 │   ├── _0089_GrayCode.py
 │   ├── _0090_Subsets2.py
+│   ├── _0130_SurroundedRegions.py
 │   ├── _0131_PalindromePartitioning.py
 │   ├── _0216_CombinationSum3.py
 │   ├── _0291_WordPattern2.py
@@ -317,7 +318,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 291 files
+25 directories, 292 files
 
 =====================================
 ============= Local Repo ============
@@ -413,6 +414,7 @@ _0127_WordLadder.py
 _0127_WordLadder_TLE.py
 _0127_WordLadder_wrong.py
 _0129_SumRootToLeafNumbers.py
+_0130_SurroundedRegions.py
 _0131_PalindromePartitioning.py
 _0133_CloneGraph.py
 _0134_GasStation.py
@@ -613,7 +615,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  290
+Num of Python Practice:  291
 
 
 =====================================
@@ -708,6 +710,7 @@ Num of Python Practice:  290
  0125 Valid Palindrome
  0127 Word Ladder
  0129 Sum Root to Leaf Numbers
+ 0130 Surrounded Regions
  0131 Palindrome Partitioning
  0133 Clone Graph
  0134 Gas Station
@@ -914,10 +917,10 @@ Num of Python Practice:  290
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  128 /  420
-Solved / Total (Medium):  153 /  765
+Solved / Total (Medium):  154 /  767
 Solved / Total (Hard)  :   12 /  314
-Solved / Total (All)   :  293 / 1499
-Total Score            :  647
+Solved / Total (All)   :  294 / 1501
+Total Score            :  650
 =====================================
 
 ```

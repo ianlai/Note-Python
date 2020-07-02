@@ -22,7 +22,6 @@
 - 0674  Longest Continuous Increasing Subsequence (連續)
 - 1143  Longest Common Subsequence //還沒寫
 
-
 ## Sliding Window: 
 - 0076  Minimum Window Substring
 - 0239  Sliding Window Maximum
