@@ -18,6 +18,7 @@ algo
 │   ├── _0238_ProductOfArrayExceptSelf.py
 │   ├── _0252_MeetingRooms.py
 │   ├── _0253_MeetingRooms2.py
+│   ├── _0274_H-Index.py
 │   ├── _0283_MoveZeroes.py
 │   ├── _0348_DesignTic-Tac-Toe.py
 │   ├── _0349_IntersectionOfTwoArrays.py
@@ -318,7 +319,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 292 files
+25 directories, 293 files
 
 =====================================
 ============= Local Repo ============
@@ -474,6 +475,7 @@ _0263_UglyNumber.py
 _0264_UglyNumber2.py
 _0268_MissingNumber.py
 _0270_ClosestBinarySearchTreeValue.py
+_0274_H-Index.py
 _0278_FirstBadVersion.py
 _0279_PerfectSquares.py
 _0283_MoveZeroes.py
@@ -615,7 +617,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  291
+Num of Python Practice:  292
 
 
 =====================================
@@ -771,6 +773,7 @@ Num of Python Practice:  291
  0264 Ugly Number II
  0268 Missing Number
  0270 Closest Binary Search Tree Value
+ 0274 H-Index
  0278 First Bad Version
  0279 Perfect Squares
  0283 Move Zeroes
@@ -917,10 +920,10 @@ Num of Python Practice:  291
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  128 /  420
-Solved / Total (Medium):  154 /  767
+Solved / Total (Medium):  155 /  767
 Solved / Total (Hard)  :   12 /  314
-Solved / Total (All)   :  294 / 1501
-Total Score            :  650
+Solved / Total (All)   :  295 / 1501
+Total Score            :  653
 =====================================
 
 ```
