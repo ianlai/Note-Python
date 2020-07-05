@@ -919,10 +919,10 @@ Num of Python Practice:  292
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  128 /  420
-Solved / Total (Medium):  155 /  767
-Solved / Total (Hard)  :   12 /  314
-Solved / Total (All)   :  295 / 1501
+Solved / Total (Easy)  :  128 /  421
+Solved / Total (Medium):  155 /  769
+Solved / Total (Hard)  :   12 /  315
+Solved / Total (All)   :  295 / 1505
 Total Score            :  653
 =====================================
 
