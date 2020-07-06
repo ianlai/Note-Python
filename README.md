@@ -99,6 +99,7 @@ algo
 │   ├── _0131_PalindromePartitioning.py
 │   ├── _0216_CombinationSum3.py
 │   ├── _0291_WordPattern2.py
+│   ├── _0332_ReconstructItinerary.py
 │   ├── _0401_BinaryWatch.py
 │   ├── _0491_IncreasingSubsequences.py
 │   ├── _0494_TargetSum.py
@@ -319,7 +320,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 293 files
+25 directories, 294 files
 
 =====================================
 ============= Local Repo ============
@@ -490,6 +491,7 @@ _0313_SuperUglyNumber.py
 _0314_BinaryTreeVerticalOrderTraversal.py
 _0322_CoinChange.py
 _0328_OddEvenLinkedList.py
+_0332_ReconstructItinerary.py
 _0338_CountingBits.py
 _0344_ReverseString.py
 _0346_MovingAverageFromDataStream.py
@@ -617,7 +619,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  292
+Num of Python Practice:  293
 
 
 =====================================
@@ -788,6 +790,7 @@ Num of Python Practice:  292
  0314 Binary Tree Vertical Order Traversal
  0322 Coin Change
  0328 Odd Even Linked List
+ 0332 Reconstruct Itinerary
  0338 Counting Bits
  0344 Reverse String
  0346 Moving Average from Data Stream
@@ -920,10 +923,10 @@ Num of Python Practice:  292
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  128 /  421
-Solved / Total (Medium):  155 /  769
+Solved / Total (Medium):  156 /  769
 Solved / Total (Hard)  :   12 /  315
-Solved / Total (All)   :  295 / 1505
-Total Score            :  653
+Solved / Total (All)   :  296 / 1505
+Total Score            :  656
 =====================================
 
 ```
