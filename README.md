@@ -275,6 +275,7 @@ algo
 │   ├── _0208_ImplementTrie(PrefixTree).py
 │   ├── _0226_InvertBinaryTree.py
 │   ├── _0230_KthSmallestElementInBST.py
+│   ├── _0235_LowestCommonAncestorOfABinarySearchTree.py
 │   ├── _0236_LowestCommonAncestorOfABinaryTree.py
 │   ├── _0257_BinaryTreePaths.py
 │   ├── _0270_ClosestBinarySearchTreeValue.py
@@ -320,7 +321,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 294 files
+25 directories, 295 files
 
 =====================================
 ============= Local Repo ============
@@ -462,6 +463,7 @@ _0226_InvertBinaryTree.py
 _0230_KthSmallestElementInBST.py
 _0232_ImplementQueueUsingStacks.py
 _0234_PalindromeLinkedList.py
+_0235_LowestCommonAncestorOfABinarySearchTree.py
 _0236_LowestCommonAncestorOfABinaryTree.py
 _0237_DeleteNodeInALinkedList.py
 _0238_ProductOfArrayExceptSelf.py
@@ -619,7 +621,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  293
+Num of Python Practice:  294
 
 
 =====================================
@@ -761,6 +763,7 @@ Num of Python Practice:  293
  0230 Kth Smallest Element in a BST
  0232 Implement Queue using Stacks
  0234 Palindrome Linked List
+ 0235 Lowest Common Ancestor of a Binary Search Tree
  0236 Lowest Common Ancestor of a Binary Tree
  0237 Delete Node in a Linked List
  0238 Product of Array Except Self
@@ -922,11 +925,11 @@ Num of Python Practice:  293
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  128 /  421
+Solved / Total (Easy)  :  129 /  421
 Solved / Total (Medium):  156 /  769
 Solved / Total (Hard)  :   12 /  315
-Solved / Total (All)   :  296 / 1505
-Total Score            :  656
+Solved / Total (All)   :  297 / 1505
+Total Score            :  657
 =====================================
 
 ```
