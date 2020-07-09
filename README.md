@@ -257,6 +257,7 @@ algo
 │   └── _1427_PerformStringShifts.py
 ├── tree
 │   ├── _0094_BinaryTreeInorderTraversal.py
+│   ├── _0095_UniqueBinarySearchTrees2.py
 │   ├── _0098_ValidateBinarySearchTree.py
 │   ├── _0100_SameTree.py
 │   ├── _0101_SymmetricTree.py
@@ -321,7 +322,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 295 files
+25 directories, 296 files
 
 =====================================
 ============= Local Repo ============
@@ -391,6 +392,7 @@ _0089_GrayCode.py
 _0090_Subsets2.py
 _0092_ReverseLinkedList2.py
 _0094_BinaryTreeInorderTraversal.py
+_0095_UniqueBinarySearchTrees2.py
 _0096_UniqueBinarySearchTrees.py
 _0098_ValidateBinarySearchTree.py
 _0100_SameTree.py
@@ -621,7 +623,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  294
+Num of Python Practice:  295
 
 
 =====================================
@@ -692,6 +694,7 @@ Num of Python Practice:  294
  0090 Subsets II
  0092 Reverse Linked List II
  0094 Binary Tree Inorder Traversal
+ 0095 Unique Binary Search Trees II
  0096 Unique Binary Search Trees
  0098 Validate Binary Search Tree
  0100 Same Tree
@@ -926,10 +929,10 @@ Num of Python Practice:  294
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  129 /  421
-Solved / Total (Medium):  156 /  769
+Solved / Total (Medium):  157 /  770
 Solved / Total (Hard)  :   12 /  315
-Solved / Total (All)   :  297 / 1505
-Total Score            :  657
+Solved / Total (All)   :  298 / 1506
+Total Score            :  660
 =====================================
 
 ```
