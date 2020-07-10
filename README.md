@@ -205,7 +205,8 @@ algo
 │   ├── _0009_PalindromeNumber.py
 │   ├── _0202_HappyNumber.py
 │   ├── _0263_UglyNumber.py
-│   └── _0914_XOfAKindInADeckOfCards.py
+│   ├── _0914_XOfAKindInADeckOfCards.py
+│   └── _1342_NumberOfStepsToReduceANumberToZero.py
 ├── matrix
 │   ├── _0036_ValidSudoku.py
 │   ├── _0048_RotateImage.py
@@ -322,7 +323,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 296 files
+25 directories, 297 files
 
 =====================================
 ============= Local Repo ============
@@ -619,11 +620,12 @@ _1207_UniqueNumberOfOccurrences.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 _1300_SumOfMutatedArrayClosestToTarget.py
+_1342_NumberOfStepsToReduceANumberToZero.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  295
+Num of Python Practice:  296
 
 
 =====================================
@@ -923,16 +925,17 @@ Num of Python Practice:  295
  1214 Two Sum BSTs
  1243 Array Transformation
  1300 Sum of Mutated Array Closest to Target
+ 1342 Number of Steps to Reduce a Number to Zero
  1358 Number of Substrings Containing All Three Characters
  1391 Check if There is a Valid Path in a Grid
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  129 /  421
+Solved / Total (Easy)  :  130 /  421
 Solved / Total (Medium):  157 /  770
 Solved / Total (Hard)  :   12 /  315
-Solved / Total (All)   :  298 / 1506
-Total Score            :  660
+Solved / Total (All)   :  299 / 1506
+Total Score            :  661
 =====================================
 
 ```
