@@ -300,6 +300,7 @@ algo
 │   ├── _0701_InsertIntoABinarySearchTree.py
 │   ├── _0783_MinimumDistanceBetweenBSTNodes.py
 │   ├── _0938_RangeSumOfBST.py
+│   ├── _0951_FlipEquivalentBinaryTrees.py
 │   ├── _1022_SumOfRootToLeafBinaryNumbers.py
 │   └── _1214_TwoSumBSTs.py
 ├── two-pointer
@@ -323,7 +324,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 297 files
+25 directories, 298 files
 
 =====================================
 ============= Local Repo ============
@@ -600,6 +601,7 @@ _0914_XOfAKindInADeckOfCards.py
 _0935_KnightDialer.py
 _0938_RangeSumOfBST.py
 _0946_ValidateStackSequences.py
+_0951_FlipEquivalentBinaryTrees.py
 _0953_VerifyingAnAlienDictionary.py
 _0957_PrisonCellsAfterNDays.py
 _0973_KClosestPointsToOrigin.py
@@ -625,7 +627,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  296
+Num of Python Practice:  297
 
 
 =====================================
@@ -905,6 +907,7 @@ Num of Python Practice:  296
  0935 Knight Dialer
  0938 Range Sum of BST
  0946 Validate Stack Sequences
+ 0951 Flip Equivalent Binary Trees
  0953 Verifying an Alien Dictionary
  0957 Prison Cells After N Days
  0973 K Closest Points to Origin
@@ -932,10 +935,10 @@ Num of Python Practice:  296
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  130 /  421
-Solved / Total (Medium):  157 /  770
+Solved / Total (Medium):  158 /  770
 Solved / Total (Hard)  :   12 /  315
-Solved / Total (All)   :  299 / 1506
-Total Score            :  661
+Solved / Total (All)   :  300 / 1506
+Total Score            :  664
 =====================================
 
 ```
