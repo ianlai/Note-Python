@@ -108,6 +108,7 @@ algo
 │   ├── _0784_LetterCasePermutation.py
 │   ├── _0841_KeysAndRooms.py
 │   ├── _1079_LetterTilePossibilities.py
+│   ├── _1254_NumberOfClosedIslands.py
 │   └── _1391_CheckIfThereIsAValidPathInAGrid.py
 ├── dp
 │   ├── _0010_RegularExpressionMatching.py
@@ -324,7 +325,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 298 files
+25 directories, 299 files
 
 =====================================
 ============= Local Repo ============
@@ -621,13 +622,14 @@ _1197_MinimumKnightMoves.py
 _1207_UniqueNumberOfOccurrences.py
 _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
+_1254_NumberOfClosedIslands.py
 _1300_SumOfMutatedArrayClosestToTarget.py
 _1342_NumberOfStepsToReduceANumberToZero.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  297
+Num of Python Practice:  298
 
 
 =====================================
@@ -927,6 +929,7 @@ Num of Python Practice:  297
  1207 Unique Number of Occurrences
  1214 Two Sum BSTs
  1243 Array Transformation
+ 1254 Number of Closed Islands
  1300 Sum of Mutated Array Closest to Target
  1342 Number of Steps to Reduce a Number to Zero
  1358 Number of Substrings Containing All Three Characters
@@ -934,11 +937,11 @@ Num of Python Practice:  297
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  130 /  421
-Solved / Total (Medium):  158 /  770
-Solved / Total (Hard)  :   12 /  315
-Solved / Total (All)   :  300 / 1506
-Total Score            :  664
+Solved / Total (Easy)  :  130 /  424
+Solved / Total (Medium):  159 /  774
+Solved / Total (Hard)  :   12 /  317
+Solved / Total (All)   :  301 / 1515
+Total Score            :  667
 =====================================
 
 ```
