@@ -107,6 +107,7 @@ algo
 │   ├── _0690_EmployeeImportance.py
 │   ├── _0784_LetterCasePermutation.py
 │   ├── _0841_KeysAndRooms.py
+│   ├── _1020_NumberOfEnclaves.py
 │   ├── _1079_LetterTilePossibilities.py
 │   ├── _1254_NumberOfClosedIslands.py
 │   └── _1391_CheckIfThereIsAValidPathInAGrid.py
@@ -144,6 +145,8 @@ algo
 │   └── _0724_FindPivotIndex.py
 ├── greedy
 │   └── _0621_TaskScheduler.py
+├── hard
+│   └── _0218_TheSkylineProblem.py
 ├── hashmap
 │   ├── _0049_GroupAnagrams.py
 │   ├── _0146_LRUCache.py
@@ -325,7 +328,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-25 directories, 299 files
+26 directories, 301 files
 
 =====================================
 ============= Local Repo ============
@@ -460,6 +463,7 @@ _0213_HouseRobber2.py
 _0215_KthLargestElementInAnArray.py
 _0216_CombinationSum3.py
 _0217_ContainsDuplicate.py
+_0218_TheSkylineProblem.py
 _0219_ContainsDuplicate2.py
 _0221_MaximalSquare.py
 _0222_CountCompleteTreeNodes.py
@@ -611,6 +615,7 @@ _0981_TimeBasedKey-ValueStore.py
 _0994_RottingOranges.py
 _1002_FindCommonCharacters.py
 _1019_NextGreaterNodeInLinkedList.py
+_1020_NumberOfEnclaves.py
 _1022_SumOfRootToLeafBinaryNumbers.py
 _1046_LastStoneWeight.py
 _1048_LongestStringChain.py
@@ -629,7 +634,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  298
+Num of Python Practice:  300
 
 
 =====================================
@@ -764,6 +769,7 @@ Num of Python Practice:  298
  0215 Kth Largest Element in an Array
  0216 Combination Sum III
  0217 Contains Duplicate
+ 0218 The Skyline Problem
  0219 Contains Duplicate II
  0221 Maximal Square
  0222 Count Complete Tree Nodes
@@ -918,6 +924,7 @@ Num of Python Practice:  298
  0994 Rotting Oranges
  1002 Find Common Characters
  1019 Next Greater Node In Linked List
+ 1020 Number of Enclaves
  1022 Sum of Root To Leaf Binary Numbers
  1046 Last Stone Weight
  1048 Longest String Chain
@@ -938,10 +945,10 @@ Num of Python Practice:  298
  1427 Perform String Shifts
 =====================================
 Solved / Total (Easy)  :  130 /  424
-Solved / Total (Medium):  159 /  774
-Solved / Total (Hard)  :   12 /  317
-Solved / Total (All)   :  301 / 1515
-Total Score            :  667
+Solved / Total (Medium):  160 /  774
+Solved / Total (Hard)  :   13 /  317
+Solved / Total (All)   :  303 / 1515
+Total Score            :  675
 =====================================
 
 ```
