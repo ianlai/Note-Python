@@ -144,7 +144,8 @@ algo
 ├── easy
 │   └── _0724_FindPivotIndex.py
 ├── greedy
-│   └── _0621_TaskScheduler.py
+│   ├── _0621_TaskScheduler.py
+│   └── _1029_TwoCityScheduling.py
 ├── hard
 │   └── _0218_TheSkylineProblem.py
 ├── hashmap
@@ -328,7 +329,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-26 directories, 301 files
+26 directories, 302 files
 
 =====================================
 ============= Local Repo ============
@@ -617,6 +618,7 @@ _1002_FindCommonCharacters.py
 _1019_NextGreaterNodeInLinkedList.py
 _1020_NumberOfEnclaves.py
 _1022_SumOfRootToLeafBinaryNumbers.py
+_1029_TwoCityScheduling.py
 _1046_LastStoneWeight.py
 _1048_LongestStringChain.py
 _1079_LetterTilePossibilities.py
@@ -634,7 +636,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  300
+Num of Python Practice:  301
 
 
 =====================================
@@ -926,6 +928,7 @@ Num of Python Practice:  300
  1019 Next Greater Node In Linked List
  1020 Number of Enclaves
  1022 Sum of Root To Leaf Binary Numbers
+ 1029 Two City Scheduling
  1046 Last Stone Weight
  1048 Longest String Chain
  1079 Letter Tile Possibilities
@@ -944,11 +947,11 @@ Num of Python Practice:  300
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  130 /  424
+Solved / Total (Easy)  :  131 /  424
 Solved / Total (Medium):  160 /  774
 Solved / Total (Hard)  :   13 /  317
-Solved / Total (All)   :  303 / 1515
-Total Score            :  675
+Solved / Total (All)   :  304 / 1515
+Total Score            :  676
 =====================================
 
 ```
