@@ -949,8 +949,8 @@ Num of Python Practice:  301
 =====================================
 Solved / Total (Easy)  :  131 /  424
 Solved / Total (Medium):  160 /  774
-Solved / Total (Hard)  :   13 /  317
-Solved / Total (All)   :  304 / 1515
+Solved / Total (Hard)  :   13 /  318
+Solved / Total (All)   :  304 / 1516
 Total Score            :  676
 =====================================
 
