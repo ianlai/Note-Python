@@ -77,6 +77,8 @@ algo
 │   └── _1300_SumOfMutatedArrayClosestToTarget.py
 ├── bits
 │   └── _0268_MissingNumber.py
+├── concurrency
+│   └── _1114_PrintInOrder.py
 ├── data-structure
 │   ├── _0346_MovingAverageFromDataStream.py
 │   ├── _0362_DesignHitCounter.py
@@ -329,7 +331,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-26 directories, 302 files
+27 directories, 303 files
 
 =====================================
 ============= Local Repo ============
@@ -624,6 +626,7 @@ _1048_LongestStringChain.py
 _1079_LetterTilePossibilities.py
 _1086_HighFive.py
 _1099_TwoSumLessThanK.py
+_1114_PrintInOrder.py
 _1143_LongestCommonSubsequence.py 
 _1197_MinimumKnightMoves.py
 _1207_UniqueNumberOfOccurrences.py
@@ -636,7 +639,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  301
+Num of Python Practice:  302
 
 
 =====================================
@@ -934,6 +937,7 @@ Num of Python Practice:  301
  1079 Letter Tile Possibilities
  1086 High Five
  1099 Two Sum Less Than K
+ 1114 Print in Order
  1143 Longest Common Subsequence
  1197 Minimum Knight Moves
  1207 Unique Number of Occurrences
@@ -947,11 +951,11 @@ Num of Python Practice:  301
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  131 /  424
-Solved / Total (Medium):  160 /  774
-Solved / Total (Hard)  :   13 /  318
-Solved / Total (All)   :  304 / 1516
-Total Score            :  676
+Solved / Total (Easy)  :  132 /  426
+Solved / Total (Medium):  160 /  776
+Solved / Total (Hard)  :   13 /  319
+Solved / Total (All)   :  305 / 1521
+Total Score            :  677
 =====================================
 
 ```
