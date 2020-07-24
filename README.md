@@ -309,6 +309,7 @@ algo
 │   ├── _0938_RangeSumOfBST.py
 │   ├── _0951_FlipEquivalentBinaryTrees.py
 │   ├── _1022_SumOfRootToLeafBinaryNumbers.py
+│   ├── _1110_DeleteNodesAndReturnForest.py
 │   └── _1214_TwoSumBSTs.py
 ├── two-pointer
 │   ├── _0011_ContainerWithMostWater.py
@@ -331,7 +332,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-27 directories, 303 files
+27 directories, 304 files
 
 =====================================
 ============= Local Repo ============
@@ -626,6 +627,7 @@ _1048_LongestStringChain.py
 _1079_LetterTilePossibilities.py
 _1086_HighFive.py
 _1099_TwoSumLessThanK.py
+_1110_DeleteNodesAndReturnForest.py
 _1114_PrintInOrder.py
 _1143_LongestCommonSubsequence.py 
 _1197_MinimumKnightMoves.py
@@ -639,7 +641,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  302
+Num of Python Practice:  303
 
 
 =====================================
@@ -937,6 +939,7 @@ Num of Python Practice:  302
  1079 Letter Tile Possibilities
  1086 High Five
  1099 Two Sum Less Than K
+ 1110 Delete Nodes And Return Forest
  1114 Print in Order
  1143 Longest Common Subsequence
  1197 Minimum Knight Moves
@@ -951,11 +954,11 @@ Num of Python Practice:  302
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  132 /  426
-Solved / Total (Medium):  160 /  776
-Solved / Total (Hard)  :   13 /  319
-Solved / Total (All)   :  305 / 1521
-Total Score            :  677
+Solved / Total (Easy)  :  132 /  424
+Solved / Total (Medium):  160 /  778
+Solved / Total (Hard)  :   14 /  320
+Solved / Total (All)   :  306 / 1522
+Total Score            :  682
 =====================================
 
 ```
