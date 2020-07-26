@@ -20,6 +20,7 @@ algo
 │   ├── _0253_MeetingRooms2.py
 │   ├── _0274_H-Index.py
 │   ├── _0283_MoveZeroes.py
+│   ├── _0287_FindTheDuplicateNumber.py
 │   ├── _0348_DesignTic-Tac-Toe.py
 │   ├── _0349_IntersectionOfTwoArrays.py
 │   ├── _0350_IntersectionOfTwoArrays2.py
@@ -334,7 +335,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-28 directories, 305 files
+28 directories, 306 files
 
 =====================================
 ============= Local Repo ============
@@ -497,6 +498,7 @@ _0274_H-Index.py
 _0278_FirstBadVersion.py
 _0279_PerfectSquares.py
 _0283_MoveZeroes.py
+_0287_FindTheDuplicateNumber.py
 _0290_WordPattern.py
 _0291_WordPattern2.py
 _0297_SerializeAndDeserializeBinaryTree.py
@@ -643,7 +645,7 @@ _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 =====================================
-Num of Python Practice:  303
+Num of Python Practice:  304
 
 
 =====================================
@@ -806,6 +808,7 @@ Num of Python Practice:  303
  0278 First Bad Version
  0279 Perfect Squares
  0283 Move Zeroes
+ 0287 Find the Duplicate Number
  0290 Word Pattern
  0291 Word Pattern II
  0297 Serialize and Deserialize Binary Tree
@@ -957,11 +960,11 @@ Num of Python Practice:  303
  1426 Counting Elements
  1427 Perform String Shifts
 =====================================
-Solved / Total (Easy)  :  132 /  424
-Solved / Total (Medium):  161 /  780
-Solved / Total (Hard)  :   14 /  322
-Solved / Total (All)   :  307 / 1526
-Total Score            :  685
+Solved / Total (Easy)  :  132 /  426
+Solved / Total (Medium):  162 /  782
+Solved / Total (Hard)  :   14 /  323
+Solved / Total (All)   :  308 / 1531
+Total Score            :  688
 =====================================
 
 ```
