@@ -289,6 +289,7 @@ algo
 │   ├── _0236_LowestCommonAncestorOfABinaryTree.py
 │   ├── _0257_BinaryTreePaths.py
 │   ├── _0270_ClosestBinarySearchTreeValue.py
+│   ├── _0285_InorderSuccessorInBST.py
 │   ├── _0297_SerializeAndDeserializeBinaryTree.py
 │   ├── _0298_BinaryTreeLongestConsecutiveSequence.py
 │   ├── _0314_BinaryTreeVerticalOrderTraversal.py
@@ -310,9 +311,10 @@ algo
 │   ├── _0938_RangeSumOfBST.py
 │   ├── _0951_FlipEquivalentBinaryTrees.py
 │   ├── _1022_SumOfRootToLeafBinaryNumbers.py
-│   └── _1214_TwoSumBSTs.py
+│   ├── _1214_TwoSumBSTs.py
+│   └── _1490_CloneN-aryTree.py
 ├── tree-delete
-│   ├── _0450_DeleteNodeInABST
+│   ├── _0450_DeleteNodeInABST.py
 │   └── _1110_DeleteNodesAndReturnForest.py
 ├── two-pointer
 │   ├── _0011_ContainerWithMostWater.py
@@ -335,7 +337,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-28 directories, 306 files
+28 directories, 308 files
 
 =====================================
 ============= Local Repo ============
@@ -498,6 +500,7 @@ _0274_H-Index.py
 _0278_FirstBadVersion.py
 _0279_PerfectSquares.py
 _0283_MoveZeroes.py
+_0285_InorderSuccessorInBST.py
 _0287_FindTheDuplicateNumber.py
 _0290_WordPattern.py
 _0291_WordPattern2.py
@@ -538,6 +541,7 @@ _0429_N-aryTreeLevelOrderTraversal.py
 _0438_FindAllAnagramsInAString.py
 _0442_FindAllDuplicatesInAnArray.py
 _0448_FindAllNumbersDisappearedInAnArray.py
+_0450_DeleteNodeInABST.py
 _0451_SortCharactersByFrequency.py
 _0459_RepeatedSubstringPattern.py
 _0463_IslandPerimeter.py
@@ -644,8 +648,9 @@ _1342_NumberOfStepsToReduceANumberToZero.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
+_1490_CloneN-aryTree.py
 =====================================
-Num of Python Practice:  304
+Num of Python Practice:  307
 
 
 =====================================
@@ -808,6 +813,7 @@ Num of Python Practice:  304
  0278 First Bad Version
  0279 Perfect Squares
  0283 Move Zeroes
+ 0285 Inorder Successor in BST
  0287 Find the Duplicate Number
  0290 Word Pattern
  0291 Word Pattern II
@@ -959,12 +965,13 @@ Num of Python Practice:  304
  1391 Check if There is a Valid Path in a Grid
  1426 Counting Elements
  1427 Perform String Shifts
+ 1490 Clone N-ary Tree
 =====================================
 Solved / Total (Easy)  :  132 /  426
-Solved / Total (Medium):  162 /  782
+Solved / Total (Medium):  164 /  784
 Solved / Total (Hard)  :   14 /  323
-Solved / Total (All)   :  308 / 1531
-Total Score            :  688
+Solved / Total (All)   :  310 / 1533
+Total Score            :  694
 =====================================
 
 ```
