@@ -310,6 +310,7 @@ algo
 │   ├── _0783_MinimumDistanceBetweenBSTNodes.py
 │   ├── _0938_RangeSumOfBST.py
 │   ├── _0951_FlipEquivalentBinaryTrees.py
+│   ├── _0987_VerticalOrderTraversalOfABinaryTree.py
 │   ├── _1022_SumOfRootToLeafBinaryNumbers.py
 │   ├── _1214_TwoSumBSTs.py
 │   └── _1490_CloneN-aryTree.py
@@ -337,7 +338,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-28 directories, 308 files
+28 directories, 309 files
 
 =====================================
 ============= Local Repo ============
@@ -624,6 +625,7 @@ _0957_PrisonCellsAfterNDays.py
 _0973_KClosestPointsToOrigin.py
 _0977_SquaresOfASortedArray.py
 _0981_TimeBasedKey-ValueStore.py
+_0987_VerticalOrderTraversalOfABinaryTree.py
 _0994_RottingOranges.py
 _1002_FindCommonCharacters.py
 _1019_NextGreaterNodeInLinkedList.py
@@ -650,7 +652,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _1490_CloneN-aryTree.py
 =====================================
-Num of Python Practice:  307
+Num of Python Practice:  308
 
 
 =====================================
@@ -940,6 +942,7 @@ Num of Python Practice:  307
  0973 K Closest Points to Origin
  0977 Squares of a Sorted Array
  0981 Time Based Key-Value Store
+ 0987 Vertical Order Traversal of a Binary Tree
  0994 Rotting Oranges
  1002 Find Common Characters
  1019 Next Greater Node In Linked List
@@ -968,10 +971,10 @@ Num of Python Practice:  307
  1490 Clone N-ary Tree
 =====================================
 Solved / Total (Easy)  :  132 /  426
-Solved / Total (Medium):  164 /  784
+Solved / Total (Medium):  165 /  784
 Solved / Total (Hard)  :   14 /  323
-Solved / Total (All)   :  310 / 1533
-Total Score            :  694
+Solved / Total (All)   :  311 / 1533
+Total Score            :  697
 =====================================
 
 ```
@@ -985,3 +988,4 @@ Total Score            :  694
 ![Alt text](score_202005.png)
 ![Alt text](score_202006.png)
 ![Alt text](score_202007.png)
+![Alt text](score_202008.png)
