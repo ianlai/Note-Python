@@ -295,6 +295,7 @@ algo
 │   ├── _0314_BinaryTreeVerticalOrderTraversal.py
 │   ├── _0366_FindLeavesOfBinaryTree.py
 │   ├── _0429_N-aryTreeLevelOrderTraversal.py
+│   ├── _0437_PathSum3.py
 │   ├── _0501_FindModeInBinarySearchTree.py
 │   ├── _0530_MinimumAbsoluteDifferenceInBST.py
 │   ├── _0538_ConvertBSTtoGreaterTree.py
@@ -338,7 +339,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-28 directories, 309 files
+28 directories, 310 files
 
 =====================================
 ============= Local Repo ============
@@ -539,6 +540,7 @@ _0412_FizzBuzz.py
 _0415_AddStrings.py
 _0416_PartitionEqualSubsetSum.py
 _0429_N-aryTreeLevelOrderTraversal.py
+_0437_PathSum3.py
 _0438_FindAllAnagramsInAString.py
 _0442_FindAllDuplicatesInAnArray.py
 _0448_FindAllNumbersDisappearedInAnArray.py
@@ -652,7 +654,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _1490_CloneN-aryTree.py
 =====================================
-Num of Python Practice:  308
+Num of Python Practice:  309
 
 
 =====================================
@@ -853,6 +855,7 @@ Num of Python Practice:  308
  0415 Add Strings
  0416 Partition Equal Subset Sum
  0429 N-ary Tree Level Order Traversal
+ 0437 Path Sum III
  0438 Find All Anagrams in a String
  0442 Find All Duplicates in an Array
  0448 Find All Numbers Disappeared in an Array
@@ -970,11 +973,11 @@ Num of Python Practice:  308
  1427 Perform String Shifts
  1490 Clone N-ary Tree
 =====================================
-Solved / Total (Easy)  :  132 /  426
-Solved / Total (Medium):  165 /  784
+Solved / Total (Easy)  :  131 /  425
+Solved / Total (Medium):  167 /  785
 Solved / Total (Hard)  :   14 /  323
-Solved / Total (All)   :  311 / 1533
-Total Score            :  697
+Solved / Total (All)   :  312 / 1533
+Total Score            :  702
 =====================================
 
 ```

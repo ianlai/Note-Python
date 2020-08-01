@@ -234,7 +234,9 @@ def draw(dates, values):
     axs[0].set_xlim(datetime.datetime(2020,6,1), datetime.datetime(2020,6,30)) 
     plt.savefig(FILE_IMAGE_SCORE202006)
 
-    
+    axs[0].set_ylim(0,350) #number of quiz
+    axs[1].set_ylim(350,800) #score of quiz
+
     axs[0].set(xlabel="Date", ylabel="Number of Problems",
         title="Number of Quiz (2020.07)")
     axs[0].set_title("Number of Problems (2020.07)", fontweight = 'bold')
@@ -244,6 +246,10 @@ def draw(dates, values):
     axs[1].set_title("Score (2020.07)", fontweight = 'bold')
     axs[0].set_xlim(datetime.datetime(2020,7,1), datetime.datetime(2020,7,31)) 
     plt.savefig(FILE_IMAGE_SCORE202007)
+
+
+    axs[0].set_ylim(0,350) #number of quiz
+    axs[1].set_ylim(350,800) #score of quiz
 
     axs[0].set(xlabel="Date", ylabel="Number of Problems",
         title="Number of Quiz (2020.08)")
