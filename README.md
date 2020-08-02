@@ -973,10 +973,10 @@ Num of Python Practice:  309
  1427 Perform String Shifts
  1490 Clone N-ary Tree
 =====================================
-Solved / Total (Easy)  :  131 /  425
-Solved / Total (Medium):  167 /  785
-Solved / Total (Hard)  :   14 /  323
-Solved / Total (All)   :  312 / 1533
+Solved / Total (Easy)  :  131 /  426
+Solved / Total (Medium):  167 /  787
+Solved / Total (Hard)  :   14 /  324
+Solved / Total (All)   :  312 / 1537
 Total Score            :  702
 =====================================
 
