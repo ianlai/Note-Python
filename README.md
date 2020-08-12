@@ -254,6 +254,7 @@ algo
 │   ├── _0067_AddBinary.py
 │   ├── _0125_ValidPalindrome.py
 │   ├── _0171_ExcelSheetColumnNumber.py
+│   ├── _0249_GroupShiftedStrings.py
 │   ├── _0290_WordPattern.py
 │   ├── _0299_BullsAndCows.py
 │   ├── _0383_RansomNote.py
@@ -339,7 +340,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-28 directories, 310 files
+28 directories, 311 files
 
 =====================================
 ============= Local Repo ============
@@ -490,6 +491,7 @@ _0238_ProductOfArrayExceptSelf.py
 _0239_SlidingWindowMaximum.py
 _0240_SearchA2DMatrix2.py
 _0242_ValidAnagram.py
+_0249_GroupShiftedStrings.py
 _0252_MeetingRooms.py
 _0253_MeetingRooms2.py
 _0256_PaintHouse.py
@@ -654,7 +656,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _1490_CloneN-aryTree.py
 =====================================
-Num of Python Practice:  309
+Num of Python Practice:  310
 
 
 =====================================
@@ -805,6 +807,7 @@ Num of Python Practice:  309
  0239 Sliding Window Maximum
  0240 Search a 2D Matrix II
  0242 Valid Anagram
+ 0249 Group Shifted Strings
  0252 Meeting Rooms
  0253 Meeting Rooms II
  0256 Paint House
@@ -973,11 +976,11 @@ Num of Python Practice:  309
  1427 Perform String Shifts
  1490 Clone N-ary Tree
 =====================================
-Solved / Total (Easy)  :  131 /  426
-Solved / Total (Medium):  167 /  787
-Solved / Total (Hard)  :   14 /  324
-Solved / Total (All)   :  312 / 1537
-Total Score            :  702
+Solved / Total (Easy)  :  131 /  429
+Solved / Total (Medium):  168 /  792
+Solved / Total (Hard)  :   14 /  326
+Solved / Total (All)   :  313 / 1547
+Total Score            :  705
 =====================================
 
 ```
