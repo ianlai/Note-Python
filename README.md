@@ -219,6 +219,7 @@ algo
 │   ├── _0036_ValidSudoku.py
 │   ├── _0048_RotateImage.py
 │   ├── _0054_SpiralMatrix.py
+│   ├── _0059_SpiralMatrix2.py
 │   └── _0498_DiagonalTraverse.py
 ├── recursion
 │   ├── _0050_Pow(x,n).py
@@ -340,7 +341,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-28 directories, 311 files
+28 directories, 312 files
 
 =====================================
 ============= Local Repo ============
@@ -386,6 +387,7 @@ _0053_MaximumSubarray.py
 _0054_SpiralMatrix.py
 _0055_JumpGame.py
 _0056_MergeIntervals.py
+_0059_SpiralMatrix2.py
 _0060_PermutationSequence.py
 _0061_RotateList.py
 _0062_UniquePaths.py
@@ -656,7 +658,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _1490_CloneN-aryTree.py
 =====================================
-Num of Python Practice:  310
+Num of Python Practice:  311
 
 
 =====================================
@@ -703,6 +705,7 @@ Num of Python Practice:  310
  0054 Spiral Matrix
  0055 Jump Game
  0056 Merge Intervals
+ 0059 Spiral Matrix II
  0060 Permutation Sequence
  0061 Rotate List
  0062 Unique Paths
@@ -977,10 +980,10 @@ Num of Python Practice:  310
  1490 Clone N-ary Tree
 =====================================
 Solved / Total (Easy)  :  131 /  429
-Solved / Total (Medium):  168 /  792
-Solved / Total (Hard)  :   14 /  326
-Solved / Total (All)   :  313 / 1547
-Total Score            :  705
+Solved / Total (Medium):  169 /  793
+Solved / Total (Hard)  :   14 /  327
+Solved / Total (All)   :  314 / 1549
+Total Score            :  708
 =====================================
 
 ```
