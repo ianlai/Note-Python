@@ -235,7 +235,8 @@ algo
 │   ├── _0743_NetworkDelayTime.py
 │   └── _0787_CheapestFlightsWithinKStops.py
 ├── sliding-window
-│   └── _0076_MinimumWindowSubstring.py
+│   ├── _0076_MinimumWindowSubstring.py
+│   └── _0159_LongestSubstringWithAtMostTwoDistinctCharacters.py
 ├── sorting
 │   ├── _0075_SortColors.py
 │   └── _0912_SortAnArray.py
@@ -341,7 +342,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-28 directories, 312 files
+28 directories, 313 files
 
 =====================================
 ============= Local Repo ============
@@ -455,6 +456,7 @@ _0148_SortList.py
 _0152_MaximumProductSubarray.py
 _0153_FindMinimumInRotatedSortedArray.py
 _0155_MinStack.py
+_0159_LongestSubstringWithAtMostTwoDistinctCharacters.py
 _0160_IntersectionOfTwoLinkedLists.py
 _0162_FindPeakElement.py
 _0167_TwoSum2-InputArrayIsSorted.py
@@ -658,7 +660,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _1490_CloneN-aryTree.py
 =====================================
-Num of Python Practice:  311
+Num of Python Practice:  312
 
 
 =====================================
@@ -772,6 +774,7 @@ Num of Python Practice:  311
  0152 Maximum Product Subarray
  0153 Find Minimum in Rotated Sorted Array
  0155 Min Stack
+ 0159 Longest Substring with At Most Two Distinct Characters
  0160 Intersection of Two Linked Lists
  0162 Find Peak Element
  0167 Two Sum II - Input array is sorted
@@ -979,11 +982,11 @@ Num of Python Practice:  311
  1427 Perform String Shifts
  1490 Clone N-ary Tree
 =====================================
-Solved / Total (Easy)  :  131 /  429
-Solved / Total (Medium):  169 /  793
-Solved / Total (Hard)  :   14 /  327
-Solved / Total (All)   :  314 / 1549
-Total Score            :  708
+Solved / Total (Easy)  :  131 /  430
+Solved / Total (Medium):  170 /  796
+Solved / Total (Hard)  :   14 /  328
+Solved / Total (All)   :  315 / 1554
+Total Score            :  711
 =====================================
 
 ```
