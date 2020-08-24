@@ -263,6 +263,7 @@ algo
 │   ├── _0412_FizzBuzz.py
 │   ├── _0415_AddStrings.py
 │   ├── _0459_RepeatedSubstringPattern.py
+│   ├── _0594_LongestHarmoniousSubsequence.py
 │   ├── _0680_ValidPalindrome2.py
 │   ├── _0819_MostCommonWord.py
 │   ├── _0953_VerifyingAnAlienDictionary.py
@@ -342,7 +343,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-28 directories, 313 files
+28 directories, 314 files
 
 =====================================
 ============= Local Repo ============
@@ -579,6 +580,7 @@ _0572_SubtreeOfAnotherTree.py
 _0576_OutOfBoundaryPaths.py
 _0581_ShortestUnsortedContinuousSubarray.py
 _0589_N-aryTreePreorderTraversal.py
+_0594_LongestHarmoniousSubsequence.py
 _0617_MergeTwoBinaryTrees.py
 _0621_TaskScheduler.py
 _0647_PalindromicSubstrings.py
@@ -660,7 +662,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _1490_CloneN-aryTree.py
 =====================================
-Num of Python Practice:  312
+Num of Python Practice:  313
 
 
 =====================================
@@ -897,6 +899,7 @@ Num of Python Practice:  312
  0576 Out of Boundary Paths
  0581 Shortest Unsorted Continuous Subarray
  0589 N-ary Tree Preorder Traversal
+ 0594 Longest Harmonious Subsequence
  0595 Big Countries
  0617 Merge Two Binary Trees
  0620 Not Boring Movies
@@ -982,11 +985,11 @@ Num of Python Practice:  312
  1427 Perform String Shifts
  1490 Clone N-ary Tree
 =====================================
-Solved / Total (Easy)  :  131 /  430
-Solved / Total (Medium):  170 /  796
-Solved / Total (Hard)  :   14 /  328
-Solved / Total (All)   :  315 / 1554
-Total Score            :  711
+Solved / Total (Easy)  :  132 /  432
+Solved / Total (Medium):  170 /  801
+Solved / Total (Hard)  :   14 /  330
+Solved / Total (All)   :  316 / 1563
+Total Score            :  712
 =====================================
 
 ```
