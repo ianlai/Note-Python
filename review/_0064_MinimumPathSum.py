@@ -1,11 +1,12 @@
 class Solution:
     
-    # Botton-up DP [81%]
+    # Bottom-up DP [81%]
     def minPathSum(self, grid: List[List[int]]) -> int:
+        print("Buttom-Up DP")
         if len(grid) == 0:
             return 0 
         m, n = len(grid), len(grid[0])
-        dp = [[grid[i][j] for j in range(n)] for i in range(m)] #clone 
+        dp = [[grid[i][j] for j in range(n)] for i in range(m)]  #clone grid matrix
         
         for i in range(1, m):
             dp[i][0] += dp[i-1][0]
@@ -27,6 +28,7 @@ class Solution:
     
     # Top-down DP [25%]
     def minPathSum1(self, grid: List[List[int]]) -> int:
+        print("Top-Down DP")
         if len(grid) == 0:
             return 0
         memo = {}

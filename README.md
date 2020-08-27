@@ -985,11 +985,11 @@ Num of Python Practice:  313
  1427 Perform String Shifts
  1490 Clone N-ary Tree
 =====================================
-Solved / Total (Easy)  :  132 /  432
-Solved / Total (Medium):  170 /  801
+Solved / Total (Easy)  :  131 /  431
+Solved / Total (Medium):  171 /  803
 Solved / Total (Hard)  :   14 /  330
-Solved / Total (All)   :  316 / 1563
-Total Score            :  712
+Solved / Total (All)   :  316 / 1564
+Total Score            :  714
 =====================================
 
 ```
