@@ -143,7 +143,8 @@ algo
 │   ├── _0877_StoneGame.py
 │   ├── _0935_KnightDialer.py
 │   ├── _1048_LongestStringChain.py
-│   └── _1143_LongestCommonSubsequence.py\ 
+│   ├── _1143_LongestCommonSubsequence.py\ 
+│   └── _1314_MatrixBlockSum.py
 ├── easy
 │   └── _0724_FindPivotIndex.py
 ├── greedy
@@ -343,7 +344,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-28 directories, 314 files
+28 directories, 315 files
 
 =====================================
 ============= Local Repo ============
@@ -656,13 +657,14 @@ _1214_TwoSumBSTs.py
 _1243_ArrayTransformation.py
 _1254_NumberOfClosedIslands.py
 _1300_SumOfMutatedArrayClosestToTarget.py
+_1314_MatrixBlockSum.py
 _1342_NumberOfStepsToReduceANumberToZero.py
 _1358_NumberOfSubstringsContainingAllThreeCharacters.py
 _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _1490_CloneN-aryTree.py
 =====================================
-Num of Python Practice:  313
+Num of Python Practice:  314
 
 
 =====================================
@@ -978,6 +980,7 @@ Num of Python Practice:  313
  1243 Array Transformation
  1254 Number of Closed Islands
  1300 Sum of Mutated Array Closest to Target
+ 1314 Matrix Block Sum
  1342 Number of Steps to Reduce a Number to Zero
  1358 Number of Substrings Containing All Three Characters
  1391 Check if There is a Valid Path in a Grid
@@ -985,11 +988,11 @@ Num of Python Practice:  313
  1427 Perform String Shifts
  1490 Clone N-ary Tree
 =====================================
-Solved / Total (Easy)  :  131 /  431
-Solved / Total (Medium):  171 /  804
-Solved / Total (Hard)  :   14 /  329
-Solved / Total (All)   :  316 / 1564
-Total Score            :  714
+Solved / Total (Easy)  :  131 /  432
+Solved / Total (Medium):  172 /  807
+Solved / Total (Hard)  :   14 /  330
+Solved / Total (All)   :  317 / 1569
+Total Score            :  717
 =====================================
 
 ```
