@@ -7,6 +7,7 @@ algo
 │   ├── _0027_RemoveElement.py
 │   ├── _0031_NextPermutation.py
 │   ├── _0056_MergeIntervals.py
+│   ├── _0066_PlusOne.py
 │   ├── _0073_SetMatrixZeroes.py
 │   ├── _0088_MergeSortedArray.py
 │   ├── _0121_BestTimeToBuyAndSellStock.py
@@ -344,7 +345,7 @@ algo
     ├── _0127_WordLadder_TLE.py
     └── _0127_WordLadder_wrong.py
 
-28 directories, 315 files
+28 directories, 316 files
 
 =====================================
 ============= Local Repo ============
@@ -396,6 +397,7 @@ _0061_RotateList.py
 _0062_UniquePaths.py
 _0063_UniquePaths2.py
 _0064_MinimumPathSum.py
+_0066_PlusOne.py
 _0067_AddBinary.py
 _0069_Sqrt.py
 _0070_ClimbingStairs.py
@@ -664,7 +666,7 @@ _1391_CheckIfThereIsAValidPathInAGrid.py
 _1427_PerformStringShifts.py
 _1490_CloneN-aryTree.py
 =====================================
-Num of Python Practice:  314
+Num of Python Practice:  315
 
 
 =====================================
@@ -717,6 +719,7 @@ Num of Python Practice:  314
  0062 Unique Paths
  0063 Unique Paths II
  0064 Minimum Path Sum
+ 0066 Plus One
  0067 Add Binary
  0069 Sqrt(x)
  0070 Climbing Stairs
@@ -892,7 +895,7 @@ Num of Python Practice:  314
  0535 Encode and Decode TinyURL
  0538 Convert BST to Greater Tree
  0543 Diameter of Binary Tree
- 0547 Friend Circles
+ 0547 Number of Provinces
  0559 Maximum Depth of N-ary Tree
  0560 Subarray Sum Equals K
  0561 Array Partition I
@@ -988,11 +991,11 @@ Num of Python Practice:  314
  1427 Perform String Shifts
  1490 Clone N-ary Tree
 =====================================
-Solved / Total (Easy)  :  131 /  432
-Solved / Total (Medium):  172 /  807
-Solved / Total (Hard)  :   14 /  330
-Solved / Total (All)   :  317 / 1569
-Total Score            :  717
+Solved / Total (Easy)  :  123 /  466
+Solved / Total (Medium):  180 /  942
+Solved / Total (Hard)  :   15 /  379
+Solved / Total (All)   :  318 / 1787
+Total Score            :  738
 =====================================
 
 ```
