@@ -989,13 +989,14 @@ Num of Python Practice:  315
  1391 Check if There is a Valid Path in a Grid
  1426 Counting Elements
  1427 Perform String Shifts
+ 1480 Running Sum of 1d Array
  1490 Clone N-ary Tree
 =====================================
-Solved / Total (Easy)  :  123 /  466
-Solved / Total (Medium):  180 /  942
-Solved / Total (Hard)  :   15 /  379
-Solved / Total (All)   :  318 / 1787
-Total Score            :  738
+Solved / Total (Easy)  :  124 /  466
+Solved / Total (Medium):  180 /  943
+Solved / Total (Hard)  :   15 /  378
+Solved / Total (All)   :  319 / 1787
+Total Score            :  739
 =====================================
 
 ```
